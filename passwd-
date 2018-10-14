@@ -1,0 +1,70 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/bin/false
+daemon:x:2:2:daemon:/sbin:/bin/false
+adm:x:3:4:adm:/var/adm:/bin/false
+lp:x:4:7:lp:/var/spool/lpd:/bin/false
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+news:x:9:13:news:/var/spool/news:/bin/false
+uucp:x:10:14:uucp:/var/spool/uucp:/bin/false
+operator:x:11:0:operator:/root:/bin/bash
+portage:x:250:250:portage:/var/tmp/portage:/bin/false
+nobody:x:65534:65534:nobody:/var/empty:/bin/false
+man:x:13:15:added by portage for man:/usr/share/man:/sbin/nologin
+sshd:x:22:22:added by portage for openssh:/var/empty:/sbin/nologin
+cron:x:16:16:added by portage for cronbase:/var/spool/cron:/sbin/nologin
+mail:x:8:12:added by portage for mailbase:/var/spool/mail:/sbin/nologin
+postmaster:x:14:249:added by portage for mailbase:/var/spool/mail:/sbin/nologin
+messagebus:x:101:247:added by portage for dbus:/dev/null:/sbin/nologin
+ntp:x:123:123:added by portage for ntp:/dev/null:/sbin/nologin
+nqs:x:1000:100:,,,:/home/nqs:/bin/zsh
+ntop:x:102:101:added by portage for ntop:/var/lib/ntop:/sbin/nologin
+polkitd:x:103:998:added by portage for polkit:/var/lib/polkit-1:/sbin/nologin
+ldap:x:439:439:added by portage for openldap:/usr/lib64/openldap:/sbin/nologin
+games:x:36:35:added by portage for pysolfc:/usr/games:/bin/bash
+hsqldb:x:104:995:added by portage for hsqldb:/dev/null:/bin/sh
+kdm:x:105:994:added by portage for kdm:/var/lib/kdm:/sbin/nologin
+distcc:x:240:2:added by portage for distcc:/dev/null:/sbin/nologin
+postgres:x:70:70:added by portage for postgresql-server:/var/lib/postgresql:/bin/bash
+qemu:x:77:103:added by portage for libvirt:/dev/null:/sbin/nologin
+mpd:x:106:18:added by portage for mpd:/var/lib/mpd:/sbin/nologin
+at:x:25:25:added by portage for at:/var/spool/at/atjobs:/sbin/nologin
+mysql:x:60:60:added by portage for mysql:/dev/null:/sbin/nologin
+aegisfang:x:1001:100:Andy,,,:/home/aegisfang:/bin/bash
+fetchmail:x:107:993:added by portage for fetchmail:/var/lib/fetchmail:/sbin/nologin
+pheonixrisen:x:1002:100:nathanial genung,,,:/home/pheonixrisen:/bin/bash
+timidity:x:108:18:added by portage for timidity++:/var/lib/timidity:/sbin/nologin
+doug:x:1003:100:Doug,,,:/home/doug:/bin/bash
+trancenightfyre:x:1004:100:Dustin,,,:/home/trancenightfyre:/bin/bash
+gdm:x:109:990:added by portage for gdm:/var/lib/gdm:/sbin/nologin
+vnstat:x:110:989:added by portage for vnstat:/dev/null:/sbin/nologin
+minetest:x:111:35:added by portage for minetest:/var/lib/minetest:/sbin/nologin
+pulse:x:112:987:added by portage for pulseaudio:/var/run/pulse:/sbin/nologin
+boinc:x:113:986:added by portage for boinc:/var/lib/boinc:/sbin/nologin
+uptimed:x:114:985:added by portage for uptimed:/dev/null:/sbin/nologin
+icecast:x:115:65533:added by portage for icecast:/dev/null:/sbin/nologin
+qzenet:x:1005:100:tiffany searles,,,:/home/qzenet:/bin/bash
+maruka:x:1006:100:Micheal,,,:/home/maruka:/bin/bash
+brittany_kuder:x:1007:100:Brittnay Kuder,,,:/home/brittany_kuder:/bin/bash
+nullmail:x:88:88:added by portage for nullmailer:/var/nullmailer:/sbin/nologin
+tor:x:116:981:added by portage for tor:/var/lib/tor:/sbin/nologin
+privoxy:x:117:980:added by portage for privoxy:/etc/privoxy:/sbin/nologin
+leprechaun:x:1008:100:david,,,:/home/leprechaun:/bin/bash
+abrt:x:118:979:added by portage for libreport:/dev/null:/sbin/nologin
+entropy-nopriv:x:119:977:added by portage for entropy:/dev/null:/sbin/nologin
+foldingathome:x:120:120:added by portage for foldingathome:/opt/foldingathome:/bin/bash
+paludisbuild:x:121:976:added by portage for paludis:/var/tmp/paludis:/sbin/nologin
+darkstat:x:122:122:added by portage for darkstat:/dev/null:/sbin/nologin
+snort:x:124:975:added by portage for snort:/dev/null:/sbin/nologin
+rtkit:x:125:972:added by portage for rtkit:/dev/null:/sbin/nologin
+bbstored:x:126:971:added by portage for boxbackup:/dev/null:/sbin/nologin
+beanstalk:x:127:2:added by portage for beanstalkd:/var/lib/beanstalkd:/sbin/nologin
+munin:x:177:970:added by portage for munin:/var/lib/munin:/sbin/nologin
+munin-async:x:128:128:added by portage for munin:/var/spool/munin-async:/bin/sh
+saned:x:129:969:added by portage for sane-backends:/dev/null:/sbin/nologin
+gpsd:x:130:14:added by portage for gpsd:/dev/null:/sbin/nologin
+netperf:x:131:131:added by portage for netperf:/dev/null:/sbin/nologin
+redis:x:75:75:added by portage for redis:/var/lib/redis:/sbin/nologin
+ntopng:x:132:132:added by portage for ntopng:/dev/null:/sbin/nologin
+spamd:x:133:133:added by portage for spamassassin:/home/spamd:/sbin/nologin

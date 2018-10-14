@@ -1,0 +1,135 @@
+###########################################################################
+# sarab.dcf
+# ---------
+# This file describes WHAT will be backed up, and HOW it will be backed up.
+# This file is formated as a Dar configuration file.  Read the Dar docs
+# for more detailed information on the settings.
+#
+# NOTE: Do NOT use the options "--create" and "--ref", because SaraB  
+# automatically generates these during run-time.
+###########################################################################
+
+# --verbose
+# Use verbose output. Note: This creates a tremendous amount of output, and
+# the SaraB logfile will become enormous very quickly.
+# Example:
+# --verbose
+
+
+# --slice <number>
+# DAR can divide an archive into slices, so that you can burn it to a CD/DVD
+# (or for other reasons). Use this option to specify the size of a slice,
+# in bytes. Add the letter k (or K), M, or G, to represent kilobytes, 
+# megabytes, and gigabytes. For example, "-s 20M" means 20 megabytes and it
+# is the same as using "-s 20971520".
+# If the --slice option is ommitted, then the backup will be written to a 
+# single slice, whatever the size of the backup may be.
+# Example:
+# --slice 650M
+
+
+# --fs-root <path>
+# Root directory of files to be backed up.
+# This path points to the directory tree containing all the
+# files that will be enrolled in the backup. 
+# All other paths used must be relative to this path.
+# Example:
+# --fs-root /
+--fs-root /
+
+ 
+# [list of paths]
+# List directories to back up (relative to fs-root).
+# If none are given, everything under root is backed up.
+# If directories are listed, only those directories
+# will be backed up. Be sure to add quotes around tricky paths.
+# Example:
+# --go-into etc
+# --go-into "mnt/win_d/My Documents/"
+# --go-into root
+# --go-into home
+
+
+# --prune <path>
+# You can exclude (prune) directories and files with the --prune option
+# Directory sub-trees or files named <path> will not be backed up.
+# --prune may be used multiple times. By default, no sub-tree or
+# file is excluded from the backup.
+# The <path> statement may contain wild-cards like * or ? .
+# NOTE: If the backup destination in sarab.conf is a sub-directory of
+#       fs-root, you MUST --prune the destination directory.
+#       If you don't, Dar will detect an infinite loop and exit.
+# Example:
+# --prune home/john
+# --prune home/philip
+--prune sys
+--prune proc
+--prune dev/pts
+--prune mnt/backup/
+--prune etc/sarab/sarab_temp.log
+--prune lib
+
+
+# --empty-dir
+# Use this option to create empty directories for all directories that  
+# are excluded from the backup.  This is usefull if you are pruning a 
+# mount point,  During a restore, Dar will recreate the missing directories.
+# Example:
+# --empty-dir
+--empty-dir
+
+
+# Compression options (--gzip or --bzip2)
+# Choose "--gzip" to compress the archive using the gzip algorithm, and 
+# "--bzip2" to use bzip2. If left blank, no compression is performed.
+# Example:
+# --bzip2
+--bzip2
+
+
+# --exclude-compression <mask>
+# Preventing compressed files from being compressed again will increase speed.  
+# Filenames specified by this option will not be compressed. It is only useful
+# if compression is enabled. This option can be used multiple times.
+--exclude-compression "*.mp3" 
+--exclude-compression "*.avi" 
+--exclude-compression "*.mpg" 
+--exclude-compression "*.mpeg"
+--exclude-compression "*.divx"
+--exclude-compression "*.rm"
+--exclude-compression "*.wmv"
+--exclude-compression "*.wma"
+--exclude-compression "*.asf"
+--exclude-compression "*.ra"
+--exclude-compression "*.gif"
+--exclude-compression "*.jpg" 
+--exclude-compression "*.jpeg"
+--exclude-compression "*.png"
+--exclude-compression "*.zip"
+--exclude-compression "*.dar"
+--exclude-compression "*.tgz"
+--exclude-compression "*.gzip"
+--exclude-compression "*.bzip"
+--exclude-compression "*.bzip2"
+--exclude-compression "*.rar" 
+--exclude-compression "*.Z"
+
+
+# --key <string>
+# --key-ref <string>
+# This option will encrypt the archive using <string> as the pass-phrase.
+# An encrypted archive can only be read if the same pass-phrase is given.
+# Example: (But create your own key!)
+# --key "My_CompleX_key_ADDS_some_Security-Easy_as_123"
+# As these options are used for archive creation only (not for testing) you better
+# make use of the SARAB_KEY paramter in sarab.conf.
+
+
+# Many of the more complex and advanced options of Dar are not listed above.
+# For experienced users, all valid Dar options may be used in this file,
+# except what is noted below.
+# Refer to the Dar documentation for more information ("man dar"). 
+# 
+# NOTE: Do NOT use the options "--create" and "--ref", because SaraB  
+# automatically generates these during run-time.  If you mistakenly add
+# them to this file, Dar generate an error about duplicate arguments.

@@ -1,0 +1,123 @@
+#!/sbin/openrc-run
+#
+# $Header: mkinitramfs-ll/svc/squashdir.initd            Exp $
+# $Author: (c) 2012-6 tokiclover <tokiclover@gmail.com>  Exp $
+# $License: 2-clause/new/simplified BSD                  Exp $
+# $Version: 0.20.0 2016/07/20 12:33:03                   Exp $
+#
+
+description="Temporary directory (with optional backup) setup"
+extra_commands="restore save"
+description_restore="Restore temporary directories"
+description_save="Archive temporary directories"
+
+:	${compressor:=lz4 -1}
+:	${extension:=.tar.${compressor%% *}}
+:	${NULL=/dev/null}
+mount="$(command -v mount 2>${NULL})"
+umount="$(command -v umount 2>${NULL})"
+
+depend()
+{
+	if yesno ${use_zram}; then
+		need zram
+	fi
+	before logger
+}
+
+start()
+{
+	local DIR IFS=":${IFS}" dir
+
+	for dir in ${tmpdir_saved} ${tmpdir_unsaved}; do
+		DIR="${tmpdir_root}${dir}"
+		mountinfo -q "${DIR}" && continue
+		mkdir -p "${DIR}"
+		ebegin  "Mounting ${DIR}"
+		${mount} --bind "${DIR}" "${dir}" >${NULL} 2>&1
+		eend "$?"
+	done
+	restore
+	return 0
+}
+
+stop()
+{
+	save
+	local IFS=":${IFS}" DIR dir
+
+	for dir in ${tmpdir_saved} ${tmpdir_unsaved}; do
+		case "${dir}" in
+			(*/log|*/run|*/tmp) continue;;
+		esac
+		DIR="${tmpdir_root}${dir}"
+		mountinfo -q "${DIR}" || continue
+		ebegin  "Unmounting ${DIR}"
+		${umount} -l "${DIR}" >${NULL} 2>&1
+		eend "$?"
+	done
+	return 0
+}
+
+start_pre()
+{
+	local IFS=":${IFS}" dir ret
+	for dir in ${tmpdir_saved}; do
+		[ -e "${dir}${extension}" ] && continue
+		[ -d "${dir}" ] && save "${dir}" || mkdir -p "${dir}"
+	done
+
+	mountinfo -q "${tmpdir_root}" && return
+	yesno ${use_zram} && ewarn "No suitable (zram) root-dir found"
+	mkdir -p "${tmpdir_root}"
+	${mount} -o rw,nodev,relatime,mode=0755,size=${tmpdir_size:-20%} \
+		-t tmpfs tmp "${tmpdir_root}" || return 2
+}
+
+restart()
+{
+	start
+}
+
+restore()
+{
+	local IFS=":${IFS}" swd="${PWD}" tarball
+
+	for dir in ${@:-${tmpdir_saved}}; do
+		cd "${dir%/*}" >${NULL} 2>&1 || continue
+
+		if [ -f "${dir}${extension}" ]; then
+		:	tarball="${dir}${extension}"
+		elif [ -f "${dir}.old${extension}" ]; then
+		:	tarball="${dir}.old${extension}"
+		else
+			ewarn "No tarball found for ${dir}"
+			continue
+		fi
+		ebegin  "Restoring ${dir}"
+		tar -xpf "${tarball}" -I "${compressor}"
+		eend "${?}"
+	done
+	cd "${swd}" >${NULL} 2>&1
+}
+
+save()
+{
+	local IFS=":${IFS}" swd="${PWD}"
+
+	for dir in ${@:-${tmpdir_saved}}; do
+		cd "${dir%/*}" >${NULL} 2>&1 || continue
+
+		if [ -f "${dir}${extension}" ]; then
+			mv -f "${dir}${extension}" "${dir}.old${extension}"
+		fi
+		ebegin  "Saving ${dir}"
+		tar -cpf "${dir}${extension}" -I "${compressor}" ${dir##*/}
+		eend "${?}"
+	done
+	cd "${swd}" >${NULL} 2>&1
+}
+
+#
+# vim:fenc=utf-8:ft=gentoo-init-d:ci:pi:sts=0:sw=4:ts=4:
+#

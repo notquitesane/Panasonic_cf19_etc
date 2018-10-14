@@ -1,0 +1,5279 @@
+[00 Wings]
+class = drunkduck
+authors = Cerulean Lee
+urlname = 00_Wings
+
+[1223]
+type = search
+authors = Ryan Lock
+homepage = http://www.drunkduck.com/1223
+imgexp = <td bgcolor=\".*?\" valign=\"center\"><img src='({{filename}})' border=0></td>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src=\"{{homepage}}/gfx/prev\.gif\"></a>
+
+[20 Galaxies]
+class = drunkduck
+authors = Cerulean Lee
+urlname = 20_Galaxies
+
+[2 Dragons 1 Angel]
+class = drunkduck
+authors =  KS Claw and Anonshi
+urlname = 2_Dragons_1_Angel
+
+[2 Miles to Utopia]
+class = drunkduck
+authors = rt
+urlname = 2_Miles_To_Utopia
+
+[2214]
+type = search
+authors = Troy McQuinn
+homepage = http://www.nitrocosm.com
+imgexp = <img src=\"(comic/\d+\.{{ext}})\" border=\"0\" alt=\".*?\" width=\"\d+\" class=\"bordered\">
+previousexp = <a href=\"(comic\.php\?page=\d+)\"><img src=\"{{homepage}}/skins/07/back\.gif\" border=\"0\" alt=\"\&laquo; Previous\"></a>
+
+[32-bit Orchestra]
+type = search
+authors = David Bednar
+homepage = http://www.drunkduck.com/32_Bit_Orchestra
+imgexp = <TD ALIGN=\"center\" COLSPAN=\"4\"><img src='({{filename}})' border=0></TD>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prevnav\.gif' border=0 height=44 width=62></a>
+
+[3rd Party Fantasy]
+class = drunkduck
+authors = Nicholas J.G. Stroffolino
+urlname = 3rd_Party_Fantasy
+
+[4th Period Java]
+class = drunkduck
+authors = Mitchiner Underhill
+urlname = 4th_Period_Java
+
+[5th Wave]
+class = ucomics
+authors = Rich Tennant
+urlname = thefifthwave
+urlnameshort = fw
+
+[8-bit Theater]
+type = search
+authors = Brian Clevinger
+homepage = http://www.nuklearpower.com
+archiveurl = {{homepage}}/latest.php
+imgexp = <img alt=\".*?\" src=\"({{homepage}}/comics/\d+\.(?:png|jpg|gif))\">
+previousexp = <a href=\"({{homepage}}/daily\.php\?date=\d+)\" class=\"nav3\">Previous Comic</a>
+
+[9 Chickweed Lane]
+class = unitedmedia
+authors = Brooke McEldowney
+urlname = chickweed
+
+[9th Elsewhere]
+type = search
+authors = Caroline Curtis
+homepage = http://www.9thelsewhere.com
+archiveurl = {{homepage}}/isplash.html
+imgexp = <img src=\"(\d{4}/9e\d+_\d+.{4,6}|\.\./\d{4}/9e\d+_\d+.{4,6}|9e\d+_\d+.{4,6})\"><BR>
+previousexp = <a href=\"(\d{4}/9e\d+_\d+.\.html|9e\d+_\d+.\.html|\.\./\d{4}/9e\d+_\d+.\.html)\">.?PREV.?</a>
+
+[A funny thing happened on the way to the Union]
+class = drunkduck
+authors = Jim
+urlname = A_funny_thing_happened_on_the_way_to_the_Union
+
+[A Princess]
+class = comicssherpa
+authors = Marcus Nix & Dave Fackrell
+urlname = csgem
+
+[A Sexual Goddess]
+class = drunkduck
+authors = Artemis
+urlname = asexualgoddess
+
+[A Sonic Comic]
+class = drunkduck
+authors = Ryan
+urlname = A_Sonic_Comic
+
+[A Twisted Mind]
+class = comicssherpa
+authors = Skip Towne
+urlname = csjyk
+
+[A Twisted Mind Drunkduck]
+class = drunkduck
+authors = Jo Nettle
+urlname = A_Twisted_Mind
+
+[AACMAW]
+class = drunkduck
+authors = Brick Mickasso
+urlname = AACMAW
+
+[Abby]
+class = drunkduck
+authors = Alex Whitington
+urlname = Abby
+
+[Able and Baker]
+type = search
+authors = Jim Burgess
+homepage = http://www.jimburgessdesign.com/comics
+imgexp = <img src="(comics/{{filename}})"
+previousexp = <a href="(/comics/index\.php\?comic=\d+)"><img src="images/previous.gif"
+
+[Abnormal]
+class = drunkduck
+authors = Christopher Bennett
+urlname = ABNORMAL
+
+[Achewood]
+type = search
+authors = Chris Onstad
+homepage = http://www.achewood.com
+imgexp = <img src=\"(/comic\.php\?date=\d+)\" title=\".*?\" hspace=\"10\" vspace=\"0\" border=\"0\">
+imgname = <img src=\"/comic\.php\?date=(\d+)\" title=\".*?\" hspace=\"10\" vspace=\"0\" border=\"0\">
+previousexp = <a href=\"(/index\.php\?date=\d+)\" class=\"dateNav\">\&lt;-</a>
+
+[Achivee]
+class = drunkduck
+authors = monty, puff, uncle john
+urlname = achivee
+imgexp = <TD><img src='({{filename}})' border=0></TD>
+
+[Adam@Home]
+class = ucomics
+authors = Brian Basset
+urlname = adamathome
+urlnameshort = ad
+
+[Adams Rust]
+class = comicssherpa
+authors = Adam Rust
+urlname = cslbx
+
+[Adrian Raeside]
+class = creatorsed
+authors = Adrian Raeside
+urlname = ar
+
+[Adventurer]
+class = drunkduck
+authors = Eyal B.
+urlname = adventurer
+
+[Adventurers]
+class = keenspot
+authors = Mark Shallow
+homepage = http://adventurers-comic.com
+
+[Adventures of Benji and Jojo]
+class = drunkduck
+authors = Kayu Ishida
+urlname = Adventures_of_Benji_and_Jojo
+
+[Adventures of Link]
+class = drunkduck
+authors = Jeff Andrews
+urlname = Adventures_of_Link
+
+[Adventures of Vindibudd Superhero In Training]
+class = drunkduck
+authors = A.S. Williams
+urlname = The_Adventures_of_Vindibudd_Superhero_In_Training
+
+[Adventures in Suburbia]
+class = drunkduck
+authors = Seth Thomas
+urlname = Adventures_in_Suburbia
+imgexp = <p align="center">&nbsp;<img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img border="0" src="gfx/ais_back.png" width="58" height="61">
+
+[Agnes]
+class = creators
+authors = Tony Cochran
+urlname = agn
+
+[Ai Kudasai]
+class = drunkduck
+authors = Amy Lee Hurst
+urlname = Ai_Kudasai
+
+[Aikida]
+type = search
+authors = J. Meinzer
+homepage = http://www.aikida.net
+archiveurl = {{homepage}}/view.php
+imgexp = <img src='({{homepage}}/strips/{{filename}})'
+previousexp = <a href='(\?date\={{signs}})'><img src='/gfx/button_prev.gif'
+
+[Alice]
+class = keenspot
+authors = Michael McKay-Fleming
+homepage = http://www.alicecomics.com
+archiveurl = {{homepage}}/today.html
+
+[Alien Dice]
+class = keenspot
+authors = Tiffany Ross
+homepage = http://aliendice.com
+
+[Alittle Love for Me]
+class = drunkduck
+authors = MekkiMok3
+urlname = Alittle_Love_for_Me
+
+[Alley Oop]
+class = unitedmedia
+authors = Jack and Carole Bender
+urlname = alleyoop
+
+[Alpha Glitch]
+class = drunkduck
+authors = Josh Lynn
+urlname = Alpha_Glitch
+
+[Al De Baran]
+class = drunkduck
+authors = Kristin Harris
+urlname = Al_De_Baran
+
+[Amazing Yet Random]
+class = drunkduck
+authors = Jim
+urlname = amazingyetrandom
+imgexp = <TD>&nbsp;<img src='({{filename}})' border=0></TD>
+
+[Among Wolves]
+class = comicssherpa
+authors = Joseph Ward
+urlname = csvpk
+
+[Andrew and Seans Secret Vault]
+class = drunkduck
+authors = Andrew Wilson
+urlname = Andrew_and_Seans_Secret_Vault
+imgexp = <TD><img src='({{filename}})' border=0></TD>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://img57.photobucket.com/albums/v175/NaklsonofNakkl/Prev.png' border=0 height=50 width=50>
+
+[Andy Capp]
+class = creators
+authors = Reg Smythe
+urlname = cap
+
+[Andys Town and Planet]
+class = comicssherpa
+authors = Andy Menconi
+urlname = cssuu
+
+[Angels 2200]
+type = search
+authors = Peter Haynes & Nathaniel Savio
+homepage = http://www.angels2200.com
+archiveurl = http://angels2200.com.l0w.net
+imgexp = <center><img src=\"(/archives/.+?\.jpg)" width=\"\d+\" height=\"\d+\"></center>
+previousexp = <a href=\"(/Default.asp\?ID=\d+)\"><img src=\"/images/previous.jpg\" width=\"\d+\" height=\"\d+\" border=0></a>
+
+[Angst Technology]
+type = search
+authors = Barry T. Smith
+homepage = http://www.inktank.com/AT
+imgexp = <div align=\"center\"><IMG SRC=\"(/images/AT/cartoons/.+?)\"></div>
+previousexp = <A HREF=\"(/AT/index\.cfm\?nav=\d+)\"><IMG SRC=\"/images/nav_last\.gif\".+?></A>
+
+[Animal Crackers]
+class = comicspage
+authors = Fred Wagner
+urlname = animalcrackers
+
+[Anime Arcadia]
+type = search
+authors = Chris Paluszek
+homepage = http://www.animearcadia.com
+archiveurl = {{homepage}}/comics.php
+imgexp = src="(comics/{{filename}})"
+previousexp = <a href="(comics\.php\?c=\d+)"><font color="#7c7c7c" size="1">Back
+
+[Ann Telnaes]
+class = comicspage
+authors = Ann Telnaes
+urlname = telnaes
+urlname2 = anntelnaes
+
+[Annie]
+class = comicspage
+authors = Jay Maeder and Ted Slampyak
+urlname = annie
+
+[Another Boring Day]
+class = drunkduck
+authors = the Ferocious Fifi
+urlname = Another_Boring_Day
+
+[Another Day Another Week]
+class = drunkduck
+authors = Luke Galli
+urlname = Another_Day_Another_Week
+
+[Another Editorial Cartoon]
+class = comicssherpa
+authors = Some Guy
+urlname = csqjy
+
+[Anti Glory]
+class = drunkduck
+authors = Beatrice
+urlname = Anti_Glory
+
+[Anti Z and Company]
+class = drunkduck
+authors = X-ile and numerous sprite editors
+urlname = Anti_Z_and_company
+
+[Antihero for Hire]
+class = keenspot
+authors = Mark Shallow
+homepage = http://antiheroforhire.com
+
+[Ant Hill]
+class = drunkduck
+authors = Allan
+urlname = Ant_Hill
+
+[Anything]
+class = drunkduck
+authors = Rusty Shacklefurdt
+urlname = Anything
+
+[Applegeeks]
+type = search
+authors = Mohammad F. Haque and Ananth Panagariya
+homepage = http://www.applegeeks.com
+imgexp = <img src="(/comics/issue\d+.jpg)"
+previousexp = <a href="(index.php\?comic=\d+)">Previous
+
+[Arachibutyrophobia]
+class = drunkduck
+authors = Jeremy Mess
+urlname = Arachibutyrophobia
+imgexp = <TD align=center><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prevnav.gif' border=0 height=50
+
+[Aramek and Zandolf]
+class = drunkduck
+authors = Ty Konzak
+urlname = Aramek_and_Zandolf
+
+[Archie]
+class = creators
+authors = Craig Boldman and Henry Scarpelli
+urlname = arc
+
+[Area 52]
+class = comicssherpa
+authors = Bob Darvas
+urlname = cspgc
+
+[Arlo and Janis]
+class = unitedmedia
+authors = Jimmy Johnson
+urlname = arlonjanis
+
+[As If]
+type = search
+authors = Amy Webberson
+homepage = http://www.asifcomic.com
+archiveurl = {{homepage}}/main.html
+imgexp = <img (?:height=\d+ )?src="(?:\.\./)*?(strips/{{filename}})"
+previousexp = <A href="(?:\.\./)*?(\d+\.html)"><IMG height=67 alt="Previous strip" src="(?:\.\./)*?previous.jpg"
+altpreviousexp = <a href=\"((?:http://www.asifcomic.com/)?\d+\.html)\"><img src=\"previous.jpg\"
+
+[Ask Shagg]
+class = creators
+authors = Peter Guren
+urlname = shg
+
+[Assignment Wacky]
+class = comicssherpa
+authors = C.Napolitano
+urlname = cskqu
+
+[Assisted Living]
+class = comicssherpa
+authors = Steve Crider
+urlname = cshsf
+
+[Astronomy Picture of the Day]
+type = search
+authors = NASA
+homepage = http://antwrp.gsfc.nasa.gov/apod/
+imgexp = <a href=\"(image/\d+/{{filename}})\".*?><IMG SRC=\"image/\d+/{{filename}}\"
+previousexp = <a href=\"(ap\d+\.html)\">\&lt</a>
+
+[Attorney at Large]
+class = comicssherpa
+authors = Castagnera and Roberg
+urlname = csrjk
+
+[Austins Life]
+class = drunkduck
+authors = rmunky
+urlname = Austins_Life
+imgexp = <a name="comics"><img src='({{filename}})' border=0>
+
+[Avalanche Avenue]
+class = drunkduck
+authors = Nathan Treece
+urlname = Avalanche_Avenue
+
+[Avril Foxxy]
+class = drunkduck
+authors = Samantha Wheat
+urlname = Avril_Foxxy
+
+[B.C.]
+class = creators
+authors = Johnny Hart
+urlname = bc
+
+[Baby Blues]
+class = sfgate
+authors = Jerry Scott & Rick Kirkman
+urlname = Baby_Blues
+
+[Backstage]
+class = drunkduck
+authors = Paul Fortier
+urlname = Backstage
+
+[Bad Blood]
+type = search
+authors = Liriel McMahon
+homepage = http://badbloodcomic.com
+imgexp = <img src="((?:chap\d+/images|images)/{{filename}})"
+previousexp = <a href="(chap\d+/{{signs}}.php)"><img src="images/bts/bb_previous.jpg"
+altpreviousexp = <a href="(\.\./chap\d+/{{signs}}.php)"><img src="\.\./images/bts/bb_previous.jpg"
+
+[Bad Speller]
+class = comicssherpa
+authors = Tim Peckham
+urlname = csqme
+
+[Baka Baka Revolution]
+class = drunkduck
+authors = AB3 (CubeGuy)
+urlname = Baka_Baka_Revolution
+
+[Baldo]
+class = ucomics
+authors = Hector D. Cantu and Carlos Castellanos
+urlname = baldo
+urlnameshort = ba
+
+[Baldo en Espanol]
+class = ucomics
+authors = Hector D. Cantu and Carlos Castellanos
+urlname = baldoespanol
+urlnameshort = be
+
+[Ballad Tavern and Winery]
+class = drunkduck
+authors = Imogen Miranda
+urlname = Ballad_Tavern_and_Winery
+imgexp = <img src='({{filename}})' border=0></font>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Ballad_Tavern_and_Winery/gfx/prevnav.gif' border=0 height=50 width=50>
+
+[Ballads Of Uncle Bam]
+class = comicssherpa
+authors = Gus St. Anthony
+urlname = csmlf
+
+[Ballard Street]
+class = creators
+authors = Jerry Van Amerongen
+urlname = bs
+
+[Bandits]
+class = drunkduck
+authors = Aoi-chan
+urlname = Bandits
+
+[Barkeater Lake]
+class = unitedmedia
+authors = Corey Pandolph
+urlname = barkeaterlake
+
+[Basketcase]
+class = comicssherpa
+authors = Kelly Ferguson
+urlname = csuvs
+
+[Battle Bugs Brigade]
+class = comicssherpa
+authors = Steven Bove
+urlname = csksb
+
+[Battle Card Crusaders]
+class = drunkduck
+authors = Aaron Boto
+urlname = Battle_Card_Crusaders
+
+[Beaver and Steve]
+class = drunkduck
+authors = eruditebaboon
+urlname = Beaver_and_Steve
+imgexp = <TD><img src='({{filename}})' border=0></TD>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Beaver_and_Steve/gfx/prevbutton.gif' border=0 height=68 width=100>
+
+[Bedtime Stories for Me]
+class = drunkduck
+authors = Nathalie Julien
+urlname = Bedtime_Stories_for_Me
+
+[Beetle Bailey]
+class = sfgate
+authors = Mort Walker
+urlname = Beetle_Bailey
+
+[Ben]
+class = unitedmedia
+authors = Daniel Shelton
+urlname = ben
+
+[Ben Sargent]
+class = ucomics
+authors = Ben Sargent
+urlname = bensargent
+urlnameshort = bs
+
+[Benjamin Universe]
+class = drunkduck
+authors = FoocherMan
+urlname = Benjamin_Universe
+
+[Benny and Floyd]
+class = comicssherpa
+authors = Tracy Nichols
+urlname = csblf
+
+[Betty]
+class = unitedmedia
+authors = Delainey and Rasmussen
+urlname = betty
+
+[Beyond Help]
+class = drunkduck
+authors = Pixy/K. Ross
+urlname = Beyond_Help
+
+[Biff and Friends]
+class = drunkduck
+authors = PsycoDragon22
+urlname = Biff_and_Friends
+imgexp = <TD><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Biff_and_Friends/gfx/prevnav2.gif' border=0 height=50
+
+[Big Nate]
+class = unitedmedia
+authors = Lincoln Peirce
+urlname = bignate
+
+[Big Screw]
+class = drunkduck
+authors = Jason Cota
+urlname = Big_Screw
+
+[Big Top]
+class = ucomics
+authors = Rob Harrell
+urlname = bigtop
+urlnameshort = bt
+
+[Bigger Than Cheeses]
+type = search
+authors = Desmond Seah
+homepage = http://www.biggercheese.com
+imgexp = <img src=\"(comics/\d+\.{{ext}})\" alt=\".*?\">
+previousexp = <a href=\"(index\.php\?comic=\d+)\"><img src=\"back\.png\" border=\"0\"></a>
+
+[Bill DeOre]
+class = ucomics
+authors = Bill DeOre
+urlname = billdeore
+urlnameshort = bd
+
+[Birdo]
+class = drunkduck
+authors = Rachel
+urlname = Birdo
+
+[Bite My Nuts]
+class = drunkduck
+authors = Chalupa Chelano (Paul Celano)
+urlname = Bite_My_Nuts
+imgexp = <TD width="1094"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Brutus/gfx/backn.gif' border=0 height=50 width=50>
+
+[Bitter Man Comix]
+class = drunkduck
+authors = Mickasso
+urlname = Bitter_Man_Comix
+
+[Bizarro]
+class = sfgate
+authors = Piraro
+urlname = Bizarro
+
+[Black and Red]
+class = drunkduck
+authors = Fireoz
+urlname = Black_and_Red
+
+[Black Heart]
+class = drunkduck
+authors = Marshall Porter
+urlname = Black_Heart
+
+[Blade Kitten]
+type = search
+authors = Steve Stamatiadis
+homepage = http://www.bladekitten.com
+imgexp = <img border=\"0\" src=\"(comics/kage/{{filename}})\" width=\"\d+\" height=\"\d+\">
+previousexp = <a onmouseover=\"document\['fpAnimswapImgFP20'\]\.imgRolln=document\['fpAnimswapImgFP20'\]\.src;document\['fpAnimswapImgFP20'\]\.src=document\['fpAnimswapImgFP20'\]\.lowsrc;\" onmouseout=\"document\['fpAnimswapImgFP20'\]\.src=document\['fpAnimswapImgFP20'\]\.imgRolln\" href=\"(kage_\d+\.html)\">
+altpreviousexp = <area href=\"(kage_\d+\.html)\" shape=\"polygon\" coords=\"48, 53, 72, 64, 71, 90, 48, 103, 26, 89, 27, 63\">
+
+[Blah]
+class = drunkduck
+authors = Stephen Hayes
+urlname = Blah
+
+[Blaze]
+class = drunkduck
+authors = Pyry P Pakkanen
+urlname = Blaze
+
+[Blondie]
+class = sfgate
+authors = Dean Young & Denis Lebrun
+urlname = Blondie
+
+[Blue and Lightning]
+class = drunkduck
+authors =  Ashe Raven
+urlname = Blue_and_Lightning
+
+[Bo Ring Adventures]
+class = comicssherpa
+authors = Erik Nodacker
+urlname = cspsz
+
+[Bob and George]
+type = search
+authors = David Anez
+homepage = http://www.bobandgeorge.com
+imgexp = <img src=(?:'|\")((?:\d+/)?\d+\.{{ext}})(?:'|\") width=(?:'|\")?\d+(?:'|\")? height=(?:'|\")?\d+(?:'|\")?
+previousexp = <a href=(?:'|\")((?:Archive/)?{{signs}}\.php\?date=\d+)(?:'|\")><img src=(?:'|\")last\.gif(?:'|\")
+
+[Bob Gorrell]
+class = creatorsed
+authors = Bob Gorrell
+urlname = bg
+
+[Bob the Squirrel]
+class = ucomics
+authors = Frank Page
+urlname = bobthesquirrel
+urlnameshort = bob
+
+[Bollox]
+type = search
+authors = Eddie Bowley
+homepage = http://www.bolloxcomics.co.uk/main/
+imgexp = <img src=\"(\.\./strips/\d+\.{{ext}})\" width=\"\d+" height=\"\d+\" alt=\".*?\" />
+previousexp = <td>ALL COMICS:<a href=\"strips\.php\?comic=\d+\">FIRST</a> \|<a href=\"(strips\.php\?comic=\d+)\">PREVIOUS</a>
+
+[Bonser]
+class = comicssherpa
+authors = Rory Bonser
+urlname = csany
+
+[Boondocks]
+class = ucomics
+authors = Aaron McGruder
+urlname = boondocks
+urlnameshort = bo
+
+[Bored and Evil]
+type = search
+authors = Robert Koch
+homepage = http://www.boredandevil.com/
+imgexp = <img src=\"(strips/\d+-\d+-\d+.{{ext}})\"
+previousexp = <a href=\"(archive\.php\?date=\d+-\d+-\d+)\"><img src=\"images/previous-on\.gif\"
+
+[Born Lucky]
+class = ucomics
+authors = Bruce Plante
+urlname = bornlucky
+urlnameshort = bol
+
+[Bottle Rocket Chronicles]
+class = comicssherpa
+authors = Rob McClurkan
+urlname = csuet
+
+[BottomFeeders]
+class = comicssherpa
+authors = Jason Black
+urlname = csedq
+
+[Bottom Liners]
+class = ucomics
+authors = Eric and Bill Teitelbaum
+urlname = bottomliners
+urlnameshort = tmbot
+
+[Bound and Gagged]
+class = comicspage
+authors = Dana Summers
+urlname = boundgagged
+urlname2 = bound
+
+[Boxjams Doodle]
+class = keenspot
+authors = Boxjam
+homepage = http://boxjamsdoodle.com
+altimgexp = <img src=(/comics/bj[a-zA-Z0-9_\-]+?\.(?:jpg|gif|png)) height=\d+ width=\d+ alt=\".*?\">
+
+[Boy Meets Boy]
+class = keenspot
+authors = K. Fuhr
+homepage = http://boymeetsboy.keenspot.com
+previousexp = <a href=\"(/d/\d+?\.html)\">Previous comic</a>
+
+[Boy on a Stick and Slither]
+type = search
+authors = Steven L. Cloud
+homepage = http://www.boasas.com/
+imgexp = <img src=\"(boasas/{{filename}})\" width=\"\d+\" height=\"\d+\">
+previousexp=<a href=\"(\?c={{signs}})\"><img src="images/next_a.gif" width=\"\d+\" height=\"\d+\" border=\"\d+\">
+
+[Brain Squirts]
+class = comicssherpa
+authors = Frank Cummings
+urlname = cskjh
+
+[Brainwaves]
+class = comicssherpa
+authors = Betsy Streeter
+urlname = cshbo
+
+[Bread]
+class = drunkduck
+authors = shawn
+urlname = bread
+
+[Brenda Starr]
+class = comicspage
+authors = June Brigman and Mary Schmich
+urlname = brendastarr
+
+[Brewster Rockit]
+class = comicspage
+authors = Tim Rickard
+urlname = brewster
+
+[Broken Glass]
+class = drunkduck
+authors = Heather Snyder
+urlname = Broken_Glass
+
+[Broom Hilda]
+class = comicspage
+authors = Russel Myers
+urlname = broomhilda
+
+[Bruno Baldwin]
+type = lateststatic
+authors = Christopher Baldwin
+homepage = http://www.brunostrip.com
+imgurl = {{homepage}}/brunoaway/brunoaway.gif
+
+[Bruno the Bandit]
+class = keenspot
+authors = Ian McDonald
+homepage = http://brunothebandit.com
+
+[Brutus]
+class = drunkduck
+authors = Chalupa Chelano (Paul Celano)
+urlname = Brutus
+imgexp = <TD width="1094"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Brutus/gfx/backn.gif' border=0 height=50 width=50>
+
+[Btc]
+class = drunkduck
+authors = Desmond Seah
+urlname = btc
+
+[Building 12]
+type = search
+authors = Chris Hazelton
+homepage = http://www.building12.net/
+imgexp = <img border=\"0\" src=\"(http://www\.building12\.net/issue\d/{{filename}})\" width=\"\d+\" height=\"\d+\"
+altimgexp = <img border=\"0\" src=\"((?:http://www\.building12\.net/issue\d/)?{{filename}})\" alt=\"(?:Issue|Page)
+previousexp = <a href=\"(http://www\.building12\.net/issue\d/{{signs}}\.htm)\"><img border=\"0\" (?:name=\"Last\" )?src=\"(?:http://www\.building12\.net/|\.\./)?last2\.jpg\" alt=\"(?:Last|Previous) Page\"
+pathlevels = 2
+
+[Bull$ and Bear$]
+class = unitedmedia
+authors = Wells and Lindstrom
+urlname = bullsnbears
+
+[Bullpoop]
+class = drunkduck
+authors = Cristian Necula
+urlname = Bullpoop
+
+[Bunny Love]
+class = drunkduck
+authors = Jason Hillard
+urlname = Bunny_Love
+
+[Butternutsquash]
+type = search
+authors = Ramon Perez and Rob Coughler
+homepage = http://www.butternutsquash.net
+archiveurl = {{homepage}}/assets/pages/bns-current.html
+imgexp = <img src="(\.\./library/{{filename}})"
+previousexp = href="({{signs}}.html)" target="_self"
+
+[Calvin and Hobbes]
+class = ucomics
+authors = Bill Watterson
+urlname = calvinandhobbes
+urlnameshort = ch
+
+[Calvin and Hobbes en Espanol]
+class = ucomics
+authors = Bill Watterson
+urlname = calvinandhobbesespanol
+urlnameshort = spch
+
+[Captain RibMan]
+class = ucomics
+authors = John Sprengelmeyer and Rich Davis
+urlname = captainribman
+urlnameshort = tmcap
+
+[Captain SNES]
+type = search
+authors = JayDee
+homepage = http://captainsnes.com
+archiveurl = {{homepage}}/
+imgexp = <img src="(Archive/{{filename}})"
+previousexp = <a href="(\?date\=\d+)"><img border="0" src="images/previous_day.gif">
+
+[Carzorthade]
+type = search
+authors = Chris Paluszek
+homepage = http://www.carzorthade.com
+imgexp = <embed src="(\d+.swf)"
+altimgexp = (?:_blank|center)"><img src="({{filename}})"
+previousexp = <a href="(\d+.html)"><img src="back.jpg"
+
+[Case in Point]
+class = unitedmedia
+authors = Rob Esmay
+urlname = acaseinpoint
+
+[CatchGuess Comixs]
+class = drunkduck
+authors = CatchGuess and XPlague
+urlname = CatchGuess_Comixs
+imgexp = <tr><td><p align="center"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><div align="center"><img border="1" src='\.\./gfx/themes/default/prevnav\.gif'  width="50" height="40"></a>
+
+[Cathy]
+class = ucomics
+authors = Cathy Guisewite
+urlname = cathy
+urlnameshort = ca
+
+[Cats With Hands]
+class = comicspage
+authors = Joe Martin
+urlname = cats
+
+[CCC Presents]
+class = drunkduck
+authors = Chalupa Chelano (Paul Celano)
+urlname = CCC_Presents
+imgexp = <TD width="1094"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Brutus/gfx/backn.gif' border=0 height=50 width=50>
+
+[CEO Dad]
+class = creators
+authors = Tom Stern and C. Covert Darbyshire
+urlname = ceo
+
+[Cest la Vie]
+class = comicssherpa
+authors = Jennifer Miyuki Babcock
+urlname = csxck
+
+[Chan Lowe]
+class = comicspage
+authors = Chan Lowe
+urlname = chanlowe
+
+[ChaoScape]
+class = drunkduck
+authors = Titch
+urlname = ChaoScape
+imgexp = <p align="center"><img src='({{filename}})' border=0>
+previousexp = onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href='({{homepage}}/\?i=\d+)'>
+
+[Checkerboard Nightmare]
+class = keenspot
+authors = Kristofer Straub
+homepage = http://checkerboardnightmare.com
+
+[Chibified Online]
+class = drunkduck
+authors = Kichi Shinozuka
+urlname = Chibified_Online
+
+[Chicks Cats and Cookies]
+class = drunkduck
+authors = Coralie Coelsch
+urlname = Chicks_Cats_and_Cookies
+imgexp = <TD><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="http://www.drunkduck.com/Chicks_Cats_and_Cookies/gfx/prev1.jpg" alt="previous"
+
+[Chilling Out]
+class = comicssherpa
+authors = Stephen Francis & Rico Schacherl
+urlname = csldm
+
+[Chip Bok]
+class = creatorsed
+authors = Chip Bok
+urlname = cb
+
+[Choose Your Character]
+class = drunkduck
+authors = Smerph Greenfox
+urlname = Choose_Your_Character
+
+[Chopping Block]
+class = keenspot
+authors = Lee Adam Herold
+homepage = http://www.choppingblock.org
+
+[Chromus Zone]
+class = drunkduck
+authors = Dan Balmert
+urlname = Chromus_Zone
+
+[Chuck Asay]
+class = creatorsed
+authors = Chuck Asay
+urlname = ca
+
+[Chuck and Elmo]
+type = search
+authors = Charlie Plymale and Elmo
+homepage = http://www.chuckandelmo.com
+archiveurl = {{homepage}}/
+imgexp = <img name="comic" src="(images/Comics/{{filename}})"
+previousexp = <a href="(index\.php\?COMIC\=\d+)"><img src="images/previous_day.gif"
+
+[Chugworth Academy]
+type = search
+authors = Dave Cheung
+homepage = http://chugworth.com
+archiveurl = {{homepage}}/comic.php
+imgexp = <img src='(comic/\d+\.(?:jpg|JPG|gif|GIF))' border=2>
+previousexp = <a href='(comic\.php\?id=\d+)'><img src='elements/previous\.gif' width='50' height='50' alt='Previous Comic' border=0></a>
+
+[Citizen Dog]
+class = ucomics
+authors = Mark OHare
+urlname = citizendog
+urlnameshort = cd
+
+[Clan of the Cats]
+class = keenspot
+authors = Jamie Robertson
+homepage = http://www.clanofthecats.com
+
+[Clay Jones]
+class = creatorsed
+authors = Clay Jones
+urlname = cj
+
+[Clear Blue Water]
+class = ucomics
+authors = Karen Montague-Reyes
+urlname = clearbluewater
+urlnameshort = cbw
+
+[Cleats]
+class = ucomics
+authors = Bill Hinds
+urlname = cleats
+urlnameshort = cle
+
+[Climber Toons]
+class = drunkduck
+authors = Clint Hamers
+urlname = Climber_Toons
+
+[Clockcrew]
+class = drunkduck
+authors = The Clock Crew
+urlname = clockcrew
+
+[Close to Home]
+class = ucomics
+authors = John McPherson
+urlname = closetohome
+urlnameshort = cl
+
+[Closer To Insanity]
+class = drunkduck
+authors = Melanie~Rose
+urlname = Closer_To_Insanity
+
+[Clutter Gutter]
+class = comicssherpa
+authors = Rick Faris & Adam Wiater
+urlname = csavj
+
+[Coathangers and Hammers]
+class = drunkduck
+authors = Matt Bowjangles
+urlname = Coathangers_and_Hammers
+
+[Code Black]
+class = drunkduck
+authors = Dawnie-chan
+urlname = Code_Black
+
+[Cold brains Cerebros Pasmados]
+class = drunkduck
+authors = Pedro CIFUentes
+urlname = Cold_brains_Cerebros_Pasmados
+
+[College Fuzz]
+class = drunkduck
+authors = David Myers
+urlname = College_Fuzz
+
+[College Roomies From Hell]
+class = keenspot
+authors = Maritza Campos
+homepage = http://www.crfh.net
+
+[College Zoo]
+class = drunkduck
+authors = Byron Sherry
+urlname = College_Zoo
+
+[Col Angus Takes All]
+class = drunkduck
+authors = J.M. Wicks
+urlname = Col_Angus_Takes_All
+
+[Come Come Paradise]
+class = drunkduck
+authors = blink kun
+urlname = Come_Come_Paradise_
+
+[Comedy Time with Suzie and Dave]
+class = drunkduck
+authors = Ryan Armand
+urlname = Comedy_Time_with_Suzie_and_Dave
+
+[Comics by Salamon]
+class = comicssherpa
+authors = Joe Salamon
+urlname = csphr
+
+[Coming Soon]
+class = drunkduck
+authors = SEXTAPUSS & LOTHAR
+urlname = coming_soon
+
+[Completely Random]
+class = drunkduck
+authors = Cody and Ricky
+urlname = Completely_Random
+
+[Compu-toon]
+class = ucomics
+authors = Charles Boyce
+urlname = compu-toon
+urlnameshort = tmcom
+
+[Conscious Pilot]
+class = comicssherpa
+authors = Chris Bautz
+urlname = csjvm
+
+[Consoles]
+class = drunkduck
+authors = thealmightynarf
+urlname = Consoles
+imgexp = </table><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="gfx/nav-prev.gif" width="40" height="63" alt="" border="0">
+
+[Cool Beans]
+class = comicssherpa
+authors = Richard Dominguez
+urlname = cswvq
+
+[Cornered]
+class = ucomics
+authors = Mike Baldwin
+urlname = cornered
+urlnameshort = co
+
+[Count Your Sheep]
+class = keenspot
+authors = Adrian Ramos
+homepage = http://www.countyoursheep.com 
+
+[Counter Culture]
+type = search
+authors = Jawaboy & Omi
+homepage = http://counterculture.infinite-comics.com/
+imgexp = <img src=\"(comic/comic\w+\.(?:jpg|gif))\" alt=\".*?\" class=bordered>
+previousexp = <a href=(index\.php\?comic=\d+)><img src=images/prev\.gif border=0 alt=\"Prev\"></a>
+
+[Crankshaft]
+class = ucomics
+authors = Tom Batiuk and Chuck Ayers
+urlname = crankshaft
+urlnameshort = cs
+
+[Crappy Days]
+class = drunkduck
+authors = cheli merri
+urlname = Crappy_Days
+
+[Crazy Duck]
+class = drunkduck
+authors = Matthew New
+urlname = Crazy_Duck
+imgexp = <img src='({{filename}})' border=0></p>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Crazy_Duck/gfx/back.jpg' border=0 height=48 width=57>
+
+[Creative Angst]
+class = drunkduck
+authors = Multiple Artists
+urlname = Creative_Angst
+
+[Crock]
+class = sfgate
+authors = Bill Rechin & Don Wilder
+urlname = Crock
+
+[Crossover]
+class = drunkduck
+authors = Alexandru Bucur
+urlname = Crossover
+
+[Crunchy]
+class = comicssherpa
+authors = Francis Bonnet
+urlname = cscek
+
+[CtrlAltDel]
+type = search
+authors = Tim Buckley
+homepage = http://ctrlaltdel-online.com
+archiveurl = {{homepage}}/index.php?t=archives&date=last
+imgexp = <IMG SRC=\"(./images/comics/[_0-9]+\.(?:jpg|gif))\" STYLE=\"border:2px solid #000000;\" />
+previousexp = <A HREF=\"(./\?t=archives&date=\d+-\d+-\d+)\"><IMG SRC=\"/images/nav_back.gif\"
+
+[Cucumber of Hate]
+class = drunkduck
+authors = Eric
+urlname = Cucumber_of_Hate
+imgexp = <TR><TD><img src='({{filename}})' border=0>
+
+[Culture Shock]
+class = drunkduck
+authors = Reed Hawker
+urlname = Culture_Shock
+imgexp = <td colspan="5" bgcolor="#000000"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="gfx/prev.gif" width="50" height="50" alt="Previous page" border="0">
+
+[Curtis]
+class = sfgate
+authors = Ray Billingsley
+urlname = Curtis
+
+[Cutie Eclipse]
+class = drunkduck
+authors = Levk Velez
+urlname = Cutie_Eclipse
+
+[CwispynRyce]
+class = drunkduck
+authors = Michael Costo
+urlname = CwispynRyce
+
+[Cyco Studios]
+class = drunkduck
+authors = Cycoman
+urlname = Cyco_Studios
+imgexp = <TD align=center><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Cyco_Studios/gfx/Back.gif' border=0 height=100 width=200>
+
+[Daily Dinosaur Comics]
+type = search
+authors = Ryan North
+homepage = http://www.qwantz.com
+imgexp = <img src="(comics/{{filename}})"
+altimgexp = <img src="(comics/gue{{signs}}/{{filename}})"
+previousexp = <A href="(\d+.html)">previous</a>
+
+[Damnation 101]
+class = drunkduck
+authors = Phil
+urlname = Damnation_101
+
+[Da Basement]
+class = drunkduck
+authors = Paul Butt, Phil Howell, Andy Colbourne and Matt Baird
+urlname = Da_Basement
+
+[Dan DeRuff]
+class = drunkduck
+authors = Angele Deneige LeBlanc
+urlname = Dan_DeRuff
+
+[Dan Wasserman]
+class = comicspage
+authors = Dan Wasserman
+urlname = wasserman
+
+[Dana Summers]
+class = comicspage
+authors = Dana Summers
+urlname = summers
+urlname2 = danasummers
+
+[Dandy and Company]
+class = comicssherpa
+authors = Derrick Fish
+urlname = csqrv
+
+[Dansk Folly]
+class = drunkduck
+authors = Richard Wyatt
+urlname = Dansk_Folly
+imgexp = <br><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'>Back one</a>
+
+[Dating a Demon]
+class = drunkduck
+authors = Shinobu-san and T_K
+urlname = Dating_a_Demon
+imgexp = <TR><img src='({{filename}})' border=0></TR>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Dating_a_Demon/gfx/Previous.gif' border=0 height=50 width=100>
+
+[David Horsey]
+class = comicspage
+authors = David Horsey
+urlname = horsey
+urlname2 = davidhorsey
+
+[De La Penguin]
+class = drunkduck
+authors = spidermonkyerd
+urlname = De_La_Penguin
+imgexp = <td><img src='({{filename}})' border=0>&nbsp;</td>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><div align="left"><span class="style2"><span class="style6"><strong>&lt;<span class="style32">Back One</span>
+
+[DeadAnthonys Retro Comic]
+class = drunkduck
+authors = Anthony and Ruby
+urlname = DeadAnthonys_Retro_Comic
+
+[Dead Bunny]
+class = drunkduck
+authors = TeeBee and CeeBee
+urlname = Dead_Bunny
+
+[Dead Days]
+class = drunkduck
+authors = John Rios
+urlname = Dead_Days
+
+[Dead Kitties]
+class = drunkduck
+authors = William Vitka
+urlname = Dead_Kitties
+
+[Dead Last]
+class = comicssherpa
+authors = Matty Meegan
+urlname = csdpp
+
+[Defy the Dress Code]
+class = drunkduck
+authors = Carrie Wallis
+urlname = Defy_the_Dress_Code
+
+[Dennis the Menace]
+class = sfgate
+authors = Hank Ketcham
+urlname = Dennis_The_Menace
+
+[Detective Jo]
+class = drunkduck
+authors = Lisa Watson
+urlname = Detective_Jo
+
+[Dick Locher]
+class = comicspage
+authors = Dick Locher
+urlname = locher
+urlname2 = dicklocher
+
+[Dick Tracy]
+class = comicspage
+authors = Dick Locher and Mike Killian
+urlname = dicktracy
+
+[Dick Wright]
+class = comicspage
+authors = Dick Wright
+urlname = dickwright
+
+[Diesel Sweeties]
+type = search
+authors = R. Stevens
+homepage = http://www.dieselsweeties.com
+imgexp = <img src=\"(/strips/.+?)\" border=\"0\".+?>
+previousexp = <a title=\"read the previous comic\" href=\"((?:{{homepage}}/)?archive\.php\?s=\d+)\">previous comic</a>
+
+[Dilbert]
+class = unitedmedia
+authors = Scott Adams
+urlname = dilbert
+
+[Dinette Set]
+class = creators
+authors = Julie Larson
+urlname = din
+
+[Dire Destiny]
+type = search
+authors = Kendzie/Ostapiuk
+homepage = http://www.diredestiny.com/
+imgexp = <img src=\"(pages/\d+.?\.{{ext}})\"
+previousexp = <a href=\"(DireHome\d+\.htm)\">Prev</a>
+
+[Discarded Piecrusts]
+class = drunkduck
+authors = marc
+urlname = Discarded_Piecrusts
+
+[Disenchanted Youths of America]
+class = drunkduck
+authors = Jillers
+urlname = Disenchanted_Youths_of_America
+
+[DMFA]
+type = search
+authors = Amber M. Panyko
+homepage = http://www.missmab.com
+archiveurl = {{homepage}}/arch.htm
+archiveexp = <a href=\"(comics/Vol\d+\.htm)\">[^<]+?</a><p align=\"center\"><a href=\"http://www.missmab.com\">Return</a>
+imgexp = <img border=\"0\" src=\"(Vol{{signs}}\.{{ext}})\"
+previousexp = <a href=\"({{signs}}\.htm)\"><img border=\"0\" src=\"\.\./graphics/Archive_Back\.gif\"
+
+[DMU]
+class = drunkduck
+authors = Never
+urlname = DMU
+
+[Doctor Fun]
+type = lateststatic
+authors = David Farley
+homepage = http://www.ibiblio.org/Dave
+imgurl = {{homepage}}/Dr-Fun/latest.jpg
+
+[Does This look Infected]
+class = drunkduck
+authors = o_0
+urlname = Does_This_look_Infected
+
+[Dog Complex]
+type = search
+authors = Dave Johnson
+homepage = http://www.dog-complex.com
+imgexp = <img src='(phpstrip/{{filename}})'
+previousexp = <area shape='rect' coords='183,7,315,24' href='(comic\.php\?view=\d+)'>
+
+[Dog eat Doug]
+class = comicssherpa
+authors = Brian Anderson
+urlname = cslkd
+
+[Dogs Eye View]
+class = drunkduck
+authors = Clinton Pearce
+urlname = Dogs_Eye_View
+
+[Domestic World]
+class = comicssherpa
+authors = Charles Stouff
+urlname = csioc
+
+[Dominic Deegan]
+class = keenspot
+authors = Michael "Mookie" Terracciano
+homepage = http://dominic-deegan.com
+
+[Dominion]
+type = search
+authors = Mathew Genier
+homepage = http://www.dominioncomic.com/
+archiveurl = http://www.dominioncomic.com/comics/
+imgexp = <img src="(comics/{{filename}})"
+previousexp = <a href="(archive\.php\?date\={{filename}})">Previous
+
+[Don Wright]
+class = comicspage
+authors = Don Wright
+urlname = donwright
+
+[Donut Man]
+class = drunkduck
+authors = Ulrich Fricke-Pedersen
+urlname = Donut_Man
+
+[Doodles]
+class = comicspage
+authors = Steve Sack & Craig MacIntosh
+urlname = doodles
+
+[Doonesbury]
+class = ucomics
+authors = Garry Trudeau
+urlname = doonesbury
+urlnameshort = db
+
+[Dormies]
+class = drunkduck
+authors = Brian Watson
+urlname = Dormies
+
+[Dot Blue]
+class = ucomics
+authors = Julien Tromeur
+urlname = dotblue
+urlnameshort = blue
+
+[Double Jump]
+class = drunkduck
+authors = Vincent Tabulka
+urlname = Double_Jump
+
+[Doug Marlette]
+class = comicspage
+authors = Doug Marlette
+urlname = marlette
+
+[Downgrading]
+class = drunkduck
+authors = Thomas J Bulle and Stuart Fazakerley
+urlname = Downgrading
+
+[Dracula]
+type = search
+authors = Tod Puck Wills
+homepage = http://www.coyotepuck.dragoncity.net/dracula/index.php
+imgexp = <img src=\"(story/\d+/\d+\.gif)\">
+previousexp = <a href=\"(index\.php\?p=\d+)\"><img src=\"graphics/back\.gif\" border=0></a>
+
+[Dragonsong]
+class = drunkduck
+authors = Kinestra Alvarenn
+urlname = Dragonsong
+
+[Drawing From Life]
+class = drunkduck
+authors = Chuck Rowles & Josh Lowman
+urlname = Drawing_From_Life
+
+[Dregs of the Empire]
+class = drunkduck
+authors = Matthew Hric
+urlname = Dregs_of_the_Empire
+
+[Drew Sheneman]
+class = comicspage
+authors = Drew Sheneman
+urlname = sheneman
+
+[Dribble For Kids]
+class = drunkduck
+authors = Nick Arganbright
+urlname = Dribble_For_Kids
+
+[DriveWhatDrivesYou]
+class = drunkduck
+authors = tim.red.teno.ferrer
+urlname = DriveWhatDrivesYou
+
+[Droop]
+class = drunkduck
+authors = THAT ONE KC GREEN
+urlname = Droop
+imgexp = <img src='({{filename}})' border=0></font></p>
+previousexp = <a href='({{homepage}}/\?i=\d+)'>&lt;BACK ONE</a>
+
+[Drow Tales]
+type = search
+authors = Yan "Kern" Gagné
+homepage = http://www.drowtales.com
+imgexp = <img .*?alt=manga src=\"(./tmpmanga/.*?)\".*?>
+altimgexp = <EMBED src=\"(\./tmpmanga/{{signs}}\.swf)\" quality=high bgcolor=#\d+ height=\d+ width=\d+ NAME=\w+ ALIGN=center TYPE=application/x-shockwave-flash PLUGINSPAGE=http://www\.macromedia\.com/go/getflashplayer></EMBED>
+previousexp = <a href=\"(tmp_archive3\.php\?location=\d+)\"><img src=\"\./navigation3/back\.gif\" border=0></a>
+altpreviousexp = <a href=\"(tmp_archive3\.php\?location=\d+)\"><img src=\"\./navigation2/previousday\.gif\" border=0></a>
+
+[Drunk Duck Special]
+class = drunkduck
+authors = EventMC
+urlname = Drunk_Duck_Special
+
+[DSWs story]
+class = drunkduck
+authors = dsw
+urlname = DSWs_story
+
+[Dude WTF]
+class = drunkduck
+authors = Andre Vaillant / Ryan O'Donnell
+urlname = dudewtf
+
+[DuJour]
+class = drunkduck
+authors = Robert Seymour
+urlname = DuJour
+
+[Dumbbellz]
+class = comicssherpa
+authors = Bill Temples
+urlname = csafd
+
+[Duncan and Dragons]
+class = drunkduck
+authors = Eric Nirschel
+urlname = Duncan_and_Dragons
+
+[Dungeon Crawl Inc]
+type = search
+authors = Nathan Sheaffer
+homepage = http://www.dungeoncrawlinc.com
+archiveexp = <a href="({{homepage}}/{{signs}}.html)" onMouseOver\=\"document\.images\[\'i5\'\]\.src\=\'http\://www\.dungeoncrawlinc\.com/latestfire\.gif\'\"
+imgexp = src="({{homepage}}/DCI_\w+\.{{ext}})"
+altimgexp = src="({{homepage}}/(?:stick|guest|April)\w+\.{{ext}})"
+previousexp = <a href="({{homepage}}/{{signs}}.html)"><img height=\d+ width=\d+ src="http://www.dungeoncrawlinc.com/back.gif"
+
+[DwarfTossing]
+class = drunkduck
+authors = Daniel Mason
+urlname = DwarfTossing
+
+[Dwane Powell]
+class = creatorsed
+authors = Dwane Powell
+urlname = dp
+
+[Earthbound]
+class = drunkduck
+authors = ZoeStead
+urlname = Earthbound
+imgexp = <td align='center' valign='bottom'><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/b_back.jpg'>
+
+[Eclectica]
+class = drunkduck
+authors = Scott Dalton
+urlname = Eclectica
+
+[Edge City]
+class = sfgate
+authors = Terry and Patty LaBan
+urlname = Edge_City
+
+[EggMan]
+class = drunkduck
+authors = Ryan Smith
+urlname = EggMan
+
+[El Goonish Shive]
+class = keenspot
+authors = Dan Shive
+homepage = http://elgoonishshive.com
+
+[Elasia]
+type = search
+authors = Jason Briggs
+homepage = http://www.elasia.net
+imgexp = <img src=\"(images/\d+\.{{ext}})\">
+previousexp = <a href=\"(\d+\.htm)\"><img src=\"images/bprevious3\.gif\" border=\"0\"></a>
+
+[Elf Life]
+class = keenspot
+authors = Carson Fire
+homepage = http://www.elflife.com
+
+[Elf troubble in 20th]
+class = drunkduck
+authors = Anders Edlund
+urlname = Elf_troubble_in_20th
+
+[Elftor]
+type = search
+authors = Elftor
+homepage = http://elftor.com
+archiveurl = {{homepage}}/elftor.php
+imgexp = <img border=1 src=(images/elftor/strips/\d+/elftor\d+-\d+\.{{ext}}) border=1 width=\d+ height=\d+>
+previousexp = <a href=(elftor\.php\?number=\d+)>\&laquo; Previous</a>
+
+[Elijah and Azuu]
+type = search
+authors = InkMonkey
+homepage = http://www.drunkduck.com/Elijah_and_Azuu
+imgexp = <a.*?><img src='({{filename}})' border=0></a>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='{{homepage}}/gfx/image007\.gif'border=0></a>
+
+[Emerald Sticker Sale]
+class = drunkduck
+authors = Kristine McGee
+urlname = Emerald_Sticker_Sale
+
+[End Times]
+type = search
+authors = Bailey Pilling and Philip Rigby
+homepage = http://www.endtimescomic.com/
+archiveurl = {{homepage}}index.php?op=archives&id=latest
+imgexp = <img src='(comics/{{filename}})'
+previousexp = <a href='(index\.php\?op=archives\&id=\d+)'>Previous</a>
+
+[Entropy Comics]
+class = drunkduck
+authors = Mary T.
+urlname = Entropy_Comics
+
+[Errant Story]
+class = keenspot
+authors = Michael Poe
+homepage = http://errantstory.com
+
+[Erudite Entertainment]
+class = drunkduck
+authors = Toxey Haas
+urlname = Erudite_Entertainment
+
+[Eternal Warfares of Wannabe Gangsters]
+class = drunkduck
+authors = Spencer Schenk-Wasson
+urlname = Eternal_Warfares_of_Wannabe_Gangsters
+
+[Eternity]
+class = drunkduck
+authors = EruannaII
+urlname = Eternity
+
+[Every Body is a cixelsyd]
+class = drunkduck
+authors = Katie Leon
+urlname = Every_Body_is_a_cixelsyd
+
+[Every Other Day]
+class = drunkduck
+authors = Cory ANP
+urlname = Every_Other_Day
+imgexp = <td border="2"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="http://img48.imageshack.us/img48/8845/last1.gif" border="0" height="36" width="94"></a>
+
+[Everything Jake]
+class = keenspot
+authors = Mike Rosenzweig
+homepage = http://everythingjake.com
+
+[Evil Overlord]
+class = drunkduck
+authors = Martin Zealley
+urlname = Evil_Overlord
+
+[ExistentiAlvin]
+class = drunkduck
+authors = Matthew Burnett
+urlname = ExistentiAlvin
+
+[Exterminatus Now]
+type = search
+authors = Stuart Edney, Martin Faulkner, Alan Graham and Garry Webber
+homepage = http://exterminatusnow.keenspace.com/
+imgexp = <img alt=\"\" border=\"0\" src=\"(http://exterminatusnow\.keenspace\.com/comics/\d+\.{{ext}})\" width=\"\d+\" height=\"\d+\" />
+previousexp = <a href=\"(http://exterminatusnow\.keenspace\.com/d/\d+\.html)\"><img class=\"ks_comic\" border=\"0\" name=\"previous_day\" alt=\"Previous comic\"
+
+[Extreme Society]
+class = drunkduck
+authors = Wendell T. Harness
+urlname = Extreme_Society
+
+[Faces in the News]
+class = ucomics
+authors = Kerry Waghorn
+urlname = facesinthenews
+urlnameshort = kw
+
+[Fallaparts Parts]
+class = drunkduck
+authors = josh finton/weasel
+urlname = fallaparts_parts
+
+[Fallen]
+type = search
+authors = Aido Rakaen
+homepage = http://aido.furvect.com/fallen.htm
+archiveurl = http://aido.furvect.com/fall/fal-page.htm
+archiveexp = <a href="(pages/part\d+/{{signs}}.htm)">\d+</a></FONT></P>
+imgexp = <IMG SRC="(page/{{filename}})"
+previousexp = <A HREF="({{signs}}.htm)"><FONT FACE="Courier">Back
+altpreviousexp = <A HREF="(\.\./{{signs}}/{{signs}}.htm)"><FONT FACE="Courier">Back
+
+[FFF]
+class = drunkduck
+authors = Deathcracker
+urlname = FFF
+imgexp = <div align="center"><img src='({{filename}})' border=0><br />
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/previous.gif' border="0" height="18" width="75" />
+
+[Fighting Words]
+class = comicssherpa
+authors = No Mind
+urlname = csnav
+
+[Fit City]
+class = comicssherpa
+authors = Steven Duquette
+urlname = csynn
+
+[Final Reality]
+class = drunkduck
+authors = Multi Coloured Mage
+urlname = Final_Reality
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://home.ripway.com/2004-4/100665/images/buttonback.PNG' border=0>
+
+[Fishin]
+class = drunkduck
+authors = Anton Kaldal
+urlname = Fishin
+
+[Five of a Kind]
+class = comicssherpa
+authors = Andrew Saunders
+urlname = csprh
+
+[Fizz]
+class = drunkduck
+authors = shrapnel
+urlname = Fizz
+
+[Flatland]
+class = comicssherpa
+authors = Grant Rogers
+urlname = csqof
+
+[Flight Deck]
+class = creators
+authors = Peter Waldner
+urlname = fli
+
+[Flo and Friends]
+class = creators
+authors = John Gibel & Jenny Campbell
+urlname = flo
+
+[Fluffy Phils Funatorium]
+class = drunkduck
+authors = Fluffy Phil
+urlname = Fluffy_Phils_Funatorium
+
+[For Better or For Worse]
+class = ucomics
+authors = Lynn Johnston
+urlname = forbetterorforworse
+urlnameshort = fb
+
+[For Heavens Sake]
+class = creators
+authors = Mike Morgan
+urlname = hev
+
+[For Petes Sake]
+class = comicssherpa
+authors = Pete Papanos
+urlname = csfgr
+
+[For Better or for Awesome]
+class = drunkduck
+authors = SeveredSeven
+urlname = forbetterorforawesome
+imgexp = <p align="center"><img src='({{filename}})' border=0></p>
+
+[Four Swords Mis Adventures]
+class = drunkduck
+authors = Reed
+urlname = Four_Swords_Mis_Adventures
+
+[FoxTrot]
+class = ucomics
+authors = Bill Amend
+urlname = foxtrot
+urlnameshort = ft
+
+[FoxTrot en Espanol]
+class = ucomics
+authors = Bill Amend
+urlname = foxtrotespanol
+urlnameshort = spft
+
+[Fragile Gravity]
+class = drunkduck
+authors = Chris Impink
+urlname = Fragile_Gravity
+
+[Framed]
+class = keenspot
+authors = Frank "Damonk" Cormier
+homepage = http://damonk.com
+altimgexp = <IMG ALT=\"\w+?\" BORDER=0 SRC=\"(/comics/\d+\.(?:gif|GIF|jpg))\">
+altpreviousexp = <a href=\"(/d/\d+\.html)\"><img border=0 name=\"previous_day\" alt=\"Previous comic\" src=\"/fantasyimages/previous_day\.(?:jpg|gif|png)\"
+
+[Freak Central]
+class = drunkduck
+authors = Brian Maze
+urlname = Freak_Central
+
+[Freak Enterprises]
+class = comicssherpa
+authors = Butch Berry
+urlname = cscqe
+
+[Fred Basset]
+class = ucomics
+authors = Alex Graham
+urlname = fredbasset
+urlnameshort = tmfba
+
+[Free Form Insanity]
+class = drunkduck
+authors = Jon Hanson
+urlname = Free_Form_Insanity
+
+[Friendly Hostility]
+class = keenspot
+authors = K. Fuhr
+homepage = http://friendlyhostility.com
+
+[Fries]
+class = drunkduck
+authors = murph
+urlname = fries
+
+[From Paint]
+class = drunkduck
+authors = thelostloser
+urlname = from_Paint
+imgexp = </td><td><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/from_Paint/gfx/jumpback.gif'  alt="Jump to Previous Strip" border=0 height=40 width=70></a>
+
+[Funky Winkerbean]
+class = sfgate
+authors = Tom Batiuk
+urlname = Funky_Winkerbean
+
+[Funny Farm]
+class = keenspot
+authors = Ryan Smith
+homepage = http://funnyfarmcomics.com
+
+[Fusco Brothers]
+class = ucomics
+authors = J.C. Duffy
+urlname = thefuscobrothers
+urlnameshort = fu
+
+[Fusion]
+class = drunkduck
+authors = The DD Community
+urlname = Fusion
+
+[Fuzzball and Silver]
+class = drunkduck
+authors = Jake New
+urlname = Fuzzball_and_Silver
+
+[G Makers]
+class = drunkduck
+authors = GMaker 
+urlname = G_Makers
+imgexp = <td bgcolor=white><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="http://www.drunkduck.com/G_Makers/gfx/newarrow2.gif" border=0>
+
+[Gamerz]
+class = drunkduck
+authors = AJ Young
+urlname = Gamerz
+
+[Gaming Guardians]
+class = keenspot
+authors = Graveyard Greg & Web Troll
+homepage = http://gamingguardians.com
+
+[Garfield]
+class = ucomics
+authors = Jim Davis
+urlname = garfield
+urlnameshort = ga
+
+[Garfield en Espanol]
+class = ucomics
+authors = Jim Davis
+urlname = garfieldespanol
+urlnameshort = gh
+
+[Gary Varvel]
+class = creatorsed
+authors = Gary Varvel
+urlname = gv
+
+[Gasoline Alley]
+class = comicspage
+authors = Jim Scancarelli
+urlname = gasoline
+urlname2 = gasolinealley
+
+[Gay Balls of Fire]
+class = drunkduck
+authors = hostile17
+urlname = Gay_Balls_of_Fire
+
+[GBC Inc]
+class = drunkduck
+authors = Justin Wilson
+urlname = gbcinc
+
+[GCF Chronicles]
+class = drunkduck
+authors = GCF
+urlname = GCF_Chronicles
+
+[Gene Catlow]
+class = keenspot
+authors = Albert Temple
+homepage = http://genecatlow.com
+
+[General Protection Fault]
+class = keenspot
+authors = Jeffrey T. Darlington
+homepage = http://www.gpf-comics.com
+altimgexp = <IMG SRC=\"(http://www.gpf-comics.com/archive/[a-zA-Z0-9_\-]+?\.(?:jpg|gif|png))\" WIDTH=\d+
+
+[Get Fuzzy]
+class = unitedmedia
+authors = Darby Conley
+urlname = getfuzzy
+
+[Ghastlys Ghastly Comic]
+type = search
+authors = Ghastly
+homepage = http://www.ghastlycomic.com
+imgexp = src=\"({{homepage}}/comics/\d+\.(?:jpg|gif))\"
+previousexp = <a href=\"({{homepage}}/d/\d+\.html)\"><img class=\"ks_comic\" border=\"0\" name=\"previous_day\" alt=\"Previous comic\"
+
+[Gigaville]
+type = search
+authors = Chris Doucette
+homepage = http://www.gigaville.com
+archiveurl = {{homepage}}/comic.php
+imgexp = <img src="({{homepage}}/images/{{filename}})"
+previousexp = <a href="(comic\.php\?id\=\d+)">< Previous
+
+[Gigawhut]
+type = search
+authors = Brian Maze
+homepage = http://www.elevatorfish.com/
+imgexp = <img src=\"(strips/\d+-\d+-\d+\.{{ext}})\">
+previousexp = <a href=\"(index\.php\?date=\d+-\d+-\d+)\"><IMG height=24 alt=\"\" src=\"images/buttons/back.gif\"
+
+[Gil Thorp]
+class = comicspage
+authors = Neal Rubin and Frank McLaughlin
+urlname = gilthorp
+
+[Ginger and Shadow]
+class = comicssherpa
+authors = Barry Corbett
+urlname = csndk
+
+[Girly]
+type = search
+authors = Josh Lesnick
+homepage = http://go-girly.com
+imgexp = <IMG ALT=\"\w+?\" BORDER=0 SRC=\"(/cutecomics/\w+\.(?:gif|GIF|jpg))\" HEIGHT=\"\d+\" WIDTH=\"\d+\">
+previousexp = <a href=\"(/\./\d+\.html)"><img border=0 name=\"previous_day\" alt=\"Previous comic\" src=\"/\./previous_day\.gif\"
+
+[Gits]
+class = drunkduck
+authors = Met Lord
+urlname = gits
+
+[Glenn McCoy]
+class = ucomics
+authors = Glenn McCoy
+urlname = glennmccoy
+urlnameshort = gm
+
+[GoKC]
+type = search
+authors = Pat Henninger
+homepage = http://www.gokc.tv
+imgexp = <img src="(graphics/days/Strips/{{filename}})"
+altimgexp = <img src="(\.\./\.\./graphics/days/Strips/{{filename}})"
+previousexp = <a href="(archived_pages/2004/{{signs}}.htm)"><img src="graphics_common/nav_prev.gif"
+altpreviousexp = <a href="({{signs}}.htm)"><img src="\.\./\.\./graphics_common/nav_prev.gif"
+
+[Grey Life]
+class = drunkduck
+authors = Matt Bowjangles
+urlname = Grey_Life
+
+[Greystone Inn]
+class = keenspot
+authors = Brad Guigar
+homepage = http://greystoneinn.net
+
+[Grootlore]
+type = search
+authors = Peter Gullerud
+homepage = http://www.grootlore.com
+imgexp = <img src=\"({{homepage}}/comics/\d+\.(?:jpg|gif))\">
+altpreviousexp = <a href =.?\".?({{homepage}}/comics/index\.php\?date=\d+)\">Previous</a>
+previousexp = <a href=\"({{homepage}}/comics/index\.php\?date=\d+)\"><font face=\"Arial,Helvetica\">Previous</font></a>
+
+[Gundam Wang]
+class = drunkduck
+authors = Stuart (Damien) Cutler
+urlname = Gundam_Wang
+
+[Gutters]
+class = comicssherpa
+authors = Todd Pound
+urlname = gutt
+
+[Hagar the Horrible]
+type = lateststatic
+authors = Chris Browne
+homepage = http://seattlepi.nwsource.com/fun/hagar.asp
+imgurl = http://pst.rbma.com/content/Hagar_The_Horrible
+referer = {{homepage}}
+
+[Halo Combat Unevolved]
+class = drunkduck
+authors = Fallen_Angel
+urlname = Halo_Combat_Unevolved
+
+[Handjam]
+class = drunkduck
+authors = Kevin Johnson
+urlname = Handjam
+
+[Heart of the City]
+class = ucomics
+authors = Mark Tatulli
+urlname = heartofthecity
+urlnameshort = hc
+
+[Heathcliff]
+class = creators
+authors = George Gately
+urlname = hth
+
+[Hedgehog Tales]
+class = drunkduck
+authors = Mike Sciarpelletti and Christian Golten
+urlname = Hedgehog__Tales
+imgexp = <img src='({{filename}})' border=0></font><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="\.\./Hedgehog__Tales/gfx/previous_day.jpg" border="0">
+
+[Helen]
+class = comicspage
+authors = Peter Zale
+urlname = helen
+
+[Hello Cruel World]
+type = search
+authors = Ron Braun
+homepage = http://www.hellocruelworld.com/
+archiveurl = http://www.oddworldz.com/thetoonguy/hcw.html
+imgexp = <img src=\"(comics/{{filename}})\"
+previousexp = <a href=\"(hcw{{signs}}.htm(?:l)?)"><font color=\"#(?:3A5771|E13427)\" size=\"2\" face=\"Verdana, Arial, Helvetica, sans-serif\">(?:Previous|<img src=\"images/strips_b\.gif\" border=\"0\">)</a>
+
+[Helpdesk]
+class = keenspot
+authors = Christopher B. Wright
+homepage = http://ubersoft.net
+
+[Her]
+type = search
+authors = Chris Bishop
+homepage = http://www.chrisbishop.com/her/
+archiveurl = http://www.chrisbishop.com/her/archives.html
+archiveexp = <table border="0" cellspacing="2" cellpadding="2" width="265"><tr><td>\#\d+</td><td><div align="left"><a href="(http://www.chrisbishop.com/her/archives/{{signs}}.html)">
+imgexp = <img src="(http://www.chrisbishop.com/her/strips/{{filename}})"
+previousexp = <a href="(http://www.chrisbishop.com/her/archives/{{signs}}.html)"><img src="\.\./images/arrow-previous.gif"
+
+[Herb and Jamaal]
+class = creators
+authors = Stephen Bentley
+urlname = hrb
+
+[High Impact Wrestling]
+class = drunkduck
+authors = Shaun Hurt
+urlname = High_Impact_Wrestling
+
+[Him Licentious]
+class = drunkduck
+authors = Amy V. Lawson
+urlname = Him_Licentious
+
+[Hollow Minds]
+class = drunkduck
+authors = Jesse
+urlname = Hollow_Minds
+
+[Homemade]
+class = drunkduck
+authors = Luis Miguel Santacruz
+urlname = homemade
+imgexp = <td bgcolor="\#CCCCCC" style="text-align\: center" colspan="5" width="661"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><font color="#00FF00"><img src='gfx/prev.gif' border=0 width="75" height="20">
+
+[Hooray for Things]
+class = drunkduck
+authors = Arock, MachN, Freegor
+urlname = Hooray_for_Things
+
+[Hounds Home]
+class = keenspot
+authors = Ryan Duchane
+homepage = http://houndshome.com
+
+[Housd]
+type = search
+authors = Ali Graham
+homepage = http://www.housd.net
+imgexp = <img src="({{homepage}}/kamikaze/comics/{{filename}})"
+previousexp = <a href="({{homepage}}/archive1\.php\?id\=\d+)"><img src="images/prev_a.gif"
+
+[Housebroken]
+class = comicspage
+authors = Steve Watkins
+urlname = housebroken
+
+[How to Make a Sprite Comic in Eight Easy Bits]
+class = drunkduck
+authors = Pat R
+urlname = How_to_Make_a_Sprite_Comic_in_Eight_Easy_Bits
+
+[Hubert and Abby]
+class = comicssherpa
+authors = Mel Henze
+urlname = cskvb
+
+[Huzzah Comics]
+class = drunkduck
+authors = David Myers
+urlname = Huzzah_Comics
+
+[Hyper Wonderland]
+class = drunkduck
+authors = Becky Bonne
+urlname = Hyper_Wonderland
+
+[HypHEN]
+class = drunkduck
+authors = SW inku
+urlname = HypHEN
+
+[I Cant Draw]
+class = drunkduck
+authors = NarfPoitChezBOOM
+urlname = I_Cant_Draw
+
+[I Dont Get It]
+class = comicssherpa
+authors = Steven Stehle
+urlname = cszyi
+
+[I Die with Honour]
+class = drunkduck
+authors = Cory
+urlname = I_Die_with_Honour
+
+[I hate you comic]
+class = drunkduck
+authors = David Hatch
+urlname = I_hate_you_comic
+
+[I Like Corn]
+class = drunkduck
+authors = Chris Struble
+urlname = I_Like_Corn
+
+[I suk]
+class = drunkduck
+authors = JRStrange
+urlname = I_suk
+imgexp = <TD align=middle><img src='({{filename}})' border=0>
+
+[Idiot Box]
+class = comicssherpa
+authors = Matt Bors
+urlname = cslvb
+
+[Idiot Talk]
+class = drunkduck
+authors = GuitarHero
+urlname = Idiot_Talk
+imgexp = <td bgcolor="\#5C0000" width="85%" align="center"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'>Back</a>
+
+[Id Ego and Psyche]
+class = drunkduck
+authors = K. Christy
+urlname = id_ego_and_psyche
+
+[Illustrated Insanity]
+class = drunkduck
+authors = Drew B White
+urlname = IllustratedInsanity
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://illustratedinsanity.com/pics/previous.gif' border=0>
+
+[In Other News]
+class = comicssherpa
+authors = Lar deSouza & Ryan Sohmer
+urlname = csojc
+
+[In Search Of]
+class = comicssherpa
+authors = Gabe Kempe
+urlname = csjlu
+
+[In the Bleachers]
+class = ucomics
+authors = Steve Moore
+urlname = inthebleachers
+urlnameshort = bl
+
+[Inebg]
+class = drunkduck
+authors = Tom Sennett
+urlname = inebg
+
+[Influenza Poultry]
+class = drunkduck
+authors = Loren Copeland
+urlname = Influenza_Poultry
+
+[InneR ChildreN]
+class = drunkduck
+authors = Ashi
+urlname = InneR_ChildreN
+
+[Inner_Demons]
+class = drunkduck
+authors = Cass Marshall
+urlname = Inner_Demons
+
+[Insomnia]
+class = drunkduck
+authors = Nedil
+urlname = Insomnia
+
+[Interrobang]
+class = drunkduck
+authors = Jeff F. Haines
+urlname = Interrobang
+
+[Isnt That the Truth]
+class = comicssherpa
+authors = Mike Moore
+urlname = csssk
+
+[iSpork]
+class = drunkduck
+authors = J. Thornton
+urlname = iSpork
+
+[Is it Con Yet]
+class = drunkduck
+authors = William Sebree
+urlname = Is_it_Con_Yet
+
+[It come in Pints]
+class = drunkduck
+authors = J. Pavka
+urlname = It_come_in_Pints
+
+[Its All Goyim]
+class = drunkduck
+authors = Anatole Ginsberg
+urlname = Its_All_Goyim
+
+[Its the pits]
+class = comicssherpa
+authors = Albert Elumn
+urlname = csxsk
+
+[Its Walky]
+class = keenspot
+authors = David Willis
+homepage = http://www.itswalky.com
+
+[Jack]
+type = search
+authors = David Hopkins
+homepage = http://www.pholph.com
+imgexp = <img src=\"(strips/Jack\d+\..*?)\".*?>
+previousexp = <a href=\"(index\.php\?Strip=\d+)\">Previous Strip</a>
+
+[Jack Higgins]
+class = ucomics
+authors = Jack Higgins
+urlname = jackhiggins
+urlnameshort = jh
+
+[Jack Ohman]
+class = comicspage
+authors = Jack Ohman
+urlname = ohman
+urlname2 = jackohman
+
+[Jack Velvet]
+class = comicssherpa
+authors = Dean Prefest
+urlname = csfsy
+
+[Jak and the Ripper]
+class = drunkduck
+authors = AJ Young
+urlname = Jak_and_the_Ripper
+
+[James]
+class = ucomics
+authors = Mark Tonra
+urlname = james
+urlnameshort = jm
+
+[Jared Smith Presents Insomnia]
+class = drunkduck
+authors = Jared Smith
+urlname = Jared_Smith_Presents_Insomnia
+
+[Jayce and Friends]
+class = drunkduck
+authors = Justin Atkinson
+urlname = Jayce_and_Friends
+
+[Jayhoo and Jawhoo]
+class = comicssherpa
+authors = Mark Velard
+urlname = csfiy
+
+[Jeff Danziger]
+class = ucomics
+authors = Jeff Danziger
+urlname = jeffdanziger
+urlnameshort = jd
+
+[Jeoff and Mike]
+class = drunkduck
+authors = Tom Taylor
+urlname = Jeoff_and_Mike
+imgexp = <p align="center"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Jeoff_and_Mike/gfx/larw.gif' border=0 height=50 width=50>
+
+[Jett and teh Mast0rs of teh Universe]
+class = drunkduck
+authors = Sequa
+urlname = Jett_and_teh_Mast0rs_of_teh_Universe
+
+[Jet and Joe]
+class = drunkduck
+authors = Clinton Pearce
+urlname = Jet_and_Joe
+
+[Joe and Monkey]
+type = search
+authors = Zach Miller
+homepage = http://www.joeandmonkey.com
+imgexp = <img src="(comic/{{filename}})"
+previousexp = <a href="(/index.php\?pageNum_Recordset2\=\d+\&totalRows_Recordset2\=\d+)">Previous
+
+[Joel and Steve]
+type = search
+authors = Stan W. Kost
+homepage = http://joelsteve.bolloxcomics.co.uk/
+imgexp = <img src=\"((?:comics|guest)(?:/greensheet)?/{{filename}})\" (?:width=\d+ )?(?:border=0 )?alt=\"
+previousexp = <a href=\"(\d+\.html)\">Previous</a>
+altpreviousexp = <a href=\"(\d+\.html)\"><img src=\"images/previous_day\.gif\" border=0></a>
+
+[Joel Bedfords Movie Grabs]
+class = drunkduck
+authors = Joel Bedford / Stan W. Kost
+urlname = Joel_Bedfords_Movie_Grabs
+
+[Joel Pett]
+class = ucomics
+authors = Joel Pett
+urlname = joelpett
+urlnameshort = jp
+
+[John Deering]
+class = creatorsed
+authors = John Deering
+urlname = jd
+
+[Joy of Tech]
+type = search
+authors = Geek Culture
+homepage = http://joyoftech.com/joyoftech/
+imgexp = <img src=\"((?:\.\./)?joyimages/\d+.\.{{ext}})\" height=\"\d+\" width=\"\d+\" (?:usemap=\"#{{signs}}\" )?border=\"0\">
+previousexp = <a href=\"((?:joyarchives/)?{{signs}}\.html)\"><img src=\"(?:\.\./)?joyimages/{{filename}}\" height=\"\d+\" width=\"\d+\" border=\"0\"><br>Previous Joy</a>
+altpreviousexp = <a href=\"({{signs}}\.html)\">Previous Joy</a>
+
+[Just Cope]
+class = drunkduck
+authors = Matthew Wirgler
+urlname = Just_Cope
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.mw-studios.com/justcope/previous.jpg' border=0 height=50 width=80>
+
+[Just Plain Random]
+class = drunkduck
+authors = Ghost
+urlname = Just_Plain_Random
+
+[KDL comic]
+class = drunkduck
+authors = Katherine Bassett
+urlname = KDL_comic
+
+[Ken Catalino]
+class = creatorsed
+authors = Ken Catalino
+urlname = kn
+
+[Kevin and Kell]
+type = search
+authors = Bill Holbrook
+homepage = http://www.herdthinners.com
+imgexp = <img border=\"\d+\" src=\"(http://www\.herdthinners\.com/gifs/\d+/\d+.gif)\" alt=\"Kevin a
+previousexp = <a href=\"(http://www\.herdthinners\.com/index\.phtml\?current=\d+)\"><img height=\d+ width=\d+ border=0 alt=\"Previous Day\" src=\"Icons/prev\.gif\"></a>
+pathlevels = 2
+
+[Killing Time]
+class = comicssherpa
+authors = Ned
+urlname = csblh
+
+[Kitschcore Presents]
+class = drunkduck
+authors = Michael Robin Cooke
+urlname = Kitschcore_Presents
+
+[Kong Comic]
+class = drunkduck
+authors = Craig Dean
+urlname = Kong_Comic
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Kong_Comic/gfx/prevnav.gif' border=0 height=50 width=50>
+
+[Kooky Wars]
+class = drunkduck
+authors = Ramath
+urlname = Kooky_Wars
+
+[Kooooomixxxx]
+class = drunkduck
+authors = J D 
+urlname = kooooomixxxx
+
+[Kore and Sore]
+class = drunkduck
+authors = Kore and Sore
+urlname = Kore_and_Sore
+
+[Krakow]
+type = search
+authors = Krazy Krow
+homepage = http://www.krakowstudios.com
+imgexp = <img src=\"({{homepage}}/comicpro/strips/\d+-\d+\.jpg)\">
+previousexp = <a href=\"(/index.php\?strip=\d+-\d+\.jpg)\"><img src=\"{{homepage}}/comicpro/prev\.gif\" border=0></a>
+
+[Krakow 2.0]
+type = search
+authors = Krazy Krow
+homepage = http://www.marilith.com
+imgexp = <img src=\"(comics/\w+\.(?:gif|jpg))\">
+previousexp = <a href=\"(archive\.php\?date=\d+)\"><img border=0 name=previous_day alt=\"The previous comic\" src=\"images/previous_day\.gif\"></a>
+
+[Krazy Larry]
+class = keenspot
+authors = Paul Southworth
+homepage = http://krazylarry.com
+
+[Kreiger]
+class = drunkduck
+authors = Dale Jordan Johnson
+urlname = Kreiger
+imgexp = <BR><img src='({{filename}})' border=0></TD></TR>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prev.png' border=0 height=31 width=85></a>
+
+[Krud E Komix Inc]
+class = drunkduck
+authors = T.L. Steinbroner
+urlname = Krud_E_Komix_Inc
+
+[Kudzu]
+class = comicspage
+authors = Doug Marlette
+urlname = kudzu
+
+[La Cucaracha]
+class = ucomics
+authors = Lalo Alcaraz
+urlname = lacucaracha
+urlnameshort = lc
+
+[Labgoats, Inc.]
+class = comicssherpa
+authors = Petie Shumate
+urlname = csafe
+
+[Lalo Alcaraz]
+class = ucomics
+authors = Lalo Alcaraz
+urlname = laloalcaraz
+urlnameshort = la
+
+[LateNightThoughts]
+class = drunkduck
+authors = Nick J
+urlname = LateNightThoughts
+
+[Laugh It Off]
+class = drunkduck
+authors = Cameron Davis
+urlname = Laugh_It_Off
+
+[Le High Life]
+class = drunkduck
+authors = Heather Murray
+urlname = le_High_Life
+
+[Learning Laffs]
+class = comicssherpa
+authors = John P. Wood
+urlname = cswgt
+
+[Least I Could Do]
+type = search
+authors = Ryan Sohmer & Chad W.M. Porter
+homepage = http://www.leasticoulddo.com
+archiveurl = {{homepage}}/comics/comics.php?date=
+imgexp = <img src=\"(strips/\d+\.{{ext}})\" alt=\"\">
+previousexp = <area shape=\"rect\" coords=\"181,16,259,38\" href=\"({{homepage}}/comics/comics.php\?date=\d+)\">
+
+[Ledgermain]
+class = drunkduck
+authors = Landon Porter and Rebecca Scholz
+urlname = Ledgermain
+
+[Legacy of Kain Laugh Reaver]
+class = drunkduck
+authors = Blackmoon
+urlname = Legacy_of_Kain_Laugh_Reaver
+
+[Lemon 13]
+class = comicssherpa
+authors = Larry Scarborough
+urlname = csqne
+
+[Lemon and Karl]
+class = drunkduck
+authors = Mike Cryan
+urlname = Lemon_and_Karl
+
+[Leo and OVEJO]
+class = comicssherpa
+authors = David Alvarez
+urlname = csbum
+
+[Liberty Meadows]
+class = creators
+authors = Frank Cho
+urlname = lib
+
+[Life]
+class = drunkduck
+authors = Christine Maximus Lee
+urlname = Life
+
+[Lifes A Riot]
+class = drunkduck
+authors = Brian Hooper
+urlname = Lifes_A_Riot
+
+[Life of Ed]
+class = drunkduck
+authors = lifeofed
+urlname = Life_of_Ed
+imgexp = <p align="center"><img src='({{filename}})' border=0>
+
+[Lindgren Cartoons]
+class = drunkduck
+authors = Eric Lindgren
+urlname = Lindgren_Cartoons
+imgexp = <TR><TD><img src='({{filename}})' border=0><br></TD></TR>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.vci.net/~ericnkimbg/MS/prev.gif' border=0 height=60 width=59></a>
+
+[Liquid Thought]
+class = comicssherpa
+authors = Robert E G Black
+urlname = cskwm
+
+[Little Gamers]
+class = ioncomix
+authors = Christian Fundin & Pontus Madsen
+homepage = http://www.little-gamers.com
+previousexp = <a href='(/index\.php\?strip_id=\d+)'>Previous</a>
+
+[Locoma]
+class = drunkduck
+authors = Monk Honk
+urlname = Locoma
+
+[Logos]
+class = drunkduck
+authors = Kyle Morck
+urlname = Logos
+imgexp = <BR><BR><img src='({{filename}})' border=0><BR>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://chimpinc.buildtolearn.net/img/prevnav.gif' border=0 height=50 width=50></a>
+
+[Lola]
+class = comicspage
+authors = Steve Dickenson and Todd Clark
+urlname = lola
+
+[Look What I Brought Home]
+class = keenspot
+authors = Scott E. Kuehner
+homepage = http://lookwhatibroughthome.com
+
+[Loose Parts - panel]
+class = comicspage
+authors = Dave Blazek
+urlname = looseparts
+
+[Loose Parts - strip]
+class = comicspage
+authors = Dave Blazek
+urlname = lpsunday
+
+[Loserz]
+type = search
+authors = Erik Schoenek
+homepage = http://loserz.scribblekid.org
+imgexp = <img src='(comics/\w+\.(?:jpg|gif))' border=1>
+previousexp = <a href='(index\.php\?id=\d+)'><img src='elements/back\.gif' alt='Previous Comic' width='65' height='65' border='0'></a>
+
+[Lost and Found]
+class = keenspot
+authors = Matt Milligan
+homepage = http://lostandfoundcomic.com
+
+[Lost Sheep]
+class = ucomics
+authors = Dan Thompson
+urlname = lostsheep
+urlnameshort = lost
+
+[Love Is]
+class = comicspage
+authors = Kim and Stefano Casali
+urlname = loveis
+
+[Love Is - en Espanol]
+class = comicspage
+authors = Kim and Stefano Casali
+urlname = loveisspanish
+
+[Lower Rez]
+class = drunkduck
+authors = Danny Goldstein
+urlname = Lower_Rez
+
+[Lo Rez]
+class = drunkduck
+authors = DMG
+urlname = Lo_Rez
+
+[Lucky Cow]
+class = ucomics
+authors = Mark Pett
+urlname = luckycow
+urlnameshort = luc
+
+[Lugs]
+class = drunkduck
+authors = monovaya
+urlname = lugs
+imgexp = </font><br><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'>previous</a>
+
+[Lumber]
+class = drunkduck
+authors = the Brothers Shoup
+urlname = lumber
+
+[Lump McDoogle]
+class = drunkduck
+authors = Kevin McCullen
+urlname = Lump_McDoogle
+
+[Mac Hall]
+class = ioncomix
+authors = Matt Boyd & Ian McConville
+homepage = http://www.machall.com
+previousexp = <a href='(/index\.php\?strip_id=\d+)'><img border=0 src='drop_shadow/previous.gif'></a>
+
+[Maddland]
+class = drunkduck
+authors = Nathalie Julien
+urlname = maddland
+
+[MadDog Ghetto Cop]
+class = comicssherpa
+authors = Stanislaus P. Ortega
+urlname = cskwp
+
+[Made to Measure]
+class = drunkduck
+authors = Anatole Ginsberg
+urlname = Its_All_Goyim
+
+[MADNESS]
+class = drunkduck
+authors = Vanessa
+urlname = MADNESS
+
+[Mad Comics]
+class = drunkduck
+authors = Daniel
+urlname = Mad_Comics
+
+[Mad World]
+class = drunkduck
+authors = Michael Wriston
+urlname = Mad_World
+
+[Magic Girls VCX]
+class = drunkduck
+authors = Magic Girl VZG
+urlname = Magic_Girls_VCX
+
+[Mahrs Miscellaneous Mishaps]
+class = drunkduck
+authors = Inkmonkey_Jedi
+urlname = Mahrs_Miscellaneous_Mishaps
+imgexp = <center><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Mahrs_Miscellaneous_Mishaps/gfx/prevnav.gif'></a>
+
+[Mallard Fillmore]
+class = sfgate
+authors = Bruce Tinsley
+urlname = Mallard_Fillmore
+
+[MARBLES]
+class = drunkduck
+authors = Lucifer Ulrich
+urlname = MARBLES
+
+[Margulies]
+class = creatorsed
+authors = Jimmy Margulies
+urlname = jm
+
+[Mario and Link Resprited]
+class = drunkduck
+authors = charlie robert jackson
+urlname = mario_and_link_resprited
+
+[Martins Misdirection]
+type = search
+authors = James Burks
+homepage = http://www.martinsmisdirection.com
+imgexp = <img src="(/thisweeksstrip/{{filename}})"
+altimgexp = <img src="((?:/archives/pages/i|i)mages/{{filename}})"
+previousexp = <td align="left"><a href="(/archives/pages/{{signs}}.htm)"
+altpreviousexp = <a href="((?:/archives/pages/page|page)\d+.htm)"><img src="images/page13_12.gif"
+
+[Masquatto Corner]
+class = drunkduck
+authors = Masquatto
+urlname = Masquatto_Corner
+
+[Matt Davies]
+class = comicspage
+authors = Matt Davies
+urlname = mattdavies
+
+[Meatballman]
+class = drunkduck
+authors = Doug C.
+urlname = Meatballman
+
+[Meehan Streak]
+class = comicspage
+authors = Kieran Meehan
+urlname = meehan
+
+[Mega Central]
+class = drunkduck
+authors = Tom Sennett
+urlname = Mega_Central
+imgexp = <td bgcolor=white><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="http://www.drunkduck.com/Mega_Central/gfx/newarrow2.gif" border=0>
+
+[Megaman the Endless Parody]
+class = drunkduck
+authors = thomas fyfe
+urlname = megaman_the_endless_parody
+
+[Megaman XP]
+class = drunkduck
+authors =  Robert Nemcik
+urlname = Megaman_XP
+
+[MegaTokyo]
+type = search
+authors = Fred Gallagher
+homepage = http://www.megatokyo.com
+imgexp = <IMG SRC=\"(/strips/\d+\..*?)\"
+previousexp = <a href=\'(index\.php\?strip_id=\d+)\'><img border=\d+ src=\'http://www\.megatokyo\.com/parts/mt-bottom-prev\.gif\'></a>
+
+[Melonpool]
+class = keenspot
+authors = Steve Troop
+homepage = http://melonpool.com
+
+[Men in Hats]
+class = keenspot
+authors = Aaron Farber
+homepage = http://meninhats.com
+previousexp = <a href=\"(/d/\d+?\.html)\">Previous comic</a>
+
+[Mental For Rental]
+class = drunkduck
+authors = Niels B.
+urlname = Mental_For_Rental
+
+[Mexican Gameboy]
+class = drunkduck
+authors = you2
+urlname = Mexican_Gameboy
+imgexp = <td width="100%" bgcolor="#6A0000" align="center"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'>Back</a>
+
+[Middletons]
+class = comicspage
+authors = Ralph Dunagin and Dana Summers
+urlname = middletons
+urlname3 = middletones
+
+[Midnight Run]
+class = drunkduck
+authors = midnight_light
+urlname = midnight_run
+imgexp = <TR><TD><img src='({{filename}})' border=0>
+
+[Mike and Eric]
+class = comicssherpa
+authors = Eric Paul Johnson
+urlname = csvvw
+
+[Mikyagu]
+class = drunkduck
+authors = Bobo Kuntz
+urlname = MIKYAGU
+
+[MindCircus]
+class = drunkduck
+authors = c-mind 
+urlname = MindCircus
+
+[Misadventure]
+class = drunkduck
+authors = Nicholas J.G. Stroffolino
+urlname = Misadventure
+
+[Misfile]
+type = search
+authors = Chris Hazelton
+homepage = http://www.misfile.com
+imgexp = src="({{homepage}}/pages/{{filename}})"
+previousexp = <a href="({{homepage}}/archives/{{signs}}.htm)"><img border="0" src="{{homepage}}/back.jpg"
+
+[Mister Boffo]
+class = comicspage
+authors = Joe Martin
+urlname = misterboffo
+
+[Mixed Media]
+class = comicspage
+authors = Jack Ohman
+urlname = mixedmedia
+
+[Momma]
+class = creators
+authors = Mell Lazarus
+urlname = mom
+
+[Monday StandUp Comics]
+class = drunkduck
+authors = Candy
+urlname = Monday_StandUp_Comics
+
+[Monica Furious]
+type = search
+authors = Jeremiah Goldson
+homepage = http://leadsalad.com/
+imgexp = <img alt=\"(?:Latest )?Comic Page\" src=\"(comics/[a-z0-9_\-\.% ]+?\.{{ext}})\" />
+previousexp = <a href=\"(prev\.php\?id=\d+)\">\&lt;Previous</a>
+
+[Monkey With a Knife]
+class = drunkduck
+authors = Joel Esler
+urlname = monkey_with_a_knife
+
+[MonkeyNaut]
+class = comicssherpa
+authors = Mat Pruneda and Jaime Paxton
+urlname = cswer
+
+[Mooks]
+class = drunkduck
+authors = Bret Hewes and Elliot Brown
+urlname = Mooks
+
+[Mopery]
+class = drunkduck
+authors = Danny Reid
+urlname = Mopery
+
+[Mossprints]
+class = creatorsed
+authors = Geoffrey Moss
+urlname = gm
+
+[Mouse Drawn]
+class = drunkduck
+authors = Stephen Hayes
+urlname = Mouse_Drawn
+
+[MT COMICS]
+class = drunkduck
+authors = Shadow
+urlname = MT_COMICS_
+
+[Muck]
+class = comicssherpa
+authors = G.E.Koenig
+urlname = csfea
+
+[Mullets]
+class = ucomics
+authors = Rick Stromoski and Steve McGarry
+urlname = mullets
+urlnameshort = mul
+previousexp = <a href = \"(http://www\.ucomics\.com/{{urlname}}/\d+/\d+/\d+/)\"><IMG SRC="http://images.ucomics.com/images/{{urlnameshort}}/prevpage.gif" WIDTH=\"\d+\" HEIGHT=\"\d+\" ALIGN=\"\w+\" BORDER=\"\d+\" NATURALSIZEFLAG=\"\d+\"></a>
+
+[Mutts]
+class = sfgate
+authors = Patrick McDonnell
+urlname = Mutts
+
+[My Poor Web Comic]
+class = drunkduck
+authors = Murphy
+urlname = My_Poor_Web_Comic
+imgexp = <br><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prevnav.jpg' border=0 height=50 width=50>
+
+[My Reality]
+class = drunkduck
+authors = Kevin Dominick
+urlname = My_Reality
+imgexp = <TD align=middle><img src='({{filename}})' border=0>
+
+[My So Called Strife]
+class = drunkduck
+authors = Kimaera Lee/Ms. Chief
+urlname = My_So_Called_Strife
+
+[My Stupid Pathetic Webcomic]
+class = drunkduck
+authors = James Shea
+urlname = My_Stupid_Pathetic_Webcomic
+
+[Myself and Them 2]
+class = drunkduck
+authors = Otyo
+urlname = Myself_and_Them_2
+imgexp = <br><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Myself_and_Them_2/gfx/prevnav.gif' border='0'>
+
+[Myth-Tickle]
+class = comicssherpa
+authors = Justin Thompson
+urlname = csnyh
+
+[NapsterDotBoat]
+class = drunkduck
+authors = Inkmonkey_Pirate
+urlname = NapsterDotBoat
+imgexp = <img src='({{filename}})' border=0></center></br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src=http://www.drunkduck.com/NapsterDotBoat/gfx/prev.jpg>
+
+[Natural Selection]
+class = creators
+authors = Russ Wallace
+urlname = nat
+
+[Necromancer Shaman Spirit]
+class = drunkduck
+authors = Sebastian Koever/Paul Rizza
+urlname = n3crom4nc3rsh4m4nspiri7
+imgexp = TD align=center><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prevnav.jpg' border=0 height=75 
+
+[NEIGHBORS]
+class = drunkduck
+authors = Steve Phelps
+urlname = NEIGHBORS
+
+[Neko The Kitty]
+type = search
+authors = Gearoid Molloy
+homepage = http://nekothekitty.keenspace.com
+imgexp = src="({{homepage}}/comics/{{filename}})"
+previousexp = <a href="({{homepage}}/d/\d+.html)"><img class="ks_comic" border="0" name="previous_day" alt="Previous comic" src="{{homepage}}/images/previous_day.{{ext}}"
+
+[Nervillsaga]
+type = search
+authors = Kyle Weems
+homepage = http://www.nervillsaga.com
+archiveurl = http://www.nukesoft.com/nervill/index.html
+imgexp = img SRC="(pic/{{filename}})"
+altimgexp = <td ALIGN=CENTER COLSPAN="4"><img SRC="({{filename}})"
+previousexp = <a href="(pic/{{signs}}.html)"><img SRC="wood_previous.gif"
+altpreviousexp = <a href="({{signs}}.html)"><img SRC="\.\./previous.gif"
+
+[Neurotica]
+class = ucomics
+authors = Big Al the Gal
+urlname = neurotica
+urlnameshort = neu
+
+[Neurotica drunkduck]
+class = drunkduck
+authors = Kristin Wosar
+urlname = Neurotica
+
+[Newshounds]
+class = keenspot
+authors = Thomas K. Dye
+homepage = http://newshounds.com
+
+[Niego]
+type = search
+authors = Jason Sigala
+homepage = http://www.niego.org/
+imgexp = <img src=\"({{homepage}}comic/comic\d+\.{{ext}})\">
+previousexp = <a href=\"({{homepage}}comic/comic\d+.html)\">Previous</a>
+
+[Nightshade Komiks]
+class = drunkduck
+authors = Bryan Walcher and Chris Landry
+urlname = Nightshade_Komiks
+
+[Nihilism]
+type = search
+authors = A. Sanders
+homepage = http://nihilism.danseibi.net/
+imgexp = <img src=\"(strips/\d+\.{{ext}})\" alt=
+previousexp = <a href=\"(\?date=\d+)\"><img src=\"previous\.gif\" border=0 Alt=\"Previous\"></a>
+
+[Nine to Five]
+class = comicspage
+authors = Harley Schwadron
+urlname = ninetofive
+
+[Ninja Weekly]
+class = drunkduck
+authors = the evil reanimated corpse of Jacob Engel
+urlname = Ninja_Weekly
+
+[No 4th Wall to Break]
+class = drunkduck
+authors = Chris Whetstone
+urlname = No_4th_Wall_to_Break
+
+[No Business I Know]
+class = comicssherpa
+authors = Doug Crepeau & Kevin Hopkins
+urlname = csmfg
+
+[No Humor]
+class = drunkduck
+authors = Andrew de Lange
+urlname = No_Humor
+
+[No Need For Bushido]
+type = search
+authors = Alex Kolesar & Joe Kovell
+homepage = http://www.noneedforbushido.com
+imgexp = <img .*?src=\"(images/(?:fanart|archive)/.+?)\".*?>
+previousexp = <area shape=\"rect\" coords=\"\d+,\d+,\d+,\d+\" href=\"(comic\d+\.html)\" alt=\"Previous Comic\">
+altpreviousexp = <td><a href=\"(comic\d+\.html)\"><img border=\"0\" src=\"graphics/previous_day.gif\" width=\"\d+\" height=\"\d+\"></a></td>
+
+[No Questions Asked]
+class = drunkduck
+authors = Daniel Flynn
+urlname = No_Questions_Asked
+
+[No Room For Magic]
+class = drunkduck
+authors = Adrian Ramos
+urlname = No_Room_For_Magic
+
+[Non Sequitur]
+class = ucomics
+authors = Wiley Miller
+urlname = nonsequitur
+urlnameshort = nq
+
+[Noob]
+class = drunkduck
+authors = Rodney Woods
+urlname = Noob
+
+[Norse Studios]
+class = drunkduck
+authors = Mark Low/Curtis Low
+urlname = Norse_Studios
+imgexp = <img src='({{filename}})' border=0></td></tr>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="gfx/prev.jpg" width="31" height="18" alt="Previous" border="0">
+
+[Not Quite Right]
+class = comicssherpa
+authors = Travis Storti
+urlname = csrpo
+
+[Nothing Sacred in Insanity]
+class = drunkduck
+authors = William D. McCauley
+urlname = Nothing_Sacred_in_Insanity
+
+[Nukees]
+class = keenspot
+authors = Darren Bleuel
+homepage = http://nukees.com
+
+[Oddly Enough]
+class = ucomics
+authors = Chris Kemp
+urlname = oddlyenough
+urlnameshort = oe
+
+[Off The Wall]
+class = comicssherpa
+authors = Jerry McGee
+urlname = csoef
+
+[Oh My Gods]
+type = search
+authors = Shivian Montar Balaris
+homepage = http://ohmygods.timerift.net
+imgexp = <img src="(strips/\d+/\d+/{{filename}})"
+altimgexp = "strip" --><img src="({{filename}})"
+previousexp = <a href="((?:strips/\d+|..)/\d+/{{signs}}.php)">previous
+altpreviousexp = <a href="({{signs}}.php)">previous
+
+[Oh Snap]
+class = drunkduck
+authors = Scott Smith
+urlname = Oh_Snap
+
+[Oh Stalker of Mine]
+class = drunkduck
+authors = Dez
+urlname = Oh_Stalker_of_Mine
+
+[Okay Pants]
+type = search
+authors = Julie Keene
+homepage = http://www.okaypants.com/
+imgexp = <center><img src=\"(comic/\d+\.{{ext}})\"></td>
+previousexp = <a href=\"(index\.php\?st=\d+)\"><img src=\"graphs/previous\.gif\"
+
+[Olivercomic]
+class = drunkduck
+authors = Alex Ellsworth
+urlname = olivercomic
+
+[Omega Theatre]
+class = drunkduck
+authors = GuitarHero11
+urlname = Omega_Theatre
+imgexp = <img src='({{filename}})' border=0></td></tr>
+previousexp = <a href='({{homepage}}/\?i=\d+)'>Back</a>
+
+[On the Curve]
+class = comicssherpa
+authors = KP Maeda
+urlname = csbdh
+
+[One Big Disclaimer]
+class = drunkduck
+authors = peacock
+urlname = one_big_disclaimer
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/one_big_disclaimer/gfx/pointer%20left.jpg' border=0 height=50 width=50>
+
+[One Big Happy]
+class = creators
+authors = Rick Detorie
+urlname = obh
+
+[One Nation, Under Dog]
+class = comicssherpa
+authors = Kurt Jensen & Mike Martone
+urlname = csuwn
+
+[OokyPooks]
+class = drunkduck
+authors = JMS
+urlname = OokyPooks
+
+[Operation SciFi]
+class = drunkduck
+authors = Cameron OReilly
+urlname = Operation_SciFi
+imgexp = <TD align=center><img src='({{filename}})' border=0>
+
+[Opossums]
+class = drunkduck
+authors = Chungo
+urlname = Opossums
+
+[Orange Parfait]
+class = drunkduck
+authors = Hazel Won
+urlname = Orange_Parfait
+
+[Order of the Stick]
+type = search
+authors = Rich Burlew
+homepage = http://www.giantitp.com/cgi-bin/GiantITP/ootscript
+imgexp = <td><img src=\"(\.\./\.\./oots/oots\d+\.{{ext}})\"></td>
+previousexp = <A href=\"(ootscript\?SK=\d+)\">\&lt;\&lt;Previous</A>
+
+[Oshkosh and Josh]
+class = drunkduck
+authors = Jonathan Requesens
+urlname = Oshkosh_and_Josh
+
+[Otaku Life]
+class = drunkduck
+authors = Jeanette Brown
+urlname = Otaku_Life
+
+[Overboard]
+class = ucomics
+authors = Chip Dunham
+urlname = overboard
+urlnameshort = ob
+
+[PaperbagKid]
+class = drunkduck
+authors = Logan Brigman
+urlname = PaperbagKid
+
+[Paperboy]
+class = drunkduck
+authors = Paperboy
+urlname = paperboy
+
+[Parental Advisory]
+class = drunkduck
+authors = Siv
+urlname = Parental_Advisory
+imgexp = <TD align=center><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prevnav.gif' border=2 height=100
+
+[PartiallyClips]
+class = drunkduck
+authors = Rob Balder
+urlname = PartiallyClips
+
+[Pat Oliphant]
+class = ucomics
+authors = Pat Oliphant
+urlname = patoliphant
+urlnameshort = po
+
+[Patent Sweater]
+class = comicssherpa
+authors = Ali Fitzgerald
+urlname = csnhm
+
+[Paul Conrad]
+class = comicspage
+authors = Paul Conrad
+urlname = paulconrad
+
+[Paul Szep]
+class = creatorsed
+authors = Paul Szep
+urlname = ps
+
+[PCGF UK Comics]
+class = drunkduck
+authors = Dystopian Rhetoric
+urlname = PCGF_UK_Comics
+
+[Peanuts]
+class = unitedmedia
+authors = Charles Schulz
+urlname = peanuts
+
+[Pearls Before Swine]
+class = unitedmedia
+authors = Stephan Pastis
+urlname = pearls
+
+[Pebble Version]
+type = search
+authors = Josiah Lebowitz
+homepage = http://www.pebbleversion.com/
+imgexp = <img src=\"((?:\.\./)?ComicStrips/Comic\d+\.{{ext}})\"
+previousexp = <a href=\"((?:Archives/)?Strip\d+\.html)\">Previous Comic</a>
+
+[Penny Arcade]
+type = search
+authors = Krahulik & Holkins
+homepage = http://www.penny-arcade.com
+archiveurl = {{homepage}}/view.php3
+imgexp = <img src=\"(images/\d+/.+?)\".*?></td>
+previousexp = <a href=\"(view\.php3\?date=\d+-\d+-\d+\&res=l)\"><img src=\"bluegrey\/images\/strip\/back_stripnav\.gif
+
+[Period]
+class = drunkduck
+authors = RadariG
+urlname = Period
+imgexp = <BR><BR><img src='({{filename}})' border=0><BR><BR>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img border="0" src="http://www.drunkduck.com/Period/gfx/back.gif">
+
+[Phancy Pants]
+class = drunkduck
+authors = Kiel Gettler/Myke Bushey
+urlname = Phancy_Pants
+
+[Phantom]
+class = sfgate
+authors = Lee Falk
+urlname = Phantom
+
+[Pie]
+class = drunkduck
+authors = elaine
+urlname = pie
+imgexp = <TR><TD><img src='({{filename}})' border=0><br></TD>
+
+[Pie Are Squared]
+class = drunkduck
+authors = YamiZero and Amadeus06
+urlname = Pie_Are_Squared
+
+[Pig Related]
+class = drunkduck
+authors = PigRelated 
+urlname = Pig_Related
+imgexp = <div align="center"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prevnav.gif' border=0>
+
+[Piled Higher and Deeper]
+class = comicssherpa
+authors = Jorge Cham
+urlname = csfba
+
+[Piranha Club]
+class = sfgate
+authors = Bud Grace
+urlname = Piranha
+
+[Pixel Heaven]
+type = search
+authors = Laura Cassidy
+homepage = http://www.pixelheaven.net
+imgexp = <img src="(images/sketches/{{filename}})"
+altimgexp = <img src="(images/comics/{{filename}})"
+previousexp = <A href="({{signs}}.php)"><IMG src="images/site/prevbutton.jpg"
+
+[Pluggers]
+class = comicspage
+authors = Gary Brookins
+urlname = pluggers
+
+[Police Limit]
+class = comicssherpa
+authors = Garey Mckee
+urlname = cspcc
+
+[Pooch Cafe]
+class = ucomics
+authors = Paul Gilligan
+urlname = poochcafe
+urlnameshort = poc
+
+[Pooch Cafe en Espanol]
+class = ucomics
+authors = Paul Gilligan
+urlname = poochcafeespanol
+urlnameshort = sppoc
+
+[Poopy]
+class = drunkduck
+authors = Dr.Cookies
+urlname = Poopy
+
+[Pop Culture]
+class = ucomics
+authors = Steve McGarry
+urlname = popculture
+urlnameshort = pop
+
+[Pop Fiction]
+class = comicssherpa
+authors = Greg Pepin
+urlname = csadz
+
+[PopCherryWag]
+class = drunkduck
+authors = Stedham
+urlname = PopCherryWag
+
+[Popeye]
+class = sfgate
+authors = Hy Eisman
+urlname = Popeye
+
+[Popular Misfit Mafia in Wonderland]
+class = drunkduck
+authors = Lauren Podima
+urlname = Popular_Misfit_Mafia_in_Wonderland
+
+[Pork and Bean]
+class = comicssherpa
+authors = Brian Dunaway
+urlname = csxcm
+
+[Preteena]
+class = ucomics
+authors = Allison Barrows
+urlname = preteena
+urlnameshort = pr
+
+[Prickly City]
+class = ucomics
+authors = Scott Stantis
+urlname = pricklycity
+urlnameshort = prc
+
+[Prima Macto]
+class = drunkduck
+authors = Kegan Cloos
+urlname = Prima_Macto
+
+[Psychic Headache]
+class = drunkduck
+authors = Steven Wilber
+urlname = Psychic_Headache
+
+[Psychomutt]
+class = drunkduck
+authors = Javier Hidalgo
+urlname = psychomutt
+
+[Psychos On Parade]
+class = drunkduck
+authors = psychosonparade
+urlname = Psychos_On_Parade
+imgexp = <br><center><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="http://www.drunkduck.com/Psychos_On_Parade/gfx/prev.jpg">
+
+[Puppetry]
+class = drunkduck
+authors = Skyler Breeden
+urlname = Puppetry
+
+[Puppet Show]
+class = drunkduck
+authors = Tyler Griffiths/Paul Watts
+urlname = Puppet_Show
+
+[PVP]
+type = search
+authors = Scott Kurtz
+homepage = http://www.pvponline.com
+imgexp = <CENTER><IMG SRC=\"(archive/\d+/pvp\d+\.gif)\"></CENTER>
+previousexp = <A HREF=\'(archive\.php3\?archive=\d+)\'><img src=\'images/buttons/previous\.gif\' alt=\'previous\' border=0></A>
+
+[PWND]
+class = drunkduck
+authors = JAE
+urlname = PWND
+
+[Queen of Wands]
+class = keenspot
+authors = Aeire
+homepage = http://queenofwands.net
+
+[Questionable Content]
+type = search
+authors = J. Jacques
+homepage = http://www.questionablecontent.net
+imgexp = <img src=\"(./comics/\d+.png)\">
+previousexp = <a href=\"(view\.php\?comic=\d+)\">Previous</a>
+
+[Quietboy]
+class = comicssherpa
+authors = David Essman
+urlname = csdhm
+
+[Quigmans]
+class = comicspage
+authors = Buddy Hickerson
+urlname = quigmans
+
+[Qwerty]
+class = drunkduck
+authors = Arnold Sheeon Amadeus Chui
+urlname = qwerty
+
+[Rabbit Khan]
+class = drunkduck
+authors = Seth Charles Thomas
+urlname = Rabbit_Khan
+
+[Radioactive Panda]
+type = search
+authors = Eric A. Johnson
+homepage = http://radioactivepanda.com
+imgexp = <img src="(Assets/(?:Finished%20Comics|Forum%20Stuff)/{{filename}})"
+previousexp = <a href="({{signs}}.htm)" target="_self"><img src="Assets/Interface/arrow_l_next_button.gif"
+
+[Random 70s detective show]
+class = drunkduck
+authors = Anthony B and Christine L
+urlname = Random_70s_detective_show
+
+[Random Crap]
+class = drunkduck
+authors = Merlin Missingham
+urlname = Random_Crap
+
+[Random Thoughts]
+class = drunkduck
+authors = Jenny Lui
+urlname = Random_Thoughts
+imgexp = <td><img src='({{filename}})' border=0></td></tr>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="\./gfx/nav_prev.gif" border=0>
+
+[Randomania]
+class = drunkduck
+authors = Hazel W
+urlname = Randomania
+
+[RandomEvents]
+class = drunkduck
+authors = Erv Kosch
+urlname = RandomEvents
+imgexp = <td width=99% align=center><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'>&lt;</a>
+
+[Randomness]
+class = drunkduck
+authors = john harfouche
+urlname = randomness
+
+[Randy and Roswell]
+class = comicssherpa
+authors = Q
+urlname = cslum
+
+[Rapunzels Head Explodes]
+class = drunkduck
+authors = Alan Miller
+urlname = Rapunzels_Head_Explodes
+
+[RBC]
+class = drunkduck
+authors = Chrystal Waithe
+urlname = RBC
+
+[Real Life]
+class = ioncomix
+authors = Greg Dean
+homepage = http://www.reallifecomics.com
+previousexp = <a href=\"(daily\.php\?strip_id=\d+)\"><img src=\"images/nav_previous\.png\"
+
+[Real Life Adventures]
+class = ucomics
+authors = Gary Wise and Lance Aldrich
+urlname = reallifeadventures
+urlnameshort = rl
+
+[Real NSG Stories]
+class = drunkduck
+authors = Jeremy Hammond
+urlname = Real_NSG_Stories
+
+[Reality Challenged]
+class = drunkduck
+authors = MikotheHero
+urlname = Reality_Challenged
+imgexp = <center><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="http://www.drunkduck.com/Jinxed/gfx/back.gif" border=0>
+
+[Realm of Shadow]
+class = drunkduck
+authors = Luke Pointer
+urlname = Realm_of_Shadow
+
+[Red Meat]
+type = lateststatic
+authors = Max Cannon
+homepage = http://www.redmeat.com
+imgurl = {{homepage}}/redmeat/current/index-1.gif
+
+[Red Silver]
+class = drunkduck
+authors = Kerluthan Luvia
+urlname = Red_Silver
+
+[Reynolds Unwrapped]
+class = ucomics
+authors = Dan Reynolds
+urlname = reynoldsunwrapped
+urlnameshort = rw
+
+[REX Show]
+class = drunkduck
+authors = armydillorex
+urlname = REX_Show
+
+[Rex the Unfortunate Orphan]
+class = drunkduck
+authors = Kenneth lim Ming Quan
+urlname = Rex_the_Unfortunate_Orphan
+
+[Rhymes With Orange]
+class = sfgate
+authors = Hilary Price
+urlname = Rhymes_with_Orange
+
+[Road Waffles]
+class = keenspot
+authors = Eight
+homepage = http://roadwaffles.com
+
+[ROBOT SOUL]
+class = drunkduck
+authors = Lucifer Ulrich
+urlname = ROBOT_SOUL
+
+[Roman]
+class = comicssherpa
+authors = Jeff Potter
+urlname = csfvo
+
+[RPG World]
+class = keenspot
+authors = Ian Jones-Quartey
+homepage = http://rpgworldcomic.com
+altimgexp = <IMG ALT=\"comic\" BORDER=0 SRC=\"(/comics/[a-zA-Z0-9_\-]+?\.gif)\">
+
+[RQW]
+class = comicssherpa
+authors = Ray Friesen
+urlname = csbeo
+
+[Rubes]
+class = creators
+authors = Leigh Rubin
+urlname = rub
+
+[Rugrats]
+class = creators
+authors = Nickelodeon
+urlname = rug
+
+[Rumination]
+class = drunkduck
+authors = Lico Reloj
+urlname = Rumination
+
+[Run Wild]
+class = comicssherpa
+authors = J.G. Moore
+urlname = csyya
+
+[RWWR]
+type = search
+authors = Matt Frankenfield & Justin Moyer
+homepage = http://www.rwwr.com
+imgexp = <img src=({{homepage}}/images/strips/(?:guest/)?{{filename}})
+previousexp = <a href="(view.php\?comic\=\d+)"><img name="backbutton" src="images/backbutton.gif"
+
+[Sack O Puppies]
+class = drunkduck
+authors = PuppySackers
+urlname = Sack_O_Puppies
+imgexp = <p align="center"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="gfx/prevnav.gif" width="43" height="87" border="0">
+
+[Sally Forth]
+class = sfgate
+authors = Greg Howard & Craig MacIntosh
+urlname = Sally_Forth
+
+[Salvation of Morrowind]
+class = drunkduck
+authors = VegetaWorshipper
+urlname = Salvation_of_Morrowind
+
+[Sam and Fuzzy]
+type = search
+authors = Sam Logan
+homepage = http://www.samandfuzzy.com
+imgexp = <img.+?src=\"(comics/\d+\.(?:gif|jpg))\" alt=\"\" />
+previousexp = <a href=\"(archive\.php\?id=\d+)\"><img src=\"imgint/navbarprev\.gif\" alt=\"Previous Comic\" /></a>
+
+[Saturnalia]
+type = search
+authors = Space Coyote 2002
+homepage = http://saturnalia.keenspace.com
+imgexp = <img alt="" border="0" src="({{homepage}}/comics/{{filename}})"
+previousexp = <a href="({{homepage}}/d/\d+.html)"><img class="ks_comic" border="0" name="previous_day" alt="Previous comic" src="{{homepage}}/images/previous_day.gif"
+
+[SAMURAI TAKEOVER]
+class = drunkduck
+authors = Lucifer Ulrich
+urlname = SAMURAI_TAKEOVER
+
+[Scary Go Round]
+type = search
+authors = John Allison
+homepage = http://scarygoround.com/
+imgexp = <img src=\"(strips/\d+\.{{ext}})\" alt=\"\"><br>
+previousexp = <a href=\"(\?date=\d+)\" class='(?:new)?menus'>Previous</a>
+
+[Schlock Horror]
+class = drunkduck
+authors = t.s
+urlname = schlock_horror
+
+[Schlock Mercenary]
+class = keenspot
+authors = Howard Tayler
+homepage = http://www.schlockmercenary.com
+
+[Screwball Islands]
+class = drunkduck
+authors = ExtraJester
+urlname = Screwball_Islands
+imgexp = <font size="2"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img border="0" src="gfx/backnav.gif" width="68" height="78">
+
+[Secret of Monkey Island]
+type = search
+authors = Paco Vink
+homepage = http://www.worldofmi.com/features/comics/vink/
+archiveexp = <b>Newest page</b></td></tr><tr><td width=\"100%\" align=\"center\" style=\"padding-top: 8px; padding-bottom: 8px;\"><a href=\"(\.\./viewpage\.php\?id=\d+&comic_id=\d+)\">
+imgexp = <center><img src=\"(\.\./\.\./images/comics/\d+/{{filename}})\"></center>
+previousexp = <a href=\"(/features/comics/viewpage\.php\?id=\d+&comic_id=\d+)\"><img border=\"0\" src=\"\.\./\.\./wmi/designs/design01/arrow-previous\.png\"></a>
+
+[Setbacks]
+class = drunkduck
+authors = Joey Johnson
+urlname = Setbacks
+imgexp = <TD align=center><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prevnav.gif' border=0 height=50
+
+[Sex and Violence]
+class = keenspot
+authors = Aaron M. Holm
+homepage = http://www.mrbang.net
+
+[Sexy Losers]
+type = search
+authors = hard
+homepage = http://www.sexylosers.com
+archiveexp = <A HREF=\"(/\d+\.html)\">COME
+imgexp = <IMG SRC =.?"(comics/.+?\.(?:jpg|gif))" WIDTH = \d+ HEIGHT = \d+>
+previousexp = <A HREF=\"(/\d+.html)\"><FONT COLOR = FFAAAA><<</FONT></A>
+
+[Shadow System]
+class = drunkduck
+authors = Niyo
+urlname = shadow_system
+
+[Shagy Comics]
+class = drunkduck
+authors = Robert Eastman 
+urlname = Shagy_Comics
+
+[SHAVING THE MANIFESTO]
+class = drunkduck
+authors = ELLIOT
+urlname = SHAVING_THE_MANIFESTO
+
+[Sheldon]
+class = unitedmedia
+authors = Dave Kellet
+urlname = sheldon
+
+[Shelly And Sara]
+class = drunkduck
+authors = Shanu Annolf Jenki
+urlname = Shelly_And_Sara
+
+[Shermans Lagoon]
+type = search
+authors = Jim Toomey
+homepage = http://www.slagoon.com
+archiveurl = http://cgibin.rcn.com/fillmore.dnai/cgi-bin/sviewer.pl
+imgurl = {{homepage}}/dailies/
+imgexp = <IMG SRC=\"dailies/(.+?)\">
+previousexp = <A HREF=\"(http://cgibin.rcn.com/fillmore.dnai/cgi-bin/sviewer.pl\?selectdate=\d+/\d+/\d+)\">Previous Cartoon</A>
+
+[Shift]
+type = search
+authors = Ryan Ruffatti and Rich A Molinelli
+homepage = http://shift.hallopino.com
+archiveurl = {{homepage}}/latest.html
+imgexp = <img src=\"((?:pages|images)/{{filename}})\" width=\"\d+\" height=\"\d+\" border=\"1\">
+previousexp = <a href=\"(\d+_\d+\.html)\"><img src=\"comicnav_06\.gif\" width=\"102\" height=\"20\" name=\"Image9\" onMouseOver=\"MM_swapImage\('Image9','','comicnavr_06.gif',1\)\" border=\"0\"></a>
+
+[Shifters]
+type = search
+authors = Marie Tary
+homepage = http://shifters.keenspace.com
+imgexp = src="({{homepage}}/comics/{{filename}})"
+previousexp = <a href="({{homepage}}/d/\d+.html)"><img class="ks_comic" border="0" name="previous_day" alt="Previous comic" src="{{homepage}}/images/previous_day.jpg"
+
+[Shiny Things]
+class = drunkduck
+authors = AimlessDrifter
+urlname = Shiny_Things
+imgexp = <br><br><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'>Back</a>
+
+[Shoe]
+class = comicspage
+authors = Chris Cassatt and Gary Brookins
+urlname = shoe
+
+[Shoecabbage]
+class = ucomics
+authors = Teresa Dowlatshahi and David Stanford
+urlname = shoecabbage
+urlnameshort = shcab
+
+[Shorts]
+class = drunkduck
+authors = mr_out
+urlname = shorts
+
+[Siddler and Friends]
+class = drunkduck
+authors = Sam Savealot
+urlname = Siddler_and_Friends
+
+[Sin games]
+class = drunkduck
+authors = DSW
+urlname = Sin_games
+
+[Sinfest]
+type = search
+authors = Tatsuya Ishida
+homepage = http://www.sinfest.net
+imgexp = <IMG ALT=\"comic\" BORDER=\d+ SRC=\"(/comics/sf\d+\.(?:gif|GIF))" HEIGHT=\"\d+\" WIDTH=\"\d+\">
+previousexp = <a href=\"(/d/\d+.html)\">Previous comic</a>
+
+[Single Simon]
+class = comicssherpa
+authors = Don Cresci
+urlname = csjhk
+
+[Six Chix]
+class = sfgate
+authors = Isabella Bannerman, Margaret Shulock, Rina Piccolo, Ann C. Telnaes, Kathryn LeMieux and Stephanie Piro
+urlname = 6Chix
+
+[Skirting Danger]
+class = keenspot
+authors = Meredith Gran
+homepage = http://skirtingdanger.com
+
+[Skrit]
+class = drunkduck
+authors = James Jouni
+urlname = Skrit
+imgexp = <TR><TD><img src='({{filename}})' border=0><br>
+
+[Slackers]
+type = search
+authors = Xie Minggeng 
+homepage = http://slackerscomic.com
+imgexp = <img src="({{filename}})" width="525" height="\d+">
+previousexp = <a href=(index.php\?strip_id\=\d+)><img src="previous.gif"
+
+[Slightly Skewed]
+class = comicssherpa
+authors = j.Daly
+urlname = cswcu
+
+[Slipshine]
+type = search
+authors = J.J.
+homepage = http://slipshine.net/
+imgexp = <img src=\"(pages/[a-zA-Z0-9_\-]+?\.(?:gif|jpg))\" width=\"\d+\" height=\"\d+\" id=comic>
+previousexp = <a href=\"(\?comic=\d+)\"><img src=\"images/n_prev\.gif\" width=\d+ height=\d+ border=0 alt=\"previous comic\"></a>
+
+[Slither and Friends]
+class = drunkduck
+authors = Michael Dean
+urlname = Slither_and_Friends
+
+[Sluggy Freelance]
+type = search
+authors = Peter Abrams
+homepage = http://www.sluggy.com
+imgexp = <img alt=\".+?\" src=\"(http://pics.sluggy.com/comics/.+?)\" width=\"\d+\" height=\"\d+\">
+previousexp = <a href=\"(http://sluggy.com/daily.php\?date=\d+)\"><img alt=\"Go to the previous comic\" src=\"http://www.sluggy.com/images/vcr1.gif\" width=\"40\" height=\"23\" border=\"0\" hspace=\"2\"></a>
+
+[Small Market Sports]
+type = search
+authors = Bill Charbonneau
+homepage = http://www.boneflake.com/smallmarketsports/
+imgexp = <img src="(comics/{{filename}})"
+previousexp = No Previous Link :(
+
+[Small Wonder]
+class = comicssherpa
+authors = Worth Gowell
+urlname = cscap
+
+[Small World]
+class = drunkduck
+authors = Dustin B. Barksdale
+urlname = Small_World
+
+[Smiley Joe]
+class = drunkduck
+authors = Josh Biggins
+urlname = Smiley_Joe
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Smiley_Joe/gfx/prevnav.gif' border=5 height=50 width=50>
+
+[Snapshots]
+class = comicssherpa
+authors = Jason Love
+urlname = csede
+
+[So Fantastic Pork Show 9oCLOCK]
+class = drunkduck
+authors = Lance Kirianoff
+urlname = So_Fantastic_Pork_Show_9oCLOCK
+
+[Soap on a Rope]
+class = keenspot
+authors = Bob Roberds
+homepage = http://soaprope.com
+
+[Sockland]
+class = drunkduck
+authors = Flashback
+urlname = Sockland
+
+[Soggy Pocky]
+class = drunkduck
+authors = Anjel/Meg
+urlname = Soggy_Pocky
+
+[SolidSt8]
+class = drunkduck
+authors = D-vO
+urlname = SolidSt8
+
+[Something Positive]
+type = search
+authors = R. K. Milholland
+homepage = http://www.somethingpositive.net
+imgexp = <img src=\"((?:/)?arch/\w+.\.{{ext}})\"
+previousexp = <a href=\"(sp\d+.shtml)\"><font[^>]*>Previous 
+
+[Somewhere in hell]
+class = drunkduck
+authors = Amzarah Gunn
+urlname = Somewhere_in_hell
+
+[Songs of An Angel]
+class = drunkduck
+authors = Willow E. Taylor
+urlname = Songs_of_An_Angel
+
+[Sore Thumbs]
+class = keenspot
+authors = Owen Gieni & Chris Crosby
+homepage = http://sorethumbsonline.com
+
+[South of Town]
+class = comicssherpa
+authors = Dave Fackrell
+urlname = csdkh
+
+[Space is the Place]
+class = comicssherpa
+authors = Tom Verheijen
+urlname = csxpo
+
+[Speed Bump]
+class = creators
+authors = Dave Coverly
+urlname = bmp
+
+[Spells and Whistles]
+type = search
+authors = Tauhid Bondia
+homepage = http://www.spellsandwhistles.net
+imgexp = <td valign=\"top\" align=\"center\"><img src=\"(images/strips/\d+.+?\.{{ext}})\".+?border=0></td>
+previousexp = <td><a href=\"(archive.php\?cid=\d+)\"><img src=\"images/sw/back.gif\" border=0 /></a></td>
+
+[Spoiled Rotten Brats]
+class = drunkduck
+authors = blu_
+urlname = spoiled_rotten_brats
+imgexp = <TR><TD><img src='({{filename}})' border=0><br>
+
+[Spriteratic]
+class = drunkduck
+authors = james cody records
+urlname = Spriteratic
+
+[Sprites Again]
+class = drunkduck
+authors = 8-Bit VZG
+urlname = Sprites_Again
+
+[SSBM Total The Comic]
+class = drunkduck
+authors = Connor Donaldsen
+urlname = SSBM_Total_The_Comic
+
+[SSDD]
+class = keenspot
+authors = Alan Foreman
+homepage = http://poisonedminds.com
+
+[Standup Comics]
+class = comicssherpa
+authors = Basil White
+urlname = cswcd
+
+[Star Crossd Destiny]
+type = search
+authors = Juno Blair B
+homepage = http://starcrossd.net/
+imgexp = <img (?:BORDER=0 )?src=\"(http://(?:www\.)?starcrossd\.net/(?:strips|archives)/\d+\.{{ext}})\"
+previousexp = <A HREF=\"(http://www\.starcrossd\.net/archives/\d+\.html)\"[^>]+?><img src=\"http://starcrossd\.net/parts/comic_prev\.gif\"
+
+[Starving Artists]
+class = drunkduck
+authors = starvingartist
+urlname = Starving_Artists
+imgexp = <img src='({{filename}})' border=0>&nbsp;<br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Starving_Artists/gfx/previous_btn.gif' border=0 height=50 width=100>
+
+[Statsministeren]
+type = search
+authors = Carsten Graabaek
+homepage = http://www.bt.dk/statsministeren
+imgexp = <img src=\"(http://images\.bt2\.metropol\.dk/\d+/\d+/\d+_large\.{{ext}})\" border=\"0\">
+previousexp = <a href=\"(/statsministeren:year=\d+:month=\d+:day=\d+)\" class=\"default\"  onclick=\"this\.blur\(\)\" onMouseOut=\"this\.blur\(\)\"><img src=\"/img/layout/arrowLeft\.gif\" width=\"8\" height=\"14\" alt=\"\" border=\"0\" align=\"middle\"> Forrige</a>
+
+[Steve Kelley]
+class = creatorsed
+authors = Steve Kelley
+urlname = sk
+
+[Steve Sack]
+class = comicspage
+authors = Steve Sack
+urlname = sack
+urlname2 = stevesack
+
+[Stewart Hall]
+class = drunkduck
+authors = Stewart Hall
+urlname = Stewart_Hall
+imgexp = <div align="center"><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="gfx/prev.gif" width="96" height="24" border="0">
+
+[Sticky]
+class = drunkduck
+authors = Salvatore D'Addio
+urlname = Sticky
+
+[StickyAndBlobO]
+class = drunkduck
+authors = Brad
+urlname = StickyAndBlobO
+
+[Stick Stick]
+class = drunkduck
+authors = Untarin
+urlname = Stick_Stick
+
+[Stik Monkey]
+class = comicssherpa
+authors = Raymond Kasel
+urlname = csibs
+
+[Stone Soup]
+class = ucomics
+authors = Jan Eliot
+urlname = stonesoup
+urlnameshort = ss
+
+[Strange Brew]
+class = creators
+authors = John Deering
+urlname = brw
+
+[Strangely Feeling Fine]
+class = drunkduck
+authors = Angel Hill
+urlname = Strangely_Feeling_Fine
+
+[Striptease]
+class = keenspot
+authors = Chris Daily
+homepage = http://stripteasecomic.com
+
+[Strongroom]
+class = drunkduck
+authors = Edward Blann
+urlname = strongroom
+imgexp = <center><img src='({{filename}})' border=0><p>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><font face="Verdana" size="2">Previous</a>
+
+[Stuart Carlson]
+class = ucomics
+authors = Stuart Carlson
+urlname = stuartcarlson
+urlnameshort = sc
+
+[Stuffed Animal Krew]
+class = drunkduck
+authors = Samantha
+urlname = Stuffed_Animal_Krew
+
+[Suburban Jungle]
+class = keenspot
+authors = John "The Gneech" Robey
+homepage = http://suburbanjungle.com
+
+[Suburban Tribe]
+type = search
+authors = John Lee
+homepage = http://www.suburbantribe.net
+archiveurl = {{homepage}}/
+imgexp = <img src="(strips/{{filename}})"
+previousexp = <a href="(showArchive\.asp\?archive\=\d+)"><img src="images/PreviousStrip.gif"
+
+[Succubus Justice]
+type = search
+authors = A. Wheatley
+homepage = http://www.succubus-justice.com
+archiveurl = {{homepage}}/firstie%20frame.htm.htm
+imgexp = <img src=\"((?:reworked%20gifs/)?{{filename}})\" width=\"\d+\" height=\"\d+\">
+previousexp = <a href=\"(\d+(?:%20r)%20(?:frame|page)\.htm)\"(?: target=\"_self\")?><img src=\"124\.gif\" width=\"100\" height=\"50\" border=\"0\"></a>
+
+[Sugar High Otakus]
+class = drunkduck
+authors = Ami
+urlname = Sugar_High_Otakus
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='../gfx/themes/default/prevnav.gif' border=0 height=50 width=50></a>
+
+[Suits]
+class = creatorsed
+authors = Julia Suits
+urlname = ju
+
+[Supafine]
+class = drunkduck
+authors = Zach Jacobs & Lance Benson
+urlname = Supafine
+
+[Super Adventure Justice Squad]
+class = drunkduck
+authors = Alexander Maisey
+urlname = Super_Adventure_Justice_Squad
+
+[Superosity]
+class = keenspot
+authors = Chris Crosby
+homepage = http://superosity.com
+
+[Suzie View]
+class = unitedmedia
+authors = Tauhid Bondia and Erik McCurdy
+urlname = suzieview
+
+[Sword In Hand]
+class = drunkduck
+authors = Hunter Gallien
+urlname = SwordInHand
+
+[Sylvia]
+class = comicspage
+authors = Nicole Hollander
+urlname = sylvia
+
+[Syntax Errors]
+class = comicssherpa
+authors = Damon Riesberg
+urlname = csjxz
+
+[T.A. Vision]
+type = search
+authors = Tang
+homepage = http://tav.keenspace.com
+imgexp = <img alt=\"\" border=\"0\" src=\"({{homepage}}/comics/\w+?\.(?:jpg|JPG))" width=\"\d+\" height=\"\d+\" />
+previousexp = <a href=\"({{homepage}}/d/\d+\.html)\">Previous comic</a>
+
+[Tachyphagia]
+class = drunkduck
+authors = Maxes
+urlname = Tachyphagia
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Tachyphagia/gfx/previous.jpg' border=0 height=50 width=50>
+
+[Takes One To Know One]
+class = drunkduck
+authors = Scroe
+urlname = takes_one_to_know_one
+
+[Taking the Bypass]
+type = search
+authors = David Buist
+homepage = http://www.cartoonme.net
+archiveurl = http://cartoonme.negspect.com
+imgexp = <img src="(/archive/comic/{{filename}})"
+previousexp = <a href="(index\.php\?dat\e=\d+) "><b><- PREV
+
+[Tales Of The Inquisition]
+class = drunkduck
+authors = DJ cyberKitten01
+urlname = TalesOfTheInquisition
+
+[Tales From The Monkeypants]
+class = drunkduck
+authors = Beau Schemery
+urlname = Tales_From_The_Monkeypants
+
+[Tales From Tyrone]
+class = drunkduck
+authors = Matt Bojangles
+urlname = Tales_From_Tyrone
+
+[Tales of the Ancients]
+class = drunkduck
+authors = fiona dann
+urlname = Tales_of_the_ancients
+imgexp = <TD><img src='({{filename}})' border=0></TD>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/Tales_of_the_ancients/gfx/last.jpg' border=0 height=50 width=50>
+
+[Tank McNamara]
+class = ucomics
+authors = Jeff Millar and Bill Hinds
+urlname = tankmcnamara
+urlnameshort = tm
+
+[Tao of Geek]
+type = search
+authors = Liz Walsh
+homepage = http://www.taoofgeek.com
+imgexp = <img src="(comics/\d+/\d+/{{filename}})"
+previousexp = <a href="(archive\.php\?date\=\d+)"><img src="images/tog_previous.gif"
+
+[Tards]
+class = drunkduck
+authors = Trev
+urlname = Tards
+imgexp = <br><br><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="gfx/previous2.png" border="0" width="16" height="16">
+
+[Taylor Jones]
+class = comicspage
+authors = Taylor Jones
+urlname = taylor
+urlname2 = taylorjones
+
+[Ted Rall]
+class = ucomics
+authors = Ted Rall
+urlname = tedrall
+urlnameshort = tr
+
+[Teenage Monsters]
+class = drunkduck
+authors = Sarah Dashow 
+urlname = Teenage_Monsters
+
+[Teen Punk Squad]
+class = drunkduck
+authors = Prandeh
+urlname = Teen_Punk_Squad
+
+[Teh Funnies]
+class = drunkduck
+authors = Squid, and Scroe.
+urlname = Teh_Funnies
+
+[Tennessee Cats]
+class = drunkduck
+authors = Charles Brubaker
+urlname = Tennessee_Cats
+
+[Terinu]
+type = search
+authors = Peta Hewitt
+homepage = http://www.terinu.net/
+archiveurl = http://www.terinu.net/comic.php
+imgexp = <img src='(Comic/{{filename}})'
+previousexp = <a href='(comic\.php\?Page\=\d+)'>Back
+
+[TGComics]
+class = drunkduck
+authors = thepegspirate
+urlname = TGComics
+
+[Thats My Maoga]
+class = drunkduck
+authors = brandi smith
+urlname = Thats_My_Maoga
+imgexp = <TR><TD><img src='({{signs}})' border=0></TD></TR>
+
+[Thats My Matrix]
+class = drunkduck
+authors = Neraya Tengi
+urlname = Thats_My_Matrix
+
+[That Crazy Indian]
+class = drunkduck
+authors = Joel Dennis Gloade
+urlname = that_crazy_indian
+
+[The a Misadventures of McJoeJoe]
+class = drunkduck
+authors = Scott D'Elia
+urlname = The_a_misadventures_of_McJoeJoe
+
+[The Adventures of Aragog And the Ravenclaw Prefect]
+class = drunkduck
+authors = LinkandLuigi & Kaizoku_Akito
+urlname = The_Adventures_of_Aragog_And_the_Ravenclaw_Prefect
+
+[The Adventures of Consumer and Chad]
+class = drunkduck
+authors = Joe
+urlname = The_Adventures_of_Consumer_and_Chad
+
+[The Adventures of Drakk]
+class = drunkduck
+authors = Popple
+urlname = The_Adventures_of_Drakk
+
+[The Adventures of Phillip]
+class = drunkduck
+authors = Crazy_Phillip
+urlname = The_Adventures_of_Phillip
+
+[The Adventures of Spiffy Bunny]
+class = drunkduck
+authors = Robynne Hooper
+urlname = The_Adventures_of_Spiffy_Bunny
+
+[The Alipungang Kamote Strips]
+class = drunkduck
+authors = iambibs
+urlname = The_Alipungang_Kamote_Strips
+
+[The Arsenic Lullabies]
+class = comicssherpa
+authors = Douglas Paszkiewicz
+urlname = cshce
+
+[The Bear Patrol]
+class = drunkduck
+authors = BearRyan
+urlname = the_Bear_Patrol
+imgexp = <p align="center"><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'>&nbsp;Previous</a>
+
+[The Big Picture]
+class = ucomics
+authors = Lennie Peterson
+urlname = thebigpicture
+urlnameshort = bi
+
+[The Black Rose]
+class = drunkduck
+authors = Lucifer Ulrich
+urlname = The_Black_Rose
+
+[The Bologna Sandwitch]
+class = drunkduck
+authors = Tom Guycot
+urlname = The_Bologna_Sandwitch
+
+[The Booblers]
+class = drunkduck
+authors = Andrew Wilson
+urlname = The_Booblers
+
+[The Born Loser]
+class = unitedmedia
+authors = Chip Sansom
+urlname = bornloser
+
+[The Brothers Brady]
+class = comicssherpa
+authors = Mike and Scott Brady
+urlname = csxfu
+
+[The Buckets]
+class = unitedmedia
+authors = Scott Stantis / Greg Cravens
+urlname = buckets
+
+[The Chaotix]
+class = drunkduck
+authors = RJ Burnette
+urlname = The_Chaotix
+
+[The Comic of General]
+class = drunkduck
+authors = Greg Pullen
+urlname = The_Comic_of_General
+
+[The Comic You Could Not Care Less About]
+class = drunkduck
+authors = Robert Lang
+urlname = The_comic_you_could_not_care_less_about
+
+[The Daily Monkey]
+class = drunkduck
+authors = Ray Mcandrew
+urlname = The_Daily_Monkey
+imgexp = <TR><TD><img src='({{filename}})' border=0><br>
+
+[The Duplex]
+class = ucomics
+authors = Glenn McCoy
+urlname = duplex
+urlnameshort = dp
+
+[The Emoties]
+class = drunkduck
+authors = Sean Murphy
+urlname = The_Emoties
+
+[The EndZone]
+class = comicssherpa
+authors = John Anon
+urlname = csftk
+
+[The Flat Earth Society]
+class = drunkduck
+authors = Adam/Jacob
+urlname = The_Flat_Earth_Society
+
+[The Fray]
+class = drunkduck
+authors = Rob Niedojadlo
+urlname = The_Fray
+imgexp = <br><img src='({{filename}})' border=0></td>
+
+[The Good Little Robot]
+type = search
+authors = Ryan Reid
+homepage = http://www.thegoodlittlerobot.com/
+archiveexp = <a href=\"(http://www\.thegoodlittlerobot\.com/archives_comic/\d+\.shtml)\">
+imgexp = <img alt=\"[^\"]+?\" src=\"(http://www\.thegoodlittlerobot\.com/images/comics/\d+/\d+/\d+(?:-|_)\d+(?:-|_)\d+\.{{ext}})\" width=\"\d+\" height=\"\d+\" border=\"0\" />
+previousexp = <a href=\"(http://www\.thegoodlittlerobot\.com/archives_comic/\d+\.shtml)\" title=\"[^\"]+?\">\&laquo;</a>
+
+[The Kindred of Joz]
+class = drunkduck
+authors = joz
+urlname = The_Kindred_of_Joz
+imgexp = <td><center><img src='({{filename}})' border=0></center></td>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/navprev.jpg' border=0>
+
+[The Krew]
+class = comicssherpa
+authors = Mel Hartford & Thom Jankowski
+urlname = csnhx
+
+[The Legend of the Blue Apple]
+class = drunkduck
+authors = James Harold Curry IV
+urlname = The_Legend_of_the_Blue_Apple
+
+[The Life And Times Of Mr Bubbles]
+class = drunkduck
+authors = comrade chappy
+urlname = The_Life_And_Times_Of_Mr_Bubbles
+
+[The Loping Purple Buffalo]
+class = drunkduck
+authors = Zachary Parker
+urlname = The_Loping_Purple_Buffalo
+imgexp = <TD align=center><img src='({{filename}})' border=0>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prevnav.gif' border=0>
+
+[The Lounge]
+type = search
+authors = John Joseco and Jamie MacKenzie
+homepage = http://www.italyishida.com
+archiveurl = {{homepage}}/comic.php
+imgexp = <img src="(strips/{{filename}})"
+previousexp = <A href="(\?date\=\d+)"><img src="previous.gif" border=0 Alt="Previous">
+
+[The Munchies]
+class = comicssherpa
+authors = Jason Gluskin
+urlname = csqsk
+
+[The Other Coast]
+class = creators
+authors = Adrian Raeside
+urlname = oc
+
+[The Player]
+class = drunkduck
+authors = Lucifer Ulrich
+urlname = The_Player
+
+[The Roach Ranch]
+class = drunkduck
+authors = Jarek Berszakiewicz and Jamie Brown
+urlname = The_Roach_Ranch
+imgexp = <TR><TD><img src='({{filename}})' border=0></TD></TR>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/The_Roach_Ranch/gfx/prevnav.jpg' border=0 height=50 width=55>
+
+[The Shadows of Suikoden]
+class = drunkduck
+authors = Luke Pointer
+urlname = The_Shadows_of_Suikoden
+
+[The Social Outcasts]
+class = comicssherpa
+authors = Richard Lillie
+urlname = csvsq
+
+[The Sonic Boom Gazelle]
+class = drunkduck
+authors = Bobby Nemcik 
+urlname = The_Sonic_Boom_Gazelle
+
+[The Strip with No Name]
+class = drunkduck
+authors = Timothy William Nelms
+urlname = The_Strip_with_No_Name
+
+[The Tao of Geek]
+class = drunkduck
+authors = Liz Walsh
+urlname = The_Tao_of_Geek
+
+[The Tavern]
+class = drunkduck
+authors = Robert
+urlname = The_Tavern
+
+[The Whovian Observer]
+class = drunkduck
+authors = Type 40
+urlname = The_Whovian_Observer
+
+[The Widget Box]
+class = comicssherpa
+authors = Harry Martin
+urlname = csedm
+
+[The Wings of Change]
+class = drunkduck
+authors = Mariette Rose
+urlname = The_Wings_of_Change
+
+[The Wonder That Is Trig Class]
+class = drunkduck
+authors = GordoDT
+urlname = The_Wonder_That_Is_Trig_Class
+
+[The Young Breed]
+class = comicssherpa
+authors = Jason Foster
+urlname = csspf
+
+[Theater Hopper]
+type = search
+authors = Tom Brazelton
+homepage = http://www.theaterhopper.com/
+imgexp = <img src=\"(comics/\d+\.jpg)\" width=\"\d+\" height=\"\d+\"\"?>
+previousexp = <a href=\"(\?strip_id=\d+)\">BACK</a>
+
+[The Devils Panties]
+class = drunkduck
+authors = Jennie Breeden
+urlname = thedevilspanties
+
+[The Revolutionaries]
+class = drunkduck
+authors = Josey R. Woodis
+urlname = TheRevolutionaries
+
+[The Stabbining]
+class = drunkduck
+authors = billyslummer
+urlname = thestabbining
+
+[This Side Up]
+class = drunkduck
+authors = Kevin Ballantyne
+urlname = This_Side_Up
+
+[Thought Invoking]
+class = drunkduck
+authors = Kris Westreich
+urlname = Thought_Invoking
+
+[ThreeThreeThree]
+class = drunkduck
+authors = Carlos Young Yi
+urlname = ThreeThreeThree
+
+[Tim]
+class = drunkduck
+authors = Dennis Jobin
+urlname = Tim
+
+[Time Action Jesus]
+class = drunkduck
+authors = Joseph Modzeleski
+urlname = Time_Action_Jesus
+
+[Tired and Tested Chris]
+type = search
+authors = Chris Brown
+homepage = http://www.tiredntested.com
+archiveurl = {{homepage}}/latest.html
+archiveexp = <a href="(/{{signs}}.html)"><img border="0" src="latest2.gif"
+imgexp = <img border="0" src="(/chriscomics/{{filename}})"
+previousexp = href="(/{{signs}}.html)">&lt;&lt;Previous
+
+[Tired and Tested Nick]
+type = search
+authors = Nick Brown
+homepage = http://www.tiredntested.com
+archiveurl = {{homepage}}/latest.html
+archiveexp = <a href="(/{{signs}}.html)"><img border="0" src="latest.gif"
+imgexp = <img border="0" src="(/nickscomics/{{filename}})"
+previousexp = href="(/{{signs}}.html)">&lt;&lt;Previous
+
+[Todd and Penguin]
+class = comicssherpa
+authors = David Wright
+urlname = csska
+
+[Tom the Dancing Bug]
+class = ucomics
+authors = Ruben Bolling
+urlname = tomthedancingbug
+urlnameshort = td
+
+[Tom Toles]
+class = ucomics
+authors = Tom Toles
+urlname = tomtoles
+urlnameshort = tt
+
+[Tony and George]
+class = drunkduck
+authors = Luke Pointer & Chris Dean
+urlname = Tony_and_George
+
+[Tony Auth]
+class = ucomics
+authors = Tony Auth
+urlname = tonyauth
+urlnameshort = ta
+
+[Too Far]
+class = drunkduck
+authors = Eli Parker
+urlname = Too_Far
+
+[Touche]
+type = search
+authors = TOM
+homepage = http://www.drive-in-cartoons.de/touche/
+imgexp = <img src=(http://www\.drive-in-cartoons\.de/albums/touche/{{signs}}\.{{signs}}\.{{ext}}) width=\d+ height=\d+  border=0>
+previousexp = <a href=\"(/touche/\?in\[gallery\]\[index\]=\d+)\"><img src=\"/images/buttons/zurueck\.gif\" width=\"118\" height=\"35\" border=\"0\"
+
+[Trendz]
+class = comicssherpa
+authors = W. W. Olsen
+urlname = csaab
+
+[TriforceTrio]
+class = drunkduck
+authors = Monkmonk
+urlname = TriforceTrio
+
+[TriNoble]
+class = drunkduck
+authors = Ana Hendricks
+urlname = The_Black_Rose
+
+[Try The Soup]
+class = drunkduck
+authors = trythesoup
+urlname = trythesoup
+imgexp = <TD align=center><img src='({{filename}})' border=0></TD>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prevnav.gif' border=0 height=50
+
+[Turban Legendz]
+class = drunkduck
+authors = Christopher John Francis Noone
+urlname = Turban_Legendz
+
+[Turbo Trak]
+class = drunkduck
+authors = Tomas Cavil
+urlname = Turbo_Trak
+
+[Twelve Dragons]
+type = search
+authors = YouMa & Werner
+homepage = http://twelvedragons.keenspace.com
+archiveurl = {{homepage}}/today.html
+imgexp = <img alt=\".*?\" border=\"0\" src=\"({{homepage}}/comics/{{signs}}\.{{ext}})\" (?:width=\"\d+\" height=\"\d+\"|height=\"\d+\" width=\"\d+\") />
+previousexp = <a href=\"({{homepage}}/d/\d+\.html)\"><img (?:id=\"previous_day\"|class=\"ks_comic\" border=\"0\" name=\"previous_day\")
+
+[Twisted Fantasy]
+class = drunkduck
+authors = Cameron OReilly
+urlname = Twisted_Fantasy
+imgexp = <TD align=center><img src='({{filename}})' border=0></TD>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='gfx/prevnav.gif' border=0 height=50
+
+[Twisted Kaiju Theater]
+# Archive is broken at http://www.neomonsterisland.com/a_archives/004/152/170.htm
+type = search
+authors = Sean McGuinness
+homepage = http://www.neomonsterisland.com/
+archiveexp = <a href=\"(a_archives/\d+/\d+/1\.html)\">
+pathlevels = 3
+imgexp = <img (?:height=\"\d+\" width=\"\d+\" )?src=\"({{filename}})\"(?: border=\"2\")?>
+previousexp = <a href=\"((?:\.\./)?\.\./(?:\d+/)?\d+/\d+\.(?:html|htm))\">PREVIOUS(?:\s)?</a>
+
+[Twistory]
+class = comicssherpa
+authors = Bob Kuhn
+urlname = csxne
+
+[Two Lumps]
+type = search
+authors = J. Grant & Mel Hynes
+homepage = http://twolumps.keenspace.com/
+imgexp = <img alt=\"\" border=\"0\" src=\"({{homepage}}comics/{{signs}}\.{{ext}})\" (?:width=\"\d+\" height=\"\d+\"|height=\"\d+\" width=\"\d+\") />
+previousexp = <a href=\"({{homepage}}d/\d+\.html)\"><img class=\"ks_comic\" border=\"0\" name=\"previous_day\" alt=\"Previous comic\"
+
+[Ultra Stick]
+class = drunkduck
+authors = Wyatt Visser
+urlname = ultra_stick
+
+[Uncle Craig]
+class = drunkduck
+authors = craig robert maffei
+urlname = uncle_craig
+
+[Undecided]
+class = drunkduck
+authors = Lazlo Steele
+urlname = undecided
+
+[Unibug]
+class = comicssherpa
+authors = Pujan Roka
+urlname = csmen
+
+[Unidentical]
+class = drunkduck
+authors = Seth Thomas
+urlname = Unidentical
+
+[Untitled]
+class = drunkduck
+authors = Matt8441
+urlname = Matt8441
+imgexp = <p><img src='({{filename}})' border=0></p><p>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><div align="center"><img src="gfx/back_one.gif" width="50" height="50">
+
+[User Friendly]
+type = search
+authors = J.D. "Illiad" Frazer
+homepage = http://www.userfriendly.org
+archiveexp = <A href=\"(http://ars.userfriendly.org/cartoons/\?id=\d+)\"><IMG ALT=\"Latest Strip\" height=\"\d+\" WIDTH=\"\d+\" BORDER=0 SRC=\"http://www.userfriendly.org/cartoons/archives/.+?\.gif\"></A>
+imgexp = <a href=\"/cartoons/\?id=\d+"><img border=\"0\" src=\"(http://www.userfriendly.org/cartoons/archives/.+?/.+?\.gif)\".*?></a>
+previousexp = <area shape=\"rect\" href=\"(/cartoons/\?id=\d+)\" coords=\".+?\" alt=\"Previous Cartoon\">
+
+[Van Von Hunter]
+type = search
+authors = Pseudome Studio
+homepage = http://www.vanvonhunter.com
+imgexp = <img src=\"({{homepage}}/strips/vvh_{{filename}})\" height=\d+ width=\d+(?: border=0)?>
+previousexp = <area shape=\"rect\" coords=\"13,50,133,68\" href=\"({{homepage}}/vvh\d+\.html)\">
+
+[Venus]
+class = drunkduck
+authors = Lucifer Ulrich
+urlname = Venus
+
+[Vern and Dern]
+class = comicssherpa
+authors = Stephen Francis & Rico Schacherl
+urlname = csasy
+
+[VG Cats]
+type = search
+authors = Scott Ramsoomair
+homepage = http://www.vgcats.com/
+archiveurl = {{homepage}}comics/
+imgexp = <div align=\"center\"><img src=\"(images/\d+\.{{ext}})\" width=\"\d+\" height=\"\d+\"
+previousexp = <a href=\"(\?strip_id=\d+)\"><img src=\"nav/prev\.gif\" border=\"0\"></a>
+
+[Villainy Minor]
+class = drunkduck
+authors = Amy Tomlinson
+urlname = Villainy_Minor
+
+[Ville Life]
+class = drunkduck
+authors = Matt Schneck
+urlname = Ville_Life
+
+[Virtually Addicted]
+class = drunkduck
+authors = spaces
+urlname = Virtually_Addicted
+
+[Voices in my Hand]
+type = search
+authors = Bill Charbonneau
+homepage = http://www.voicesinmyhand.com
+imgexp = src="(comics/{{filename}})"
+previousexp = <a href="(index\.php\?page\={{signs}})"><img border="0" src="images/button_previous.gif"
+
+[VOIDCOMICS]
+class = drunkduck
+authors = Phil Kaulienen
+urlname = VOIDCOMICS
+
+[Wade In The Deep End]
+class = drunkduck
+authors = Jason Dorough
+urlname = Wade_In_The_Deep_End
+
+[Walker and Milo]
+class = drunkduck
+authors = Hawkeye Kingston
+urlname = Walker_and_Milo
+
+[Walking Contradiction]
+class = drunkduck
+authors = Seth Johnson Esq.
+urlname = Walking_Contradiction
+
+[Walking is Still Honest]
+type = search
+authors = Ben Richmond
+homepage = http://www.stillhonest.com/
+imgexp = <img src=\"(comics/\d+\.{{ext}})\"
+previousexp = <a href=\"(\?strip_id=\d+)\" onMouseOver=\"Prev_flip\(\)\" onMouseOut=\"Prevflip\(\)\"><img src=\"images/prev\.gif\"
+
+[Walt Handelsman]
+class = comicspage
+authors = Walt Handelsman
+urlname = walt
+urlname2 = handelsman
+
+[Wander]
+class = drunkduck
+authors = SW-Inku
+urlname = Wander
+
+[Wandering Ones]
+class = keenspot
+authors = Clint Hollingsworth
+homepage = http://wanderingones.com
+previousexp = <a href=\"(/D/\d+\.html)\">Previous comic</a>
+
+[Wapsi Square]
+class = keenspot
+authors = Paul Taylor
+homepage = http://wapsisquare.com
+
+[Watch Out For Snakes]
+class = drunkduck
+authors = Yarrum
+urlname = Watch_Out_For_Snakes
+
+[Wayne Stayskal]
+class = comicspage
+authors = Wayne Stayskal
+urlname = stayskal
+urlname2 = waynestayskal
+
+[Wayward Halo]
+class = drunkduck
+authors = Eric McGarvey
+urlname = Wayward_Halo
+
+[WCHH]
+class = drunkduck
+authors = Jason Lauts
+urlname = WCHH
+
+[Webcomics Character for Hire]
+class = drunkduck
+authors = Gary Burch
+urlname = Webcomics_Character_for_Hire
+
+[Wee Pals]
+class = creators
+authors = Morrie Turner
+urlname = wee
+
+[WeirdStar]
+class = drunkduck
+authors = Simon Lindenthaler
+urlname = WeirdStar
+
+[What I Learned Today]
+class = drunkduck
+authors = Amanda Hardy
+urlname = What_I_Learned_Today
+imgexp = </b></p><img src='({{filename}})' border=0></td>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img border="0" src="gfx/prev.gif" width="38" height="35" title="Previous">
+
+[Whatever USA]
+class = comicssherpa
+authors = Larry C. Bernstein
+urlname = csabd
+
+[Where Im Coming From]
+class = ucomics
+authors = Barbara Brandon-Croft
+urlname = barbarabrandon
+urlnameshort = bb
+
+[Whos Teaching Whom]
+class = comicssherpa
+authors = C.L. Hansen
+urlname = csapl
+
+[Wicketclown]
+class = drunkduck
+authors = Matt Bowjanlges
+urlname = Wicketclown
+
+[Wigu]
+type = search
+authors = Jeff Rowland
+homepage = http://www.wigu.com/
+imgexp = <img src="(strips/{{filename}})"
+previousexp = <a href="(\?date\=\d+)" class=comic>< PREVIOUS COMIC</a>
+
+[Willy N Ethel]
+class = comicspage
+authors = Joe Martin
+urlname = willynethel
+
+[Winter]
+class = ioncomix
+authors = Matthew Kuzma, Michael Borchert & Lemuel Pew
+homepage = http://www.wintercomic.com
+previousexp = <a href='(/index\.php\?strip_id=\d+)'><img border=0 src='\./img/lastpage\.gif'></a>
+
+[Wintergreen]
+class = drunkduck
+authors = Hero Florence
+urlname = Wintergreen
+
+[With Friends Like These]
+type = search
+authors = Tim Andress
+homepage = http://www.andressentertainment.com/wflt
+imgexp = <img src="(strips/{{filename}})"
+previousexp = <area shape="rect" coords="23(?:5|6),(?:8|10),41(?:3|4),3(?:6|8)"  href="({{homepage}}/\d+\.html)">
+
+[Wizard of Id]
+class = creators
+authors = Brant Parker and Johnny Hart
+urlname = wiz
+
+[Wohlnuts]
+class = comicssherpa
+authors = Phil Wohlrab
+urlname = cswip
+
+[Wonderwall]
+class = drunkduck
+authors = angelo
+urlname = Wonderwall
+
+[Wonder Mart]
+class = drunkduck
+authors = WonderBoy
+urlname = Wonder_Mart
+imgexp = <div align="center"><img src='({{filename}})' border=0></div>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="http://www.drunkduck.com/Wonder_Mart/gfx/prevnav.gif" border="0" alt="Back">
+
+[Woof and Meow]
+class = drunkduck
+authors = Rose Z
+urlname = Woof_and_Meow
+
+[Woolley]
+class = drunkduck
+authors = Eleanor Woolley (El)
+urlname = Woolley
+
+[Words of Wisdumb]
+class = comicssherpa
+authors = Thom Bluemel
+urlname = csvel
+
+[Working]
+class = drunkduck
+authors = Chris Swantek
+urlname = working
+imgexp = <TD><img src='({{filename}})' border=0></TD>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src=http://www.imageshack.us/img1/4733/workingprev2.gif>
+
+[Working Daze]
+class = unitedmedia
+authors = John Zakour and Kyle Miller
+urlname = workingdaze
+
+[Working It Out]
+class = creators
+authors = Charlos Gary
+urlname = wio
+
+[World Dictator]
+class = drunkduck
+authors = Dan Whiteman
+urlname = World_Dictator
+imgexp = <center><img src='({{filename}})' border=0><br>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="gfx/previous.gif" width="27" height="43" alt="" border="0">
+
+[World Domination]
+class = drunkduck
+authors = Yokoshima na Neko & XoR
+urlname = World_Domination
+imgexp = <TD><img src='({{filename}})' border=0></TD>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src='http://www.drunkduck.com/World_Domination/gfx/WD-Before.gif' border=0 height=50 width=50>
+
+[World of Two]
+class = drunkduck
+authors = Matthew Ferguson and Ryan Hurley
+urlname = World_of_Two
+imgexp = <p><img src='({{filename}})' border=0></td>
+previousexp = <a href='({{homepage}}/\?i=\d+)'>&nbsp;Previous</a>
+
+[WTCNS]
+class = drunkduck
+authors = Eruanna
+urlname = WTCNS
+
+[Wulffmorgenthaler]
+type = search
+authors = Mikael Wulff & Anders Morgenthaler
+homepage = http://www.wulffmorgenthaler.com
+archiveurl = {{homepage}}/thestrip.asp?cday=&cmonth=&cyear=
+imgexp = <img src=\"(log/.+?)\".+?></a>
+previousexp = <a href=\"(thestrip\.asp\?cDay=\d+&cMonth=\d+&cYear=\d+)\"><img src=\"img/prev\.gif\"
+
+[Wulffmorgenthaler på dansk]
+type = search
+authors = Mikael Wulff & Anders Morgenthaler
+homepage = http://pol.dk
+archiveexp = <IFRAME SRC=\"(http://politiken\.dk/VisArtikel\.iasp\?PageID=\d+\&TemplateID=\d+)\" width=\"100\%\" height=\"100\%\" frameborder=\"no\" border=\"0\" MARGINWIDTH=\"0\" MARGINHEIGHT=\"0\" SCROLLING=\"no\">
+imgexp = <div><img src=\"(http://www\.politiken\.dk/media/grafik/\d+\.{{ext}})\"></div>
+previousexp = <A href=\"(/VisArtikel\.iasp\?PageID=\d+)\">N\&aelig;ste stribe
+
+[Xi]
+class = drunkduck
+authors = Rory Johnson
+urlname = Xi
+
+[xximtooemoxx]
+class = drunkduck
+authors = Mambo
+urlname = xximtooemoxx
+
+[Ye Ol Destruction]
+class = drunkduck
+authors = Padraig Daniel Lindel
+urlname = Ye_Ol_Destruction
+
+[Yenny]
+class = comicssherpa
+authors = David Alvarez
+urlname = csaeb
+
+[Yeti and Sherpa]
+class = comicssherpa
+authors = Pujan Roka
+urlname = cszmk
+
+[You Damn Kid]
+class = keenspot
+authors = Owen Dunne
+homepage = http://youdamnkid.com
+
+[You Have Been Warned]
+class = drunkduck
+authors = trythesoup
+urlname = trythesoup
+imgexp = <TD><img src='({{filename}})' border=0></TD>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><font size="5">&lt;</a>
+
+[Yuri and Nate]
+class = drunkduck
+authors = Mario Tibo
+urlname = Yuri_and_Nate
+
+[Z7]
+class = drunkduck
+authors = Christopher John Francis Noone
+urlname = Z7
+imgexp = <br /><img src='({{filename}})' border=0><p>
+previousexp = <a href='({{homepage}}/\?i=\d+)'><img src="gfx/previous_day.gif" border="0">
+
+[Zack Hill]
+class = creators
+authors = John Deering & J. Newcombe
+urlname = zhi
+
+[Zebra Girl]
+class = keenspot
+authors = Joe England
+homepage = http://zebragirl.keenspot.com
+previousexp = <a href=\"(/d/\d+\.html)\">Previous comic</a>
+altpreviousexp = <a href=\"(http://zebragirl\.keenspot\.com/d/\d+?\.html)\">Previous comic</a>
+
+[Ziggy]
+class = ucomics
+authors = Tom Wilson and Tom II
+urlname = ziggy
+urlnameshort = zi
+
+[Ziggy en Espanol]
+class = ucomics
+authors = Tom Wilson and Tom II
+urlname = ziggyespanol
+urlnameshort = spzi
+
+[Zimbu the Monkey]
+type = search
+authors = FKD
+homepage = http://zimbu.bolloxcomics.co.uk/
+archiveexp = Latest comic: <a href=\"(comic\d+.htm)\">
+imgexp = <img src=\"(comic\d+\.{{ext}})\" width=\"\d+\" height=\"\d+\" border=\"0\">
+previousexp = <a href=\"(comic\d+\.htm)\">(?:<b>)?Previous(?:</b>)?</a>
+
+[Zippy the Pinhead]
+class = sfgate
+authors = Bill Griffith
+urlname = Zippy_the_Pinhead
+
+[Zippy the Pinhead in Color]
+class = sfgate
+authors = Bill Griffith
+urlname = Zippy_the_Pinhead_Color
+
+[Zits]
+class = sfgate
+authors = Jerry Scott & Jim Borgman
+urlname = Zits
+
+[Zortic]
+class = keenspot
+authors = Mark Mekkes
+homepage = http://zortic.com
+previousexp = <a href=\"(/d/\d+\.html)\">Previous comic</a>

@@ -1,0 +1,5 @@
+cross-mips-unknown-linux-gnu/binutils -multilib
+cross-mips-unknown-linux-gnu/gcc -multilib
+cross-mips-unknown-linux-gnu/gdb -multilib
+cross-mips-unknown-linux-gnu/glibc -multilib
+cross-mips-unknown-linux-gnu/linux-headers -multilib

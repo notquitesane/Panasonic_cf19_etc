@@ -1,0 +1,65 @@
+[comicssherpa]
+type = search
+homepage = http://www.comicssherpa.com/site/feature?uc_comic={{urlname}}
+imgexp = <img src=\"(http://images.ucomics.com/comics/{{urlname}}/\d+/{{urlname}}\d+\.(?:jpg|gif))\" width=\"\d+\" height=\"\d+\" border=\"0\">
+previousexp = <a href=\"(http://www\.comicssherpa\.com/site/feature\?uc_comic={{urlname}}&uc_full_date=\d+)\" onClick=\"this\.href=FCx\(this\.href\);\">previous day</a>
+
+[comicspage]
+type = search
+urlname2 = {{urlname}}
+urlname3 = {{urlname}}
+homepage = http://www.comicspage.com/{{urlname}}/{{urlname2}}.html
+imgexp = <img src=\"(http://www\.tmsfeatures\.com/tmsfeatures/servlet/com\.featureserv\.util\.Download\?file={{filename}}\&code=\w+?)\"></img>
+imgname = <img src=\"http://www\.tmsfeatures\.com/tmsfeatures/servlet/com\.featureserv\.util\.Download\?file=({{filename}})\&code=\w+?\"></img>
+previousexp = <a href=\"(/comicspage/main\.jsp\?catid=\d+?\&custid=\d+?\&file={{filename}}\&code=\w+?\&dir=/{{urlname3}})\" onmouseover=\"window\.status='Previous';return true\" onmouseout=\"window\.status='';return true\"><img src=\"/images/dailyprev\.gif\" valign=\"top\" border=0 alt=\"Previous\"></a>
+
+[creators]
+type = search
+homepage = http://www.creators.com/comics_show.cfm?comicname={{urlname}}
+imgexp = <img alt=\".*?\" src=\"(\d+/{{urlname}}/{{urlname}}\d+\w+?\.{{ext}})\">
+previousexp = <a href=\"(comics_show\.cfm\?next=\d+\&ComicName={{urlname}})\" Title=\"Previous Comic\"><img src=\"gfx/back_hi\.gif\" alt=\"Back\" border=\"0\" height=\"28\" width=\"72\"></a>
+
+[creatorsed]
+type = search
+homepage = http://www.creators.com/editorial_show.cfm?comicname={{urlname}}
+imgexp = <img alt=\".*?\" src=\"(\d+/{{urlname}}/{{urlname}}\d+\w+?\.{{ext}})\">
+previousexp = <a href=\"(editorial_show\.cfm\?next=\d+\&ComicName={{urlname}})\" Title=\"Previous Comic\"><img src=\"gfx/back_hi\.gif\" alt=\"Back\" border=\"0\" height=\"28\" width=\"72\"></a>
+
+[drunkduck]
+type = search
+homepage = http://www.drunkduck.com/{{urlname}}/
+imgexp = <tr><td><img src='({{filename}})' border=0></td></tr>
+previousexp = <a href='({{homepage}}\?i=\d+)'><img src='\.\./gfx/themes/default/prevnav\.gif' border=0 height=50 width=50></a>
+
+[ioncomix]
+type = search
+imgexp = <img src='(/(?:index|daily)\.php\?do_command=show_strip\&strip_id=\d+\&auth=\d+-\d+-\d+-\d+-\d+)' border=0>
+imgname = <img src='/(?:index|daily)\.php\?do_command=show_strip\&strip_id=(\d+)\&auth=\d+-\d+-\d+-\d+-\d+' border=0>
+
+[keenspot]
+type = search
+imgexp = <IMG ALT=\".*?\" BORDER=0 SRC=\"(/comics/{{filename}})\" (?:WIDTH=\"?\d+\"? HEIGHT=\"?\d+\"?|HEIGHT=\"?\d+\"? WIDTH=\"?\d+\"?)>
+altimgexp = <img src=\"({{homepage}}/comics/\w+?\.{{ext}})\">
+previousexp = <a href=\"(/d/\d+\.html)\"><img border=0 name=\"previous_day\" alt=\"Previous comic\" src=\"/images/previous_day\.{{ext}}\"
+altpreviousexp = <a href=\"(/d/\d+\.html)\">Previous comic</a>
+
+[sfgate]
+type = lateststatic
+homepage = http://www.sfgate.com/cgi-bin/article.cgi?file=/comics/{{urlname}}.dtl
+imgurl = http://pst.rbma.com/content/{{urlname}}
+
+[ucomics]
+type = search
+homepage = http://www.ucomics.com/{{urlname}}
+imgexp = <img src=\"(http://images.ucomics.com/comics/{{urlnameshort}}/\d+/{{urlnameshort}}\d+\.(?:jpg|gif))\" width=\"\d+\" height=\"\d+\" border=\"0\">
+previousexp = <a href = \"(http://www\.ucomics\.com/{{urlname}}/\d+/\d+/\d+/)\" onClick=\"this\.href=FCx\(this\.href\)\;\">previous date</a>
+altpreviousexp = <a href = \"(http://www\.ucomics\.com/{{urlname}}/\d+/\d+/\d+/)\">previous date</a>
+
+[unitedmedia]
+type = search
+homepage = http://www.unitedmedia.com/comics/{{urlname}}
+archiveurl = {{homepage}}/archive/
+imgexp = <IMG SRC=\"(/comics/{{urlname}}/archive/images/{{urlname}}\d+\..*?)\".*?>
+previousexp = <A HREF=\"(/comics/{{urlname}}/archive/{{urlname}}-\d+\.html)\">.*?Previous Day.*?</A>
+altpreviousexp = <A HREF=\"(/comics/{{urlname}}/archive/{{urlname}}-\d+\.html)\"><IMG SRC=\"/comics/{{urlname}}/images/arrow_left\.gif\"
+

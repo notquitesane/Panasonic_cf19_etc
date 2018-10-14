@@ -1,0 +1,66 @@
+The rotation.schedule file is used to describe how your virtual-tapes will be named and rotated.
+
+The rotation.schedule is very powerful because you can quickly design a custom rotation strategy, or use one of the 
+suggested templates. Multiple rotation templates are provided (located in /etc/sarab/examples/) to demonstrate how this 
+file can used. These include Towers of Hanoi, Grandfather-Father-Son, and several other rotation strategies.. 
+
+To use an example rotation schedule, copy the file into "/etc/sarab/" and rename it to "rotation.schedule". This will 
+overwrite the previous rotation.schedule, so make sure you backup the existing rotation.schedule file first, if you 
+want to save it. 
+
+RULES: 
+
+1. This file is a circular list. Once the backup and rotation have completed successfully, the first line of this file 
+will be moved to the last line. The second line then becomes the first line, and will be used the next time SaraB is 
+run. 
+
+2. Each line will have either one or two words. If two words, they will be seperated by a space.
+
+3. If there is only one word on a line, SaraB will create a full-backup. That word will become the name of the 
+virtual-tape.
+
+4. If there are two words seperated by a space, SaraB will create an incremental/differential backup. The first word 
+will become the name of the virtual-tape. The second word is the name of the virtual-tape that will used as a reference 
+point for the backup. (If a virtual-tape with this name doesn't already exist, then SaraB will instead create a 
+full-backup. The virtual-tape will still be named by the first word.)
+
+5. Each unique word represents a virtual-tape. If a word is listed on multiple lines, then the previous virtual-tape 
+with the same name will be overwritten when SaraB processes that line. This also happens when the entire rotation.schedule 
+is rotated back to the beginning, the previous virtual-tape with the same name will be overwritten. 
+
+6. Creating comments with "#" is supported, but remember that this file is a circular list. The lines will be rotating, 
+and your comments may get split at the top and bottom of the file. The best idea is to add comments inline, after the 
+archive 
+names. 
+
+See below for examples.
+
+Ex. 1) Normal (full) backups.
+
+weekly-full-1             # Weekly full-backups
+weekly-full-2             # Full-backups require the most space, but are the easiest to restore from
+
+Ex. 2) Differential backups. Note: "full-backup" is a normal (full) backup
+
+full-backup               # Normal full-backup
+diff-backup1 full-backup  # Differential backup, in reference to "full-backup"
+diff-backup2 full-backup  # Differential backups only record changes since the previous full-backup
+diff-backup3 full-backup  # Differentials save a lot of space and are fairly simple to restore from
+
+Ex. 3) Incremental backups. Note: "full-backup" is a normal (full) backup
+
+full-backup               # Normal full-backup
+incr-backup1 full-backup  # First incremental, based on the full-backup
+incr-backup2 incr-backup1 # Another incremental, based on the previous incremental
+incr-backup3 incr-backup2 # Incremental backups only record changes since the previous incremental 
+incr-backup4 incr-backup3 # Incrementals save the most space, but require more steps to restore from
+
+Ex. 4) Incremental and full backups (Grandfather, Father, Son). Good compromise between space and backup/restore time
+
+grandfather               # this is a full backup, restore requires just this one
+father1 grandfather       # Incremental backup, restore requires father1+grandfather
+son11 father1             # Incremental backup, restore requires son11+father1+grandfather
+son12 father1             # Incremental backup, restore requires son12+father1+grandfather
+father2 grandfather       # Incremental backup, restore requires father2+grandfather
+son21 father2             # Incremental backup, restore requires son21+father2+grandfather
+son22 father2             # Incremental backup, restore requires son22+father2+grandfather

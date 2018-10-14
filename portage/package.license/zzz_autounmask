@@ -1,0 +1,11 @@
+# required by media-video/ffmpeg-3.3.6::gentoo[fdk]
+# required by media-plugins/alsa-plugins-1.1.1-r1::gentoo[ffmpeg,-libav]
+# required by media-sound/pulseaudio-11.1-r1::gentoo[alsa,alsa-plugin]
+# required by media-libs/openal-1.18.2-r1::gentoo[pulseaudio]
+=media-libs/fdk-aac-0.1.5 FraunhoferFDK
+# required by www-client/google-chrome (argument)
+>=www-client/google-chrome-68.0.3440.106 google-chrome
+# required by www-client/opera (argument)
+=www-client/opera-12.16_p1860-r1 OPERA-12
+# required by www-plugins/adobe-flash (argument)
+>=www-plugins/adobe-flash-30.0.0.154 AdobeFlash-11.x

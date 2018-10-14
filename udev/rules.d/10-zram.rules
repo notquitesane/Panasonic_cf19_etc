@@ -1,0 +1,3 @@
+KERNEL=="zram0", SUBSYSTEM=="block", DRIVER=="", ACTION=="add", ATTR{disksize}=="0", ATTR{disksize}="512M", RUN+="/sbin/mkswap $env{DEVNAME}"
+KERNEL=="zram1", SUBSYSTEM=="block", DRIVER=="", ACTION=="add", ATTR{disksize}=="0", ATTR{disksize}="512M", RUN+="/sbin/mkswap $env{DEVNAME}"
+KERNEL=="zram2", SUBSYSTEM=="block", DRIVER=="", ACTION=="add", ATTR{disksize}=="0", ATTR{disksize}="512M", RUN+="/sbin/mkfs.ext4 $env{DEVNAME}"

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event>
+    <name>Collect Smolt profile</name>
+    <name xml:lang="ko">Smolt 프로파일 수집합니다</name>
+    <description>Save your computer's hardware profile information</description>
+    <description xml:lang="as">আপোনাৰ কমপিউটাৰৰ হাৰ্ডৱেৰ আলেখ্যা তথ্য সংৰক্ষণ কৰক</description>
+    <description xml:lang="bn_IN">কম্পিউটারের হার্ডওয়্যার প্রোফাইলের তথ্য সংরক্ষণ করুন</description>
+    <description xml:lang="de">Hardwareprofil-Informationen Ihres Computers speichern</description>
+    <description xml:lang="es">Guarde la información de su perfil de hardware del equipo</description>
+    <description xml:lang="fr">Enregistre les informations de profil du matériel de l'ordinateur</description>
+    <description xml:lang="gu">તમારી કમ્પ્યૂટરની હાર્ડવેર રૂપરેખા જાણકારીને સંગ્રહો</description>
+    <description xml:lang="hi">अपने कंप्यूटर के हार्डवेयर प्रोफाइल सूचना को सहेजें</description>
+    <description xml:lang="it">Salva le informazioni sul profilo hardware del tuo computer</description>
+    <description xml:lang="ja">コンピュータのハードウェアプロファイル情報を保存する</description>
+    <description xml:lang="kn">ನಿಮ್ಮ ಗಣಕಯಂತ್ರದ ಯಂತ್ರಾಂಶ ಮಾಹಿತಿಯನ್ನು ಉಳಿಸುತ್ತದೆ</description>
+    <description xml:lang="ko">컴퓨터의 하드웨어 프로파일 정보를 저장합니다 </description>
+    <description xml:lang="ml">നിങ്ങളുടെ കമ്പ്യൂട്ടറിന്റെ ഹാര്‍ഡ്‌വെയര്‍ പ്രൊഫൈല്‍ വിവരം സൂക്ഷിയ്ക്കുക</description>
+    <description xml:lang="mr">संगणकाची हार्डवेअर प्रोफाइल माहिती साठवा</description>
+    <description xml:lang="or">ଆପଣଙ୍କ କମ୍ପୁଟରର ହାର୍ଡୱେର ରୂପରେଖା ସୂଚନାକୁ ସଂରକ୍ଷଣ କରନ୍ତୁ</description>
+    <description xml:lang="pa">ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਦੀ ਹਾਰਡਵੇਅਰ ਪਰੋਫਾਈਲ ਜਾਣਕਾਰੀ ਸੰਭਾਲਦਾ ਹੈ</description>
+    <description xml:lang="pl">Zapisuje informacje o profilu sprzętu komputera</description>
+    <description xml:lang="pt_BR">Salva as informações de perfil do hardware de seu computador</description>
+    <description xml:lang="ru">Сохранить профиль оборудования компьютера</description>
+    <description xml:lang="ta">உங்கள் கணினியின் வன்பொருள் விவரக்குறிப்புத் தகவலை சேமிக்கவும்</description>
+    <description xml:lang="te">మీ కంప్యూటర్ యొక్క హార్డువేర్ ప్రొఫైల్ సమాచారం దాయును</description>
+    <description xml:lang="zh_CN">保存您的计算机硬件概况信息</description>
+    <description xml:lang="zh_TW">儲存您電腦的硬體設定檔資訊</description>
+    <long-description>Runs smoltSendProfile -p and saves its output as 'smolt_data' element.</long-description>
+    <long-description xml:lang="as">smoltSendProfile -p চলায় আৰু ইয়াৰ আউটপুটক 'smolt_data' উপাদান হিচাপে সঞ্চয় কৰে।</long-description>
+    <long-description xml:lang="bn_IN">smoltSendProfile -p সঞ্চালন করে  'smolt_data' এলিমেন্ট রূপে এর ফলাফল সংরক্ষণ করা হয়।</long-description>
+    <long-description xml:lang="de">Führt smoltSendProfile -p aus und speichert die Ausgabe als »smolt_data«-Element.</long-description>
+    <long-description xml:lang="es">Ejecuta smoltSendProfile -p y guarda su salida como elemento de 'smolt_data'.</long-description>
+    <long-description xml:lang="fr">Exécute smoltSendProfile -p et enregistre sa sortie en tant qu'élément 'smolt_data'.</long-description>
+    <long-description xml:lang="gu">smoltSendProfile -p ને ચલાવે છે અને 'smolt_data' ઘટક તરીકે તેનાં આઉટપુટનો સંગ્રહ કરે છે.</long-description>
+    <long-description xml:lang="hi">smoltSendProfile -p चलाता है और इसके आउटपुट को 'smolt_data' तत्व सहेजता है.</long-description>
+    <long-description xml:lang="it">Esegue smoltSendProfile -p salvando l'output come elemento 'smolt_data'.</long-description>
+    <long-description xml:lang="ja">smoltSendProfile -p を実行して、 その出力を「smolt_data」エレメントとして保存します</long-description>
+    <long-description xml:lang="kn">smoltSendProfile -p ಅನ್ನು ಚಲಾಯಿಸುತ್ತದೆ ಮತ್ತು ಅದರ ನೀಡಿಕೆಯನ್ನು 'smolt_data' ಅಂಶದಲ್ಲಿ ಉಳಿಸುತ್ತದೆ.</long-description>
+    <long-description xml:lang="ko">smoltSendProfile -p를 실행하여 출력 결과를 'smolt_data'로 저장합니다. </long-description>
+    <long-description xml:lang="ml">smoltSendProfile -p പ്രവര്‍ത്തിപ്പിച്ചു് ഇതിന്റെ ഔട്ട്പുട്ട് 'smolt_data' എലമെന്റായി സൂക്ഷിയ്ക്കുക.</long-description>
+    <long-description xml:lang="mr">smoltSendProfile -p चालवतो व त्यास 'smolt_data' घटक म्हणून आऊटपुट स्वरूपात साठवतो.</long-description>
+    <long-description xml:lang="or">smoltSendProfile -p କୁ ଚଲାଇଥାଏ ଏବଂ ତାହାର ଫଳାଫଳକୁ 'smolt_data' ଉପାଦାନ ଭାବରେ ସଂରକ୍ଷଣ କରିଥାଏ।</long-description>
+    <long-description xml:lang="pa">smoltSendProfile -p ਚਲਾਉਂਦਾ ਹੈ ਅਤੇ ਇਸਦੀ ਆਊਟਪੁੱਟ 'smolt_data' ਐਲੀਮੈਂਟ ਤੌਰ ਤੇ ਸੰਭਾਲਦਾ ਹੈ।</long-description>
+    <long-description xml:lang="pt_BR">Executa o smoltSendProfile -p e salva seu resultado como elemento 'smolt_data'.</long-description>
+    <long-description xml:lang="ru">Запуск «smoltSendProfile -p» с сохранением данных в «smolt_data».</long-description>
+    <long-description xml:lang="ta">smoltSendProfile -p இயக்கி 'smolt_data' உறுப்பாக இதனுடைய வெளிப்பாட்டை சேமிக்கிறது.</long-description>
+    <long-description xml:lang="te">smoltSendProfile -p నడుపును మరియు దాని అవుట్పుట్‌ను 'smolt_data' మూలకం వలె దాయును.</long-description>
+    <long-description xml:lang="zh_CN">运行 smoltSendProfile -p 并将其保存为 'smolt_data' 元素。</long-description>
+    <long-description xml:lang="zh_TW">執行「smoltSendProfile -p」並將結果存成「smolt_data」元素。</long-description>
+    <creates-items>smolt_data</creates-items>
+    <gui-review-elements>no</gui-review-elements>
+</event>

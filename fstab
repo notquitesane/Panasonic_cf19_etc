@@ -1,0 +1,37 @@
+# /etc/fstab: static file system information.
+#
+# noatime turns off atimes for increased performance (atimes normally aren't 
+# needed); notail increases performance of ReiserFS (at the expense of storage 
+# efficiency).  It's safe to drop the noatime options if you want and to 
+# switch between notail / tail freely.
+#
+# The root filesystem should have a pass number of either 0 or 1.
+# All other filesystems should have a pass number of 0 or greater than 1.
+#
+# See the manpage fstab(5) for more information.
+#
+
+# <fs>						<mountpoint>	<type>		<opts>		<dump/pass>
+
+# NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
+UUID=7faa224c-1c28-4555-9b89-6e8a9dd42b8b	/boot		ext2		noauto,noatime		1 2
+UUID=7f14d8be-7529-4c0e-b8ac-31e8042aef4c	/		ext4		defaults,noatime	0 1
+UUID=341ec3b0-18ae-4e83-b32f-db414f768f2d   	none            swap            sw,pri=0 		0 0
+/dev/cdrom					/mnt/cdrom	auto		noauto,ro		0 0
+UUID=576d512f-94bf-4539-91b1-6da40bd46395	/usr		ext4		defaults,noatime	0 0
+UUID=24bab037-14b9-46a2-80a9-42941a887fd0	/var		reiserfs	defaults,noatime	0 0
+UUID=ee452e23-9437-4b1f-b279-933fbc18bac8	/home		ext4		defaults,noatime	0 0
+UUID=8e60c319-a192-48c4-90a8-3d7c59942913	/opt		ext4		defaults,noatime	0 0
+UUID=de0ea2d4-dd26-4d33-a4d1-a2e916bd925a	/usr/portage	reiserfs	defaults,noatime	0 0
+UUID=9994036d-ef83-41be-ad17-05f78d8f5995	/media		ext4		defaults,noatime	0 0
+
+/dev/shm 					/tmp		tmpfs		defaults,auto,noexec,nosuid 	0 0
+
+/dev/shm   				        /var/tmp/portage        tmpfs           size=8G,mode=775,noatime 		0 0
+none						/dev/shm        tmpfs           nodev,nosuid,noexec 	0 0 
+https://www.box.com/dav 			/home/nqs/box.com davfs 	rw,user,noauto 		0 0
+
+#zram
+/dev/zram0              			swap 		swap            pri=16383 		0 0
+/dev/zram1              			swap 		swap            pri=16383 		0 0
+/dev/zram2              			swap 		swap 		pri=16383 		0 0

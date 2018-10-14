@@ -1,0 +1,5 @@
+cross-x86_64-uclibc/binutils -multilib
+cross-x86_64-uclibc/gcc -multilib
+cross-x86_64-uclibc/gdb -multilib
+cross-x86_64-uclibc/linux-headers -multilib
+cross-x86_64-uclibc/uclibc -multilib

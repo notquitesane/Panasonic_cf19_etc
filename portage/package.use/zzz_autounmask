@@ -78,7 +78,7 @@ sys-kernel/genkernel-next cryptsetup
 # required by x11-misc/qcomicbook (argument)
 >=app-text/poppler-0.62.0-r1 qt5
 dev-python/pillow jpeg tiff jpeg2k
-dev-python/requests -python_targets_python2_7
+dev-python/requests -python_targets_python2_7 -ssl
 dev-python/ssl-fetch -python_targets_python2_7
 media-fonts/croscorefonts X
 x11-base/xcb-proto -python_targets_python2_7

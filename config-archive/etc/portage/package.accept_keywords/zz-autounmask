@@ -113,3 +113,8 @@
 =sys-kernel/mkinitramfs-ll-9999 **
 # required by app-admin/rasdaemon (argument)
 =app-admin/rasdaemon-0.6.1-r1 ~amd64
+# required by dev-python/coloredlogs (argument)
+=dev-python/coloredlogs-6.1 ~amd64
+# required by dev-python/coloredlogs-6.1::gentoo
+# required by dev-python/coloredlogs (argument)
+=dev-python/humanfriendly-2.4 ~amd64

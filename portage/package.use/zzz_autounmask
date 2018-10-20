@@ -78,10 +78,11 @@ sys-kernel/genkernel-next cryptsetup
 # required by x11-misc/qcomicbook (argument)
 >=app-text/poppler-0.62.0-r1 qt5
 dev-python/pillow jpeg tiff jpeg2k
-dev-python/requests -python_targets_python2_7 -ssl
+dev-python/requests -python_targets_python2_7 ssl libressl
 dev-python/ssl-fetch -python_targets_python2_7
 media-fonts/croscorefonts X
 x11-base/xcb-proto -python_targets_python2_7
 # required by app-vim/colorv-3.0.2-r1::gentoo
 # required by app-vim/colorv (argument)
 >=app-editors/vim-8.0.1298 python_single_target_python2_7 -python_single_target_python3_6
+net-libs/gnutls -openssl

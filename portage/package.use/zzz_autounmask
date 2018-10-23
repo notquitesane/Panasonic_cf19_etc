@@ -41,3 +41,13 @@ sys-kernel/mkinitramfs-ll dm-crypt device-mapper
 x11-base/xcb-proto -python_targets_python2_7
 >=x11-libs/wxGTK-3.0.4:3.0 X opengl
 x11-libs/wxGTK libnotify webkit tiff sdl
+app-admin/sudo -skey
+media-sound/mpd flac twolame
+media-video/mpv cli X libmpv iconv
+media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora vaapi xcb vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband -libressl
+sys-process/lsof rpc
+x11-libs/libxcb xkb
+x11-libs/gtk+ X
+media-libs/gst-plugins-base X
+dev-cpp/gtkmm X
+media-libs/libcanberra alsa

@@ -25,7 +25,7 @@ UUID=8e60c319-a192-48c4-90a8-3d7c59942913	/opt		ext4		defaults,noatime	0 0
 UUID=de0ea2d4-dd26-4d33-a4d1-a2e916bd925a	/usr/portage	reiserfs	defaults,noatime	0 0
 UUID=9994036d-ef83-41be-ad17-05f78d8f5995	/media		ext4		defaults,noatime	0 0
 
-/dev/shm 					/tmp		tmpfs		defaults,auto,noexec,nosuid 	0 0
+/dev/shm 					/tmp		tmpfs		defaults,auto,noexec,nosuid,mode=775 	0 0
 
 /dev/shm   				        /var/tmp/portage        tmpfs           size=8G,mode=775,noatime 		0 0
 none						/dev/shm        tmpfs           nodev,nosuid,noexec 	0 0 

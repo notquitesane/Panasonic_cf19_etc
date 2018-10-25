@@ -26,7 +26,7 @@ media-libs/gegl openexr tiff
 media-libs/opencv python_targets_python2_7 openexr
 media-libs/phonon -vlc
 >=media-libs/vigra-1.11.1 openexr
-media-libs/vigra python_targets_python2_7
+media-libs/vigra python_targets_python2_7 png jpeg tiff
 >=media-video/vlc-3.0.3-r1 ogg vorbis
 net-libs/gnutls -openssl
 net-libs/libtorrent ssl
@@ -42,15 +42,15 @@ x11-base/xcb-proto -python_targets_python2_7
 >=x11-libs/wxGTK-3.0.4:3.0 X opengl
 x11-libs/wxGTK libnotify webkit tiff sdl X
 app-admin/sudo -skey
-media-sound/mpd flac twolame
-media-video/mpv cli X libmpv iconv
-media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora vaapi xcb vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband -libressl
+media-sound/mpd flac twolame lame vorbis alsa
+media-video/mpv cli X libmpv iconv jpeg tools vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa
+media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora vaapi xcb vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband openssl schroedinger
 sys-process/lsof rpc
 x11-libs/libxcb xkb
 x11-libs/gtk+ X
 media-libs/gst-plugins-base X
 dev-cpp/gtkmm X
-media-libs/libcanberra alsa
+media-libs/libcanberra alsa gtk
 x11-libs/cairo X xcb
 sys-libs/glibc nscd gd
 app-admin/conky rss X luia-cairo lua-imliib maath hdtemp weather-metar iostats mpd moc curl imlib weather-xoap lua-imlib lua-cairo hddtemp math
@@ -61,26 +61,71 @@ app-text/mupdf X
 dev-cpp/cairomm X
 kde-frameworks/kwindowsystem X
 media-fonts/font-misc-misc X
-media-gfx/graphviz X
-media-libs/freetype X
+media-gfx/graphviz X gtk
+media-libs/freetype X png
 media-libs/gst-plugins-bad X
-media-libs/imlib2 X
+media-libs/imlib2 X png gif jpeg tiff
 media-libs/libepoxy X
 media-libs/libsdl X
-media-libs/netpbm X
-media-sound/pulseaudio X
+media-libs/netpbm X png jpeg jpeg2k tiff
+media-sound/pulseaudio X gtk alsa
 sys-apps/dbus X
 sys-power/powertop X
 www-client/w3m X
-x11-libs/gdk-pixbuf X
+x11-libs/gdk-pixbuf X jpeg jpeg2k tiff
 x11-libs/libva X
 x11-libs/libva-intel-driver X
 x11-libs/libxkbcommon X
 x11-libs/pango X
-virtual/ffmpeg X
+virtual/ffmpeg X jpeg2k
 mail-client/mutt gdbm smime gpgme berkdb
 net-wireless/wpa_supplicant ap wps
 dev-lang/python tk sqlite
 net-analyzer/nmap ncat libssh2 ndiff nping zenmap
 x11-base/xorg-server tslib xnest
 net-libs/libssh server
+dev-libs/gmp static-libs
+dev-libs/libgcrypt static-libs
+dev-libs/libgpg-error static-libs
+dev-libs/libpcre2 static-libs
+dev-libs/nettle static-libs
+media-libs/libjpeg-turbo static-libs
+net-libs/libpcap static-libs
+net-libs/libssh2 static-libs
+sys-apps/util-linux static-libs
+sys-fs/cryptsetup static-libs
+sys-fs/eudev static-libs
+sys-fs/lvm2 static-libs
+sys-libs/libunwind static-libs
+virtual/libudev static-libs
+dev-libs/popt static-libs
+app-emulation/qemu png jpeg gtk
+app-text/poppler png jpeg jpeg2k tiff
+dev-qt/qtgui png gif jpeg
+dev-qt/qtwidgets png
+media-libs/gd png jpeg
+media-libs/jbig2dec png
+sys-libs/slang png
+x11-terms/mrxvt png jpeg
+app-arch/p7zip rar
+sys-libs/timezone-data leaps_timezone
+media-libs/jasper jpeg
+media-libs/tiff jpeg
+x11-misc/xscreensaver jpeg
+app-portage/eix doc sqlite
+app-shells/zsh doc
+dev-vcs/git doc highlight] highlight
+sys-apps/portage doc
+sys-libs/zlib static-libs minizip
+app-arch/libarchive expat nettle lzo iconv
+net-misc/curl http2 ipv6 ssh curl_ssl_libressl -curl_ssl_openssl
+app-text/xmlto text
+app-crypt/gcr gtk
+sys-auth/polkit gtk
+x11-apps/xinput_calibrator gtk
+media-libs/libsndfile alsa
+media-libs/openal alsa
+media-sound/moc alsa
+net-wireless/bluez alsa
+sys-power/pm-utils alsa
+www-client/elinks bittorrent javascript gc ftp -ssl

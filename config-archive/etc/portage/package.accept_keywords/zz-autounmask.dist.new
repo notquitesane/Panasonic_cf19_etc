@@ -81,3 +81,27 @@
 =dev-qt/qtdbus-5.11.2 ~amd64
 # required by =dev-qt/qtx11extras-5.11.2 (argument)
 =dev-qt/qtx11extras-5.11.2 ~amd64
+# required by dev-qt/qtsvg-5.11.2::gentoo
+# required by =dev-qt/qtsvg-5.11.2 (argument)
+=dev-qt/qtwidgets-5.11.2 ~amd64
+# required by =dev-qt/qtsvg-5.11.2 (argument)
+=dev-qt/qtsvg-5.11.2 ~amd64
+# required by =dev-qt/qtscript-5.11.2 (argument)
+=dev-qt/qtscript-5.11.2 ~amd64
+# required by dev-qt/qtdeclarative-5.11.2::gentoo[-test]
+# required by =dev-qt/qtdeclarative-5.11.2 (argument)
+=dev-qt/qttest-5.11.2 ~amd64
+# required by =dev-qt/qtdeclarative-5.11.2 (argument)
+=dev-qt/qtdeclarative-5.11.2 ~amd64
+# required by =dev-qt/qtprintsupport-5.11.2 (argument)
+=dev-qt/qtprintsupport-5.11.2 ~amd64
+# required by =dev-qt/linguist-tools-5.11.2 (argument)
+=dev-qt/linguist-tools-5.11.2 ~amd64
+# required by dev-qt/qtwidgets-5.9.6-r1::gentoo
+# required by dev-qt/qtwebkit-5.212.0_pre20180120::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-qt/qtcore-5.9.6-r1 ~amd64
+# required by =dev-util/cmake-3.12.3 (argument)
+=dev-util/cmake-3.12.3 ~amd64
+# required by =media-video/ffmpeg-3.4.3 (argument)
+=media-video/ffmpeg-3.4.3 ~amd64

@@ -103,3 +103,5 @@
 # required by dev-qt/qtwebkit-5.212.0_pre20180120::gentoo
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =dev-qt/qtcore-5.9.6-r1 ~amd64
+# required by =dev-util/cmake-3.12.3 (argument)
+=dev-util/cmake-3.12.3 ~amd64

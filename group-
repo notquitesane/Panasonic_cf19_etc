@@ -16,7 +16,7 @@ console:x:17:
 audio:x:18:nqs
 cdrom:x:19:nqs,aegisfang,pheonixrisen,trancenightfyr,qzenet,maruka,users
 tape:x:26:root
-video:x:27:root
+video:x:27:root,nqs
 cdrw:x:80:nqs,aegisfang,pheonixrisen,trancenightfyr,qzenet,maruka,users
 usb:x:85:
 users:x:100:nqs,aegisfang,pheonixrisen,trancenightfyr,qzenet,maruka,brittnay_kuder,leprechaun
@@ -83,3 +83,4 @@ netperf:x:131:
 redis:x:75:
 ntopng:x:132:
 spamd:x:133:
+ngrep:x:968:

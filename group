@@ -84,3 +84,4 @@ redis:x:75:
 ntopng:x:132:
 spamd:x:133:
 ngrep:x:968:
+power:x:1000:

@@ -44,43 +44,43 @@ x11-libs/wxGTK libnotify webkit tiff sdl X
 app-admin/sudo -skey
 media-sound/mpd flac twolame lame vorbis alsa icu
 media-video/mpv cli X libmpv iconv jpeg tools vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa
-media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora vaapi xcb vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband openssl schroedinger
+media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora vaapi xcb vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband openssl schroedinger postproc
 sys-process/lsof rpc
 x11-libs/libxcb xkb
 x11-libs/gtk+ X
-media-libs/gst-plugins-base X
+media-libs/gst-plugins-base X ogg
 dev-cpp/gtkmm X
 media-libs/libcanberra alsa gtk
-x11-libs/cairo X xcb
+x11-libs/cairo X xcb svg
 sys-libs/glibc nscd gd
 app-admin/conky rss X luia-cairo lua-imliib maath hdtemp weather-metar iostats mpd moc curl imlib weather-xoap lua-imlib lua-cairo hddtemp math
 net-misc/wget uuid idn
-app-benchmarks/bootchart2 X
+app-benchmarks/bootchart2 X svg
 app-misc/mc X
 app-text/mupdf X
-dev-cpp/cairomm X
+dev-cpp/cairomm X svg
 kde-frameworks/kwindowsystem X
 media-fonts/font-misc-misc X
-media-gfx/graphviz X gtk
-media-libs/freetype X png
+media-gfx/graphviz X gtk pdf svg cairo
+media-libs/freetype X png utils infinality
 media-libs/gst-plugins-bad X
-media-libs/imlib2 X png gif jpeg tiff
+media-libs/imlib2 X png gif jpeg tiff mp3
 media-libs/libepoxy X
 media-libs/libsdl X
-media-libs/netpbm X png jpeg jpeg2k tiff
+media-libs/netpbm X png jpeg jpeg2k tiff jbig
 media-sound/pulseaudio X gtk alsa gnome realtime tcpd native-headset gdbm equalizer sox orc bluetooth
 sys-apps/dbus X
 sys-power/powertop X
 www-client/w3m X
 x11-libs/gdk-pixbuf X jpeg jpeg2k tiff
-x11-libs/libva X
+x11-libs/libva X vdpau
 x11-libs/libva-intel-driver X
 x11-libs/libxkbcommon X
 x11-libs/pango X
-virtual/ffmpeg X jpeg2k vaapi
-mail-client/mutt gdbm smime gpgme berkdb
+virtual/ffmpeg X jpeg2k vaapi vdpau mp3
+mail-client/mutt gdbm smime gpgme berkdb gddbm
 net-wireless/wpa_supplicant ap wps
-dev-lang/python tk sqlite
+dev-lang/python tk sqlite gddbm gdbm
 net-analyzer/nmap ncat libssh2 ndiff nping zenmap
 x11-base/xorg-server tslib xnest
 net-libs/libssh server
@@ -88,7 +88,7 @@ dev-libs/gmp static-libs pgo
 dev-libs/libgcrypt static-libs
 dev-libs/libgpg-error static-libs
 dev-libs/libpcre2 static-libs
-dev-libs/nettle static-libs
+dev-libs/nettle static-libs cpu_flags_x86_aes
 media-libs/libjpeg-turbo static-libs
 net-libs/libpcap static-libs
 net-libs/libssh2 static-libs
@@ -99,26 +99,26 @@ sys-fs/lvm2 static-libs
 sys-libs/libunwind static-libs
 virtual/libudev static-libs
 dev-libs/popt static-libs
-app-emulation/qemu png jpeg gtk numa
-app-text/poppler png jpeg jpeg2k tiff
+app-emulation/qemu png jpeg gtk numa nfs
+app-text/poppler png jpeg jpeg2k tiff cairo curl
 dev-qt/qtgui png gif jpeg
 dev-qt/qtwidgets png
-media-libs/gd png jpeg
+media-libs/gd png jpeg trutype truetype
 media-libs/jbig2dec png
 sys-libs/slang png
-x11-terms/mrxvt png jpeg
+x11-terms/mrxvt png jpeg trutype truetype
 app-arch/p7zip rar
 sys-libs/timezone-data leaps_timezone
 media-libs/jasper jpeg
-media-libs/tiff jpeg
-x11-misc/xscreensaver jpeg
+media-libs/tiff jpeg jbig
+x11-misc/xscreensaver jpeg perl
 app-portage/eix doc sqlite
-app-shells/zsh doc
-dev-vcs/git doc highlight] highlight
+app-shells/zsh doc gddbm gdbm
+dev-vcs/git doc highlight] highlight perl
 sys-apps/portage doc
 sys-libs/zlib static-libs minizip
 app-arch/libarchive expat nettle lzo iconv
-net-misc/curl http2 ipv6 ssh curl_ssl_libressl -curl_ssl_openssl
+net-misc/curl http2 ipv6 ssh curl_ssl_libressl -curl_ssl_openssl idn
 app-text/xmlto text
 app-crypt/gcr gtk
 sys-auth/polkit gtk
@@ -135,13 +135,47 @@ dev-libs/cyrus-sasl berkdb gdbm -ssl
 media-libs/x265 numa
 sys-apps/hwloc numa
 sys-cluster/openmpi numa
-sys-devel/gcc pgo
+sys-devel/gcc pgo objc-gc pie go mpx graphite objc++ ssp objc cilk
 dev-db/sqlite icu tools
-dev-libs/boost icu tools
+dev-libs/boost icu tools mpi context
 dev-libs/libxml2 icu
 dev-qt/qtcore icu
 sys-apps/busybox mdev
-media-libs/mesa vaapi
-app-crypt/gnupg tools
+media-libs/mesa vaapi vdpau gles1 gles2
+app-crypt/gnupg tools doc wks-server
 sys-apps/kmod tools
 x11-drivers/xf86-video-intel tools xvmc dri uxa
+sys-apps/coreutils gmp
+app-text/xournal pdf
+net-print/cups-filters pdf
+media-libs/libpng apng
+dev-lang/perl gddbm gdbm berkdb
+sys-apps/man-db gdbm berkdb
+media-libs/x264 10bit
+sys-kernel/linux-firmware savedconfig
+app-text/ghostscript-gpl cups
+net-analyzer/rrdtool graph perl
+sci-libs/fftw quad -fortran
+net-irc/irssi perl
+x11-terms/rxvt-unicode perl xft
+media-libs/libvpx postproc cpu_flags_x86_sse4_1 svc
+sys-apps/iproute2 berkdb
+sys-libs/gdbm berkdb
+sys-libs/pam berkdb
+dev-qt/qtsql sqlite
+net-mail/offlineimap sqlite
+x11-misc/dzen xft
+dev-lang/luajit lua52compat
+dev-dotnet/libgdiplus cairo
+dev-libs/gobject-introspection cairo
+media-libs/harfbuzz cairo trutype truetype
+app-crypt/p11-kit libffi
+dev-python/pygobject libffi
+sys-devel/llvm libffi
+media-libs/flac ogg
+sys-boot/grub trutype truetype
+x11-terms/xterm trutype truetype
+dev-python/pypax ptpax
+sys-apps/elfix ptpax
+sys-apps/watchdog nfs
+net-print/cups -usb -dbus -acl

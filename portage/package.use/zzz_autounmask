@@ -147,7 +147,7 @@ sys-apps/kmod tools
 x11-drivers/xf86-video-intel tools xvmc dri uxa
 sys-apps/coreutils gmp
 app-text/xournal pdf
-net-print/cups-filters pdf
+net-print/cups-filters pdf -dbus -foomatic
 media-libs/libpng apng
 dev-lang/perl gddbm gdbm berkdb
 sys-apps/man-db gdbm berkdb
@@ -171,7 +171,7 @@ dev-libs/gobject-introspection cairo
 media-libs/harfbuzz cairo trutype truetype
 app-crypt/p11-kit libffi
 dev-python/pygobject libffi
-sys-devel/llvm libffi
+sys-devel/llvm libffi gold -llvm_targets_AMDGPU -llvm_targets_NVPTX
 media-libs/flac ogg
 sys-boot/grub trutype truetype
 x11-terms/xterm trutype truetype
@@ -179,3 +179,7 @@ dev-python/pypax ptpax
 sys-apps/elfix ptpax
 sys-apps/watchdog nfs
 net-print/cups -usb -dbus -acl
+net-misc/rsync stunnel iconv
+sys-fs/dd-rescue cpu_flags_x86_sse4_2
+app-crypt/pinentry gnome-keyring
+app-text/asciidoc highlight graphviz

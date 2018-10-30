@@ -201,3 +201,4 @@ app-editors/vim lua luajit terminal vim-pager python_single_target_python3_6 -py
 sys-libs/ncurses ada
 sys-apps/pciutils dns
 dev-qt/qtnetwork -ssl
+app-portage/mirrorselect -python_targets_python2_7

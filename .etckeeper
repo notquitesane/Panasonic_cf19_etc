@@ -227,7 +227,6 @@ maybe chmod 0644 'config-archive/etc/portage/package.accept_keywords/zz-autounma
 maybe chmod 0644 'config-archive/etc/portage/package.accept_keywords/zz-autounmask.8'
 maybe chmod 0644 'config-archive/etc/portage/package.accept_keywords/zz-autounmask.9'
 maybe chmod 0644 'config-archive/etc/portage/package.accept_keywords/zz-autounmask.dist'
-maybe chmod 0644 'config-archive/etc/portage/package.accept_keywords/zz-autounmask.dist.new'
 maybe chmod 0755 'config-archive/etc/portage/package.license'
 maybe chmod 0644 'config-archive/etc/portage/package.license/zzz_autounmask'
 maybe chmod 0644 'config-archive/etc/portage/package.license/zzz_autounmask.1'

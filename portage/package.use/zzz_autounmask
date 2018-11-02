@@ -90,7 +90,7 @@ dev-libs/libgpg-error static-libs
 dev-libs/libpcre2 static-libs pcre32 jit pcre16
 dev-libs/nettle static-libs cpu_flags_x86_aes
 media-libs/libjpeg-turbo static-libs
-net-libs/libpcap static-libs
+net-libs/libpcap static-libs netlink bluetooth
 net-libs/libssh2 static-libs
 sys-apps/util-linux static-libs caps slang tty-helpers
 sys-fs/cryptsetup static-libs nettle urandom reencrypt static -gcrypt
@@ -157,7 +157,7 @@ app-text/ghostscript-gpl cups
 net-analyzer/rrdtool graph perl
 sci-libs/fftw quad -fortran
 net-irc/irssi perl
-x11-terms/rxvt-unicode perl xft secondary-wheel pixbuf iso14755 startup-notification unicode3 -vanilla
+x11-terms/rxvt-unicode perl xft secondary-wheel pixbuf iso14755 startup-notification unicode3 -vanilla 256-color
 media-libs/libvpx postproc cpu_flags_x86_sse4_1 svc
 sys-apps/iproute2 berkdb
 sys-libs/gdbm berkdb
@@ -204,3 +204,6 @@ dev-qt/qtnetwork -ssl
 app-portage/mirrorselect -python_targets_python2_7
 sys-devel/distcc crossdev
 dev-libs/xmlrpc-c curl
+sys-apps/lm_sensors sensord
+net-p2p/rtorrent xmlrpc
+sys-process/procps modern-top

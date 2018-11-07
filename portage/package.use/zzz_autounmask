@@ -210,3 +210,6 @@ sys-process/procps modern-top
 net-p2p/deluge libnotify console gtk webinterface
 sys-block/parted device-mapper
 sys-block/gparted reiserfs btrfs reiser4 fat f2fs xfs cryptsetup
+# required by x11-plugins/pidgin-privacy-please-0.7.1::gentoo
+# required by x11-plugins/pidgin-privacy-please (argument)
+>=net-im/pidgin-2.13.0 gtk

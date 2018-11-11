@@ -18,15 +18,13 @@ export PAGER=${PAGER:-/usr/bin/less}
 # 077 would be more secure, but 022 is generally quite realistic
 umask 022
 
-# Set up PATH depending on whether we're root or a normal user.
-# There's no real reason to exclude sbin paths from the normal user,
-# but it can make tab-completion easier when they aren't in the
-# user's PATH to pollute the executable namespace.
-if [ "${EUID-}" = "0" ] || [ "${USER-}" = "root" ] ; then
-	PATH="${ROOTPATH}"
-fi
-export PATH
 unset ROOTPATH
+
+# process *.sh files in /etc/profile.d
+for sh in /etc/profile.d/*.sh ; do
+	[ -r "$sh" ] && . "$sh"
+done
+unset sh
 
 if [ -n "${BASH_VERSION-}" ] ; then
 	# Newer bash ebuilds include /etc/bash/bashrc which will setup PS1
@@ -50,8 +48,3 @@ else
 	# understand sequences such as \h, don't put anything special in it.
 	PS1="${USER:-$(whoami 2>/dev/null)}@$(uname -n 2>/dev/null) \$ "
 fi
-
-for sh in /etc/profile.d/*.sh ; do
-	[ -r "$sh" ] && . "$sh"
-done
-unset sh

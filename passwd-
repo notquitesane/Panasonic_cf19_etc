@@ -69,3 +69,4 @@ redis:x:75:75:added by portage for redis:/var/lib/redis:/sbin/nologin
 ntopng:x:132:132:added by portage for ntopng:/dev/null:/sbin/nologin
 spamd:x:133:133:added by portage for spamassassin:/home/spamd:/sbin/nologin
 ngrep:x:134:968:added by portage for ngrep:/dev/null:/sbin/nologin
+deluge:x:135:967:added by portage for deluge:/var/lib/deluge:/sbin/nologin

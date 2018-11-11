@@ -56,7 +56,8 @@
 =sys-kernel/mkinitramfs-ll-0.22.11 ~amd64
 =sys-kernel/mkinitramfs-ll-9999 **
 =sys-power/thermald-1.7.1 ~amd64
-=x11-apps/intel-gpu-tools-1.22 ~amd64
+# move x11-apps/intel-gpu-tools x11-apps/igt-gpu-tools
+=x11-apps/igt-gpu-tools-1.22 ~amd64
 =x11-misc/xcape-1.2 ~amd64
 =x11-misc/xidle-26052015 ~amd64
 =x11-misc/xstroke-0.6-r1 ~amd64
@@ -97,9 +98,9 @@
 =dev-qt/qtprintsupport-5.11.2 ~amd64
 # required by =dev-qt/linguist-tools-5.11.2 (argument)
 =dev-qt/linguist-tools-5.11.2 ~amd64
-# required by =media-video/ffmpeg-3.4.4::libressl (argument)
-=media-video/ffmpeg-3.4.4 ~amd64
 # required by dev-qt/qtwidgets-5.9.6-r1::gentoo
 # required by dev-qt/qtwebkit-5.212.0_pre20180120::gentoo
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =dev-qt/qtcore-5.9.6-r1 ~amd64
+# required by =dev-util/cmake-3.12.3 (argument)
+=dev-util/cmake-3.12.3 ~amd64

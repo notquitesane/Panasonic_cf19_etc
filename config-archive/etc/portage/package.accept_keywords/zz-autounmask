@@ -104,3 +104,7 @@
 =dev-qt/qtcore-5.9.6-r1 ~amd64
 # required by =dev-util/cmake-3.12.3 (argument)
 =dev-util/cmake-3.12.3 ~amd64
+# required by net-analyzer/prettyping (argument)
+=net-analyzer/prettyping-1.0.1 ~amd64
+# required by =www-client/opera-56.0.3051.52 (argument)
+=www-client/opera-56.0.3051.52 ~amd64

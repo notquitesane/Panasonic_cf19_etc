@@ -86,3 +86,4 @@ spamd:x:133:
 ngrep:x:968:
 power:x:1000:
 deluge:x:967:
+squid:x:966:

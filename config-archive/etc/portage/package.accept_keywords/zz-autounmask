@@ -108,3 +108,5 @@
 =net-analyzer/prettyping-1.0.1 ~amd64
 # required by =www-client/opera-56.0.3051.52 (argument)
 =www-client/opera-56.0.3051.52 ~amd64
+# required by =net-misc/youtube-dl-2018.10.29 (argument)
+=net-misc/youtube-dl-2018.10.29 ~amd64

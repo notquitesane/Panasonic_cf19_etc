@@ -110,3 +110,6 @@
 =www-client/opera-56.0.3051.52 ~amd64
 # required by =net-misc/youtube-dl-2018.10.29 (argument)
 =net-misc/youtube-dl-2018.10.29 ~amd64
+# required by @selected
+# required by @world (argument)
+=x11-apps/igt-gpu-tools-1.23 ~amd64

@@ -213,3 +213,9 @@ sys-block/gparted reiserfs btrfs reiser4 fat f2fs xfs cryptsetup
 # required by x11-plugins/pidgin-privacy-please-0.7.1::gentoo
 # required by x11-plugins/pidgin-privacy-please (argument)
 >=net-im/pidgin-2.13.0 gtk
+net-proxy/squid logrotate qos sasl caps
+net-misc/youtube-dl -python_targets_python3_6
+# required by x11-apps/igt-gpu-tools-1.23::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.96 video_cards_nouveau video_cards_amdgpu

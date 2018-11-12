@@ -43,8 +43,8 @@ x11-base/xcb-proto -python_targets_python2_7
 x11-libs/wxGTK libnotify webkit tiff sdl X
 app-admin/sudo -skey
 media-sound/mpd flac twolame lame vorbis alsa icu ffmpeg curl
-media-video/mpv cli X libmpv iconv jpeg tools vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa lua
-media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora vaapi xcb vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband openssl schroedinger postproc
+media-video/mpv cli X libmpv iconv jpeg tools -vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa lua -vdpau
+media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband openssl schroedinger postproc
 sys-process/lsof rpc
 x11-libs/libxcb xkb
 x11-libs/gtk+ X
@@ -77,7 +77,7 @@ x11-libs/libva X vdpau
 x11-libs/libva-intel-driver X
 x11-libs/libxkbcommon X
 x11-libs/pango X
-virtual/ffmpeg X jpeg2k vaapi vdpau mp3 x264 theora
+virtual/ffmpeg X jpeg2k -vaapi -vdpau mp3 x264 theora
 mail-client/mutt gdbm smime gpgme berkdb gddbm
 net-wireless/wpa_supplicant ap wps
 dev-lang/python tk sqlite gddbm gdbm
@@ -112,7 +112,7 @@ sys-libs/timezone-data leaps_timezone
 media-libs/jasper jpeg
 media-libs/tiff jpeg jbig
 x11-misc/xscreensaver jpeg perl
-app-portage/eix doc sqlite
+app-portage/eix doc sqlite -src-uri -required-use -meson -dep -jombo-build -jumbo-build
 app-shells/zsh doc gddbm gdbm examples maildir caps
 dev-vcs/git doc highlight] highlight perl curl
 sys-apps/portage doc
@@ -141,7 +141,7 @@ dev-libs/boost icu tools mpi context
 dev-libs/libxml2 icu
 dev-qt/qtcore icu
 sys-apps/busybox mdev
-media-libs/mesa vaapi vdpau gles1 gles2
+media-libs/mesa -vaapi -vdpau gles1 gles2
 app-crypt/gnupg tools doc wks-server smartcard
 sys-apps/kmod tools
 x11-drivers/xf86-video-intel tools xvmc dri uxa
@@ -213,3 +213,9 @@ sys-block/gparted reiserfs btrfs reiser4 fat f2fs xfs cryptsetup
 # required by x11-plugins/pidgin-privacy-please-0.7.1::gentoo
 # required by x11-plugins/pidgin-privacy-please (argument)
 >=net-im/pidgin-2.13.0 gtk
+net-proxy/squid logrotate qos sasl caps
+net-misc/youtube-dl -python_targets_python3_6
+# required by x11-apps/igt-gpu-tools-1.23::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.96 video_cards_nouveau video_cards_amdgpu

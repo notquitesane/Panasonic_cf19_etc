@@ -1,1 +1,1 @@
-HOOK_BLACKLIST="01grub"
+# empty file because --include-config=n when `quickpkg` was used

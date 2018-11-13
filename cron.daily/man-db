@@ -1,11 +1,1 @@
-#!/bin/sh
-
-# Use same perms/settings as the ebuild.
-cachedir="/var/cache/man"
-if [ ! -d "${cachedir}" ]; then
-	mkdir -p "${cachedir}"
-	chown man:man "${cachedir}"
-	chmod 0755 "${cachedir}"
-fi
-
-exec nice mandb --quiet
+# empty file because --include-config=n when `quickpkg` was used

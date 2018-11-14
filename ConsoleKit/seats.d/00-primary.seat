@@ -1,5 +1,1 @@
-[Seat Entry]
-Version=1.0
-Name=Primary seat
-Hidden=false
-Devices=
+# empty file because --include-config=n when `quickpkg` was used

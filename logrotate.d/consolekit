@@ -1,8 +1,1 @@
-/var/log/ConsoleKit/history {
-       monthly
-       rotate 6
-       delaycompress
-       compress
-       notifempty
-       missingok
-}
+# empty file because --include-config=n when `quickpkg` was used

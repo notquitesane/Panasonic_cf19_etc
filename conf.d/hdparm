@@ -17,10 +17,11 @@
 # cdrom0_args="-d1"
 
 # or you can set options for all PATA drives
-pata_all_args="-d1"
+#pata_all_args="-d1"
 
 # or you can set options for all SATA drives
 sata_all_args=""
 
 # or, you can set hdparm options for all drives
-all_args=""
+#all_args="-B 127 -S 64"
+hda_args="-B 127 -S 64"

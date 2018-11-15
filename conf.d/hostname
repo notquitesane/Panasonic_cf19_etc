@@ -1,1 +1,2 @@
-# empty file because --include-config=n when `quickpkg` was used
+# Set to the hostname of this machine
+hostname="tablet"

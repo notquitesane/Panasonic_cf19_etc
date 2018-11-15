@@ -1,6 +1,0 @@
-# required by @selected
-# required by @world (argument)
-# /usr/portage/profiles/package.mask:
-# Pacho Ramos <pacho@gentoo.org> (04 Nov 2018)
-# Dead for ages, not needed anymore (#596988). Removal in a month.
-=sys-power/upower-pm-utils-0.9.23-r2

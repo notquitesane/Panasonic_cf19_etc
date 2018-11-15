@@ -11,7 +11,7 @@
 # value with  the  wanted  unit name, without any space.
 # (frequency in kHz =^ Hz * 0.001 =^ MHz * 1000 =^ GHz * 1000000).
 
-START_OPTS="--governor conservative"
+START_OPTS="--governor conservative -d 666MHz"
 
 # Options when stopping cpufreq (given to the `cpupower` program)
 # This option can be used to change governer on stop. Leaving it empty will ensure

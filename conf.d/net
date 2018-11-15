@@ -6,12 +6,12 @@ dns_domain_lo="asisee.it"
 modules="wpa_supplicant"
 # It's important that we tell wpa_supplicant which driver we should
 # be using as it's not very good at guessing yet
-#wpa_supplicant_wlan0="-Dwext"
+#wpa_supplicant_wlp10s0="-Dwext"
 
-config_eth0="10.255.0.11 netmask 255.255.255.0 brd 10.255.0.255"
-routes_eth0="default via 10.255.0.1"
+config_enp0s25="10.255.0.11 netmask 255.255.255.0 brd 10.255.0.255"
+routes_enp0s25="default via 10.255.0.1"
 
-config_wlan0="dhcp"
-#dhcp_wlan0="nodns"
+config_wlp10s0="dhcp"
+#dhcp_wlp10s0="nodns"
 
-#dns_servers_wlan0="1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001"
+#dns_servers_wlp10s0="1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001"

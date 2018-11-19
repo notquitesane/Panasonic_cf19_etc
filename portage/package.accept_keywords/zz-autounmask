@@ -113,3 +113,12 @@
 # required by @selected
 # required by @world (argument)
 =x11-apps/igt-gpu-tools-1.23 ~amd64
+# required by net-firewall/shapecfg (argument)
+=net-firewall/shapecfg-36 ~amd64
+# required by net-wireless/blueberry (argument)
+=net-wireless/blueberry-1.1.13-r1 ~amd64
+# required by net-wireless/blueberry-1.1.13-r1::gentoo
+# required by net-wireless/blueberry (argument)
+=net-wireless/bluez-tools-0_p20161212 ~amd64
+# required by ipband (argument)
+=net-analyzer/ipband-0.8.1-r1 ~amd64

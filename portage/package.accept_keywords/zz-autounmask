@@ -102,8 +102,6 @@
 # required by dev-qt/qtwebkit-5.212.0_pre20180120::gentoo
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =dev-qt/qtcore-5.9.6-r1 ~amd64
-# required by =dev-util/cmake-3.12.3 (argument)
-=dev-util/cmake-3.12.3 ~amd64
 # required by net-analyzer/prettyping (argument)
 =net-analyzer/prettyping-1.0.1 ~amd64
 # required by =www-client/opera-56.0.3051.52 (argument)
@@ -122,3 +120,5 @@
 =net-wireless/bluez-tools-0_p20161212 ~amd64
 # required by ipband (argument)
 =net-analyzer/ipband-0.8.1-r1 ~amd64
+# required by =sys-apps/opentmpfiles-0.2 (argument)
+=sys-apps/opentmpfiles-0.2 ~amd64

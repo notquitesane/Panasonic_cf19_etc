@@ -122,3 +122,16 @@
 =net-analyzer/ipband-0.8.1-r1 ~amd64
 # required by =sys-apps/opentmpfiles-0.2 (argument)
 =sys-apps/opentmpfiles-0.2 ~amd64
+# required by app-backup/rdumpfs (argument)
+=app-backup/rdumpfs-0.1 ~amd64
+# required by app-backup/zbackup (argument)
+=app-backup/zbackup-1.4.4-r1 ~amd64
+# required by app-backup/bup (argument)
+=app-backup/bup-0.29.1 ~amd64
+# required by app-backup/borgweb (argument)
+=app-backup/borgweb-0.3.0 ~amd64
+# required by app-backup/pdumpfs (argument)
+=app-backup/pdumpfs-1.3-r2 ~amd64
+# required by app-backup/zbackup-1.4.4-r1::gentoo
+# required by app-backup/zbackup (argument)
+=app-arch/lzma-9.20-r1 ~amd64

@@ -135,3 +135,8 @@
 # required by app-backup/zbackup-1.4.4-r1::gentoo
 # required by app-backup/zbackup (argument)
 =app-arch/lzma-9.20-r1 ~amd64
+# required by app-portage/eix-0.33.6::mv
+# required by app-portage/portconf-1.6.8::stuff
+# required by @selected
+# required by @world (argument)
+=app-shells/push-3.1-r2 ~amd64

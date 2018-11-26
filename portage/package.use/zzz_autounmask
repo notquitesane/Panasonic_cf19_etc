@@ -9,9 +9,7 @@ app-portage/portpeek -python_targets_python2_7
 >=app-text/poppler-0.62.0-r1 qt5
 dev-db/mysql-connector-c ssl
 >=dev-libs/boost-1.65.0 python_targets_python2_7
-dev-libs/libclc video_cards_nvidia
 dev-python/cryptography libressl
-dev-python/pillow jpeg tiff jpeg2k
 >=dev-python/pymountboot-0.2.2 python_targets_python3_4
 dev-python/requests -python_targets_python2_7 ssl libressl
 dev-python/ssl-fetch -python_targets_python2_7
@@ -22,7 +20,6 @@ dev-vcs/mercurial python_targets_python2_7
 >=kde-frameworks/kwindowsystem-5.46.0 X
 media-fonts/croscorefonts X
 media-gfx/digikam jpeg2k X
-media-libs/gegl openexr tiff
 media-libs/opencv python_targets_python2_7 openexr
 media-libs/phonon -vlc
 >=media-libs/vigra-1.11.1 openexr
@@ -34,13 +31,12 @@ net-misc/iputils -openssl gcrypt
 sci-libs/hdf5 -fortran2003 -fortran -hl -cxx
 >=sys-apps/portage-2.3.40-r1 python_targets_python2_7
 sys-fs/udisks cryptsetup lvm
-sys-kernel/genkernel cryptsetup
 sys-kernel/genkernel-next cryptsetup
 sys-kernel/gentoo-sources symlink
 sys-kernel/mkinitramfs-ll dm-crypt device-mapper
 x11-base/xcb-proto -python_targets_python2_7
 >=x11-libs/wxGTK-3.0.4:3.0 X opengl
-x11-libs/wxGTK libnotify webkit tiff sdl X
+x11-libs/wxGTK libnotify tiff sdl X
 app-admin/sudo -skey
 media-sound/mpd flac twolame lame vorbis alsa icu ffmpeg curl
 media-video/mpv cli X libmpv iconv jpeg tools -vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa lua -vdpau
@@ -53,7 +49,7 @@ dev-cpp/gtkmm X
 media-libs/libcanberra alsa gtk
 x11-libs/cairo X xcb svg
 sys-libs/glibc nscd gd
-app-admin/conky rss X luia-cairo lua-imliib maath hdtemp weather-metar iostats mpd moc curl imlib weather-xoap lua-imlib lua-cairo hddtemp math
+app-admin/conky rss X weather-metar iostats mpd moc curl imlib weather-xoap lua-imlib lua-cairo hddtemp math
 net-misc/wget uuid idn
 app-benchmarks/bootchart2 X svg
 app-misc/mc X slang
@@ -78,11 +74,11 @@ x11-libs/libva-intel-driver X
 x11-libs/libxkbcommon X
 x11-libs/pango X
 virtual/ffmpeg X jpeg2k -vaapi -vdpau mp3 x264 theora
-mail-client/mutt gdbm smime gpgme berkdb gddbm
+mail-client/mutt gdbm smime gpgme berkdb
 net-wireless/wpa_supplicant ap wps
-dev-lang/python tk sqlite gddbm gdbm
+dev-lang/python tk sqlite gdbm
 net-analyzer/nmap ncat libssh2 ndiff nping zenmap
-x11-base/xorg-server tslib xnest
+x11-base/xorg-server xnest
 net-libs/libssh server
 dev-libs/gmp static-libs pgo
 dev-libs/libgcrypt static-libs
@@ -103,18 +99,18 @@ app-emulation/qemu png jpeg gtk numa nfs caps curl gtk2 tci ssh usbredir xfs vte
 app-text/poppler png jpeg jpeg2k tiff cairo curl utils
 dev-qt/qtgui png gif jpeg tslib tuio
 dev-qt/qtwidgets png
-media-libs/gd png jpeg trutype truetype fontconfig
+media-libs/gd png jpeg truetype fontconfig
 media-libs/jbig2dec png
 sys-libs/slang png
-x11-terms/mrxvt png jpeg trutype truetype menubar xpm
+x11-terms/mrxvt png jpeg truetype menubar xpm
 app-arch/p7zip rar
 sys-libs/timezone-data leaps_timezone
 media-libs/jasper jpeg
 media-libs/tiff jpeg jbig
 x11-misc/xscreensaver jpeg perl
-app-portage/eix doc sqlite -src-uri -required-use -meson -dep -jombo-build -jumbo-build
-app-shells/zsh doc gddbm gdbm examples maildir caps
-dev-vcs/git doc highlight] highlight perl curl
+app-portage/eix doc sqlite
+app-shells/zsh doc gdbm examples maildir caps
+dev-vcs/git doc highlight perl curl
 sys-apps/portage doc
 sys-libs/zlib static-libs minizip
 app-arch/libarchive expat nettle lzo iconv
@@ -130,7 +126,7 @@ net-wireless/bluez alsa experimental
 sys-power/pm-utils alsa ntp
 www-client/elinks bittorrent javascript gc ftp -ssl
 sys-apps/etckeeper cron
-net-libs/nghttp2 utils emalloc jemalloc
+net-libs/nghttp2 utils jemalloc
 dev-libs/cyrus-sasl berkdb gdbm -ssl
 media-libs/x265 numa
 sys-apps/hwloc numa
@@ -149,7 +145,7 @@ sys-apps/coreutils gmp
 app-text/xournal pdf
 net-print/cups-filters pdf -dbus -foomatic
 media-libs/libpng apng
-dev-lang/perl gddbm gdbm berkdb
+dev-lang/perl gdbm berkdb
 sys-apps/man-db gdbm berkdb
 media-libs/x264 10bit
 sys-kernel/linux-firmware savedconfig
@@ -168,13 +164,13 @@ x11-misc/dzen xft xpm
 dev-lang/luajit lua52compat
 dev-dotnet/libgdiplus cairo
 dev-libs/gobject-introspection cairo
-media-libs/harfbuzz cairo trutype truetype icu fontconfig
+media-libs/harfbuzz cairo truetype icu fontconfig
 app-crypt/p11-kit libffi
 dev-python/pygobject libffi
 sys-devel/llvm libffi gold -llvm_targets_AMDGPU -llvm_targets_NVPTX
 media-libs/flac ogg
-sys-boot/grub trutype truetype efiemu device-mapper mount
-x11-terms/xterm trutype truetype
+sys-boot/grub truetype efiemu device-mapper mount
+x11-terms/xterm truetype
 dev-python/pypax ptpax
 sys-apps/elfix ptpax
 sys-apps/watchdog nfs
@@ -183,7 +179,6 @@ net-misc/rsync stunnel iconv
 sys-fs/dd-rescue cpu_flags_x86_sse4_2
 app-crypt/pinentry gnome-keyring
 app-text/asciidoc highlight graphviz
-net-libs/webkit-gtk nsplugin X
 dev-libs/libpcre pcre32 jit pcre16
 x11-libs/libdrm libkms
 gnome-base/gnome-keyring caps
@@ -195,7 +190,6 @@ media-plugins/alsa-plugins ffmpeg
 sys-auth/pambase mktemp
 sys-auth/consolekit cgroups evdev pm-utils
 media-libs/libass fontconfig
-app-editors/nano minimal ncurses nls -spell -magic
 x11-apps/xinit minimal
 app-editors/vim lua luajit terminal vim-pager python_single_target_python3_6 -python_single_target_python2_7
 sys-libs/ncurses ada
@@ -207,7 +201,6 @@ dev-libs/xmlrpc-c curl
 sys-apps/lm_sensors sensord
 net-p2p/rtorrent xmlrpc
 sys-process/procps modern-top
-net-p2p/deluge libnotify console gtk webinterface
 sys-block/parted device-mapper
 sys-block/gparted reiserfs btrfs reiser4 fat f2fs xfs cryptsetup
 # required by x11-plugins/pidgin-privacy-please-0.7.1::gentoo

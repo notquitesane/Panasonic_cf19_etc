@@ -10,7 +10,6 @@
 =app-laptop/dispad-0.3.1-r1 ~amd64
 =app-misc/cbview-0.06-r1 ~amd64
 =app-portage/cargo-ebuild-0.1.5 ~amd64
-=app-portage/eix-0.33.6 ~amd64
 =app-portage/golop-0.0.1 ~amd64
 =app-portage/logclean-18.2 ~amd64
 =app-portage/portconf-1.6.8 ~amd64
@@ -61,10 +60,6 @@
 =x11-misc/xcape-1.2 ~amd64
 =x11-misc/xidle-26052015 ~amd64
 =x11-misc/xstroke-0.6-r1 ~amd64
-# required by app-portage/eix-0.33.6::mv[meson,strong-optimization]
-# required by @selected
-# required by @world (argument)
-=sys-devel/gcc-config-2.0 ~amd64
 # required by =dev-qt/qtxml-5.11.2 (argument)
 =dev-qt/qtxml-5.11.2 ~amd64
 # required by =dev-qt/qtsql-5.11.2 (argument)
@@ -135,8 +130,5 @@
 # required by app-backup/zbackup-1.4.4-r1::gentoo
 # required by app-backup/zbackup (argument)
 =app-arch/lzma-9.20-r1 ~amd64
-# required by app-portage/eix-0.33.6::mv
-# required by app-portage/portconf-1.6.8::stuff
-# required by @selected
-# required by @world (argument)
-=app-shells/push-3.1-r2 ~amd64
+# required by =www-client/opera-57.0.3098.76 (argument)
+=www-client/opera-57.0.3098.76 ~amd64

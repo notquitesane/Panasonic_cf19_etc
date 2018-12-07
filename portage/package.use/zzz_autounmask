@@ -38,7 +38,7 @@ x11-base/xcb-proto -python_targets_python2_7
 >=x11-libs/wxGTK-3.0.4:3.0 X opengl
 x11-libs/wxGTK libnotify tiff sdl X
 app-admin/sudo -skey
-media-sound/mpd flac twolame lame vorbis alsa icu ffmpeg curl
+media-sound/mpd flac twolame lame vorbis alsa icu ffmpeg curl openal libmpdclient ogg
 media-video/mpv cli X libmpv iconv jpeg tools -vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa lua -vdpau
 media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband openssl schroedinger postproc
 sys-process/lsof rpc
@@ -78,7 +78,7 @@ mail-client/mutt gdbm smime gpgme berkdb
 net-wireless/wpa_supplicant ap wps
 dev-lang/python tk sqlite gdbm
 net-analyzer/nmap ncat libssh2 ndiff nping zenmap
-x11-base/xorg-server xnest
+x11-base/xorg-server xnest xcsecurity
 net-libs/libssh server
 dev-libs/gmp static-libs pgo
 dev-libs/libgcrypt static-libs
@@ -216,3 +216,5 @@ net-p2p/qbittorrent X
 # required by net-p2p/qbittorrent-4.1.3::gentoo
 # required by qbittorrent (argument)
 >=dev-qt/qtsingleapplication-2.6.1_p20171024 X
+net-im/pidgin idn prediction perl
+app-shells/bash readline

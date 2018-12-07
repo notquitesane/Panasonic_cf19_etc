@@ -16,7 +16,6 @@
 =app-portage/udept-0.5.99.0.2.96 ~amd64
 =app-portage/world-mv-3.19 ~amd64
 =app-shells/push-3.1-r1 ~amd64
-=app-shells/quoter-4.1-r1 ~amd64
 =app-shells/runtitle-2.10 ~amd64
 =dev-python/coloredlogs-6.1 ~amd64
 =dev-python/humanfriendly-2.4 ~amd64
@@ -132,3 +131,7 @@
 =app-arch/lzma-9.20-r1 ~amd64
 # required by =www-client/opera-57.0.3098.76 (argument)
 =www-client/opera-57.0.3098.76 ~amd64
+# required by easystroke (argument)
+=x11-misc/easystroke-0.6.0-r3 ~amd64
+# required by =sys-devel/distcc-3.3 (argument)
+=sys-devel/distcc-3.3 ~amd64

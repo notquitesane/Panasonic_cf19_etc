@@ -1,2 +1,1 @@
-# device group names
-0	default
+# empty file because --include-config=n when `quickpkg` was used

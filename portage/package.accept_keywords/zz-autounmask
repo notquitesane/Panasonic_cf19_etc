@@ -42,3 +42,5 @@ www-client/opera ~amd64
 # required by kde-frameworks/kinit-5.52.0::gentoo
 # required by kde-frameworks/kded-5.52.0::gentoo
 =dev-qt/qtgui-5.11.3 ~amd64
+# required by =dev-qt/linguist-tools-5.11.3 (argument)
+=dev-qt/linguist-tools-5.11.3 ~amd64

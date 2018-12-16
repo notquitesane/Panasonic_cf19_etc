@@ -44,3 +44,5 @@ www-client/opera ~amd64
 =dev-qt/qtgui-5.11.3 ~amd64
 # required by =dev-qt/linguist-tools-5.11.3 (argument)
 =dev-qt/linguist-tools-5.11.3 ~amd64
+# required by ripme (argument)
+=net-misc/ripme-1.7.73 ~amd64

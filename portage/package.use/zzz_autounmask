@@ -218,3 +218,4 @@ net-p2p/qbittorrent X
 net-im/pidgin idn prediction perl
 app-shells/bash readline
 dev-lang/php gd apache2
+net-misc/aria2 scripts tcmalloc ssh bittorrent libuv

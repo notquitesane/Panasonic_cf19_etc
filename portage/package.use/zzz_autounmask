@@ -217,5 +217,5 @@ net-p2p/qbittorrent X
 >=dev-qt/qtsingleapplication-2.6.1_p20171024 X
 net-im/pidgin idn prediction perl
 app-shells/bash readline
-dev-lang/php gd apache2
+dev-lang/php gd -apache2 curl imap
 net-misc/aria2 scripts tcmalloc ssh bittorrent libuv

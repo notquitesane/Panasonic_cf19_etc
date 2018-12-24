@@ -46,3 +46,15 @@ www-client/opera ~amd64
 =dev-qt/linguist-tools-5.11.3 ~amd64
 # required by ripme (argument)
 =net-misc/ripme-1.7.73 ~amd64
+# required by tuned (argument)
+=sys-apps/tuned-2.10.0 ~amd64
+# required by sys-apps/tuned-2.10.0::gentoo
+# required by tuned (argument)
+=dev-python/python-linux-procfs-0.4.6 ~amd64
+# required by dev-util/sysdig-0.24.1::gentoo
+# required by dev-util/sysdig (argument)
+=dev-libs/libb64-1.2.1 ~amd64
+# required by dev-util/sysdig (argument)
+=dev-util/sysdig-0.24.1 ~amd64
+# required by perf (argument)
+=dev-util/perf-4.14.33-r1 ~amd64

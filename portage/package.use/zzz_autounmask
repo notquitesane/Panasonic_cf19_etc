@@ -219,3 +219,4 @@ net-im/pidgin idn prediction perl
 app-shells/bash readline
 dev-lang/php gd -apache2 curl imap
 net-misc/aria2 scripts tcmalloc ssh bittorrent libuv
+x11-terms/mlterm libssh2 fbcon xft cairo gtk

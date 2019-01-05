@@ -60,3 +60,20 @@ www-client/opera ~amd64
 =dev-util/perf-4.14.33-r1 ~amd64
 # required by trimage (argument)
 =media-gfx/trimage-1.0.5 ~amd64
+# required by www-client/qutebrowser (argument)
+=www-client/qutebrowser-1.5.2 ~amd64
+# required by www-client/vimb (argument)
+=www-client/vimb-2.10 ~amd64
+# required by www-client/uzbl (argument)
+=www-client/uzbl-9999-r1 **
+# required by www-plugins/uzblstuff (argument)
+=www-plugins/uzblstuff-9999 **
+# required by x11-misc/xautoclick (argument)
+=x11-misc/xautoclick-0.31 ~amd64
+# required by www-client/vimprobable (argument)
+=www-client/vimprobable-9999 ~amd64
+# required by app-admin/f3 (argument)
+=app-admin/f3-9999 **
+# required by www-client/qutebrowser-1.5.2::gentoo
+# required by www-client/qutebrowser (argument)
+=dev-python/pypeg2-2.15.2 ~amd64

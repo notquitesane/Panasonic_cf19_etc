@@ -4,3 +4,6 @@
 >=www-plugins/adobe-flash-30.0.0.154 AdobeFlash-11.x
 # required by =www-client/opera-56.0.3051.52 (argument)
 >=www-client/opera-56.0.3051.52 OPERA-2014
+# required by media-gfx/gallerygrabber-1.1.1::linxon
+# required by media-gfx/gallerygrabber (argument)
+>=dev-java/oracle-jdk-bin-1.8.0.192:1.8 Oracle-BCLA-JavaSE

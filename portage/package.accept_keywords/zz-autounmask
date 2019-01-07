@@ -77,3 +77,13 @@ www-client/opera ~amd64
 # required by www-client/qutebrowser-1.5.2::gentoo
 # required by www-client/qutebrowser (argument)
 =dev-python/pypeg2-2.15.2 ~amd64
+# required by =dev-qt/qtwebchannel-5.11.3:5/5.11::gentoo (argument)
+=dev-qt/qtwebchannel-5.11.3 ~amd64
+# required by =dev-qt/qtwebengine-5.11.3 (argument)
+=dev-qt/qtwebengine-5.11.3 ~amd64
+# required by =dev-qt/qtopengl-5.11.3 (argument)
+=dev-qt/qtopengl-5.11.3 ~amd64
+# required by =sys-fs/bcache-tools-1.0.8_p20140220-r1 (argument)
+=sys-fs/bcache-tools-1.0.8_p20140220-r1 ~amd64
+# required by =dev-qt/qtmultimedia-5.11.3 (argument)
+=dev-qt/qtmultimedia-5.11.3 ~amd64

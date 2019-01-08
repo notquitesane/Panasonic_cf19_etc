@@ -39,7 +39,7 @@ x11-libs/wxGTK libnotify tiff sdl X
 app-admin/sudo -skey
 media-sound/mpd flac twolame lame vorbis alsa icu ffmpeg curl openal libmpdclient ogg
 media-video/mpv cli X libmpv iconv jpeg tools -vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa lua -vdpau
-media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband openssl schroedinger postproc
+media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband openssl schroedinger postproc amr libcaca cpu_flags_x86_aes
 sys-process/lsof rpc
 x11-libs/libxcb xkb
 x11-libs/gtk+ X
@@ -229,7 +229,7 @@ www-client/vimb gtk3
 # required by www-client/qutebrowser-1.5.2::gentoo
 # required by www-client/qutebrowser (argument)
 >=dev-python/PyQt5-5.10.1-r1 gui widgets network webengine printsupport declarative sql opengl multimedia
-dev-python/PyQt5 webchannel
+dev-python/PyQt5 webchannel svg
 # required by dev-python/PyQt5-5.10.1-r1::gentoo[multimedia]
 # required by www-client/qutebrowser-1.5.2::gentoo
 # required by www-client/qutebrowser (argument)

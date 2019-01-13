@@ -244,3 +244,4 @@ dev-python/PyQt5 webchannel svg
 # required by www-client/qutebrowser (argument)
 >=dev-qt/qtwebchannel-5.11.1 qml
 dev-qt/qtwebengine designer
+media-gfx/imagemagick png tiff raw jpeg svg jpeg2k heif X

@@ -78,7 +78,7 @@ net-wireless/wpa_supplicant ap wps
 dev-lang/python tk sqlite gdbm
 net-analyzer/nmap ncat libssh2 ndiff nping zenmap
 x11-base/xorg-server xnest xcsecurity
-net-libs/libssh server
+net-libs/libssh server mbedtls
 dev-libs/gmp static-libs pgo
 dev-libs/libgcrypt static-libs
 dev-libs/libgpg-error static-libs
@@ -245,3 +245,7 @@ dev-python/PyQt5 webchannel svg
 >=dev-qt/qtwebchannel-5.11.1 qml
 dev-qt/qtwebengine designer
 media-gfx/imagemagick png tiff raw jpeg svg jpeg2k heif X
+app-emulation/docker seccomp aufs
+# required by app-emulation/docker-18.06.1-r1::gentoo
+# required by app-emulation/docker (argument)
+>=app-emulation/runc-1.0.0_rc5_p20180509 seccomp

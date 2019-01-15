@@ -7,3 +7,5 @@
 # required by media-gfx/gallerygrabber-1.1.1::linxon
 # required by media-gfx/gallerygrabber (argument)
 >=dev-java/oracle-jdk-bin-1.8.0.192:1.8 Oracle-BCLA-JavaSE
+# required by app-benchmarks/geekbench (argument)
+=app-benchmarks/geekbench-4.3.0 geekbench

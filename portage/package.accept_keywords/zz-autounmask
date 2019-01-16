@@ -256,3 +256,29 @@ www-client/opera ~amd64
 =app-shells/thefuck-3.27 ~amd64
 # required by app-portage/world-mv (argument)
 =app-portage/world-mv-3.19 ~amd64
+# required by =app-benchmarks/geekbench-4.3.2 (argument)
+=app-benchmarks/geekbench-4.3.2 ~amd64
+# required by app-portage/logclean (argument)
+=app-portage/logclean-18.3 ~amd64
+# required by app-admin/watcherd (argument)
+=app-admin/watcherd-20170930 ~amd64
+# required by app-shells/fast-syntax-highlighting (argument)
+=app-shells/fast-syntax-highlighting-1.28 ~amd64
+# required by www-misc/bookmarksync (argument)
+=www-misc/bookmarksync-0.3.4-r3 ~amd64
+# required by www-misc/multiwatch (argument)
+=www-misc/multiwatch-1.0.0 ~amd64
+# required by app-admin/yadm (argument)
+=app-admin/yadm-1.12.0 ~amd64
+# required by app-admin/ps_mem (argument)
+=app-admin/ps_mem-3.13 ~amd64
+# required by www-client/palemoon (argument)
+=www-client/palemoon-28.2.2 ~amd64
+# required by net-mail/renattach (argument)
+=net-mail/renattach-1.2.4-r1 ~amd64
+# required by sys-apps/ranwhen (argument)
+=sys-apps/ranwhen-20130528 ~amd64
+# required by app-misc/goobook (argument)
+=app-misc/goobook-1.9 ~amd64
+# required by app-misc/grabcartoons (argument)
+=app-misc/grabcartoons-2.8.4_p20141112 ~amd64

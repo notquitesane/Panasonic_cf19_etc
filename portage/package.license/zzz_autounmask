@@ -9,3 +9,5 @@
 >=dev-java/oracle-jdk-bin-1.8.0.192:1.8 Oracle-BCLA-JavaSE
 # required by app-benchmarks/geekbench (argument)
 =app-benchmarks/geekbench-4.3.0 geekbench
+# required by =app-benchmarks/geekbench-4.3.2 (argument)
+>=app-benchmarks/geekbench-4.3.2 geekbench

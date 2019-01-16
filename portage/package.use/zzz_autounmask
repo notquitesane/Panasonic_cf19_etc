@@ -249,3 +249,6 @@ app-emulation/docker seccomp aufs
 # required by app-emulation/docker-18.06.1-r1::gentoo
 # required by app-emulation/docker (argument)
 >=app-emulation/runc-1.0.0_rc5_p20180509 seccomp
+# required by app-officeext/languagetool-3.4::gentoo[office_implementation_libreoffice]
+# required by app-officeext/languagetool (argument)
+>=app-office/libreoffice-bin-6.1.4.2 java

@@ -282,3 +282,39 @@ www-client/opera ~amd64
 =app-misc/goobook-1.9 ~amd64
 # required by app-misc/grabcartoons (argument)
 =app-misc/grabcartoons-2.8.4_p20141112 ~amd64
+# required by games-misc/fortune-mod-tao (argument)
+=games-misc/fortune-mod-tao-1 ~amd64
+# required by games-misc/fortune-mod-taow (argument)
+=games-misc/fortune-mod-taow-1.0 ~amd64
+# required by games-board/spider (argument)
+=games-board/spider-1.2_p4-r2 ~amd64
+# required by games-board/pysolfc (argument)
+=games-board/pysolfc-2.4.0 ~amd64
+# required by games-misc/fortune-mod-chucknorris (argument)
+=games-misc/fortune-mod-chucknorris-0.1 ~amd64
+# required by games-misc/wtf (argument)
+=games-misc/wtf-20090924 ~amd64
+# required by games-misc/fortune-mod-gentoo-dev (argument)
+=games-misc/fortune-mod-gentoo-dev-20090306 ~amd64
+# required by media-gfx/termtosvg (argument)
+=media-gfx/termtosvg-0.7.0 ~amd64
+# required by media-gfx/imv (argument)
+=media-gfx/imv-2.1.3 ~amd64
+# required by media-gfx/sweethome3d-bin (argument)
+=media-gfx/sweethome3d-bin-2.5 ~amd64
+# required by media-gfx/qiv (argument)
+=media-gfx/qiv-2.3.2 ~amd64
+# required by games-puzzle/sdl-jewels (argument)
+=games-puzzle/sdl-jewels-1.1.1-r1 ~amd64
+# required by fim (argument)
+=media-gfx/fim-0.5_rc3 ~amd64
+# required by games-misc/fortune-mod-theo-de-raadt (argument)
+=games-misc/fortune-mod-theo-de-raadt-20160912 ~amd64
+# required by media-gfx/jpegtoavi (argument)
+=media-gfx/jpegtoavi-1.5 ~amd64
+# required by media-gfx/termtosvg-0.7.0::gentoo
+# required by media-gfx/termtosvg (argument)
+=dev-python/pyte-0.8.0-r1 ~amd64
+# required by games-board/pysolfc-2.4.0::gentoo[python_targets_python3_6]
+# required by games-board/pysolfc (argument)
+=dev-python/random2-1.0.1 ~amd64

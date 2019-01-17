@@ -72,3 +72,4 @@ ngrep:x:134:968:added by portage for ngrep:/dev/null:/sbin/nologin
 deluge:x:135:967:added by portage for deluge:/var/lib/deluge:/sbin/nologin
 squid:x:136:966:added by portage for squidguard:/var/cache/squid:/sbin/nologin
 transmission:x:137:965:added by portage for transmission:/var/lib/transmission:/sbin/nologin
+dnsmasq:x:138:964:added by portage for dnsmasq:/dev/null:/sbin/nologin

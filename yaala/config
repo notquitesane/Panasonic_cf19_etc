@@ -1,0 +1,129 @@
+########################################################################
+#    yaala 0.7.3 config					    2004-11-10 #
+#---====================-----------------------------------------------#
+# http://yaala.org/						       #
+# For exact instructions please see the README and the notes above     #
+# each entry.							       #
+########################################################################
+# $Id: config,v 1.12 2004/11/10 10:07:43 octo Exp $
+
+# Tells yaala the directory to save the html pages in.
+# You should manually copy .gif and .css there from html
+# directory.
+# Default is 'reports'
+#directory: 'reports';
+
+# Here you can choose between the ``new'' Combined-output module and the
+# Classic-output which emulates 0.4.x behaviour.
+# Default is to use 'Combined'
+#report: 'Combined';
+
+# The module used for parsing the logfile(s)
+# The modules coming with this package are:
+# - Bind9
+# - Common
+# - Ncsa
+# - Wnserver
+# - Squid
+# - Xferlog
+# - Postfix
+# Default: 'Common'
+#logtype: 'Common';
+
+
+#########################################################################
+#    Output								#
+#---========------------------------------------------------------------#
+# The directive 'select' selects data to be printed in the report.	#
+# For an explaination please read ``README.selections''                 #
+#########################################################################
+
+#select: "aggregation BY field, field, field WHERE field == value";
+
+
+########################################################################
+#    Filtering							       #
+#---===========--------------------------------------------------------#
+# These options adjust filtering data which appear in reports.	       #
+########################################################################
+
+# Wether or not yaala shall try to lookup domain names of ip adresses.
+# Set to 'true' or 'false'. Default is not to.
+#reverse_lookup: 'true';
+
+# Sets how many subdomains of a host should be displayed. "1" means only
+# the domain (plus the top-level domain), e.g. "example.com", "2" would
+# be ``subdomain.example.com''. Set zero to get the full length of a
+# hostname. This option also controls wether unresolved IP adresses are
+# displayed as ``192.0.0.0/8'' (host_width = 1), ``192.168.0.0/16''
+# (host_width = 2), etc.
+# Defaults to "1"
+#host_width: 1;
+
+# With the classic output module not all combinations of fields appear in
+# the log and are therefore empty. These empty cells are normally skipped.
+# If you, for whatever reason, what these cells to be printed, set the
+# following option to 'false'.
+#classic_skip_empty: true;
+
+
+########################################################################
+#    HTML							       #
+#---======-------------------------------------------------------------#
+# These options affect html files generation, mostly - the HEAD        #
+# section.							       #
+########################################################################
+
+# If u're going to browse html pages from FILES
+# rather then via http AND on OS with another
+# default charset, specify charset of your html
+# pages to put into META http-equiv tag.
+# With webserver, proper charset SHOULD be passed 
+# in http header by server.
+# Default is 'iso-8859-1'.
+#html_charset: iso-8859-1;
+
+# URL to css file with style definition for
+# report pages. Goes linked it from html head.
+# You may put here an url or path to other css file,
+# (maybe - site-wide or reports-wide)
+# default is 'style.css' (should be copied where reports lie)
+#html_stylesheet: '/default.css';
+#html_stylesheet: '/yaala-reports/style.css';
+html_stylesheet: 'style.css';
+
+
+########################################################################
+#    Graphs                                                            #
+#---========-----------------------------------------------------------#
+# These options affect the generation of graphs and their size. If     #
+# unsure leave this untouched. The defaults are set to reasonable      #
+# values.							       #
+########################################################################
+
+# Sets wether or not graphs will be generated. Defaults to generate
+# graphs if GD::Graph is installed and don't, if it is not.
+#print-graphs: 'true';
+
+# The following two options control the size of the graphs generated.
+# Values are pixels.
+#graph_height: 250;
+#graph_width: 500;
+
+
+########################################################################
+#    Persistency                                                       #
+#---=============------------------------------------------------------#
+# These options determine if persistency is used and which file the    #
+# data is stored in. If unsure don't touch.			       #
+########################################################################
+
+# Sets wether or not persistency should be used. For this to work you
+# need to have the ``Storable'' module installed. If unset the module
+# will look for ``Storable'' and if it can find it will use persistency.
+#use_persistency: 'true';
+
+# Sets the file used to store the persistency data in. If you use a
+# relative filename please keep in mind that it is relative to yaala's
+# directory. Defaults to ``persistency.data''.
+#persistency_file: 'persistency.data';

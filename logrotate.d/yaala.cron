@@ -1,0 +1,8 @@
+#!/bin/bash
+# Generate a report, if the logfile is found.
+
+if [[ -s /var/log/httpd/access_log ]] ; then
+    /usr/bin/yaala --config common_log.conf
+fi
+
+exit 0

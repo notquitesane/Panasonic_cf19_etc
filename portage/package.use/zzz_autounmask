@@ -252,3 +252,14 @@ app-emulation/docker seccomp aufs
 # required by app-officeext/languagetool-3.4::gentoo[office_implementation_libreoffice]
 # required by app-officeext/languagetool (argument)
 >=app-office/libreoffice-bin-6.1.4.2 java
+media-libs/libsdl2 X
+# required by games-puzzle/sdl-jewels-1.1.1-r1::gentoo
+# required by games-puzzle/sdl-jewels (argument)
+>=media-libs/libsdl-1.2.15-r9 opengl
+# required by games-board/pysolfc-2.4.0::gentoo[-minimal]
+# required by games-board/pysolfc (argument)
+>=dev-python/pillow-5.3.0 tk
+# required by dev-python/pygame-1.9.3::gentoo
+# required by games-board/pysolfc-2.4.0::gentoo[sound]
+# required by games-board/pysolfc (argument)
+>=media-libs/sdl-image-1.2.12-r2 png jpeg

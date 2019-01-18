@@ -263,3 +263,5 @@ media-libs/libsdl2 X
 # required by games-board/pysolfc-2.4.0::gentoo[sound]
 # required by games-board/pysolfc (argument)
 >=media-libs/sdl-image-1.2.12-r2 png jpeg
+media-gfx/xv png jpeg tiff
+media-gfx/inkscape imagemagick jpeg

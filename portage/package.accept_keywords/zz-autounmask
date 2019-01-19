@@ -318,3 +318,9 @@ www-client/opera ~amd64
 # required by games-board/pysolfc-2.4.0::gentoo[python_targets_python3_6]
 # required by games-board/pysolfc (argument)
 =dev-python/random2-1.0.1 ~amd64
+# required by =app-portage/eix-99999999 (argument)
+=app-portage/eix-99999999 **
+# required by app-portage/eix-99999999::mv
+# required by @selected
+# required by @world (argument)
+=app-shells/quoter-4.1-r1 ~amd64

@@ -216,7 +216,7 @@ net-p2p/qbittorrent X
 # required by qbittorrent (argument)
 >=dev-qt/qtsingleapplication-2.6.1_p20171024 X
 net-im/pidgin idn prediction perl
-app-shells/bash readline
+app-shells/bash readline -net
 dev-lang/php gd -apache2 curl imap
 net-misc/aria2 scripts tcmalloc ssh bittorrent libuv
 x11-terms/mlterm libssh2 fbcon xft cairo gtk

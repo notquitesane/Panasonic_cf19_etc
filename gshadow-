@@ -49,3 +49,4 @@ transmission:!::
 dnsmasq:!::
 docker:!::
 tss:!::
+stb-admin:!::

@@ -265,3 +265,19 @@ media-libs/libsdl2 X
 >=media-libs/sdl-image-1.2.12-r2 png jpeg
 media-gfx/xv png jpeg tiff
 media-gfx/inkscape imagemagick jpeg
+# required by app-arch/unar-1.10.1::gentoo
+# required by app-arch/unar (argument)
+>=gnustep-base/gnustep-make-2.6.8 native-exceptions
+# required by sci-misc/boinc-7.14.2::gentoo
+# required by sci-misc/boinc (argument)
+>=net-misc/curl-7.62.0 curl_ssl_openssl -curl_ssl_libressl
+# required by sci-calculators/units-2.18::gentoo[units_cur]
+# required by sci-calculators/units (argument)
+>=dev-python/requests-2.18.4-r1 python_targets_python2_7
+# required by games-puzzle/concentration-1.2-r2::gentoo
+# required by games-puzzle/concentration (argument)
+>=media-libs/sdl-mixer-1.2.12-r4 vorbis
+# required by app-text/calibre-3.26.1::gentoo
+# required by app-text/calibre (argument)
+>=dev-python/PyQt5-5.10.1-r1 webkit
+sci-misc/boinc X curl_ssl_libressl -curl_ssl_openssl

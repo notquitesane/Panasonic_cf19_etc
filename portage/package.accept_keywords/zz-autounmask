@@ -324,3 +324,96 @@ www-client/opera ~amd64
 # required by @selected
 # required by @world (argument)
 =app-shells/quoter-4.1-r1 ~amd64
+# required by games-rpg/bass (argument)
+=games-rpg/bass-1.3-r1 ~amd64
+# required by sys-fs/android-file-transfer-linux (argument)
+=sys-fs/android-file-transfer-linux-3.6 ~amd64
+# required by games-rpg/pcgen (argument)
+=games-rpg/pcgen-6.04.01-r1 ~amd64
+# required by net-wireless/blueman (argument)
+=net-wireless/blueman-2.1_alpha3 ~amd64
+# required by sci-calculators/orpie-1.5.2-r1::gentoo
+# required by sci-calculators/orpie (argument)
+=dev-ml/gsl-ocaml-1.19.1 ~amd64
+# required by app-benchmarks/stress-ng (argument)
+=app-benchmarks/stress-ng-0.09.49 ~amd64
+# required by media-gfx/converseen (argument)
+=media-gfx/converseen-0.9.6.2 ~amd64
+# required by app-crypt/johntheripper-jumbo (argument)
+=app-crypt/johntheripper-jumbo-1.8.0 ~amd64
+# required by sci-calculators/orpie (argument)
+=sci-calculators/orpie-1.5.2-r1 ~amd64
+# required by sci-calculators/gonvert (argument)
+=sci-calculators/gonvert-0.2.39 ~amd64
+# required by app-backup/obnam (argument)
+=app-backup/obnam-1.19 ~amd64
+# required by app-admin/recursos (argument)
+=app-admin/recursos-2.0-r1 ~amd64
+# required by dev-ml/gsl-ocaml-1.19.1::gentoo
+# required by sci-calculators/orpie-1.5.2-r1::gentoo
+# required by sci-calculators/orpie (argument)
+=sci-libs/gsl-2.5 ~amd64
+# required by sci-astronomy/galaxy (argument)
+=sci-astronomy/galaxy-2.2-r1 ~amd64
+# required by games-strategy/lightyears (argument)
+=games-strategy/lightyears-1.4-r2 ~amd64
+# required by www-misc/buku (argument)
+=www-misc/buku-3.7 ~amd64
+# required by app-misc/cadubi (argument)
+=app-misc/cadubi-1.3 ~amd64
+# required by app-office/moneyguru (argument)
+=app-office/moneyguru-2.13.1 ~amd64
+# required by app-backup/rdedup (argument)
+=app-backup/rdedup-1.0.2 ~amd64
+# required by net-wireless/airsnort (argument)
+=net-wireless/airsnort-0.2.7e ~amd64
+# required by games-rpg/dragonhunt (argument)
+=games-rpg/dragonhunt-3.56-r2 ~amd64
+# required by sys-fs/aufs-util (argument)
+=sys-fs/aufs-util-4.14_p20180709 ~amd64
+# required by app-benchmarks/forkbomb (argument)
+=app-benchmarks/forkbomb-1.4-r1 ~amd64
+# required by media-gfx/aoi (argument)
+=media-gfx/aoi-2.7.2 ~amd64
+# required by app-misc/btail (argument)
+=app-misc/btail-0.3 ~amd64
+# required by app-crypt/fcrackzip (argument)
+=app-crypt/fcrackzip-1.0 ~amd64
+# required by net-irc/irssi-xmpp (argument)
+=net-irc/irssi-xmpp-0.53 ~amd64
+# required by sci-misc/boinc (argument)
+=sci-misc/boinc-7.14.2 ~amd64
+# required by sys-fs/archivemount (argument)
+=sys-fs/archivemount-0.8.12 ~amd64
+# required by app-admin/stow (argument)
+=app-admin/stow-2.2.2-r1 ~amd64
+# required by app-office/moneydance (argument)
+=app-office/moneydance-2017.8 ~amd64
+# required by app-shells/auto-fu-zsh (argument)
+=app-shells/auto-fu-zsh-0.0.1.12_p0 ~amd64
+# required by mail-filter/ask (argument)
+=mail-filter/ask-2.5.3 ~amd64
+# required by app-accessibility/onboard (argument)
+=app-accessibility/onboard-1.4.1 ~amd64
+# required by app-backup/rdup (argument)
+=app-backup/rdup-1.1.15 ~amd64
+# required by sys-fs/aufs-util-4.14_p20180709::gentoo
+# required by sys-fs/aufs-util (argument)
+=sys-fs/aufs-headers-4.14_p20180709 ~amd64
+# required by sys-process/daemontools-encore (argument)
+=sys-process/daemontools-encore-1.11 ~amd64
+# required by app-portage/diffmask (argument)
+=app-portage/diffmask-0.3.3-r4 ~amd64
+# required by app-backup/simplebackup (argument)
+=app-backup/simplebackup-1.8.1-r1 ~amd64
+# required by app-backup/restic (argument)
+=app-backup/restic-0.9.3 ~amd64
+# required by games-puzzle/concentration (argument)
+=games-puzzle/concentration-1.2-r2 ~amd64
+# required by games-rpg/bass-1.3-r1::gentoo
+# required by games-rpg/bass (argument)
+=games-engines/scummvm-2.0.0 ~amd64
+# required by app-benchmarks/filebench (argument)
+=app-benchmarks/filebench-1.4.9.1-r1 ~amd64
+# required by app-benchmarks/ioping (argument)
+=app-benchmarks/ioping-1.0 ~amd64

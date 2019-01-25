@@ -11,3 +11,5 @@
 =app-benchmarks/geekbench-4.3.0 geekbench
 # required by =app-benchmarks/geekbench-4.3.2 (argument)
 >=app-benchmarks/geekbench-4.3.2 geekbench
+# required by app-office/moneydance (argument)
+>=app-office/moneydance-2017.8 TIK

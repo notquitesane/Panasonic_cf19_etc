@@ -417,3 +417,7 @@ www-client/opera ~amd64
 =app-benchmarks/filebench-1.4.9.1-r1 ~amd64
 # required by app-benchmarks/ioping (argument)
 =app-benchmarks/ioping-1.0 ~amd64
+# required by virtual/rust-1.32.0-r666::rust
+# required by sys-apps/bat-0.9.0::gentoo
+# required by bat (argument)
+=dev-lang/rust-1.32.0-r666 ~amd64

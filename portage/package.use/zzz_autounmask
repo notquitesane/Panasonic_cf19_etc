@@ -9,9 +9,8 @@ app-portage/portpeek -python_targets_python2_7
 >=app-text/poppler-0.62.0-r1 qt5
 dev-db/mysql-connector-c ssl
 >=dev-libs/boost-1.65.0 python_targets_python2_7
-dev-python/cryptography libressl
 >=dev-python/pymountboot-0.2.2 python_targets_python3_4
-dev-python/requests -python_targets_python2_7 ssl libressl
+dev-python/requests -python_targets_python2_7 ssl 
 dev-python/ssl-fetch -python_targets_python2_7
 dev-ruby/racc ruby_targets_ruby25
 dev-util/cmake qt5
@@ -24,9 +23,8 @@ media-libs/phonon -vlc
 >=media-libs/vigra-1.11.1 openexr
 media-libs/vigra python_targets_python2_7 png jpeg tiff
 >=media-video/vlc-3.0.3-r1 ogg vorbis
-net-libs/gnutls -openssl
 net-libs/libtorrent ssl
-net-misc/iputils -openssl gcrypt
+net-misc/iputils gcrypt
 sci-libs/hdf5 -fortran2003 -fortran -hl -cxx
 >=sys-apps/portage-2.3.40-r1 python_targets_python2_7
 sys-fs/udisks cryptsetup lvm
@@ -39,7 +37,7 @@ x11-libs/wxGTK libnotify tiff sdl X
 app-admin/sudo -skey
 media-sound/mpd flac twolame lame vorbis alsa icu ffmpeg curl openal libmpdclient ogg
 media-video/mpv cli X libmpv iconv jpeg tools -vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa lua -vdpau
-media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband openssl schroedinger postproc amr libcaca cpu_flags_x86_aes
+media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband schroedinger postproc amr libcaca cpu_flags_x86_aes
 sys-process/lsof rpc
 x11-libs/libxcb xkb
 x11-libs/gtk+ X
@@ -113,7 +111,7 @@ dev-vcs/git doc highlight perl curl
 sys-apps/portage doc
 sys-libs/zlib static-libs minizip
 app-arch/libarchive expat nettle lzo iconv
-net-misc/curl http2 ipv6 ssh curl_ssl_libressl -curl_ssl_openssl idn
+net-misc/curl http2 ssh idn -curl_ssl_gnutls -curl_ssl_nss ssl
 app-text/xmlto text
 app-crypt/gcr gtk
 sys-auth/polkit gtk
@@ -130,12 +128,12 @@ dev-libs/cyrus-sasl berkdb gdbm -ssl
 media-libs/x265 numa
 sys-apps/hwloc numa
 sys-cluster/openmpi numa romio mpi-threads heterogeneous
-sys-devel/gcc pgo objc-gc pie go mpx graphite objc++ ssp objc cilk
+sys-devel/gcc pgo objc-gc pie go mpx graphite objc++ ssp objc cilk fortran
 dev-db/sqlite icu tools secure-delete
 dev-libs/boost icu tools mpi context
 dev-libs/libxml2 icu
 dev-qt/qtcore icu
-sys-apps/busybox mdev
+sys-apps/busybox mdev make-symlinks pam savedconfig sep-usr math -static
 media-libs/mesa -vaapi -vdpau gles1 gles2
 app-crypt/gnupg tools doc wks-server smartcard
 sys-apps/kmod tools
@@ -193,7 +191,7 @@ x11-apps/xinit minimal
 app-editors/vim lua luajit terminal vim-pager python_single_target_python3_6 -python_single_target_python2_7
 sys-libs/ncurses ada
 sys-apps/pciutils dns
-dev-qt/qtnetwork ssl libressl
+dev-qt/qtnetwork ssl 
 app-portage/mirrorselect -python_targets_python2_7
 sys-devel/distcc crossdev
 dev-libs/xmlrpc-c curl
@@ -216,7 +214,7 @@ net-p2p/qbittorrent X
 # required by qbittorrent (argument)
 >=dev-qt/qtsingleapplication-2.6.1_p20171024 X
 net-im/pidgin idn prediction perl
-app-shells/bash readline -net
+app-shells/bash readline net
 dev-lang/php gd -apache2 curl imap
 net-misc/aria2 scripts tcmalloc ssh bittorrent libuv
 x11-terms/mlterm libssh2 fbcon xft cairo gtk
@@ -270,9 +268,6 @@ media-gfx/inkscape imagemagick jpeg
 >=gnustep-base/gnustep-make-2.6.8 native-exceptions
 # required by sci-misc/boinc-7.14.2::gentoo
 # required by sci-misc/boinc (argument)
->=net-misc/curl-7.62.0 curl_ssl_openssl -curl_ssl_libressl
-# required by sci-calculators/units-2.18::gentoo[units_cur]
-# required by sci-calculators/units (argument)
 >=dev-python/requests-2.18.4-r1 python_targets_python2_7
 # required by games-puzzle/concentration-1.2-r2::gentoo
 # required by games-puzzle/concentration (argument)
@@ -280,4 +275,31 @@ media-gfx/inkscape imagemagick jpeg
 # required by app-text/calibre-3.26.1::gentoo
 # required by app-text/calibre (argument)
 >=dev-python/PyQt5-5.10.1-r1 webkit
-sci-misc/boinc X curl_ssl_libressl -curl_ssl_openssl
+sci-misc/boinc X 
+gnustep-base/gnustep-base -gnutls
+# required by sci-misc/boinc-7.14.2::gentoo[X]
+# required by boinc (argument)
+>=x11-libs/wxGTK-3.0.4-r300 webkit opengl
+# required by sci-misc/boinc-7.14.2::gentoo[X]
+# required by boinc (argument)
+>=virtual/imagemagick-tools-0 tiff png
+virtual/imagemagick-tools svg jpeg
+dev-ml/gsl-ocaml -ocamlopt
+app-admin/sysstat lm_sensors
+dev-haskell/exceptions hscolour
+app-text/pandoc hscolour
+dev-haskell/stm hscolour
+dev-haskell/securemem hscolour
+dev-haskell/unordered-containers hscolour
+dev-haskell/random hscolour
+dev-haskell/old-locale hscolour
+dev-haskell/transformers-compat hscolour
+dev-haskell/hashable hscolour
+dev-haskell/parsec hscolour
+dev-haskell/text hscolour
+dev-haskell/binary hscolour
+dev-haskell/network hscolour
+dev-haskell/byteable hscolour
+dev-haskell/data-default-class hscolour
+dev-haskell/mtl hscolour
+dev-haskell/transformers hscolour

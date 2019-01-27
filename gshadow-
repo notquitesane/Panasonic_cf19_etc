@@ -50,3 +50,4 @@ dnsmasq:!::
 docker:!::
 tss:!::
 stb-admin:!::
+monitorix:!::

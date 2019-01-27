@@ -92,3 +92,4 @@ dnsmasq:x:964:
 docker:x:963:
 tss:x:962:
 stb-admin:x:961:
+monitorix:x:960:

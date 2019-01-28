@@ -37,7 +37,7 @@ x11-libs/wxGTK libnotify tiff sdl X
 app-admin/sudo -skey
 media-sound/mpd flac twolame lame vorbis alsa icu ffmpeg curl openal libmpdclient ogg
 media-video/mpv cli X libmpv iconv jpeg tools -vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa lua -vdpau
-media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband schroedinger postproc amr libcaca cpu_flags_x86_aes
+media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband schroedinger postproc amr libcaca cpu_flags_x86_aes openssl fdk svg
 sys-process/lsof rpc
 x11-libs/libxcb xkb
 x11-libs/gtk+ X
@@ -83,7 +83,7 @@ dev-libs/libgpg-error static-libs
 dev-libs/libpcre2 static-libs pcre32 jit pcre16
 dev-libs/nettle static-libs cpu_flags_x86_aes
 media-libs/libjpeg-turbo static-libs
-net-libs/libpcap static-libs netlink bluetooth
+net-libs/libpcap static-libs netlink bluetooth usb
 net-libs/libssh2 static-libs
 sys-apps/util-linux static-libs caps slang tty-helpers
 sys-fs/cryptsetup static-libs nettle urandom reencrypt static -gcrypt
@@ -134,8 +134,8 @@ dev-libs/boost icu tools mpi context
 dev-libs/libxml2 icu
 dev-qt/qtcore icu
 sys-apps/busybox mdev make-symlinks pam savedconfig sep-usr math -static
-media-libs/mesa -vaapi -vdpau gles1 gles2
-app-crypt/gnupg tools doc wks-server smartcard
+media-libs/mesa -vaapi -vdpau gles1 gles2 lm_sensors
+app-crypt/gnupg tools doc wks-server smartcard usb
 sys-apps/kmod tools
 x11-drivers/xf86-video-intel tools xvmc dri uxa
 sys-apps/coreutils gmp
@@ -241,7 +241,7 @@ dev-python/PyQt5 webchannel svg
 # required by www-client/qutebrowser-1.5.2::gentoo
 # required by www-client/qutebrowser (argument)
 >=dev-qt/qtwebchannel-5.11.1 qml
-dev-qt/qtwebengine designer
+dev-qt/qtwebengine designer pax_kernel alsa
 media-gfx/imagemagick png tiff raw jpeg svg jpeg2k heif X
 app-emulation/docker seccomp aufs
 # required by app-emulation/docker-18.06.1-r1::gentoo
@@ -303,3 +303,8 @@ dev-haskell/byteable hscolour
 dev-haskell/data-default-class hscolour
 dev-haskell/mtl hscolour
 dev-haskell/transformers hscolour
+app-office/gnucash ofx
+media-libs/sdl-mixer smpeg mp3 flac
+games-engines/scummvm mp3 aac alsa flac png jpeg truetype opengl theora vorbis
+net-misc/openssh skey
+sys-firmware/ipxe lkrn

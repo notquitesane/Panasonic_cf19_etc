@@ -75,3 +75,5 @@ transmission:x:137:965:added by portage for transmission:/var/lib/transmission:/
 dnsmasq:x:138:964:added by portage for dnsmasq:/dev/null:/sbin/nologin
 tss:x:139:962:added by portage for trousers:/var/lib/tpm:/sbin/nologin
 monitorix:x:140:960:added by portage for monitorix:/var/lib/monitorix:/sbin/nologin
+sagan:x:141:959:added by portage for sagan:/dev/null:/sbin/nologin
+defang:x:142:958:added by portage for mimedefang:/dev/null:/sbin/nologin

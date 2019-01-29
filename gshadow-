@@ -51,3 +51,5 @@ docker:!::
 tss:!::
 stb-admin:!::
 monitorix:!::
+sagan:!::
+defang:!::

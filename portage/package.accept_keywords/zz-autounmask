@@ -431,3 +431,9 @@ www-client/opera ~amd64
 =media-video/ffmpeg-3.4.5 ~amd64
 # required by =x11-libs/wxGTK-3.0.4-r301 (argument)
 =x11-libs/wxGTK-3.0.4-r301 ~amd64
+# required by =app-shells/bash-5.0_p2 (argument)
+=app-shells/bash-5.0_p2 ~amd64
+# required by dev-vcs/tig-2.3.3::gentoo
+# required by @selected
+# required by @world (argument)
+=sys-libs/readline-8.0 ~amd64

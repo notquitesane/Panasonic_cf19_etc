@@ -218,7 +218,7 @@ app-shells/bash readline net
 dev-lang/php gd -apache2 curl imap
 net-misc/aria2 scripts tcmalloc ssh bittorrent libuv
 x11-terms/mlterm libssh2 fbcon xft cairo gtk
-net-libs/webkit-gtk libnotify X
+net-libs/webkit-gtk libnotify X -geolocation
 www-client/uzbl experimental
 # required by app-office/libreoffice-6.1.4.2::gentoo
 # required by libreoffice (argument)
@@ -308,3 +308,4 @@ media-libs/sdl-mixer smpeg mp3 flac
 games-engines/scummvm mp3 aac alsa flac png jpeg truetype opengl theora vorbis
 net-misc/openssh skey
 sys-firmware/ipxe lkrn
+sys-apps/shadow skey

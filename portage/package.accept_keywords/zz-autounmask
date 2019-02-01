@@ -437,3 +437,5 @@ www-client/opera ~amd64
 # required by @selected
 # required by @world (argument)
 =sys-libs/readline-8.0 ~amd64
+# required by =app-portage/emlop-0.3.0 (argument)
+=app-portage/emlop-0.3.0 ~amd64

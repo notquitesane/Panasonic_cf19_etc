@@ -439,3 +439,12 @@ www-client/opera ~amd64
 =sys-libs/readline-8.0 ~amd64
 # required by =app-portage/emlop-0.3.0 (argument)
 =app-portage/emlop-0.3.0 ~amd64
+# required by @selected
+# required by @world (argument)
+=net-misc/ripme-1.7.78 ~amd64
+# required by @selected
+# required by @world (argument)
+=www-client/qutebrowser-1.5.2-r1 ~amd64
+# required by @selected
+# required by @world (argument)
+=games-board/pysolfc-2.4.0-r1 ~amd64

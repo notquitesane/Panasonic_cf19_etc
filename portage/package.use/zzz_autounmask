@@ -309,3 +309,8 @@ games-engines/scummvm mp3 aac alsa flac png jpeg truetype opengl theora vorbis
 net-misc/openssh skey
 sys-firmware/ipxe lkrn
 sys-apps/shadow skey
+net-libs/glib-networking -gnome
+# required by www-client/qutebrowser-1.5.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyyaml-3.13 libyaml

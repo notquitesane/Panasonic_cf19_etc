@@ -317,3 +317,10 @@ net-libs/glib-networking -gnome
 # required by dev-lang/lazarus-1.0.12::gentoo
 # required by lazarus (argument)
 >=dev-lang/fpc-2.6.4 source
+# required by sys-fs/udisks-2.8.1::gentoo
+# required by kde-frameworks/solid-5.54.0::gentoo
+# required by kde-frameworks/kio-5.54.1::gentoo
+# required by kde-frameworks/kinit-5.54.0::gentoo
+# required by kde-frameworks/kded-5.54.0::gentoo
+>=sys-libs/libblockdev-2.20-r1 lvm
+sys-libs/libblockdev bcache

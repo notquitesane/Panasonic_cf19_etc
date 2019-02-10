@@ -454,3 +454,5 @@ www-client/opera ~amd64
 =net-libs/nDPI-2.0 ~amd64
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =net-libs/nDPI-2.2 ~amd64
+# required by =app-benchmarks/geekbench-4.3.3 (argument)
+=app-benchmarks/geekbench-4.3.3 ~amd64

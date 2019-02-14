@@ -4,6 +4,6 @@
 	delaycompress
 	compress
 	postrotate
-	/etc/init.d/mpd reload
+	/etc/init.d/mpd --quiet reload
 	endscript
 }

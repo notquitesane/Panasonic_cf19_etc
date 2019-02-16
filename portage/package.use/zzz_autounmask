@@ -241,7 +241,7 @@ dev-python/PyQt5 webchannel svg
 # required by www-client/qutebrowser-1.5.2::gentoo
 # required by www-client/qutebrowser (argument)
 >=dev-qt/qtwebchannel-5.11.1 qml
-dev-qt/qtwebengine designer pax_kernel alsa
+dev-qt/qtwebengine designer -pax_kernel alsa
 media-gfx/imagemagick png tiff raw jpeg svg jpeg2k heif X
 app-emulation/docker seccomp aufs
 # required by app-emulation/docker-18.06.1-r1::gentoo

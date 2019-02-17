@@ -133,7 +133,7 @@ dev-db/sqlite icu tools secure-delete
 dev-libs/boost icu tools mpi context
 dev-libs/libxml2 icu
 dev-qt/qtcore icu
-sys-apps/busybox mdev make-symlinks -pam savedconfig sep-usr math static
+sys-apps/busybox mdev -make-symlinks pam savedconfig -sep-usr math -static
 media-libs/mesa -vaapi -vdpau gles1 gles2 lm_sensors
 app-crypt/gnupg tools doc wks-server smartcard usb
 sys-apps/kmod tools

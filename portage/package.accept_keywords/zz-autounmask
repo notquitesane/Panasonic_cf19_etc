@@ -456,3 +456,5 @@ www-client/opera ~amd64
 =net-libs/nDPI-2.2 ~amd64
 # required by =app-benchmarks/geekbench-4.3.3 (argument)
 =app-benchmarks/geekbench-4.3.3 ~amd64
+# required by app-mobilephone/heimdall (argument)
+=app-mobilephone/heimdall-1.4.2 ~amd64

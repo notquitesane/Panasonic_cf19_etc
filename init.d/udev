@@ -2,7 +2,9 @@
 # Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-command_args="--daemon ${udev_opts}"
+command_args="${udev_opts}"
+command_background=yes
+pidfile=/run/udev.pid
 description="udev manages device permissions and symbolic links in /dev"
 extra_started_commands="reload"
 description_reload="Reload the udev rules and databases"
@@ -79,11 +81,11 @@ stop()
 	rc=$?
 	if [ $rc -ne 0 ]; then
 		eend $rc "Failed to stop $RC_SVCNAME using udevadm"
-		get_udevd_binary || return 1
 		ebegin "Trying with start-stop-daemon"
-		start-stop-daemon --stop --exec ${command}
+		start-stop-daemon --stop --pidfile "${pidfile}"
 		rc=$?
 	fi
+	[ $rc -eq 0 ] && rm -f "${pidfile}"
 	eend $rc "Failed to stop $RC_SVCNAME"
 }
 

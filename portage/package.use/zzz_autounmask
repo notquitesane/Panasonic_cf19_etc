@@ -92,7 +92,7 @@ sys-fs/lvm2 static-libs lvm2create_initrd static
 sys-libs/libunwind static-libs
 virtual/libudev static-libs
 dev-libs/popt static-libs
-app-emulation/qemu png jpeg gtk numa nfs caps curl gtk2 tci ssh usbredir xfs vte qemu_softmmu_targets_aarch64 qemu_user_targets_aarch64 vde -python_targets_python2_7
+app-emulation/qemu png jpeg gtk numa nfs caps curl gtk2 tci ssh usbredir xfs vte qemu_softmmu_targets_aarch64 qemu_user_targets_aarch64 vde -python_targets_python2_7 usb
 app-text/poppler png jpeg jpeg2k tiff cairo curl utils
 dev-qt/qtgui png gif jpeg tslib tuio
 dev-qt/qtwidgets png

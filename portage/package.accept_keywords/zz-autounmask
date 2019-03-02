@@ -458,3 +458,5 @@ www-client/opera ~amd64
 =app-benchmarks/geekbench-4.3.3 ~amd64
 # required by app-mobilephone/heimdall (argument)
 =app-mobilephone/heimdall-1.4.2 ~amd64
+# required by =app-mobilephone/heimdall-9999 (argument)
+=app-mobilephone/heimdall-9999 **

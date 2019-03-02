@@ -1,2 +1,1 @@
-ATTRS{idVendor}=="04e8",
-ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="04e8", ENV{ID_MM_DEVICE_IGNORE}="1"

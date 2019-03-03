@@ -13,3 +13,5 @@
 >=app-benchmarks/geekbench-4.3.2 geekbench
 # required by app-office/moneydance (argument)
 >=app-office/moneydance-2017.8 TIK
+# required by app-emulation/virtualbox-bin (argument)
+=app-emulation/virtualbox-bin-5.2.22.126460 PUEL

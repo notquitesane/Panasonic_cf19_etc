@@ -460,3 +460,10 @@ www-client/opera ~amd64
 =app-mobilephone/heimdall-1.4.2 ~amd64
 # required by =app-mobilephone/heimdall-9999 (argument)
 =app-mobilephone/heimdall-9999 **
+# required by virtual/rust-1.33.0-r666::rust
+# required by dev-util/cargo-0.30.0::libressl
+# required by virtual/cargo-1.29.1::gentoo
+# required by sys-apps/bat-0.9.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-lang/rust-1.33.0-r666 ~amd64

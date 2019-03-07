@@ -467,3 +467,14 @@ www-client/opera ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-lang/rust-1.33.0-r666 ~amd64
+# required by =sys-apps/bat-0.10.0 (argument)
+=sys-apps/bat-0.10.0 ~amd64
+# required by virtual/rust-1.32.0::gentoo
+# required by sys-apps/bat-0.10.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-lang/rust-1.32.0 ~amd64
+# required by sys-apps/bat-0.10.0::gentoo
+# required by @selected
+# required by @world (argument)
+=virtual/rust-1.32.0 ~amd64

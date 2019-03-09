@@ -478,3 +478,9 @@ www-client/opera ~amd64
 # required by @selected
 # required by @world (argument)
 =virtual/rust-1.32.0 ~amd64
+# required by =app-emulation/virtualbox-bin-6.0.4.128413 (argument)
+=app-emulation/virtualbox-bin-6.0.4.128413 ~amd64
+# required by app-emulation/virtualbox-bin-6.0.4.128413::gentoo
+# required by @selected
+# required by @world (argument)
+=app-emulation/virtualbox-modules-6.0.4 ~amd64

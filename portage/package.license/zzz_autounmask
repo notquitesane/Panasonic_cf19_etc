@@ -15,3 +15,5 @@
 >=app-office/moneydance-2017.8 TIK
 # required by app-emulation/virtualbox-bin (argument)
 =app-emulation/virtualbox-bin-5.2.22.126460 PUEL
+# required by =app-emulation/virtualbox-bin-6.0.4.128413 (argument)
+>=app-emulation/virtualbox-bin-6.0.4.128413 PUEL

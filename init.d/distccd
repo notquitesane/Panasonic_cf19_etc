@@ -1,5 +1,5 @@
 #!/sbin/openrc-run
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 depend() {
@@ -7,25 +7,7 @@ depend() {
 	use avahi-daemon ypbind
 }
 
-start() {
-	ebegin "Starting distccd"
-
-	if [ ! -e /var/run/distccd ] ; then
-		mkdir -p /var/run/distccd
-		chown distcc:daemon /var/run/distccd
-	fi
-
-	# Load PATH and GCC_SPECS from gcc-config, bug #262773
-	eval "$(gcc-config -E)"
-
-	start-stop-daemon --start --quiet --exec "${DISTCCD_EXEC}" --user distcc -- \
-		--daemon --pid-file "${DISTCCD_PIDFILE}" \
-		${DISTCCD_OPTS}
-	eend $?
-}
-
-stop() {
-	ebegin "Stopping distccd"
-	start-stop-daemon --stop --quiet --pidfile "${DISTCCD_PIDFILE}"
-	eend $?
-}
+command="${DISTCCD_EXEC:-usr/bin/distccd}"
+command_args="--user distcc --daemon --no-detach ${DISTCCD_OPTS}"
+command_background="true"
+pidfile="/run/${RC_SVCNAME}.pid"

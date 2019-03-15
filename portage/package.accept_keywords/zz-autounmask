@@ -484,3 +484,9 @@ www-client/opera ~amd64
 # required by @selected
 # required by @world (argument)
 =app-emulation/virtualbox-modules-6.0.4 ~amd64
+# required by dev-util/cligh (argument)
+=dev-util/cligh-0.2 ~amd64
+# required by dev-vcs/hub (argument)
+=dev-vcs/hub-2.7.1 ~amd64
+# required by app-arch/lzma (argument)
+=app-arch/lzma-9.20-r1 ~amd64

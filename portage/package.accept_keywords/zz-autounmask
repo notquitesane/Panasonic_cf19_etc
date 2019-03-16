@@ -490,3 +490,5 @@ www-client/opera ~amd64
 =dev-vcs/hub-2.7.1 ~amd64
 # required by app-arch/lzma (argument)
 =app-arch/lzma-9.20-r1 ~amd64
+# required by app-benchmarks/stress-ng (argument)
+=app-benchmarks/stress-ng-0.09.55 ~amd64

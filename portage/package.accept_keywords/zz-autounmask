@@ -492,3 +492,26 @@ www-client/opera ~amd64
 =app-arch/lzma-9.20-r1 ~amd64
 # required by app-benchmarks/stress-ng (argument)
 =app-benchmarks/stress-ng-0.09.55 ~amd64
+# required by @selected
+# required by @world (argument)
+=app-misc/gcalcli-4.0.0_alpha3-r1 ~amd64
+# required by dev-util/peg (argument)
+=dev-util/peg-0.1.18 ~amd64
+# required by =app-admin/sudo-1.8.27-r1 (argument)
+=app-admin/sudo-1.8.27-r1 ~amd64
+# required by =mail-client/mutt-1.11.4 (argument)
+=mail-client/mutt-1.11.4 ~amd64
+# required by =gnustep-base/gnustep-base-1.26.0 (argument)
+=gnustep-base/gnustep-base-1.26.0 ~amd64
+# required by =net-libs/nghttp2-1.37.0 (argument)
+=net-libs/nghttp2-1.37.0 ~amd64
+# required by =x11-base/xorg-server-1.20.4 (argument)
+=x11-base/xorg-server-1.20.4 ~amd64
+# required by =app-backup/zbackup-9999 (argument)
+=app-backup/zbackup-9999 **
+# required by =net-nds/openldap-2.4.47-r1 (argument)
+=net-nds/openldap-2.4.47-r1 ~amd64
+# required by =media-gfx/inkscape-0.92.4 (argument)
+=media-gfx/inkscape-0.92.4 ~amd64
+# required by =app-misc/abook-0.6.1-r1 (argument)
+=app-misc/abook-0.6.1-r1 ~amd64

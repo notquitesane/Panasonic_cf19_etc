@@ -515,3 +515,9 @@ www-client/opera ~amd64
 =media-gfx/inkscape-0.92.4 ~amd64
 # required by =app-misc/abook-0.6.1-r1 (argument)
 =app-misc/abook-0.6.1-r1 ~amd64
+# required by =media-video/ffmpeg-4.1.1 (argument)
+=media-video/ffmpeg-4.1.1 ~amd64
+# required by media-video/ffmpeg-4.1.1::gentoo[zimg]
+# required by media-video/mpv-0.27.2::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=media-libs/zimg-2.7.5 ~amd64

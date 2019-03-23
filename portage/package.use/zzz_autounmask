@@ -326,3 +326,4 @@ net-libs/glib-networking -gnome
 sys-libs/libblockdev bcache
 app-mobilephone/heimdall qt5
 app-emulation/virtualbox-modules -pax_kernel
+net-nds/openldap -ssl

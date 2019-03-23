@@ -427,8 +427,6 @@ www-client/opera ~amd64
 =dev-perl/Net-SSLeay-1.820.0 ~amd64
 # required by app-admin/sudo::libressl (argument)
 =app-admin/sudo-1.8.25_p1-r1 ~amd64
-# required by =media-video/ffmpeg-3.4.5::libressl (argument)
-=media-video/ffmpeg-3.4.5 ~amd64
 # required by =x11-libs/wxGTK-3.0.4-r301 (argument)
 =x11-libs/wxGTK-3.0.4-r301 ~amd64
 # required by =app-shells/bash-5.0_p2 (argument)
@@ -515,9 +513,17 @@ www-client/opera ~amd64
 =media-gfx/inkscape-0.92.4 ~amd64
 # required by =app-misc/abook-0.6.1-r1 (argument)
 =app-misc/abook-0.6.1-r1 ~amd64
-# required by =media-video/ffmpeg-4.1.1 (argument)
-=media-video/ffmpeg-4.1.1 ~amd64
-# required by media-video/ffmpeg-4.1.1::gentoo[zimg]
 # required by media-video/mpv-0.27.2::gentoo
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =media-libs/zimg-2.7.5 ~amd64
+# required by media-video/mpv-0.27.2::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+# required by =media-plugins/alsa-plugins-1.1.8 (argument)
+=media-plugins/alsa-plugins-1.1.8 ~amd64
+# required by media-libs/libcanberra-0.30-r5::gentoo
+# required by media-sound/pavucontrol-3.0::gentoo
+# required by @selected
+# required by @world (argument)
+=media-libs/alsa-lib-1.1.8 ~amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=media-video/ffmpeg-4.1.1 ~amd64

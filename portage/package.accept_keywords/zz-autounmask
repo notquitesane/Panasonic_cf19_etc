@@ -527,3 +527,6 @@ www-client/opera ~amd64
 =media-libs/alsa-lib-1.1.8 ~amd64
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =media-video/ffmpeg-4.1.1 ~amd64
+# required by @selected
+# required by @world (argument)
+=www-client/qutebrowser-1.6.1 ~amd64

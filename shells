@@ -1,12 +1,1 @@
-# /etc/shells: valid login shells
-/bin/bash
-/bin/csh
-/bin/dash
-/bin/esh
-/bin/fish
-/bin/ksh
-/bin/mksh
-/bin/sash
-/bin/sh
-/bin/tcsh
-/bin/zsh
+# empty file because --include-config=n when `quickpkg` was used

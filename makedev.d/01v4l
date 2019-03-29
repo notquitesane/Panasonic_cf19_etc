@@ -1,1 +1,11 @@
-# empty file because --include-config=n when `quickpkg` was used
+# Aliases for video4linux devices.
+a v4l dcxx
+a v4l mmetfgrab
+a v4l radio
+a v4l sound
+a v4l vbi
+a v4l video
+a v4l vttuner
+a v4l vtx
+a v4l winradio
+a v4l wvisfgrab

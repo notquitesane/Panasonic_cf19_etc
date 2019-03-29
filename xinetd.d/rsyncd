@@ -1,1 +1,10 @@
-# empty file because --include-config=n when `quickpkg` was used
+service rsync
+{
+	socket_type = stream
+	protocol    = tcp
+	wait        = no
+	user        = root
+	server      = /usr/bin/rsync
+	server_args = --daemon
+	disable     = yes
+}

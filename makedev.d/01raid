@@ -1,1 +1,5 @@
-# empty file because --include-config=n when `quickpkg` was used
+# Aliases for all of the RAID controller devices supported.
+a raid ataraid/
+a raid cciss/
+a raid ida/
+a raid rd/

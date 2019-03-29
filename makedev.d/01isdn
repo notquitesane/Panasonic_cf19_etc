@@ -1,1 +1,6 @@
-# empty file because --include-config=n when `quickpkg` was used
+# Aliases for ISDN users.
+a isdn dcbri
+a isdn ippp
+a isdn cui
+a isdn ttyI
+a isdn usb/auer

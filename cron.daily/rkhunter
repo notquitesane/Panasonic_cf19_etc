@@ -80,7 +80,8 @@ exec > ${_tmpout} 2>&1
 if [[ "${UPDATE}" == "yes" ]] ; then
         # save the output of --update in a tmp file so that it can be mailed
         # along with the scan output; otherwise the user will get 2 mails
-        ${RKHUNTER_EXEC} --nocolor --update
+        #${RKHUNTER_EXEC} --nocolor --update
+        echo "In Gentoo, update option is disabled due to CVE-2017-7480."
 fi
 
 # formulate options string according to user configuration

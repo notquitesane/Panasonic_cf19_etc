@@ -501,8 +501,6 @@ www-client/opera ~amd64
 =mail-client/mutt-1.11.4 ~amd64
 # required by =gnustep-base/gnustep-base-1.26.0 (argument)
 =gnustep-base/gnustep-base-1.26.0 ~amd64
-# required by =net-libs/nghttp2-1.37.0 (argument)
-=net-libs/nghttp2-1.37.0 ~amd64
 # required by =x11-base/xorg-server-1.20.4 (argument)
 =x11-base/xorg-server-1.20.4 ~amd64
 # required by =app-backup/zbackup-9999 (argument)

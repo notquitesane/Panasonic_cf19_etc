@@ -123,7 +123,7 @@ net-wireless/bluez alsa experimental
 sys-power/pm-utils alsa ntp
 www-client/elinks bittorrent javascript gc ftp -ssl
 sys-apps/etckeeper cron
-net-libs/nghttp2 utils jemalloc
+net-libs/nghttp2 -utils jemalloc
 dev-libs/cyrus-sasl berkdb gdbm -ssl
 media-libs/x265 numa
 sys-apps/hwloc numa
@@ -327,3 +327,8 @@ sys-libs/libblockdev bcache
 app-mobilephone/heimdall qt5
 app-emulation/virtualbox-modules -pax_kernel
 net-nds/openldap -ssl
+# required by sys-fs/lvm2-2.02.183::gentoo[static]
+# required by sys-boot/grub-2.02-r3::gentoo[device-mapper]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libaio-0.3.110 static-libs

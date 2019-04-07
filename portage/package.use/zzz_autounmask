@@ -138,7 +138,7 @@ media-libs/mesa -vaapi -vdpau gles1 gles2 lm_sensors
 app-crypt/gnupg tools doc wks-server smartcard usb
 sys-apps/kmod tools
 x11-drivers/xf86-video-intel tools xvmc dri uxa
-sys-apps/coreutils gmp
+sys-apps/coreutils gmp caps
 app-text/xournal pdf
 net-print/cups-filters pdf -dbus -foomatic
 media-libs/libpng apng

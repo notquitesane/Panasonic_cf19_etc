@@ -332,3 +332,5 @@ net-nds/openldap -ssl
 # required by @selected
 # required by @world (argument)
 >=dev-libs/libaio-0.3.110 static-libs
+www-misc/vl python_targets_python3_5
+dev-python/grequests python_targets_python3_5

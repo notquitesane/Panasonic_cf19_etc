@@ -17,3 +17,5 @@
 =app-emulation/virtualbox-bin-5.2.22.126460 PUEL
 # required by =app-emulation/virtualbox-bin-6.0.4.128413 (argument)
 >=app-emulation/virtualbox-bin-6.0.4.128413 PUEL
+# required by =media-libs/fdk-aac-2.0.0::gentoo (argument)
+>=media-libs/fdk-aac-2.0.0 FraunhoferFDK

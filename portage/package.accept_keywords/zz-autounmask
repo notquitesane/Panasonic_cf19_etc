@@ -527,3 +527,6 @@ www-client/opera ~amd64
 =www-client/qutebrowser-1.6.1 ~amd64
 # required by =app-shells/bash-5.0_p3-r1 (argument)
 =app-shells/bash-5.0_p3-r1 ~amd64
+# required by @selected
+# required by @world (argument)
+=net-misc/cointop-1.1.3 ~amd64

@@ -334,3 +334,7 @@ net-nds/openldap -ssl
 >=dev-libs/libaio-0.3.110 static-libs
 www-misc/vl python_targets_python3_5
 dev-python/grequests python_targets_python3_5
+net-libs/nodejs ssl
+media-fonts/powerline-symbols X
+app-misc/powerline rc vim doc extra fonts man tmux
+media-fonts/powerline-fonts terminus_pcf X droidsansmono

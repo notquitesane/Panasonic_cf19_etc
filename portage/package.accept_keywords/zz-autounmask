@@ -549,3 +549,6 @@ www-client/opera ~amd64
 # required by @selected
 # required by @world (argument)
 =app-shells/push-3.1-r3 ~amd64
+# required by dev-qt/qtnetwork-5.12.2::libressl
+# required by =dev-qt/qtnetwork-5.12.2::libressl (argument)
+=dev-qt/qtcore-5.12.2 ~amd64

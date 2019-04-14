@@ -191,7 +191,7 @@ x11-apps/xinit minimal
 app-editors/vim lua luajit terminal vim-pager python_single_target_python3_6 -python_single_target_python2_7
 sys-libs/ncurses ada
 sys-apps/pciutils dns
-dev-qt/qtnetwork ssl 
+dev-qt/qtnetwork ssl
 app-portage/mirrorselect -python_targets_python2_7
 sys-devel/distcc crossdev
 dev-libs/xmlrpc-c curl

@@ -552,3 +552,61 @@ www-client/opera ~amd64
 # required by dev-qt/qtnetwork-5.12.2::libressl
 # required by =dev-qt/qtnetwork-5.12.2::libressl (argument)
 =dev-qt/qtcore-5.12.2 ~amd64
+# required by dev-qt/qtwidgets-5.12.2::gentoo
+# required by =dev-qt/qtwidgets-5.12.2 (argument)
+=dev-qt/qtgui-5.12.2 ~amd64
+# required by =dev-qt/qtwidgets-5.12.2 (argument)
+=dev-qt/qtwidgets-5.12.2 ~amd64
+# required by =dev-qt/qtxml-5.12.2 (argument)
+=dev-qt/qtxml-5.12.2 ~amd64
+# required by =dev-qt/qtx11extras-5.12.2 (argument)
+=dev-qt/qtx11extras-5.12.2 ~amd64
+# required by dev-qt/qtgui-5.12.2::gentoo[dbus]
+# required by dev-qt/qtwidgets-5.12.2::gentoo
+# required by =dev-qt/qtwidgets-5.12.2 (argument)
+=dev-qt/qtdbus-5.12.2 ~amd64
+# required by =dev-qt/qtxmlpatterns-5.12.2 (argument)
+=dev-qt/qtxmlpatterns-5.12.2 ~amd64
+# required by dev-qt/qtdeclarative-5.12.2::gentoo[-test]
+# required by dev-qt/qtwebchannel-5.12.2::gentoo[qml]
+# required by dev-qt/qtwebengine-5.12.2::gentoo
+# required by =dev-qt/qtwebengine-5.12.2 (argument)
+=dev-qt/qttest-5.12.2 ~amd64
+# required by dev-qt/qtwebengine-5.12.2::gentoo[widgets]
+# required by =dev-qt/qtwebengine-5.12.2 (argument)
+=dev-qt/qtdeclarative-5.12.2 ~amd64
+# required by =dev-qt/qtwebengine-5.12.2 (argument)
+=dev-qt/qtwebengine-5.12.2 ~amd64
+# required by dev-qt/qtwebengine-5.12.2::gentoo[designer]
+# required by =dev-qt/qtwebengine-5.12.2 (argument)
+=dev-qt/designer-5.12.2 ~amd64
+# required by =dev-qt/qtwebsockets-5.12.2 (argument)
+=dev-qt/qtwebsockets-5.12.2 ~amd64
+# required by =dev-qt/qtwebchannel-5.12.2 (argument)
+=dev-qt/qtwebchannel-5.12.2 ~amd64
+# required by dev-qt/qtwebengine-5.12.2::gentoo
+# required by =dev-qt/qtwebengine-5.12.2 (argument)
+=dev-qt/qtprintsupport-5.12.2 ~amd64
+# required by =dev-qt/qtsql-5.12.2 (argument)
+=dev-qt/qtsql-5.12.2 ~amd64
+# required by =dev-qt/linguist-tools-5.12.2 (argument)
+=dev-qt/linguist-tools-5.12.2 ~amd64
+# required by =dev-qt/qtsvg-5.12.2 (argument)
+=dev-qt/qtsvg-5.12.2 ~amd64
+# required by =dev-qt/qtscript-5.12.2 (argument)
+=dev-qt/qtscript-5.12.2 ~amd64
+# required by =dev-qt/qtconcurrent-5.12.2 (argument)
+=dev-qt/qtconcurrent-5.12.2 ~amd64
+# required by =dev-qt/qtquickcontrols2-5.12.2 (argument)
+=dev-qt/qtquickcontrols2-5.12.2 ~amd64
+# required by dev-qt/qtquickcontrols2-5.12.2::gentoo
+# required by =dev-qt/qtquickcontrols2-5.12.2 (argument)
+=dev-qt/qtgraphicaleffects-5.12.2 ~amd64
+# required by =dev-qt/qtopengl-5.12.2 (argument)
+=dev-qt/qtopengl-5.12.2 ~amd64
+# required by =dev-qt/qtdatavis3d-5.12.2 (argument)
+=dev-qt/qtdatavis3d-5.12.2 ~amd64
+# required by =dev-qt/qtmultimedia-5.12.2 (argument)
+=dev-qt/qtmultimedia-5.12.2 ~amd64
+# required by =dev-qt/qthelp-5.12.2 (argument)
+=dev-qt/qthelp-5.12.2 ~amd64

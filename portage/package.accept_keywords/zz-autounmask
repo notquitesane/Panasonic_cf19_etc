@@ -610,3 +610,10 @@ www-client/opera ~amd64
 =dev-qt/qtmultimedia-5.12.2 ~amd64
 # required by =dev-qt/qthelp-5.12.2 (argument)
 =dev-qt/qthelp-5.12.2 ~amd64
+# required by @selected
+# required by @world (argument)
+=media-sound/mps-youtube-0.2.8 ~amd64
+# required by media-sound/mps-youtube-0.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/pafy-0.5.4 ~amd64

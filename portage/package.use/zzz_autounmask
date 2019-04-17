@@ -338,3 +338,9 @@ net-libs/nodejs ssl
 media-fonts/powerline-symbols X
 app-misc/powerline rc vim doc extra fonts man tmux
 media-fonts/powerline-fonts terminus_pcf X droidsansmono
+dev-python/setuptools python_targets_python3_5
+# required by dev-python/pafy-0.5.4::gentoo
+# required by media-sound/mps-youtube-0.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-misc/youtube-dl-2019.04.07 python_targets_python3_6

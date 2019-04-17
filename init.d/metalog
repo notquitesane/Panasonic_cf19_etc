@@ -1,10 +1,12 @@
 #!/sbin/openrc-run
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-extra_started_commands="buffer unbuffer"
+pidfile="${PIDFILE:-/run/metalog.pid}"
+command="/usr/sbin/metalog"
+command_args="--pidfile=${pidfile} --daemonize ${METALOG_OPTS}"
 
-PIDFILE=/var/run/metalog.pid
+extra_started_commands="buffer unbuffer"
 
 depend() {
 	need localmount
@@ -13,29 +15,14 @@ depend() {
 	provide logger
 }
 
-ssd() { start-stop-daemon --exec /usr/sbin/metalog --pidfile "${PIDFILE}" "$@" ; }
-
-start() {
-	ebegin "Starting metalog"
-	ssd --start -- \
-	    --daemonize --pidfile="${PIDFILE}" ${METALOG_OPTS}
-	eend $?
-}
-
-stop() {
-	ebegin "Stopping metalog"
-	ssd --stop
-	eend $?
-}
-
 buffer() {
 	ebegin "Enabling log buffering"
-	ssd --signal USR2
-	eend $?
+	start-stop-daemon --exec "${command}" --signal USR2 --pidfile "${pidfile}"
+	eend ${?}
 }
 
 unbuffer() {
 	ebegin "Disabling log buffering"
-	ssd --signal USR1
-	eend $?
+	start-stop-daemon --exec "${command}" --signal USR1 --pidfile "${pidfile}"
+	eend ${?}
 }

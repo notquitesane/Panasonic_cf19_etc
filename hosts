@@ -10,7 +10,7 @@
 #
 # ===============================================================
 
-127.0.0.1 localhost	tablet
+127.0.0.1 localhost
 127.0.0.1 localhost.asisee.it	tablet
 127.0.0.1 local
 255.255.255.255 broadcasthost

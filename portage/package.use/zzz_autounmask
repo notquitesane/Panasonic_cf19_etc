@@ -121,7 +121,7 @@ media-libs/openal alsa cpu_flags_x86_sse4_1
 media-sound/moc alsa ffmpeg curl aac vorbis
 net-wireless/bluez alsa experimental
 sys-power/pm-utils alsa ntp
-www-client/elinks bittorrent javascript gc ftp -ssl
+www-client/elinks bittorrent javascript gc ftp ssl ruby perl
 sys-apps/etckeeper cron
 net-libs/nghttp2 -utils jemalloc
 dev-libs/cyrus-sasl berkdb gdbm -ssl

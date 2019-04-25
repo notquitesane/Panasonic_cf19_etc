@@ -3,36 +3,36 @@
 =sys-kernel/dracut-9999 **
 www-client/opera ~amd64
 =x11-misc/easystroke-0.6.0-r3 ~amd64
-# required by dev-qt/qtnetwork-5.11.3::gentoo
-# required by =dev-qt/qtnetwork-5.11.3 (argument)
-=dev-qt/qtcore-5.11.3 ~amd64
-# required by =dev-qt/qtnetwork-5.11.3 (argument)
-=dev-qt/qtnetwork-5.11.3 ~amd64
-# required by =dev-qt/qtdbus-5.11.3 (argument)
-=dev-qt/qtdbus-5.11.3 ~amd64
-# required by =dev-qt/qtdeclarative-5.11.3 (argument)
-=dev-qt/qtdeclarative-5.11.3 ~amd64
-# required by =dev-qt/qtscript-5.11.3 (argument)
-=dev-qt/qtscript-5.11.3 ~amd64
-# required by =dev-qt/qtconcurrent-5.11.3 (argument)
-=dev-qt/qtconcurrent-5.11.3 ~amd64
-# required by =dev-qt/qtsvg-5.11.3 (argument)
-=dev-qt/qtsvg-5.11.3 ~amd64
-# required by =dev-qt/qtsql-5.11.3 (argument)
-=dev-qt/qtsql-5.11.3 ~amd64
-# required by =dev-qt/qtprintsupport-5.11.3 (argument)
-=dev-qt/qtprintsupport-5.11.3 ~amd64
-# required by =dev-qt/qtxml-5.11.3 (argument)
-=dev-qt/qtxml-5.11.3 ~amd64
-# required by =dev-qt/qtwidgets-5.11.3 (argument)
-=dev-qt/qtwidgets-5.11.3 ~amd64
-# required by =dev-qt/qtxmlpatterns-5.11.3 (argument)
-=dev-qt/qtxmlpatterns-5.11.3 ~amd64
-# required by =dev-qt/qtx11extras-5.11.3 (argument)
-=dev-qt/qtx11extras-5.11.3 ~amd64
-# required by =dev-qt/qttest-5.11.3 (argument)
-=dev-qt/qttest-5.11.3 ~amd64
-# required by dev-qt/qtdeclarative-5.11.3::gentoo
+# required by dev-qt/qtnetwork::gentoo
+# required by dev-qt/qtnetwork (argument)
+dev-qt/qtcore ~amd64
+# required by dev-qt/qtnetwork (argument)
+dev-qt/qtnetwork ~amd64
+# required by dev-qt/qtdbus (argument)
+dev-qt/qtdbus ~amd64
+# required by dev-qt/qtdeclarative (argument)
+dev-qt/qtdeclarative ~amd64
+# required by dev-qt/qtscript (argument)
+dev-qt/qtscript ~amd64
+# required by dev-qt/qtconcurrent (argument)
+dev-qt/qtconcurrent ~amd64
+# required by dev-qt/qtsvg (argument)
+dev-qt/qtsvg ~amd64
+# required by dev-qt/qtsql (argument)
+dev-qt/qtsql ~amd64
+# required by dev-qt/qtprintsupport (argument)
+dev-qt/qtprintsupport ~amd64
+# required by dev-qt/qtxml (argument)
+dev-qt/qtxml ~amd64
+# required by dev-qt/qtwidgets (argument)
+dev-qt/qtwidgets ~amd64
+# required by dev-qt/qtxmlpatterns (argument)
+dev-qt/qtxmlpatterns ~amd64
+# required by dev-qt/qtx11extras (argument)
+dev-qt/qtx11extras ~amd64
+# required by dev-qt/qttest (argument)
+dev-qt/qttest ~amd64
+# required by dev-qt/qtdeclarative::gentoo
 # required by kde-frameworks/ki18n-5.52.0::gentoo
 # required by kde-frameworks/kconfigwidgets-5.52.0::gentoo
 # required by kde-frameworks/kiconthemes-5.52.0::gentoo
@@ -41,9 +41,9 @@ www-client/opera ~amd64
 # required by kde-frameworks/kio-5.52.0-r1::gentoo
 # required by kde-frameworks/kinit-5.52.0::gentoo
 # required by kde-frameworks/kded-5.52.0::gentoo
-=dev-qt/qtgui-5.11.3 ~amd64
-# required by =dev-qt/linguist-tools-5.11.3 (argument)
-=dev-qt/linguist-tools-5.11.3 ~amd64
+dev-qt/qtgui ~amd64
+# required by dev-qt/linguist-tools (argument)
+dev-qt/linguist-tools ~amd64
 # required by ripme (argument)
 =net-misc/ripme-1.7.73 ~amd64
 # required by tuned (argument)
@@ -77,16 +77,16 @@ www-client/opera ~amd64
 # required by www-client/qutebrowser-1.5.2::gentoo
 # required by www-client/qutebrowser (argument)
 =dev-python/pypeg2-2.15.2 ~amd64
-# required by =dev-qt/qtwebchannel-5.11.3:5/5.11::gentoo (argument)
-=dev-qt/qtwebchannel-5.11.3 ~amd64
-# required by =dev-qt/qtwebengine-5.11.3 (argument)
-=dev-qt/qtwebengine-5.11.3 ~amd64
-# required by =dev-qt/qtopengl-5.11.3 (argument)
-=dev-qt/qtopengl-5.11.3 ~amd64
+# required by dev-qt/qtwebchannel:5/5.11::gentoo (argument)
+dev-qt/qtwebchannel ~amd64
+# required by dev-qt/qtwebengine (argument)
+dev-qt/qtwebengine ~amd64
+# required by dev-qt/qtopengl (argument)
+dev-qt/qtopengl ~amd64
 # required by =sys-fs/bcache-tools-1.0.8_p20140220-r1 (argument)
 =sys-fs/bcache-tools-1.0.8_p20140220-r1 ~amd64
-# required by =dev-qt/qtmultimedia-5.11.3 (argument)
-=dev-qt/qtmultimedia-5.11.3 ~amd64
+# required by dev-qt/qtmultimedia (argument)
+dev-qt/qtmultimedia ~amd64
 # required by @selected
 # required by @world (argument)
 =games-strategy/dopewars-1.5.12-r3 ~amd64
@@ -543,73 +543,10 @@ www-client/opera ~amd64
 # required by app-vim/powerline-vim-2.7::raiagent
 # required by powerline-vim (argument)
 =app-shells/rc-1.7.4-r1 ~amd64
-# required by =dev-qt/qtnetwork-5.12.2::libressl (argument)
-=dev-qt/qtnetwork-5.12.2 ~amd64
 # required by app-portage/eix-99999999::mv
 # required by @selected
 # required by @world (argument)
 =app-shells/push-3.1-r3 ~amd64
-# required by dev-qt/qtnetwork-5.12.2::libressl
-# required by =dev-qt/qtnetwork-5.12.2::libressl (argument)
-=dev-qt/qtcore-5.12.2 ~amd64
-# required by dev-qt/qtwidgets-5.12.2::gentoo
-# required by =dev-qt/qtwidgets-5.12.2 (argument)
-=dev-qt/qtgui-5.12.2 ~amd64
-# required by =dev-qt/qtwidgets-5.12.2 (argument)
-=dev-qt/qtwidgets-5.12.2 ~amd64
-# required by =dev-qt/qtxml-5.12.2 (argument)
-=dev-qt/qtxml-5.12.2 ~amd64
-# required by =dev-qt/qtx11extras-5.12.2 (argument)
-=dev-qt/qtx11extras-5.12.2 ~amd64
-# required by dev-qt/qtgui-5.12.2::gentoo[dbus]
-# required by dev-qt/qtwidgets-5.12.2::gentoo
-# required by =dev-qt/qtwidgets-5.12.2 (argument)
-=dev-qt/qtdbus-5.12.2 ~amd64
-# required by =dev-qt/qtxmlpatterns-5.12.2 (argument)
-=dev-qt/qtxmlpatterns-5.12.2 ~amd64
-# required by dev-qt/qtdeclarative-5.12.2::gentoo[-test]
-# required by dev-qt/qtwebchannel-5.12.2::gentoo[qml]
-# required by dev-qt/qtwebengine-5.12.2::gentoo
-# required by =dev-qt/qtwebengine-5.12.2 (argument)
-=dev-qt/qttest-5.12.2 ~amd64
-# required by dev-qt/qtwebengine-5.12.2::gentoo[widgets]
-# required by =dev-qt/qtwebengine-5.12.2 (argument)
-=dev-qt/qtdeclarative-5.12.2 ~amd64
-# required by =dev-qt/qtwebengine-5.12.2 (argument)
-=dev-qt/qtwebengine-5.12.2 ~amd64
-# required by dev-qt/qtwebengine-5.12.2::gentoo[designer]
-# required by =dev-qt/qtwebengine-5.12.2 (argument)
-=dev-qt/designer-5.12.2 ~amd64
-# required by =dev-qt/qtwebsockets-5.12.2 (argument)
-=dev-qt/qtwebsockets-5.12.2 ~amd64
-# required by =dev-qt/qtwebchannel-5.12.2 (argument)
-=dev-qt/qtwebchannel-5.12.2 ~amd64
-# required by dev-qt/qtwebengine-5.12.2::gentoo
-# required by =dev-qt/qtwebengine-5.12.2 (argument)
-=dev-qt/qtprintsupport-5.12.2 ~amd64
-# required by =dev-qt/qtsql-5.12.2 (argument)
-=dev-qt/qtsql-5.12.2 ~amd64
-# required by =dev-qt/linguist-tools-5.12.2 (argument)
-=dev-qt/linguist-tools-5.12.2 ~amd64
-# required by =dev-qt/qtsvg-5.12.2 (argument)
-=dev-qt/qtsvg-5.12.2 ~amd64
-# required by =dev-qt/qtscript-5.12.2 (argument)
-=dev-qt/qtscript-5.12.2 ~amd64
-# required by =dev-qt/qtconcurrent-5.12.2 (argument)
-=dev-qt/qtconcurrent-5.12.2 ~amd64
-# required by =dev-qt/qtquickcontrols2-5.12.2 (argument)
-=dev-qt/qtquickcontrols2-5.12.2 ~amd64
-# required by dev-qt/qtquickcontrols2-5.12.2::gentoo
-# required by =dev-qt/qtquickcontrols2-5.12.2 (argument)
-=dev-qt/qtgraphicaleffects-5.12.2 ~amd64
-# required by =dev-qt/qtopengl-5.12.2 (argument)
-=dev-qt/qtopengl-5.12.2 ~amd64
-# required by =dev-qt/qtdatavis3d-5.12.2 (argument)
-=dev-qt/qtdatavis3d-5.12.2 ~amd64
-# required by =dev-qt/qtmultimedia-5.12.2 (argument)
-=dev-qt/qtmultimedia-5.12.2 ~amd64
-# required by =dev-qt/qthelp-5.12.2 (argument)
-=dev-qt/qthelp-5.12.2 ~amd64
 # required by @selected
 # required by @world (argument)
 =media-sound/mps-youtube-0.2.8 ~amd64
@@ -617,3 +554,8 @@ www-client/opera ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-python/pafy-0.5.4 ~amd64
+# required by dev-qt/qtwebengine-5.12.3::gentoo[designer]
+# required by media-gfx/digikam-6.0.0::gentoo[-webkit]
+# required by @selected
+# required by @world (argument)
+dev-qt/design ~amd64

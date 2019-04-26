@@ -344,3 +344,4 @@ dev-python/setuptools python_targets_python3_5
 # required by @selected
 # required by @world (argument)
 >=net-misc/youtube-dl-2019.04.07 python_targets_python3_6
+x11-misc/xbindkeys tk

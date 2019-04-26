@@ -559,3 +559,5 @@ dev-qt/qtmultimedia ~amd64
 # required by @selected
 # required by @world (argument)
 dev-qt/design ~amd64
+# required by =dev-qt/qtwebsockets-5.12.3 (argument)
+=dev-qt/qtwebsockets-5.12.3 ~amd64

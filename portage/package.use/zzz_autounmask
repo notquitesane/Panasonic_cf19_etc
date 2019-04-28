@@ -17,7 +17,7 @@ dev-util/cmake qt5
 dev-vcs/mercurial python_targets_python2_7
 >=kde-frameworks/kwindowsystem-5.46.0 X
 media-fonts/croscorefonts X
-media-gfx/digikam jpeg2k X
+media-gfx/digikam jpeg2k X webkit
 media-libs/opencv python_targets_python2_7 openexr
 media-libs/phonon -vlc
 >=media-libs/vigra-1.11.1 openexr
@@ -121,7 +121,7 @@ media-libs/openal alsa cpu_flags_x86_sse4_1
 media-sound/moc alsa ffmpeg curl aac vorbis
 net-wireless/bluez alsa experimental
 sys-power/pm-utils alsa ntp
-www-client/elinks bittorrent javascript gc ftp ssl ruby perl
+www-client/elinks bittorrent javascript gc ftp -ssl ruby perl
 sys-apps/etckeeper cron
 net-libs/nghttp2 -utils jemalloc
 dev-libs/cyrus-sasl berkdb gdbm -ssl
@@ -227,7 +227,7 @@ www-client/vimb gtk3
 # required by www-client/qutebrowser-1.5.2::gentoo
 # required by www-client/qutebrowser (argument)
 >=dev-python/PyQt5-5.10.1-r1 gui widgets network webengine printsupport declarative sql opengl multimedia
-dev-python/PyQt5 webchannel svg
+dev-python/PyQt5 webchannel svg -widgets
 # required by dev-python/PyQt5-5.10.1-r1::gentoo[multimedia]
 # required by www-client/qutebrowser-1.5.2::gentoo
 # required by www-client/qutebrowser (argument)

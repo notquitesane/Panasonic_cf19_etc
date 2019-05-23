@@ -86,7 +86,7 @@ media-libs/libjpeg-turbo static-libs
 net-libs/libpcap static-libs netlink bluetooth usb
 net-libs/libssh2 static-libs
 sys-apps/util-linux static-libs caps slang tty-helpers
-sys-fs/cryptsetup static-libs nettle urandom reencrypt static -gcrypt
+sys-fs/cryptsetup static-libs -nettle urandom reencrypt static -gcrypt
 sys-fs/eudev static-libs
 sys-fs/lvm2 static-libs lvm2create_initrd static
 sys-libs/libunwind static-libs
@@ -345,3 +345,17 @@ dev-python/setuptools python_targets_python3_5
 # required by @world (argument)
 >=net-misc/youtube-dl-2019.04.07 python_targets_python3_6
 x11-misc/xbindkeys tk
+# required by sys-fs/cryptsetup-2.1.0::gentoo[static,static-libs]
+# required by sys-block/gparted-0.33.0::gentoo[cryptsetup]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/json-c-0.13.1-r1 static-libs
+# required by sys-fs/cryptsetup-2.1.0::gentoo[argon2,static,static-libs]
+# required by sys-block/gparted-0.33.0::gentoo[cryptsetup]
+# required by @selected
+# required by @world (argument)
+>=app-crypt/argon2-20171227-r1 static-libs
+# required by media-gfx/gimp-2.10.8-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/gegl-0.4.14 cairo

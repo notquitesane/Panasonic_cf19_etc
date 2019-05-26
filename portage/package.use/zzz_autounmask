@@ -49,7 +49,7 @@ sys-libs/glibc nscd gd
 app-admin/conky rss X weather-metar iostats mpd moc curl imlib weather-xoap lua-imlib lua-cairo hddtemp math
 net-misc/wget uuid idn
 app-benchmarks/bootchart2 X svg
-app-misc/mc X slang
+app-misc/mc X -slang
 app-text/mupdf X curl
 dev-cpp/cairomm X svg
 kde-frameworks/kwindowsystem X
@@ -86,7 +86,7 @@ media-libs/libjpeg-turbo static-libs
 net-libs/libpcap static-libs netlink bluetooth usb
 net-libs/libssh2 static-libs
 sys-apps/util-linux static-libs caps slang tty-helpers
-sys-fs/cryptsetup static-libs -nettle urandom reencrypt static -gcrypt
+sys-fs/cryptsetup static-libs -nettle urandom reencrypt static -gcrypt -luks1_default
 sys-fs/eudev static-libs
 sys-fs/lvm2 static-libs lvm2create_initrd static
 sys-libs/libunwind static-libs

@@ -63,3 +63,11 @@
 >=games-misc/fortune-mod-discworld-0.1 fairuse
 # required by =media-gfx/hugin-2018.0.0::gentoo (argument)
 =media-gfx/hugin-2018.0.0 SIFT
+# required by =app-arch/unrar-5.7.4::gentoo (argument)
+=app-arch/unrar-5.7.4 unRAR
+# required by =app-benchmarks/bonnie-2.0.6-r2::gentoo (argument)
+>=app-benchmarks/bonnie-2.0.6-r2 bonnie
+# required by =sys-kernel/linux-firmware-20190514::gentoo (argument)
+=sys-kernel/linux-firmware-20190514 linux-fw-redistributable no-source-code
+# required by =app-text/agrep-2.04-r2::gentoo (argument)
+>=app-text/agrep-2.04-r2 AGREP

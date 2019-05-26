@@ -893,3 +893,11 @@ dev-qt/design ~amd64
 # required by dev-perl/DateTime-Format-Strptime-1.700.0::gentoo
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =dev-lang/perl-5.28.9999 **
+# required by dev-lang/python-3.5.5::gentoo[ssl,libressl]
+# required by dev-python/certifi-2018.4.16::gentoo[python_targets_python3_5]
+# required by dev-python/setuptools-40.6.3::gentoo
+# required by dev-python/setuptools_scm-3.2.0::gentoo
+# required by app-backup/borgbackup-1.1.8::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/libressl-2.9.1 ~amd64

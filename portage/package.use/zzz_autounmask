@@ -29,7 +29,7 @@ sci-libs/hdf5 -fortran2003 -fortran -hl -cxx
 >=sys-apps/portage-2.3.40-r1 python_targets_python2_7
 sys-fs/udisks cryptsetup lvm
 sys-kernel/genkernel-next cryptsetup
-sys-kernel/gentoo-sources symlink
+sys-kernel/gentoo-sources -symlink
 sys-kernel/mkinitramfs-ll dm-crypt device-mapper
 x11-base/xcb-proto -python_targets_python2_7
 >=x11-libs/wxGTK-3.0.4:3.0 X opengl
@@ -37,7 +37,7 @@ x11-libs/wxGTK libnotify tiff sdl X
 app-admin/sudo -skey
 media-sound/mpd flac twolame lame vorbis alsa icu ffmpeg curl openal libmpdclient ogg
 media-video/mpv cli X libmpv iconv jpeg tools -vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa lua -vdpau
-media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband schroedinger postproc amr libcaca cpu_flags_x86_aes openssl fdk svg
+media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband schroedinger postproc amr libcaca cpu_flags_x86_aes -openssl fdk svg
 sys-process/lsof rpc
 x11-libs/libxcb xkb
 x11-libs/gtk+ X
@@ -86,7 +86,7 @@ media-libs/libjpeg-turbo static-libs
 net-libs/libpcap static-libs netlink bluetooth usb
 net-libs/libssh2 static-libs
 sys-apps/util-linux static-libs caps slang tty-helpers
-sys-fs/cryptsetup static-libs -nettle urandom reencrypt static -gcrypt -luks1_default
+sys-fs/cryptsetup static-libs -nettle urandom reencrypt static -gcrypt -luks1_default -argon2
 sys-fs/eudev static-libs
 sys-fs/lvm2 static-libs lvm2create_initrd static
 sys-libs/libunwind static-libs
@@ -191,7 +191,6 @@ x11-apps/xinit minimal
 app-editors/vim lua luajit terminal vim-pager python_single_target_python3_6 -python_single_target_python2_7
 sys-libs/ncurses ada
 sys-apps/pciutils dns
-dev-qt/qtnetwork ssl
 app-portage/mirrorselect -python_targets_python2_7
 sys-devel/distcc crossdev
 dev-libs/xmlrpc-c curl
@@ -332,13 +331,10 @@ net-nds/openldap -ssl
 # required by @selected
 # required by @world (argument)
 >=dev-libs/libaio-0.3.110 static-libs
-www-misc/vl python_targets_python3_5
-dev-python/grequests python_targets_python3_5
 net-libs/nodejs ssl
 media-fonts/powerline-symbols X
 app-misc/powerline rc vim doc extra fonts man tmux
 media-fonts/powerline-fonts terminus_pcf X droidsansmono
-dev-python/setuptools python_targets_python3_5
 # required by dev-python/pafy-0.5.4::gentoo
 # required by media-sound/mps-youtube-0.2.8::gentoo
 # required by @selected
@@ -368,4 +364,3 @@ x11-misc/xbindkeys tk
 # required by media-gfx/librecad-2.1.3-r4::gentoo
 # required by @selected
 # required by @world (argument)
->=dev-python/certifi-2018.4.16 python_targets_python3_5

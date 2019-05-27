@@ -3,11 +3,7 @@
 =sys-kernel/dracut-9999 **
 www-client/opera ~amd64
 =x11-misc/easystroke-0.6.0-r3 ~amd64
-# required by dev-qt/qtnetrk::gentoo
-# required by dev-qt/qtnetwork (argument)
 dev-qt/qtcore ~amd64
-# required by dev-qt/qtnetwork (argument)
-dev-qt/qtnetwork::libressl ~amd64
 # required by dev-qt/qtdbus (argument)
 dev-qt/qtdbus ~amd64
 # required by dev-qt/qtdeclarative (argument)
@@ -901,3 +897,11 @@ dev-qt/design ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-libs/libressl-2.9.1 ~amd64
+# required by =dev-qt/qtnetwork-5.12.3::libressl (argument)
+>=dev-qt/qtnetwork-5.12.3 ~amd64
+# required by app-misc/gcstar-1.7.0::gentoo
+# required by @selected
+# required by @world (argument)
+=virtual/perl-Storable-3.150.0 ~amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=virtual/perl-Compress-Raw-Bzip2-2.84.0 ~amd64

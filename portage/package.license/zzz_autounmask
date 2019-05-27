@@ -71,3 +71,5 @@
 =sys-kernel/linux-firmware-20190514 linux-fw-redistributable no-source-code
 # required by =app-text/agrep-2.04-r2::gentoo (argument)
 >=app-text/agrep-2.04-r2 AGREP
+# required by =sys-kernel/gentoo-sources-4.14.83::gentoo (argument)
+>=sys-kernel/gentoo-sources-4.14.83:4.14.83 linux-firmware

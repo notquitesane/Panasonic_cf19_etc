@@ -1,4 +1,5 @@
 =app-emulation/bochs-2.6.9 ~amd64
+del-qt/qtnetwork ssl
 =app-portage/cargo-ebuild-0.1.5 ~amd64
 =sys-kernel/dracut-9999 **
 www-client/opera ~amd64
@@ -419,7 +420,6 @@ dev-qt/qtmultimedia ~amd64
 =dev-lang/rust-1.32.0-r666 ~amd64
 # required by =virtual/cargo-1.32.0-r666 (argument)
 =virtual/cargo-1.32.0-r666 ~amd64
-=dev-perl/Net-SSLeay-1.820.0 ~amd64
 =app-admin/sudo-1.8.25_p1-r1 ~amd64
 # required by =x11-libs/wxGTK-3.0.4-r301 (argument)
 =x11-libs/wxGTK-3.0.4-r301 ~amd64
@@ -875,20 +875,6 @@ dev-qt/design ~amd64
 # required by dev-qt/qtwebengine-5.12.3::gentoo
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =dev-libs/icu-64.1 ~amd64
-# required by virtual/perl-ExtUtils-MakeMaker-7.340.0-r1::gentoo
-# required by dev-perl/HTTP-Message-6.130.0::gentoo
-# required by dev-perl/HTTP-Daemon-6.10.0-r2::gentoo
-# required by dev-perl/libwww-perl-6.270.0::gentoo
-# required by dev-perl/LWP-Protocol-https-6.70.0::gentoo
-# required by @__auto_slot_operator_replace_installed__ (argument)
-=dev-lang/perl-5.30.0 ~amd64
-# required by virtual/perl-IPC-Cmd-1.0.0::gentoo
-# required by dev-perl/List-MoreUtils-XS-0.418.0::gentoo
-# required by dev-perl/List-MoreUtils-0.418.0::gentoo[xs]
-# required by dev-perl/DateTime-Locale-1.30.0::gentoo
-# required by dev-perl/DateTime-Format-Strptime-1.700.0::gentoo
-# required by @__auto_slot_operator_replace_installed__ (argument)
-=dev-lang/perl-5.28.9999 **
 # required by dev-lang/python-3.5.5::gentoo[ssl,libressl]
 # required by dev-python/certifi-2018.4.16::gentoo[python_targets_python3_5]
 # required by dev-python/setuptools-40.6.3::gentoo
@@ -902,6 +888,4 @@ dev-qt/design ~amd64
 # required by app-misc/gcstar-1.7.0::gentoo
 # required by @selected
 # required by @world (argument)
-=virtual/perl-Storable-3.150.0 ~amd64
 # required by @__auto_slot_operator_replace_installed__ (argument)
-=virtual/perl-Compress-Raw-Bzip2-2.84.0 ~amd64

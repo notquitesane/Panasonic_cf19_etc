@@ -364,3 +364,7 @@ x11-misc/xbindkeys tk
 # required by media-gfx/librecad-2.1.3-r4::gentoo
 # required by @selected
 # required by @world (argument)
+# required by app-officeext/languagetool-3.4::gentoo[office_implementation_libreoffice]
+# required by @selected
+# required by @world (argument)
+>=app-office/libreoffice-6.1.5.2 java

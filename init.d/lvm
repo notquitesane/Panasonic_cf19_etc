@@ -1,5 +1,5 @@
 #!/sbin/openrc-run
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 _get_lvm_path() {
@@ -43,6 +43,8 @@ depend() {
 			_need="${_need} lvmlockd"
 		fi
 	fi
+	# Make sure you review /etc/conf.d/lvm as well!
+	# Depending on your system, it might also introduce udev & mdraid
 	need sysfs ${_need}
 }
 
@@ -138,7 +140,10 @@ stop() {
 				lvm_commands="${lvm_commands}vgchange --config '${config}' --sysinit -a ln ${VGS}\n"
 				# Order of this is important, have to work around dash and LVM readline
 				printf "%b\n" "${lvm_commands}" | $lvm_path /proc/self/fd/0 --config "${config}" >/dev/null
-			${_ending} $? "Failed (possibly some LVs still needed for /usr or root)"
+			rc=$?
+			msg="Failed (possibly some LVs still needed for /usr or root)"
+			[ "$RC_RUNLEVEL" = shutdown ] && msg="${msg} [rc=$rc]" && rc=0
+			${_ending} $rc "${msg}"
 		fi
 
 		einfo "Finished shutting down the Logical Volume Manager"

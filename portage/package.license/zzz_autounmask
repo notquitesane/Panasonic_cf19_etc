@@ -73,3 +73,6 @@
 >=app-text/agrep-2.04-r2 AGREP
 # required by =sys-kernel/gentoo-sources-4.14.83::gentoo (argument)
 >=sys-kernel/gentoo-sources-4.14.83:4.14.83 linux-firmware
+# required by @selected
+# required by @world (argument)
+=app-emulation/virtualbox-bin-5.2.26.128414 PUEL

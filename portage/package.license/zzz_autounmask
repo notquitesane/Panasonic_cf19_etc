@@ -76,3 +76,5 @@
 # required by @selected
 # required by @world (argument)
 =app-emulation/virtualbox-bin-5.2.26.128414 PUEL
+# required by =sys-kernel/linux-firmware-20190620::gentoo (argument)
+=sys-kernel/linux-firmware-20190620 linux-fw-redistributable no-source-code

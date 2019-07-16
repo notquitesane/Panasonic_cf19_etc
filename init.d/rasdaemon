@@ -1,5 +1,5 @@
 #!/sbin/openrc-run
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 description="Starts Reliablity, Availability and Serviceability (RAS) service"
@@ -10,10 +10,7 @@ depend() {
 }
 
 command="/usr/sbin/rasdaemon"
-command_args="--foreground --record"
-command_background=true
-pidfile=/run/${RC_SVCNAME}.pid
-
+command_args="${RASDAEMON_ARGS}"
 
 start_post() {
 	"${command}" --enable >/dev/null 2>&1

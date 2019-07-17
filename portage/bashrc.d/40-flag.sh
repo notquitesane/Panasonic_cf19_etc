@@ -141,6 +141,7 @@ FLAG_FILTER_F77FLAGS=(
 
 FLAG_FILTER_NONGNU=(
 	'-fcf-protection*'
+	'-fdevirtualize-at-ltrans'
 	'-fdevirtualize-speculatively'
 	'-fdirectives-only'
 	'-fgcse*'
@@ -151,7 +152,9 @@ FLAG_FILTER_NONGNU=(
 	'-fisolate-erroneous-paths-attribute'
 	'-fivopts'
 	'-floop*'
-	'-flto-*'
+	'-flto=[0-9]*'
+	'-flto-partition=*'
+	'-flto-compression-level=*'
 	'-fmodulo*'
 	'-fno-enforce-eh-specs'
 	'-fno-ident'
@@ -179,7 +182,8 @@ FLAG_FILTER_NONGNU=(
 
 FLAG_FILTER_GNU=(
 	'-emit-llvm'
-	'-flto=thin'
+	'-flto=[a-z]*'
+	'-flto-jobs=*'
 	'-fopenmp=*'
 	'-frewrite-includes'
 	'-fsanitize=cfi'

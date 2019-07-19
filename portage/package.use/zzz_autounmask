@@ -65,12 +65,12 @@ media-sound/pulseaudio X gtk alsa gnome realtime tcpd native-headset gdbm equali
 sys-apps/dbus X
 sys-power/powertop X
 www-client/w3m X imlib
-x11-libs/gdk-pixbuf X jpeg jpeg2k tiff
+x11-libs/gdk-pixbuf X jpeg tiff
 x11-libs/libva X vdpau
 x11-libs/libva-intel-driver X
 x11-libs/libxkbcommon X
 x11-libs/pango X
-virtual/ffmpeg X jpeg2k -vaapi -vdpau mp3 x264 theora
+virtual/ffmpeg X -vaapi -vdpau mp3 x264 theora
 mail-client/mutt gdbm smime gpgme berkdb
 net-wireless/wpa_supplicant ap wps
 dev-lang/python tk sqlite gdbm
@@ -217,7 +217,7 @@ app-shells/bash readline net
 dev-lang/php gd -apache2 curl imap
 net-misc/aria2 scripts tcmalloc ssh bittorrent libuv
 x11-terms/mlterm libssh2 fbcon xft cairo gtk
-net-libs/webkit-gtk libnotify X -geolocation
+net-libs/webkit-gtk libnotify X -geolocation -jpeg2k
 www-client/uzbl experimental
 # required by app-office/libreoffice-6.1.4.2::gentoo
 # required by libreoffice (argument)

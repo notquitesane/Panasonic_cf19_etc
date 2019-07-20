@@ -17,7 +17,7 @@ dev-util/cmake qt5
 dev-vcs/mercurial python_targets_python2_7
 >=kde-frameworks/kwindowsystem-5.46.0 X
 media-fonts/croscorefonts X
-media-gfx/digikam jpeg2k X webkit
+media-gfx/digikam -jpeg2k X webkit
 media-libs/opencv python_targets_python2_7 openexr
 media-libs/phonon -vlc
 >=media-libs/vigra-1.11.1 openexr
@@ -37,7 +37,7 @@ x11-libs/wxGTK libnotify tiff sdl X
 app-admin/sudo -skey
 media-sound/mpd flac twolame lame vorbis alsa icu ffmpeg curl openal libmpdclient ogg
 media-video/mpv cli X libmpv iconv jpeg tools -vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa lua -vdpau
-media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband schroedinger postproc amr libcaca cpu_flags_x86_aes -openssl fdk svg
+media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx -jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband schroedinger postproc amr libcaca cpu_flags_x86_aes -openssl fdk svg
 sys-process/lsof rpc
 x11-libs/libxcb xkb
 x11-libs/gtk+ X
@@ -60,7 +60,7 @@ media-libs/gst-plugins-bad X
 media-libs/imlib2 X png gif jpeg tiff mp3
 media-libs/libepoxy X
 media-libs/libsdl X
-media-libs/netpbm X png jpeg jpeg2k tiff jbig
+media-libs/netpbm X png jpeg -jpeg2k tiff jbig
 media-sound/pulseaudio X gtk alsa gnome realtime tcpd native-headset gdbm equalizer sox orc bluetooth caps
 sys-apps/dbus X
 sys-power/powertop X
@@ -93,7 +93,7 @@ sys-libs/libunwind static-libs
 virtual/libudev static-libs
 dev-libs/popt static-libs
 app-emulation/qemu png jpeg gtk numa nfs caps curl gtk2 tci ssh usbredir xfs vte qemu_softmmu_targets_aarch64 qemu_user_targets_aarch64 vde -python_targets_python2_7 usb
-app-text/poppler png jpeg jpeg2k tiff cairo curl utils
+app-text/poppler png jpeg -jpeg2k tiff cairo curl utils
 dev-qt/qtgui png gif jpeg tslib tuio
 dev-qt/qtwidgets png
 media-libs/gd png jpeg truetype fontconfig
@@ -241,7 +241,7 @@ dev-python/PyQt5 webchannel svg -widgets
 # required by www-client/qutebrowser (argument)
 >=dev-qt/qtwebchannel-5.11.1 qml
 dev-qt/qtwebengine designer -pax_kernel alsa
-media-gfx/imagemagick png tiff raw jpeg svg jpeg2k heif X
+media-gfx/imagemagick png tiff raw jpeg svg -jpeg2k heif X
 app-emulation/docker seccomp aufs
 # required by app-emulation/docker-18.06.1-r1::gentoo
 # required by app-emulation/docker (argument)

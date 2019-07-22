@@ -105,7 +105,7 @@ sys-libs/timezone-data leaps_timezone
 media-libs/jasper jpeg
 media-libs/tiff jpeg jbig
 x11-misc/xscreensaver jpeg perl
-app-portage/eix doc sqlite
+app-portage/eix doc sqlite tools swap-remote optimization strong-optimization
 app-shells/zsh doc gdbm examples maildir caps
 dev-vcs/git doc highlight perl curl
 sys-apps/portage doc

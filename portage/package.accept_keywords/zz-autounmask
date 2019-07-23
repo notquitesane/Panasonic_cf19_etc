@@ -378,3 +378,5 @@
 >=app-backup/bup-0.29.2 ~amd64
 # required by =app-portage/eix-0.33.9_alpha190613 (argument)
 =app-portage/eix-0.33.9_alpha190613 ~amd64
+# required by =app-shells/quoter-4.1-r1::mv (argument)
+=app-shells/quoter-4.1-r1 ~amd64

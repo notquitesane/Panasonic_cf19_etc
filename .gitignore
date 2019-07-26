@@ -58,4 +58,4 @@ config-archive/*
 
 passwd*
 shadow*
-
+gshadow*

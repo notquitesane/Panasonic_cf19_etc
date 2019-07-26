@@ -53,3 +53,9 @@ DEADJOE
 #
 
 config-archive/*
+
+# Don't share passwords!
+
+passwd*
+shadow*
+

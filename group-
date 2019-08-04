@@ -95,3 +95,4 @@ stb-admin:x:961:
 monitorix:x:960:
 sagan:x:959:
 defang:x:958:
+arpwatch:x:143:

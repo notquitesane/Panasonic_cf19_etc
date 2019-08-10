@@ -380,3 +380,5 @@
 =app-portage/eix-0.33.9_alpha190613 ~amd64
 # required by =app-shells/quoter-4.1-r1::mv (argument)
 =app-shells/quoter-4.1-r1 ~amd64
+# required by =dev-perl/Net-SSLeay-1.880.0 (argument)
+=dev-perl/Net-SSLeay-1.880.0 ~amd64

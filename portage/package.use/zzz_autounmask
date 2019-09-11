@@ -370,3 +370,4 @@ x11-misc/xbindkeys tk
 >=app-office/libreoffice-6.1.5.2 java
 dev-libs/libressl static-libs
 sys-apps/earlyoom docs
+sys-devel/binutils default-gold

@@ -45,7 +45,7 @@ media-libs/gst-plugins-base X ogg
 dev-cpp/gtkmm X
 media-libs/libcanberra alsa gtk
 x11-libs/cairo X xcb svg
-sys-libs/glibc nscd gd
+sys-libs/glibc nscd gd ssp
 app-admin/conky rss X weather-metar iostats mpd moc curl imlib weather-xoap lua-imlib lua-cairo hddtemp math
 net-misc/wget uuid idn
 app-benchmarks/bootchart2 X svg
@@ -94,7 +94,7 @@ virtual/libudev static-libs
 dev-libs/popt static-libs
 app-emulation/qemu png jpeg gtk numa nfs caps curl gtk2 tci ssh usbredir xfs vte qemu_softmmu_targets_aarch64 qemu_user_targets_aarch64 vde -python_targets_python2_7 usb
 app-text/poppler png jpeg -jpeg2k tiff cairo curl utils
-dev-qt/qtgui png gif jpeg tslib tuio
+dev-qt/qtgui png gif jpeg tslib tuio evdev
 dev-qt/qtwidgets png
 media-libs/gd png jpeg truetype fontconfig
 media-libs/jbig2dec png
@@ -152,7 +152,7 @@ sci-libs/fftw quad -fortran
 net-irc/irssi perl
 x11-terms/rxvt-unicode perl xft secondary-wheel pixbuf iso14755 startup-notification unicode3 -vanilla 256-color
 media-libs/libvpx postproc cpu_flags_x86_sse4_1 svc
-sys-apps/iproute2 berkdb
+sys-apps/iproute2 berkdb elf atm
 sys-libs/gdbm berkdb
 sys-libs/pam berkdb
 dev-qt/qtsql sqlite

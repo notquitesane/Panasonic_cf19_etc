@@ -1,8 +1,1 @@
-#%PAM-1.0 
-
-auth       sufficient	pam_rootok.so
-auth       required		pam_permit.so
-
-account    include		system-auth
-
-password   required		pam_permit.so
+# empty file because --include-config=n when `quickpkg` was used

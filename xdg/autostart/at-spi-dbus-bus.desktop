@@ -1,9 +1,1 @@
-[Desktop Entry]
-Type=Application
-Name=AT-SPI D-Bus Bus
-Exec=/usr/libexec/at-spi-bus-launcher --launch-immediately
-OnlyShowIn=GNOME;Unity;
-NoDisplay=true
-AutostartCondition=GSETTINGS org.gnome.desktop.interface toolkit-accessibility
-X-GNOME-AutoRestart=true
-X-GNOME-Autostart-Phase=Initialization
+# empty file because --include-config=n when `quickpkg` was used

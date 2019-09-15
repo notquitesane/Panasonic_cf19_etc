@@ -39,5 +39,5 @@ DISTCCD_OPTS="${DISTCCD_OPTS} --listen 10.255.0.10"
 # set this for niceness
 # Default is 15
 DISTCCD_OPTS="${DISTCCD_OPTS} -N 15"
-DISTCCD_OPTS="${DISTCCD_OPTS} --log-file /var/log/distcc"
+DISTCCD_OPTS="${DISTCCD_OPTS} --log-file /var/log/distcc --user portage"
 

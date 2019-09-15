@@ -1,1 +1,4 @@
-# empty file because --include-config=n when `quickpkg` was used
+auth       include	system-remote-login
+account    include	system-remote-login
+password   include	system-remote-login
+session	   include	system-remote-login

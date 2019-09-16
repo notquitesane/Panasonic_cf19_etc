@@ -67008,6 +67008,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 z.zeroredirect.com
 # End add.Risk
 
+#My additions
+#
+0.0.0.0 main.exosrv.com
+
 # blacklist
 #
 # The contents of this file (containing a listing of additional domains in

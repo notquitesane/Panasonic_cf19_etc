@@ -25,7 +25,6 @@ media-libs/vigra python_targets_python2_7 png jpeg tiff
 >=media-video/vlc-3.0.3-r1 ogg vorbis
 net-libs/libtorrent ssl
 net-misc/iputils gcrypt
-sci-libs/hdf5 -fortran2003 -fortran -hl -cxx
 >=sys-apps/portage-2.3.40-r1 python_targets_python2_7
 sys-fs/udisks cryptsetup lvm
 sys-kernel/genkernel-next cryptsetup
@@ -128,7 +127,7 @@ dev-libs/cyrus-sasl berkdb gdbm -ssl
 media-libs/x265 numa
 sys-apps/hwloc numa
 sys-cluster/openmpi numa romio mpi-threads heterogeneous
-sys-devel/gcc pgo objc-gc pie go mpx graphite objc++ ssp objc cilk fortran
+sys-devel/gcc pgo objc-gc pie go mpx graphite objc++ ssp objc cilk fortran cxx
 dev-db/sqlite icu tools secure-delete
 dev-libs/boost icu tools mpi context
 dev-libs/libxml2 icu
@@ -148,7 +147,7 @@ media-libs/x264 10bit
 sys-kernel/linux-firmware savedconfig
 app-text/ghostscript-gpl cups
 net-analyzer/rrdtool graph perl
-sci-libs/fftw quad -fortran
+sci-libs/fftw quad 
 net-irc/irssi perl
 x11-terms/rxvt-unicode perl xft secondary-wheel pixbuf iso14755 startup-notification unicode3 -vanilla 256-color
 media-libs/libvpx postproc cpu_flags_x86_sse4_1 svc

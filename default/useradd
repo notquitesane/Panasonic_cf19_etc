@@ -1,1 +1,7 @@
-# empty file because --include-config=n when `quickpkg` was used
+# useradd defaults file
+GROUP=100
+HOME=/home
+INACTIVE=-1
+EXPIRE=
+SHELL=/bin/bash
+SKEL=/etc/skel

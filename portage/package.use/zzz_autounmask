@@ -85,7 +85,7 @@ media-libs/libjpeg-turbo static-libs
 net-libs/libpcap static-libs netlink bluetooth usb
 net-libs/libssh2 static-libs
 sys-apps/util-linux static-libs caps slang tty-helpers
-sys-fs/cryptsetup static-libs -nettle urandom reencrypt static -gcrypt -luks1_default -argon2
+sys-fs/cryptsetup static-libs nettle urandom reencrypt static -gcrypt -luks1_default -argon2
 sys-fs/eudev static-libs
 sys-fs/lvm2 static-libs lvm2create_initrd static
 sys-libs/libunwind static-libs
@@ -193,7 +193,8 @@ sys-apps/pciutils dns
 app-portage/mirrorselect -python_targets_python2_7
 sys-devel/distcc crossdev
 dev-libs/xmlrpc-c curl
-sys-apps/lm_sensors sensord
+# move sys-apps/lm_sensors sys-apps/lm-sensors
+sys-apps/lm-sensors sensord
 net-p2p/rtorrent xmlrpc
 sys-process/procps modern-top
 sys-block/parted device-mapper

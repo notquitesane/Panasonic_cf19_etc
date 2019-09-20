@@ -404,3 +404,7 @@
 # required by sys-auth/polkit-0.115-r4::gentoo
 # required by gnome-extra/polkit-gnome-0.105-r1::gentoo
 =dev-lang/perl-5.30.0 ~amd64
+# required by net-analyzer/ntopng-3.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-libs/nDPI-2.8 ~amd64

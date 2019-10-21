@@ -80,3 +80,7 @@
 =sys-kernel/linux-firmware-20190620 linux-fw-redistributable no-source-code
 # required by =sys-kernel/linux-firmware-20190712::gentoo (argument)
 =sys-kernel/linux-firmware-20190712 linux-fw-redistributable no-source-code
+# required by @selected
+# required by @world (argument)
+=app-emulation/virtualbox-bin-5.2.32.132073 PUEL
+app-arch/unrar unRAR

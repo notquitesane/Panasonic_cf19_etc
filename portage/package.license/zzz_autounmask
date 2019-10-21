@@ -84,3 +84,4 @@
 # required by @world (argument)
 =app-emulation/virtualbox-bin-5.2.32.132073 PUEL
 app-arch/unrar unRAR
+sys-kernel/linux-firmware no-source-code linux-fw-redistributable

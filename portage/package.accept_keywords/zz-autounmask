@@ -408,3 +408,5 @@
 # required by @selected
 # required by @world (argument)
 >=net-libs/nDPI-2.8 ~amd64
+# required by dev-ml/camlbz2 (argument)
+=dev-ml/camlbz2-0.6.0 ~amd64

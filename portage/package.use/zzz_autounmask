@@ -372,3 +372,4 @@ dev-libs/libressl static-libs
 sys-apps/earlyoom docs
 sys-devel/binutils default-gold
 sci-libs/hdf5 mpi
+sys-auth/pam_mktemp -prevent-removal

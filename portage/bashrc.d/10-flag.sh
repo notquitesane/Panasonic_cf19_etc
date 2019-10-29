@@ -31,6 +31,7 @@ FLAG_FILTER_CXX_FORTRAN=(
 	'-std=gnu8*'
 	'-std=gnu9*'
 	'-std=iso*'
+	'-Wimplicit-function-declaration'
 )
 
 FLAG_FILTER_C_FORTRAN=(
@@ -126,8 +127,10 @@ FLAG_FILTER_FORTRAN=(
 	'-fsigned-*'
 	'-fsso-struct*'
 	'-funsigned-*'
-	'-Wformat*'
 	'-Wchkp'
+	'-Wclobbered'
+	'-Wformat*'
+	'-Wvolatile-register-var'
 )
 
 FLAG_FILTER_FFLAGS=(
@@ -153,6 +156,7 @@ FLAG_FILTER_NONGNU=(
 	'-fivopts'
 	'-floop*'
 	'-flto=[0-9]*'
+	'-flto=jobserver'
 	'-flto-partition=*'
 	'-flto-compression-level=*'
 	'-fmodulo*'
@@ -182,7 +186,8 @@ FLAG_FILTER_NONGNU=(
 
 FLAG_FILTER_GNU=(
 	'-emit-llvm'
-	'-flto=[a-z]*'
+	'-flto=full'
+	'-flto=thin'
 	'-flto-jobs=*'
 	'-fopenmp=*'
 	'-frewrite-includes'

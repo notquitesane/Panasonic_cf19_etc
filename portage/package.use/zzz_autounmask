@@ -284,7 +284,7 @@ gnustep-base/gnustep-base -gnutls
 >=virtual/imagemagick-tools-0 tiff png
 virtual/imagemagick-tools svg jpeg
 dev-ml/gsl-ocaml -ocamlopt
-app-admin/sysstat lm_sensors
+app-admin/sysstat lm_sensors lm-sensors
 dev-haskell/exceptions hscolour
 app-text/pandoc hscolour
 dev-haskell/stm hscolour

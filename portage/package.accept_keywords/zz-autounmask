@@ -346,3 +346,14 @@
 # required by @selected
 # required by @world (argument)
 =app-backup/restic-0.9.5 ~amd64
+# required by virtual/perl-Text-ParseWords-3.300.0-r5::gentoo
+# required by dev-perl/Module-Build-0.422.400::gentoo
+# required by dev-perl/SGMLSpm-1.1-r1::gentoo
+# required by app-text/po4a-0.47-r1::gentoo
+# required by sys-apps/man-db-2.7.6.1-r2::gentoo[nls]
+# required by virtual/man-0-r2::gentoo
+# required by @system
+# required by @world (argument)
+=dev-lang/perl-5.30.0 ~amd64
+# required by dev-python/pafy (argument)
+=dev-python/pafy-0.5.4 ~amd64

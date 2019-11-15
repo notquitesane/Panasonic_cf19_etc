@@ -106,7 +106,7 @@ media-libs/tiff jpeg jbig
 x11-misc/xscreensaver jpeg perl
 app-portage/eix doc sqlite tools swap-remote optimization strong-optimization
 app-shells/zsh doc gdbm examples maildir caps
-dev-vcs/git doc highlight perl curl
+dev-vcs/git doc highlight perl curl -iconv
 sys-apps/portage doc
 sys-libs/zlib static-libs minizip
 app-arch/libarchive expat nettle lzo iconv

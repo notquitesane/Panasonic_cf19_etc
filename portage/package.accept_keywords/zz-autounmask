@@ -163,3 +163,125 @@ dev-libs/libressl
 # required by app-portage/portage-bashrc-mv-18.1::mv[cflags]
 # required by app-portage/portage-bashrc-mv (argument)
 =app-shells/quoter-4.1-r1 ~amd64
+# required by media-gfx/jpegtoavi (argument)
+=media-gfx/jpegtoavi-1.5 ~amd64
+# required by app-mobilephone/heimdall (argument)
+=app-mobilephone/heimdall-1.4.2 ~amd64
+# required by games-misc/fortune-mod-kernelcookies (argument)
+=games-misc/fortune-mod-kernelcookies-9 ~amd64
+# required by games-misc/fortune-mod-familyguy (argument)
+=games-misc/fortune-mod-familyguy-0.2 ~amd64
+# required by app-portage/world-mv (argument)
+=app-portage/world-mv-3.19 ~amd64
+# required by games-misc/fortune-mod-tao (argument)
+=games-misc/fortune-mod-tao-1 ~amd64
+# required by media-gfx/qiv (argument)
+=media-gfx/qiv-2.3.2 ~amd64
+# required by media-gfx/imv (argument)
+=media-gfx/imv-2.1.3 ~amd64
+# required by games-misc/fortune-mod-gentoo-forums (argument)
+=games-misc/fortune-mod-gentoo-forums-20041207 ~amd64
+# required by media-gfx/termtosvg (argument)
+=media-gfx/termtosvg-0.8.0 ~amd64
+# required by media-sound/mps-youtube (argument)
+=media-sound/mps-youtube-0.2.8 ~amd64
+# required by games-misc/funny-manpages (argument)
+=games-misc/funny-manpages-2.3 ~amd64
+# required by games-board/xmahjongg (argument)
+=games-board/xmahjongg-3.7-r1 ~amd64
+# required by games-misc/fortune-mod-calvin (argument)
+=games-misc/fortune-mod-calvin-0.1.1 ~amd64
+# required by media-gfx/converseen (argument)
+=media-gfx/converseen-0.9.6.2 ~amd64
+# required by sys-apps/tuned (argument)
+=sys-apps/tuned-2.10.0 ~amd64
+# required by net-wireless/blueman (argument)
+=net-wireless/blueman-2.1.1-r1 ~amd64
+# required by net-irc/irssi-xmpp (argument)
+=net-irc/irssi-xmpp-0.53 ~amd64
+# required by sys-fs/quotatool (argument)
+=sys-fs/quotatool-1.6.2 ~amd64
+# required by x11-misc/xautoclick (argument)
+=x11-misc/xautoclick-0.31 ~amd64
+# required by app-benchmarks/stress-ng (argument)
+=app-benchmarks/stress-ng-0.10.07 ~amd64
+# required by www-misc/buku (argument)
+=www-misc/buku-3.7 ~amd64
+# required by app-laptop/dispad (argument)
+=app-laptop/dispad-0.3.1-r1 ~amd64
+# required by app-misc/cadubi (argument)
+=app-misc/cadubi-1.3 ~amd64
+# required by x11-misc/xidle (argument)
+=x11-misc/xidle-26052015 ~amd64
+# required by pcgen (argument)
+=games-rpg/pcgen-6.04.01-r1 ~amd64
+# required by net-mail/renattach (argument)
+=net-mail/renattach-1.2.4-r1 ~amd64
+# required by sys-fs/archivemount (argument)
+=sys-fs/archivemount-0.8.12 ~amd64
+# required by net-misc/lanmap (argument)
+=net-misc/lanmap-81-r2 ~amd64
+# required by x11-misc/xstroke (argument)
+=x11-misc/xstroke-0.6-r1 ~amd64
+# required by www-misc/multiwatch (argument)
+=www-misc/multiwatch-1.0.0 ~amd64
+# required by sci-astronomy/galaxy (argument)
+=sci-astronomy/galaxy-2.2-r1 ~amd64
+# required by x11-misc/xcape (argument)
+=x11-misc/xcape-1.2 ~amd64
+# required by app-misc/gcalcli (argument)
+=app-misc/gcalcli-4.0.0_alpha3-r1 ~amd64
+# required by sci-calculators/grpn (argument)
+=sci-calculators/grpn-1.4.0 ~amd64
+# required by app-benchmarks/filebench (argument)
+=app-benchmarks/filebench-1.4.9.1-r1 ~amd64
+# required by app-misc/btail (argument)
+=app-misc/btail-0.3-r1 ~amd64
+# required by app-backup/simplebackup (argument)
+=app-backup/simplebackup-1.8.1-r1 ~amd64
+# required by app-backup/pdumpfs (argument)
+=app-backup/pdumpfs-1.3-r2 ~amd64
+# required by app-backup/rdup (argument)
+=app-backup/rdup-1.1.15 ~amd64
+# required by app-admin/rcm (argument)
+=app-admin/rcm-1.3.3 ~amd64
+# required by sys-fs/bcache-tools (argument)
+=sys-fs/bcache-tools-1.0.8_p20140220-r1 ~amd64
+# required by app-arch/duff (argument)
+=app-arch/duff-0.5.2 ~amd64
+# required by sys-apps/ranwhen (argument)
+=sys-apps/ranwhen-20130528 ~amd64
+# required by app-backup/borgweb (argument)
+=app-backup/borgweb-0.3.0 ~amd64
+# required by app-benchmarks/forkbomb (argument)
+=app-benchmarks/forkbomb-1.4-r1 ~amd64
+# required by app-misc/goobook (argument)
+=app-misc/goobook-3.4 ~amd64
+# required by app-backup/zbackup (argument)
+=app-backup/zbackup-1.4.4-r1 ~amd64
+# required by sys-apps/earlyoom (argument)
+=sys-apps/earlyoom-1.3 ~amd64
+# required by sys-process/daemontools-encore (argument)
+=sys-process/daemontools-encore-1.11 ~amd64
+# required by app-backup/restic (argument)
+=app-backup/restic-0.9.5 ~amd64
+# required by sys-power/thermald (argument)
+=sys-power/thermald-1.9 ~amd64
+# required by sys-kernel/kccmp (argument)
+=sys-kernel/kccmp-0.3-r1 ~amd64
+# required by app-admin/watcherd (argument)
+=app-admin/watcherd-20170930 ~amd64
+# required by app-benchmarks/bootchart2 (argument)
+=app-benchmarks/bootchart2-0.14.8 ~amd64
+# required by app-admin/yadm (argument)
+=app-admin/yadm-1.12.0 ~amd64
+# required by app-backup/bup (argument)
+=app-backup/bup-0.29.2 ~amd64
+# required by app-admin/rasdaemon (argument)
+=app-admin/rasdaemon-0.6.2-r4 ~amd64
+# required by =virtual/perl-Time-Piece-1.330.0 (argument)
+=virtual/perl-Time-Piece-1.330.0 ~amd64
+# required by =virtual/perl-File-Temp-0.230.900 (argument)
+=virtual/perl-File-Temp-0.230.900 ~amd64
+# required by =app-admin/stow-2.3.1 (argument)
+=app-admin/stow-2.3.1 ~amd64

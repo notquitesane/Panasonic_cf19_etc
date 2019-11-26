@@ -285,3 +285,12 @@ dev-libs/libressl
 =virtual/perl-File-Temp-0.230.900 ~amd64
 # required by =app-admin/stow-2.3.1 (argument)
 =app-admin/stow-2.3.1 ~amd64
+# required by virtual/perl-File-Temp-0.230.900::gentoo
+# required by dev-perl/Module-Build-0.422.400::gentoo
+# required by dev-perl/SGMLSpm-1.1-r1::gentoo
+# required by app-text/po4a-0.47-r1::gentoo
+# required by sys-apps/man-db-2.7.6.1-r2::gentoo[nls]
+# required by virtual/man-0-r2::gentoo
+# required by @system
+# required by @world (argument)
+>=perl-core/File-Temp-0.230.900 ~amd64

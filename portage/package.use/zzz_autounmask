@@ -61,7 +61,7 @@ media-libs/libepoxy X
 media-libs/libsdl X
 media-libs/netpbm X png jpeg -jpeg2k tiff jbig
 media-sound/pulseaudio X gtk alsa gnome realtime tcpd native-headset gdbm equalizer sox orc bluetooth caps
-sys-apps/dbus X
+sys-apps/dbus X -systemd
 sys-power/powertop X
 www-client/w3m X imlib
 x11-libs/gdk-pixbuf X jpeg tiff

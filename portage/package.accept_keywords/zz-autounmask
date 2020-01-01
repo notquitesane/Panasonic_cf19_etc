@@ -294,3 +294,5 @@ dev-libs/libressl
 # required by @system
 # required by @world (argument)
 >=perl-core/File-Temp-0.230.900 ~amd64
+# required by dopewars (argument)
+=games-strategy/dopewars-1.5.12-r3 ~amd64

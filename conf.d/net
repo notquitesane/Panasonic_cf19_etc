@@ -8,8 +8,9 @@ modules="wpa_supplicant"
 # be using as it's not very good at guessing yet
 #wpa_supplicant_wlp10s0="-Dwext"
 
-config_eth0="10.255.0.11 netmask 255.255.255.0 brd 10.255.0.255"
-routes_eth0="default via 10.255.0.1"
+#config_eth0="dhcp"
+config_eth0="10.255.0.5 netmask 255.255.255.240 brd 10.255.0.15"
+#routes_eth0="default via 10.255.0.1"
 
 config_wlan0="dhcp"
 #dhcp_wlp10s0="nodns"

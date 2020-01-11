@@ -373,3 +373,4 @@ sys-apps/earlyoom docs
 sys-devel/binutils default-gold
 sci-libs/hdf5 mpi
 sys-auth/pam_mktemp -prevent-removal
+net-analyzer/linkchecker sqlite

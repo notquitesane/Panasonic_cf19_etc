@@ -374,3 +374,12 @@ sys-devel/binutils default-gold
 sci-libs/hdf5 mpi
 sys-auth/pam_mktemp -prevent-removal
 net-analyzer/linkchecker sqlite
+# required by virtual/opengl-7.0-r2::gentoo
+# required by dev-qt/qtgui-5.13.2::gentoo
+# required by dev-qt/qtwidgets-5.13.2::gentoo
+# required by sys-auth/polkit-qt-0.112.0_p20160416-r2::gentoo
+# required by kde-plasma/polkit-kde-agent-5.16.5::gentoo
+# required by kde-frameworks/kauth-5.60.0::gentoo
+# required by kde-frameworks/kconfigwidgets-5.60.0::gentoo
+# required by kde-frameworks/kiconthemes-5.60.0::gentoo
+>=media-libs/mesa-19.2.8 X

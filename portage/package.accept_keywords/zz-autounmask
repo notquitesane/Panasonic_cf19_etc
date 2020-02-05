@@ -1,6 +1,4 @@
 dev-libs/libressl
-# required by =dev-qt/qtnetwork-5.12.5::libressl (argument)
-=dev-qt/qtnetwork-5.12.5 ~amd64
 # required by virtual/perl-libnet-3.110.0-r1::gentoo
 # required by virtual/perl-libnet (argument)
 =dev-lang/perl-5.30.0 ~amd64
@@ -296,3 +294,5 @@ dev-libs/libressl
 >=perl-core/File-Temp-0.230.900 ~amd64
 # required by dopewars (argument)
 =games-strategy/dopewars-1.5.12-r3 ~amd64
+# required by =dev-qt/qtnetwork-5.13.2::libressl (argument)
+=dev-qt/qtnetwork-5.13.2 ~amd64

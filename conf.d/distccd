@@ -33,7 +33,7 @@ DISTCCD_OPTS="${DISTCCD_OPTS} --log-level debug"
 # example:  --allow 192.168.0.5 --allow 192.168.0.150
 # example:  --listen 192.168.0.2
 #DISTCCD_OPTS="${DISTCCD_OPTS} --allow 10.255.0.0/16"
-DISTCCD_OPTS="${DISTCCD_OPTS} --allow 10.255.0.0/16"
+DISTCCD_OPTS="${DISTCCD_OPTS} --allow 10.255.0.0/28"
 DISTCCD_OPTS="${DISTCCD_OPTS} --listen 10.255.0.10"
 
 # set this for niceness

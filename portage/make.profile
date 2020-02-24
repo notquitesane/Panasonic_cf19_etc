@@ -1,1 +1,1 @@
-../../usr/portage/profiles/default/linux/amd64/17.0/no-multilib/hardened
+../../usr/portage/profiles/default/linux/amd64/17.1/no-multilib/hardened

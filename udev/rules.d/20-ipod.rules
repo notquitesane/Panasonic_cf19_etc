@@ -1,2 +1,0 @@
-SUBSYSTEMS=="usb", ATTRS{serial}=="000A27001EFA7DB2", KERNEL=="sd?1", \
-NAME="zinet?s iPod", MODE="0664", OPTIONS="last_rule"

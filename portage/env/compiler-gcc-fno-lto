@@ -1,7 +1,0 @@
-C="gcc"
-CXX="g++"
-CFLAGS="-fno-lto -march=westmere -O2 -pipe"
-CXXFLAGS="${CFLAGS}"
-AR="ar"
-NM="nm"
-RANLIB="ranlib"

@@ -1,5 +1,0 @@
-CC="clang"                            
-CXX="clang++"                         
-CFLAGS="${CFLAGS} -fno-lto"              
-CXXFLAGS="${CXXFLAGS} -fno-lto"          
-LDFLAGS="-Wl,-O2 -Wl,--as-needed"     #please use whichever optimization level you're comfortable with

@@ -1,5 +1,0 @@
-cross-mips-linux-uclibc/binutils -multilib
-cross-mips-linux-uclibc/gcc -multilib
-cross-mips-linux-uclibc/gdb -multilib
-cross-mips-linux-uclibc/linux-headers -multilib
-cross-mips-linux-uclibc/uclibc -multilib

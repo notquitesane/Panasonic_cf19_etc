@@ -1,7 +1,0 @@
-CC="gcc"
-CXX="g++"
-CFLAGS="-flto -march=westmere -O2 -pipe"
-CXXFLAGS="${CFLAGS}"
-AR="gcc-ar"
-NM="gcc-nm"
-RANLIB="gcc-ranlib"

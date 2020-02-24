@@ -1,6 +1,6 @@
 app-admin/eclean-kernel python_targets_python3_4
 app-backup/dar dar64 gcrypt lzo
-app-crypt/gpgme qt5
+app-crypt/gpgme -qt5
 >=app-editors/vim-8.0.1298 python_single_target_python2_7 -python_single_target_python3_6
 app-portage/flaggie -python_targets_python2_7
 app-portage/gentoolkit -python_targets_python2_7
@@ -127,7 +127,7 @@ dev-libs/cyrus-sasl berkdb gdbm -ssl
 media-libs/x265 numa
 sys-apps/hwloc numa
 sys-cluster/openmpi numa romio mpi-threads heterogeneous
-sys-devel/gcc pgo objc-gc pie go mpx graphite objc++ ssp objc cilk fortran cxx
+sys-devel/gcc pgo objc-gc pie go mpx graphite objc++ ssp objc cilk fortran cxx openmp
 dev-db/sqlite icu tools secure-delete
 dev-libs/boost icu tools mpi context
 dev-libs/libxml2 icu
@@ -151,7 +151,7 @@ sci-libs/fftw quad
 net-irc/irssi perl
 x11-terms/rxvt-unicode perl xft secondary-wheel pixbuf iso14755 startup-notification unicode3 -vanilla 256-color
 media-libs/libvpx postproc cpu_flags_x86_sse4_1 svc
-sys-apps/iproute2 berkdb elf atm
+sys-apps/iproute2 berkdb elf -atm
 sys-libs/gdbm berkdb
 sys-libs/pam berkdb
 dev-qt/qtsql sqlite
@@ -369,7 +369,6 @@ x11-misc/xbindkeys tk
 # required by @world (argument)
 >=app-office/libreoffice-6.1.5.2 java
 dev-libs/libressl static-libs
-sys-apps/earlyoom docs
 sys-devel/binutils default-gold
 sci-libs/hdf5 mpi
 sys-auth/pam_mktemp -prevent-removal

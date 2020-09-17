@@ -84,7 +84,7 @@ icon_path = /usr/share/pixmaps/mlterm-icon.svg
 # -- Font --
 # fontsize = 16
 
-# font_size_range = 6-30
+# font_size_range = 1-100
 
 # step_in_changing_font_size = 1
 
@@ -128,7 +128,7 @@ icon_path = /usr/share/pixmaps/mlterm-icon.svg
 
 # emoji_path =
 
-# (Available for mlterm-fb or mlterm-wl)
+# (Available for mlterm-fb, mlterm-wl or mlterm-sdl2)
 # use_aafont = false
 
 # -- Appearance --
@@ -281,6 +281,8 @@ scrollbar_view_name = sample
 # broadcast = false
 
 # ignore_broadcasted_chars = false
+
+# receive_directory =
 
 # (Available for Android)
 # start_with_local_pty = false

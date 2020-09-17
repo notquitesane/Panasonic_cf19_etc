@@ -1,3 +1,5 @@
+# required by =net-vpn/surfshark-vpn-1.1.0 (argument)
+>=net-vpn/surfshark-vpn-1.1.0 SurfShark
 app-arch/p7zip 				unRAR
 app-arch/unrar 				unRAR
 app-backup/tarsnap 			tarsnap
@@ -11,25 +13,20 @@ app-emulation/virtualbox-bin 		PUEL
 app-office/moneydance 			TIK
 app-text/agrep 				AGREP
 app-vim/colorschemes 			vim.org
-app-vim/vim-tmux 			vim.org
 dev-java/oracle-jdk-bin 		Oracle-BCLA-JavaSE
-games-misc/fortune-mod-calvin 		fairuse
-games-misc/fortune-mod-discworld 	fairuse
-games-misc/fortune-mod-dubya 		fairuse
-games-misc/fortune-mod-familyguy 	fairuse
-games-misc/fortune-mod-firefly 		fairuse
-games-misc/fortune-mod-futurama 	fairuse
-games-misc/fortune-mod-humorixfortunes 	fairuse freedist
-games-misc/fortune-mod-strangelove 	fairuse
 games-misc/funny-manpages 		freedist
 games-rpg/pcgen 			OGL-1.0a
-media-gfx/hugin 			SIFT
 media-gfx/xv 				xv
 media-libs/fdk-aac 			FraunhoferFDK
 net-analyzer/egressor 			egressor
 sys-firmware/intel-microcode 		intel-ucode
 sys-kernel/gentoo-sources 		linux-firmware
-sys-kernel/linux-firmware 		no-source-code linux-fw-redistributable
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
 www-client/google-chrome 		google-chrome
 www-client/opera 			OPERA-2014
 www-plugins/adobe-flash 		AdobeFlash-11.x
+# required by app-misc/tmuxp-1.5.4::gentoo[-test]
+# required by tmuxp (argument)
+>=dev-python/kaptan-0.5.12-r1 kaptan
+# required by =sys-boot/etcher-1.5.73 (argument)
+=sys-boot/etcher-1.5.73 GPL2

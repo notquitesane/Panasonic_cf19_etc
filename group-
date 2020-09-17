@@ -96,3 +96,8 @@ monitorix:x:960:
 sagan:x:959:
 defang:x:958:
 arpwatch:x:143:
+render:x:28:
+stapusr:x:156:
+stapsys:x:157:
+stapdev:x:158:
+dhcp:x:957:

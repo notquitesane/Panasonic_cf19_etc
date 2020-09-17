@@ -1,384 +1,343 @@
-app-admin/eclean-kernel python_targets_python3_4
-app-backup/dar dar64 gcrypt lzo
-app-crypt/gpgme -qt5
->=app-editors/vim-8.0.1298 python_single_target_python2_7 -python_single_target_python3_6
-app-portage/flaggie -python_targets_python2_7
-app-portage/gentoolkit -python_targets_python2_7
-app-portage/layman sync-plugin-portage mercurial squashfs sqlite -python_targets_python2_7
-app-portage/portpeek -python_targets_python2_7
->=app-text/poppler-0.62.0-r1 qt5
-dev-db/mysql-connector-c ssl
->=dev-libs/boost-1.65.0 python_targets_python2_7
->=dev-python/pymountboot-0.2.2 python_targets_python3_4
-dev-python/requests -python_targets_python2_7 ssl 
-dev-python/ssl-fetch -python_targets_python2_7
-dev-ruby/racc ruby_targets_ruby25
-dev-util/cmake qt5
-dev-vcs/mercurial python_targets_python2_7
->=kde-frameworks/kwindowsystem-5.46.0 X
-media-fonts/croscorefonts X
-media-gfx/digikam -jpeg2k X webkit
-media-libs/opencv python_targets_python2_7 openexr
-media-libs/phonon -vlc
->=media-libs/vigra-1.11.1 openexr
-media-libs/vigra python_targets_python2_7 png jpeg tiff
->=media-video/vlc-3.0.3-r1 ogg vorbis
-net-libs/libtorrent ssl
-net-misc/iputils gcrypt
->=sys-apps/portage-2.3.40-r1 python_targets_python2_7
-sys-fs/udisks cryptsetup lvm
-sys-kernel/genkernel-next cryptsetup
-sys-kernel/gentoo-sources -symlink
-sys-kernel/mkinitramfs-ll dm-crypt device-mapper
-x11-base/xcb-proto -python_targets_python2_7
->=x11-libs/wxGTK-3.0.4:3.0 X opengl
-x11-libs/wxGTK libnotify tiff sdl X
+app-admin/conky X curl hddtemp imlib iostats lua-cairo lua-imlib math moc mpd rss weather-metar
+app-admin/denyhosts 
+app-admin/pass dmenu importers
 app-admin/sudo -skey
-media-sound/mpd flac twolame lame vorbis alsa icu ffmpeg curl openal libmpdclient ogg
-media-video/mpv cli X libmpv iconv jpeg tools -vaapi drm rubberband lcms encode openal dvd cplugins gbm alsa lua -vdpau
-media-video/ffmpeg gmp cpu_flags_x86_sse4_1 amrenc alsa X doc chromium cpu_flags_x86_sse4_2 zimg x264 theora -vaapi xcb -vdpau x265 ssh vpx -jpeg2k vorbis twolame xvid mp3 openal kvazaar libass openh264 rubberband schroedinger postproc amr libcaca cpu_flags_x86_aes -openssl fdk svg
-sys-process/lsof rpc
-x11-libs/libxcb xkb
-x11-libs/gtk+ X
-media-libs/gst-plugins-base X ogg
-dev-cpp/gtkmm X
-media-libs/libcanberra alsa gtk
-x11-libs/cairo X xcb svg
-sys-libs/glibc nscd gd ssp
-app-admin/conky rss X weather-metar iostats mpd moc curl imlib weather-xoap lua-imlib lua-cairo hddtemp math
-net-misc/wget uuid idn
-app-benchmarks/bootchart2 X svg
-app-misc/mc X -slang
-app-text/mupdf X curl
-dev-cpp/cairomm X svg
-kde-frameworks/kwindowsystem X
-media-fonts/font-misc-misc X
-media-gfx/graphviz X gtk pdf svg cairo
-media-libs/freetype X png utils infinality
-media-libs/gst-plugins-bad X
-media-libs/imlib2 X png gif jpeg tiff mp3
-media-libs/libepoxy X
-media-libs/libsdl X
-media-libs/netpbm X png jpeg -jpeg2k tiff jbig
-media-sound/pulseaudio X gtk alsa gnome realtime tcpd native-headset gdbm equalizer sox orc bluetooth caps
-sys-apps/dbus X -systemd
-sys-power/powertop X
-www-client/w3m X imlib
-x11-libs/gdk-pixbuf X jpeg tiff
-x11-libs/libva X vdpau
-x11-libs/libva-intel-driver X
-x11-libs/libxkbcommon X
-x11-libs/pango X
-virtual/ffmpeg X -vaapi -vdpau mp3 x264 theora
-mail-client/mutt gdbm smime gpgme berkdb
-net-wireless/wpa_supplicant ap wps
-dev-lang/python tk sqlite gdbm
-net-analyzer/nmap ncat libssh2 ndiff nping zenmap
-x11-base/xorg-server xnest xcsecurity
-net-libs/libssh server mbedtls
-dev-libs/gmp static-libs pgo
-dev-libs/libgcrypt static-libs
-dev-libs/libgpg-error static-libs
-dev-libs/libpcre2 static-libs pcre32 jit pcre16
-dev-libs/nettle static-libs cpu_flags_x86_aes
-media-libs/libjpeg-turbo static-libs
-net-libs/libpcap static-libs netlink bluetooth usb
-net-libs/libssh2 static-libs
-sys-apps/util-linux static-libs caps slang tty-helpers
-sys-fs/cryptsetup static-libs -nettle urandom reencrypt static -gcrypt -luks1_default -argon2 openssl
-sys-fs/eudev static-libs
-sys-fs/lvm2 static-libs lvm2create_initrd static
-sys-libs/libunwind static-libs
-virtual/libudev static-libs
-dev-libs/popt static-libs
-app-emulation/qemu png jpeg gtk numa nfs caps curl gtk2 tci ssh usbredir xfs vte qemu_softmmu_targets_aarch64 qemu_user_targets_aarch64 vde -python_targets_python2_7 usb
-app-text/poppler png jpeg -jpeg2k tiff cairo curl utils
-dev-qt/qtgui png gif jpeg tslib tuio evdev
-dev-qt/qtwidgets png
-media-libs/gd png jpeg truetype fontconfig
-media-libs/jbig2dec png
-sys-libs/slang png
-x11-terms/mrxvt png jpeg truetype menubar xpm
+app-admin/sysstat lm-sensors
+app-arch/brotli 
+app-arch/libarchive expat iconv lzo nettle
 app-arch/p7zip rar
-sys-libs/timezone-data leaps_timezone
-media-libs/jasper jpeg
-media-libs/tiff jpeg jbig
-x11-misc/xscreensaver jpeg perl
-app-portage/eix doc sqlite tools swap-remote optimization strong-optimization
-app-shells/zsh doc gdbm examples maildir caps
-dev-vcs/git doc highlight perl curl -iconv
-sys-apps/portage doc
-sys-libs/zlib static-libs minizip
-app-arch/libarchive expat nettle lzo iconv
-net-misc/curl http2 ssh idn -curl_ssl_gnutls -curl_ssl_nss ssl
-app-text/xmlto text
-app-crypt/gcr gtk
-sys-auth/polkit gtk
-x11-apps/xinput_calibrator gtk
-media-libs/libsndfile alsa
-media-libs/openal alsa cpu_flags_x86_sse4_1
-media-sound/moc alsa ffmpeg curl aac vorbis
-net-wireless/bluez alsa experimental
-sys-power/pm-utils alsa ntp
-www-client/elinks bittorrent javascript gc ftp -ssl ruby perl
-sys-apps/etckeeper cron
-net-libs/nghttp2 -utils jemalloc
-dev-libs/cyrus-sasl berkdb gdbm -ssl
-media-libs/x265 numa
-sys-apps/hwloc numa
-sys-cluster/openmpi numa romio mpi-threads heterogeneous
-sys-devel/gcc pgo objc-gc pie go mpx graphite objc++ ssp objc cilk fortran cxx openmp
-dev-db/sqlite icu tools secure-delete
-dev-libs/boost icu tools mpi context
-dev-libs/libxml2 icu
-dev-qt/qtcore icu
-sys-apps/busybox mdev -make-symlinks pam savedconfig -sep-usr math -static
-media-libs/mesa -vaapi -vdpau gles1 gles2 lm_sensors
-app-crypt/gnupg tools doc wks-server smartcard usb
-sys-apps/kmod tools
-x11-drivers/xf86-video-intel tools xvmc dri uxa
-sys-apps/coreutils gmp caps
-app-text/xournal pdf
-net-print/cups-filters pdf -dbus -foomatic
-media-libs/libpng apng
-dev-lang/perl gdbm berkdb
-sys-apps/man-db gdbm berkdb
-media-libs/x264 10bit
-sys-kernel/linux-firmware savedconfig
-app-text/ghostscript-gpl cups
-net-analyzer/rrdtool graph perl
-sci-libs/fftw quad 
-net-irc/irssi perl
-x11-terms/rxvt-unicode perl xft secondary-wheel pixbuf iso14755 startup-notification unicode3 -vanilla 256-color
-media-libs/libvpx postproc cpu_flags_x86_sse4_1 svc
-sys-apps/iproute2 berkdb elf -atm
-sys-libs/gdbm berkdb
-sys-libs/pam berkdb
-dev-qt/qtsql sqlite
-net-mail/offlineimap sqlite
-x11-misc/dzen xft xpm
-dev-lang/luajit lua52compat
-dev-dotnet/libgdiplus cairo
-dev-libs/gobject-introspection cairo
-media-libs/harfbuzz cairo truetype icu fontconfig
+app-arch/xz-utils static-libs
+app-backup/dar dar64 gcrypt lzo
+app-backup/rdiff-backup 
+app-crypt/argon2 static-libs
+app-crypt/gnupg doc smartcard tools usb wks-server
+app-crypt/gpgme qt5
 app-crypt/p11-kit libffi
-dev-python/pygobject libffi
-sys-devel/llvm libffi gold -llvm_targets_AMDGPU -llvm_targets_NVPTX
-media-libs/flac ogg
-sys-boot/grub truetype efiemu device-mapper mount
-x11-terms/xterm truetype
-dev-python/pypax ptpax
-sys-apps/elfix ptpax
-sys-apps/watchdog nfs
-net-print/cups -usb -dbus -acl
-net-misc/rsync stunnel iconv
-sys-fs/dd-rescue cpu_flags_x86_sse4_2
-app-crypt/pinentry gnome-keyring
-app-text/asciidoc highlight graphviz
-dev-libs/libpcre pcre32 jit pcre16
-x11-libs/libdrm libkms
-gnome-base/gnome-keyring caps
-kde-frameworks/kinit caps
-media-libs/gstreamer caps
-dev-libs/elfutils utils
-sys-libs/readline utils
-media-plugins/alsa-plugins ffmpeg
-sys-auth/pambase mktemp
-sys-auth/consolekit cgroups evdev pm-utils
-media-libs/libass fontconfig
-x11-apps/xinit minimal
-app-editors/vim lua luajit terminal vim-pager python_single_target_python3_6 -python_single_target_python2_7
-sys-libs/ncurses ada
-sys-apps/pciutils dns
-app-portage/mirrorselect -python_targets_python2_7
-sys-devel/distcc crossdev
-dev-libs/xmlrpc-c curl
-# move sys-apps/lm_sensors sys-apps/lm-sensors
-sys-apps/lm-sensors sensord
-net-p2p/rtorrent xmlrpc
-sys-process/procps modern-top
-sys-block/parted device-mapper
-sys-block/gparted reiserfs btrfs reiser4 fat f2fs xfs cryptsetup
-# required by x11-plugins/pidgin-privacy-please-0.7.1::gentoo
-# required by x11-plugins/pidgin-privacy-please (argument)
->=net-im/pidgin-2.13.0 gtk
-net-proxy/squid logrotate qos sasl caps
-net-misc/youtube-dl -python_targets_python3_6
-# required by x11-apps/igt-gpu-tools-1.23::gentoo
-# required by @selected
-# required by @world (argument)
->=x11-libs/libdrm-2.4.96 video_cards_nouveau video_cards_amdgpu
-net-p2p/qbittorrent X
-# required by net-p2p/qbittorrent-4.1.3::gentoo
-# required by qbittorrent (argument)
->=dev-qt/qtsingleapplication-2.6.1_p20171024 X
-net-im/pidgin idn prediction perl
-app-shells/bash readline net
-dev-lang/php gd -apache2 curl imap
-net-misc/aria2 scripts tcmalloc ssh bittorrent libuv
-x11-terms/mlterm libssh2 fbcon xft cairo gtk
-net-libs/webkit-gtk libnotify X -geolocation -jpeg2k
-www-client/uzbl experimental
-# required by app-office/libreoffice-6.1.4.2::gentoo
-# required by libreoffice (argument)
->=dev-libs/xmlsec-1.2.26 nss
-www-client/vimb gtk3
-# required by www-client/qutebrowser-1.5.2::gentoo
-# required by www-client/qutebrowser (argument)
->=dev-python/PyQt5-5.10.1-r1 gui widgets network webengine printsupport declarative sql opengl multimedia
-dev-python/PyQt5 webchannel svg -widgets
-# required by dev-python/PyQt5-5.10.1-r1::gentoo[multimedia]
-# required by www-client/qutebrowser-1.5.2::gentoo
-# required by www-client/qutebrowser (argument)
->=dev-qt/qtmultimedia-5.11.1 widgets
-# required by dev-python/PyQt5-5.10.1-r1::gentoo[webengine]
-# required by www-client/qutebrowser-1.5.2::gentoo
-# required by www-client/qutebrowser (argument)
->=dev-qt/qtwebengine-5.11.1 widgets
-# required by dev-qt/qtwebengine-5.11.1::gentoo
-# required by dev-python/PyQt5-5.10.1-r1::gentoo[webengine]
-# required by www-client/qutebrowser-1.5.2::gentoo
-# required by www-client/qutebrowser (argument)
->=dev-qt/qtwebchannel-5.11.1 qml
-dev-qt/qtwebengine designer -pax_kernel alsa
-media-gfx/imagemagick png tiff raw jpeg svg -jpeg2k heif X
-app-emulation/docker seccomp aufs
-# required by app-emulation/docker-18.06.1-r1::gentoo
-# required by app-emulation/docker (argument)
->=app-emulation/runc-1.0.0_rc5_p20180509 seccomp
-# required by app-officeext/languagetool-3.4::gentoo[office_implementation_libreoffice]
-# required by app-officeext/languagetool (argument)
->=app-office/libreoffice-bin-6.1.4.2 java
-media-libs/libsdl2 X
-# required by games-puzzle/sdl-jewels-1.1.1-r1::gentoo
-# required by games-puzzle/sdl-jewels (argument)
->=media-libs/libsdl-1.2.15-r9 opengl
-# required by games-board/pysolfc-2.4.0::gentoo[-minimal]
-# required by games-board/pysolfc (argument)
->=dev-python/pillow-5.3.0 tk
-# required by dev-python/pygame-1.9.3::gentoo
-# required by games-board/pysolfc-2.4.0::gentoo[sound]
-# required by games-board/pysolfc (argument)
->=media-libs/sdl-image-1.2.12-r2 png jpeg
-media-gfx/xv png jpeg tiff
-media-gfx/inkscape imagemagick jpeg
-# required by app-arch/unar-1.10.1::gentoo
-# required by app-arch/unar (argument)
->=gnustep-base/gnustep-make-2.6.8 native-exceptions
-# required by sci-misc/boinc-7.14.2::gentoo
-# required by sci-misc/boinc (argument)
->=dev-python/requests-2.18.4-r1 python_targets_python2_7
-# required by games-puzzle/concentration-1.2-r2::gentoo
-# required by games-puzzle/concentration (argument)
->=media-libs/sdl-mixer-1.2.12-r4 vorbis
-# required by app-text/calibre-3.26.1::gentoo
-# required by app-text/calibre (argument)
->=dev-python/PyQt5-5.10.1-r1 webkit
-sci-misc/boinc X 
-gnustep-base/gnustep-base -gnutls
-# required by sci-misc/boinc-7.14.2::gentoo[X]
-# required by boinc (argument)
->=x11-libs/wxGTK-3.0.4-r300 webkit opengl
-# required by sci-misc/boinc-7.14.2::gentoo[X]
-# required by boinc (argument)
->=virtual/imagemagick-tools-0 tiff png
-virtual/imagemagick-tools svg jpeg
-dev-ml/gsl-ocaml -ocamlopt
-app-admin/sysstat lm_sensors lm-sensors
-dev-haskell/exceptions hscolour
+app-emulation/docker aufs seccomp
+app-emulation/qemu caps curl jpeg nfs numa png qemu_softmmu_targets_aarch64 qemu_user_targets_aarch64 qemu_user_targets_x86_64 ssh tci usb usbredir vde vte xfs
+app-emulation/runc seccomp
+app-emulation/virtualbox-bin  python
+app-emulation/virtualbox-modules -pax_kernel
+app-misc/mc X -slang
+app-office/gnucash ofx
+app-office/libreoffice java googledrive pdfimport
+app-office/libreoffice-bin java
+app-portage/eix doc optimization sqlite strong-optimization swap-remote tools
+app-portage/layman mercurial sqlite squashfs sync-plugin-portage
+app-shells/bash net readline
+app-shells/zsh caps doc examples gdbm maildir
+app-text/asciidoc graphviz highlight
+app-text/calibre -udisks
+app-text/ghostscript-gpl cups
+app-text/mupdf X
 app-text/pandoc hscolour
-dev-haskell/stm hscolour
-dev-haskell/securemem hscolour
-dev-haskell/unordered-containers hscolour
-dev-haskell/random hscolour
-dev-haskell/old-locale hscolour
-dev-haskell/transformers-compat hscolour
-dev-haskell/hashable hscolour
-dev-haskell/parsec hscolour
-dev-haskell/text hscolour
+app-text/poppler cairo curl jpeg -jpeg2k png tiff utils
+app-text/poppler qt5
+app-text/xmlto text
+app-text/xournal pdf
+dev-cpp/cairomm X svg
+dev-cpp/gtkmm X
+dev-db/sqlite icu secure-delete tools
+dev-dotnet/libgdiplus cairo
 dev-haskell/binary hscolour
-dev-haskell/network hscolour
 dev-haskell/byteable hscolour
 dev-haskell/data-default-class hscolour
+dev-haskell/exceptions hscolour
+dev-haskell/hashable hscolour
 dev-haskell/mtl hscolour
+dev-haskell/network hscolour
+dev-haskell/old-locale hscolour
+dev-haskell/parsec hscolour
+dev-haskell/random hscolour
+dev-haskell/securemem hscolour
+dev-haskell/stm hscolour
+dev-haskell/text hscolour
 dev-haskell/transformers hscolour
-app-office/gnucash ofx
-media-libs/sdl-mixer smpeg mp3 flac
-games-engines/scummvm mp3 aac alsa flac png jpeg truetype opengl theora vorbis
-net-misc/openssh skey
-sys-firmware/ipxe lkrn
-sys-apps/shadow skey
-net-libs/glib-networking -gnome
-# required by www-client/qutebrowser-1.5.2-r1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pyyaml-3.13 libyaml
-# required by dev-lang/lazarus-1.0.12::gentoo
-# required by lazarus (argument)
->=dev-lang/fpc-2.6.4 source
-# required by sys-fs/udisks-2.8.1::gentoo
-# required by kde-frameworks/solid-5.54.0::gentoo
-# required by kde-frameworks/kio-5.54.1::gentoo
-# required by kde-frameworks/kinit-5.54.0::gentoo
-# required by kde-frameworks/kded-5.54.0::gentoo
->=sys-libs/libblockdev-2.20-r1 lvm
-sys-libs/libblockdev bcache
-app-mobilephone/heimdall qt5
-app-emulation/virtualbox-modules -pax_kernel
-net-nds/openldap -ssl
-# required by sys-fs/lvm2-2.02.183::gentoo[static]
-# required by sys-boot/grub-2.02-r3::gentoo[device-mapper]
-# required by @selected
-# required by @world (argument)
->=dev-libs/libaio-0.3.110 static-libs
-net-libs/nodejs ssl
-media-fonts/powerline-symbols X
-app-misc/powerline rc vim doc extra fonts man tmux
-media-fonts/powerline-fonts terminus_pcf X droidsansmono
-# required by dev-python/pafy-0.5.4::gentoo
-# required by media-sound/mps-youtube-0.2.8::gentoo
-# required by @selected
-# required by @world (argument)
->=net-misc/youtube-dl-2019.04.07 python_targets_python3_6
-x11-misc/xbindkeys tk
-# required by sys-fs/cryptsetup-2.1.0::gentoo[static,static-libs]
-# required by sys-block/gparted-0.33.0::gentoo[cryptsetup]
-# required by @selected
-# required by @world (argument)
->=dev-libs/json-c-0.13.1-r1 static-libs
-# required by sys-fs/cryptsetup-2.1.0::gentoo[argon2,static,static-libs]
-# required by sys-block/gparted-0.33.0::gentoo[cryptsetup]
-# required by @selected
-# required by @world (argument)
->=app-crypt/argon2-20171227-r1 static-libs
-# required by media-gfx/gimp-2.10.8-r1::gentoo
-# required by @selected
-# required by @world (argument)
->=media-libs/gegl-0.4.14 cairo
-# required by dev-python/setuptools-40.6.3::gentoo
-# required by dev-python/mako-1.0.6::gentoo
-# required by media-libs/mesa-18.3.6::gentoo
-# required by virtual/opengl-7.0-r2::gentoo
-# required by dev-qt/qtgui-5.12.3-r1::gentoo
-# required by dev-qt/qthelp-5.12.3::gentoo
-# required by media-gfx/librecad-2.1.3-r4::gentoo
-# required by @selected
-# required by @world (argument)
-# required by app-officeext/languagetool-3.4::gentoo[office_implementation_libreoffice]
-# required by @selected
-# required by @world (argument)
->=app-office/libreoffice-6.1.5.2 java
+dev-haskell/transformers-compat hscolour
+dev-haskell/unordered-containers hscolour
+dev-java/javatoolkit 
+dev-lang/fpc source
+dev-lang/luajit lua52compat
+dev-lang/perl berkdb gdbm
+dev-lang/php -apache2 curl gd imap
+dev-lang/python sqlite
+dev-lang/python-exec 
+dev-libs/boost context icu mpi tools
+dev-libs/cyrus-sasl berkdb gdbm -ssl
+dev-libs/elfutils utils
+dev-libs/json-c static-libs
+dev-libs/libaio static-libs
+dev-libs/libpcre jit pcre16 pcre32
+dev-libs/libpcre2 jit pcre16 pcre32
 dev-libs/libressl static-libs
-sys-devel/binutils default-gold
+dev-libs/libxml2 icu 
+dev-libs/nettle cpu_flags_x86_aes static-libs
+dev-libs/xmlrpc-c curl
+dev-libs/xmlsec nss
+dev-ml/gsl-ocaml -ocamlopt
+dev-python/PyQt5 gui network printsupport svg webchannel widgets
+dev-python/appdirs 
+dev-python/backports 
+dev-python/beautifulsoup  
+dev-python/blinker 
+dev-python/cffi  
+dev-python/chardet  
+dev-python/click 
+dev-python/colorama 
+dev-python/configobj 
+dev-python/cryptography  
+dev-python/cssselect 
+dev-python/cython  
+dev-python/dbus-python  
+dev-python/decorator 
+dev-python/dnspython 
+dev-python/docutils 
+dev-python/ecdsa 
+dev-python/entrypoints 
+dev-python/feedparser 
+dev-python/flask 
+dev-python/html5lib  
+dev-python/httplib2 
+dev-python/idna  
+dev-python/ipaddress 
+dev-python/itsdangerous 
+dev-python/jinja 
+dev-python/lxml  
+dev-python/m2crypto 
+dev-python/mako 
+dev-python/markdown  
+dev-python/markupsafe 
+dev-python/numpy 
+dev-python/olefile 
+dev-python/ply  
+dev-python/psutil 
+dev-python/py 
+dev-python/pyalsa 
+dev-python/pyasn1 
+dev-python/pyasn1-modules 
+dev-python/pycairo  
+dev-python/pycparser  
+dev-python/pycryptodome  
+dev-python/pygments 
+dev-python/pygobject 
+dev-python/pygtk 
+dev-python/pyopenssl  
+dev-python/pyxattr 
+dev-python/ssl-fetch 
+dev-qt/qtcore icu
+dev-qt/qtgui X evdev gif jpeg png tslib tuio
+dev-qt/qtmultimedia widgets
+dev-qt/qtsingleapplication X
+dev-qt/qtsql sqlite
+dev-qt/qtwebchannel qml
+dev-qt/qtwebengine alsa designer
+dev-qt/qtwebengine jumbo-build widgets
+dev-qt/qtwidgets png
+dev-ruby/racc ruby_targets_ruby25
+dev-vcs/git curl doc highlight -iconv perl
+games-engines/scummvm aac alsa flac jpeg mp3 opengl png theora truetype vorbis
+gnome-base/gnome-keyring caps
+gnustep-base/gnustep-base -gnutls
+gnustep-base/gnustep-make native-exceptions
+kde-frameworks/kinit caps
+kde-frameworks/kwindowsystem X
+mail-client/mutt berkdb gdbm gpgme
+mail-client/neomutt gpgme notmuch slang
+media-fonts/croscorefonts X
+media-fonts/font-misc-misc X
+media-fonts/powerline-symbols X
+media-gfx/digikam X webkit
+media-gfx/graphviz X cairo pdf svg
+media-gfx/imagemagick cxx
+media-gfx/imagemagick X heif jpeg -jpeg2k png raw svg tiff xml
+media-gfx/inkscape imagemagick jpeg
+media-gfx/xv jpeg png tiff
+media-libs/flac ogg
+media-libs/freetype X infinality png utils fontforge
+media-libs/gd fontconfig jpeg png truetype
+media-libs/gegl cairo
+media-libs/gst-plugins-bad X
+media-libs/gst-plugins-base X ogg
+media-libs/gstreamer caps
+media-libs/harfbuzz cairo icu truetype
+media-libs/imlib2 X gif jpeg mp3 png tiff
+media-libs/jbig2dec png
+media-libs/libass fontconfig
+media-libs/libcanberra alsa 
+media-libs/libepoxy X
+media-libs/libglvnd X
+media-libs/libjpeg-turbo static-libs
+media-libs/libpng apng
+media-libs/libsdl X
+media-libs/libsdl opengl
+media-libs/libsdl2 X
+media-libs/libsndfile alsa
+media-libs/libvpx cpu_flags_x86_sse4_1 postproc svc
+media-libs/mesa gles1 gles2 -vaapi -vdpau
+media-libs/mesa X
+media-libs/netpbm X jbig jpeg png tiff
+media-libs/openal alsa cpu_flags_x86_sse4_1
+media-libs/opencv openexr
+media-libs/phonon -vlc
+media-libs/sdl-image jpeg png
+media-libs/sdl-mixer flac mp3 smpeg
+media-libs/sdl-mixer vorbis
+media-libs/tiff jbig jpeg
+media-libs/vigra jpeg png tiff
+media-libs/vigra openexr
+media-libs/x265 numa
+media-plugins/alsa-plugins ffmpeg
+media-sound/moc aac alsa curl ffmpeg vorbis
+media-sound/mpd alsa curl ffmpeg flac icu lame libmpdclient openal twolame vorbis
+media-sound/pulseaudio X alsa bluetooth caps equalizer gdbm native-headset orc realtime sox tcpd
+media-video/ffmpeg X alsa amr amrenc chromium cpu_flags_x86_aes cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 doc fdk gmp -jpeg2k kvazaar libass libcaca mp3 openal openh264 -openssl postproc rubberband ssh svg theora twolame -vaapi -vdpau vorbis vpx x264 x265 xcb xvid zimg
+media-video/mpv X alsa cli cplugins drm dvd gbm iconv jpeg lcms libmpv lua openal rubberband tools -vaapi -vdpau
+media-video/vlc ogg vorbis
+net-analyzer/linkchecker sqlite 
+net-analyzer/nmap libssh2 ncat nping
+net-analyzer/rrdtool graph perl
+net-im/pidgin idn perl prediction
+net-irc/irssi perl
+net-libs/glib-networking -gnome
+net-libs/libpcap bluetooth netlink static-libs usb
+net-libs/libssh mbedtls server
+net-libs/libtorrent ssl
+net-libs/libtorrent-rasterbar 
+net-libs/nghttp2 jemalloc utils cxx
+net-libs/nodejs ssl
+net-libs/webkit-gtk X -geolocation -jpeg2k libnotify
+net-libs/zeromq drafts
+net-mail/getmail 
+net-mail/notmuch mutt
+net-misc/aria2 bittorrent libuv scripts ssh tcmalloc
+net-misc/curl -curl_ssl_gnutls -curl_ssl_nss http2 idn ssh ssl
+net-misc/iputils gcrypt
+net-misc/rsync iconv stunnel lz4 xxhash zstd examples
+net-misc/wget idn uuid
+net-misc/youtube-dl 
+net-misc/youtube-dl 
+net-nds/openldap -ssl
+net-p2p/qbittorrent X
+net-p2p/rtorrent xmlrpc
+net-p2p/torrentinfo 
+net-print/cups -acl -dbus -usb
+net-print/cups-filters -dbus foomatic pdf
+net-proxy/squid caps logrotate qos sasl
+net-wireless/bluez experimental
+net-wireless/wpa_supplicant ap wps
+sci-libs/fftw quad 
 sci-libs/hdf5 mpi
+sci-misc/boinc X 
+sys-apps/busybox -make-symlinks math mdev pam savedconfig -sep-usr -static
+sys-apps/coreutils caps gmp
+sys-apps/dbus X -systemd
+sys-apps/elfix ptpax
+sys-apps/etckeeper cron
+sys-apps/file 
+sys-apps/hwloc numa
+sys-apps/iproute2 -atm berkdb elf
+sys-apps/kmod tools
+sys-apps/lm-sensors sensord
+sys-apps/man-db berkdb gdbm
+sys-apps/pciutils dns
+sys-apps/portage doc 
+sys-apps/portage 
+sys-apps/shadow skey
+sys-apps/util-linux caps slang static-libs tty-helpers
+sys-apps/watchdog nfs
 sys-auth/pam_mktemp -prevent-removal
-net-analyzer/linkchecker sqlite
-# required by virtual/opengl-7.0-r2::gentoo
-# required by dev-qt/qtgui-5.13.2::gentoo
-# required by dev-qt/qtwidgets-5.13.2::gentoo
-# required by sys-auth/polkit-qt-0.112.0_p20160416-r2::gentoo
-# required by kde-plasma/polkit-kde-agent-5.16.5::gentoo
-# required by kde-frameworks/kauth-5.60.0::gentoo
-# required by kde-frameworks/kconfigwidgets-5.60.0::gentoo
-# required by kde-frameworks/kiconthemes-5.60.0::gentoo
->=media-libs/mesa-19.2.8 X
+sys-auth/pambase mktemp
+sys-auth/polkit -gtk elogind
+sys-block/gparted btrfs cryptsetup f2fs fat reiser4 reiserfs xfs
+sys-block/parted device-mapper
+sys-boot/grub device-mapper efiemu mount truetype
+sys-cluster/openmpi heterogeneous mpi-threads numa romio
+sys-devel/llvm libffi -llvm_targets_AMDGPU -llvm_targets_NVPTX llvm_targets_AArch64
+sys-firmware/ipxe lkrn
+sys-fs/cryptsetup -argon2 -gcrypt -luks1_default -nettle openssl reencrypt static static-libs urandom
+sys-fs/dd-rescue cpu_flags_x86_sse4_2
+sys-fs/eudev static-libs
+sys-fs/lvm2 lvm2create_initrd static static-libs
+sys-fs/udisks lvm
+sys-kernel/genkernel-next cryptsetup
+sys-kernel/gentoo-sources -symlink
+sys-kernel/linux-firmware savedconfig
+sys-libs/cracklib 
+sys-libs/gdbm berkdb
+sys-libs/libapparmor 
+sys-libs/libblockdev bcache
+sys-libs/libblockdev lvm
+sys-libs/libunwind static-libs
+sys-libs/ncurses ada
+sys-libs/pam berkdb
+sys-libs/readline utils
+sys-libs/slang png
+sys-libs/zlib minizip static-libs
+sys-power/pm-utils alsa ntp
+sys-power/powertop X
+sys-process/lsof rpc
+sys-process/procps modern-top
+virtual/ffmpeg X mp3 theora -vaapi -vdpau x264
+virtual/imagemagick-tools jpeg svg
+virtual/imagemagick-tools png tiff
+virtual/libudev static-libs
+www-client/elinks bittorrent ftp gc javascript perl ruby ssl
+www-client/w3m X imlib
+www-misc/surl 
+x11-base/xcb-proto 
+x11-base/xorg-server xcsecurity xnest
+x11-drivers/xf86-video-intel dri tools uxa xvmc
+x11-libs/cairo X svg
+x11-libs/gdk-pixbuf X jpeg tiff
+x11-libs/gtk+ X
+x11-libs/libdrm libkms
+x11-libs/libdrm video_cards_amdgpu video_cards_nouveau
+x11-libs/libva X vdpau
+x11-libs/libva-intel-driver X
+x11-libs/libxcb xkb
+x11-libs/libxkbcommon X
+x11-libs/pango X
+x11-libs/wxGTK X libnotify sdl tiff
+x11-libs/wxGTK opengl webkit
+x11-misc/dzen xft xpm
+x11-misc/xbindkeys tk
+x11-misc/xscreensaver jpeg perl
+x11-terms/mlterm cairo fbcon libssh2 xft
+x11-terms/mrxvt jpeg menubar png truetype xpm
+x11-terms/rxvt-unicode 256-color iso14755 perl startup-notification unicode3 xft
+x11-terms/xterm truetype
+dev-python/namespace-sphinxcontrib -python_targets_python2_7
+dev-python/alabaster -python_targets_python2_7
+dev-python/Babel -python_targets_python2_7
+# required by sys-apps/elfix-0.9.5::gentoo
+# required by @system
+# required by @world (argument)
+>=dev-python/pypax-0.9.5 ptpax
+# required by x11-base/xorg-server-1.20.8-r1::gentoo[elogind]
+# required by x11-base/xorg-server (argument)
+>=sys-auth/pambase-20200304 elogind
+sys-devel/gcc doc objc objc-gc graphite objc++
+dev-libs/lzo -static-libs
+sys-devel/binutils static-libs
+sys-libs/binutils-libs static-libs
+dev-libs/gmp static-libs
+# required by dev-libs/boost-1.72.0-r1::gentoo[mpi]
+# required by net-libs/nghttp2-1.41.0::gentoo[cxx]
+# required by =net-libs/nghttp2-1.41.0 (argument)
+>=virtual/mpi-2.0-r4 cxx
+# required by sys-fs/cryptsetup-2.3.2::gentoo[static,static-libs]
+# required by sys-apps/pmount-0.9.99_alpha-r5::gentoo[crypt]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgpg-error-1.38 static-libs
+# required by sys-fs/cryptsetup-2.3.2::gentoo[static,static-libs]
+# required by sys-apps/pmount-0.9.99_alpha-r5::gentoo[crypt]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/popt-1.16-r2 static-libs
+dev-lang/mono minimal
+app-admin/keepassxc browser ccache autotype
+sys-devel/clang llvm_targets_AArch64
+# required by sys-devel/clang-10.0.0::gentoo
+# required by sys-devel/clang-common-10.0.0::gentoo
+>=sys-devel/llvm-10.0.0 llvm_targets_NVPTX llvm_targets_AMDGPU

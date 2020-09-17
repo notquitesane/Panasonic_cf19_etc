@@ -53,6 +53,7 @@ DEADJOE
 #
 
 config-archive/*
+resolv.conf
 
 # Don't share passwords!
 

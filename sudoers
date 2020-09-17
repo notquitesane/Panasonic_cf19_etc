@@ -69,12 +69,16 @@
 ##
 ## User privilege specification
 ##
-root ALL=(ALL) ALL
+root	ALL=(ALL)	ALL
 
 ## Uncomment to allow members of group wheel to execute any command
-%wheel ALL=(ALL) ALL
+%wheel	ALL=(ALL)	ALL
 
-%users ALL=(ALL) NOPASSWD: /usr/bin/acpitool , /sbin/poweroff , /sbin/reboot , /sbin/shutdownuser , /sbin/poweroff , /etc/init.d/net.wlan0 , /usr/local/bin/fix_net , /usr/sbin/hibernate , /usr/local/sbin/eprogress , /usr/bin/iotop , /usr/sbin/nethogs
+%users	ALL=(ALL)	NOPASSWD: /usr/bin/acpitool , /sbin/poweroff , /sbin/reboot , /sbin/shutdownuser , /sbin/poweroff , /etc/init.d/net.wlan0 , /usr/local/bin/fix_net , /usr/sbin/hibernate , /usr/local/sbin/eprogress , /usr/bin/iotop , /usr/sbin/nethogs
+
+#tmux workaround
+
+nqs	ALL=(nqs)	NOPASSWD: /usr/bin/distccmon-text , /usr/bin/earlyoom
 
 ## Same thing without a password
 # %wheel ALL=(ALL) NOPASSWD: ALL

@@ -14,15 +14,15 @@
 # <fs>						<mountpoint>		<type>		<opts>					<dump/pass>
 
 # NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
-PARTUUID=41c962e9-4f4a-41e2-96d7-4350fb5fe250	/boot			ext2		noauto,noatime				0 2
-PARTUUID=ecd292af-da0d-4cbf-8e3e-c81858d3d688	/			f2fs		defaults,noatime			0 1
-PARTUUID=43a34dd1-2bc6-4a7e-b5bc-b099ea64546d   none            	swap            sw,pri=0 				0 0
-/dev/cdrom					/mnt/cdrom		auto		noauto,ro				0 0
-PARTUUID=5ca5bea8-8e0b-4b06-9ac9-48f297c0c9d2	/usr			f2fs		defaults,noatime			0 0
-PARTUUID=6857abce-b60a-47d0-9177-36c1554898ce	/var			reiserfs	defaults,noatime			0 0
-PARTUUID=9e6bf08c-b5b5-4699-bb79-61680c6042c2	/home			f2fs		defaults,noatime			0 0
-PARTUUID=8e1d391f-68e1-42bc-aa59-3a95d3e4df89	/opt			f2fs		defaults,noatime			0 0
-PARTUUID=375fe435-c75c-4eae-b914-9c5c5fa7a823	/usr/portage		reiserfs	defaults,noatime			0 0
+UUID=41c962e9-4f4a-41e2-96d7-4350fb5fe250	/boot			ext2		noauto,noatime			0 2
+UUID=ecd292af-da0d-4cbf-8e3e-c81858d3d688	/			f2fs		defaults,noatime		0 1
+UUID=43a34dd1-2bc6-4a7e-b5bc-b099ea64546d   	none            	swap            sw,pri=0 			0 0
+/dev/cdrom					/mnt/cdrom		auto		noauto,ro			0 0
+UUID=5ca5bea8-8e0b-4b06-9ac9-48f297c0c9d2	/usr			f2fs		defaults,noatime		0 0
+UUID=6857abce-b60a-47d0-9177-36c1554898ce	/var			reiserfs	defaults,noatime		0 0
+UUID=9e6bf08c-b5b5-4699-bb79-61680c6042c2	/home			f2fs		defaults,noatime		0 0
+UUID=8e1d391f-68e1-42bc-aa59-3a95d3e4df89	/opt			f2fs		defaults,noatime		0 0
+UUID=375fe435-c75c-4eae-b914-9c5c5fa7a823	/usr/portage		reiserfs	defaults,noatime		0 0
 
 /dev/shm 					/tmp			tmpfs		defaults,size=2G,nosuid,mode=1777	0 0
 

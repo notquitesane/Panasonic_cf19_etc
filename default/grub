@@ -23,13 +23,11 @@ GRUB_TIMEOUT_STYLE=menu
 # Examples:
 #
 # Boot with network interface renaming disabled
-GRUB_CMDLINE_LINUX="net.ifnames=0 dolvm udev rootfstype=ext4 docrypt"
 #
 # Boot with systemd instead of sysvinit (openrc)
 # GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd"
 
 # Append parameters to the linux kernel command line for non-recovery entries
-#GRUB_CMDLINE_LINUX_DEFAULT="i915.modeset=1 dolvm crypt_root=UUID=d040626a-174d-46e2-9469-b7ad49c6f642 root=/dev/mapper/lvm-root keymap=us rd.shell rd.lvm.lv=lvm/root rd.lvm.lv=lvm/swap rd.lvm.lv=lvm/usr  resume=/dev/mapper/lvm-swap rd.luks rd.md=0 rd.dm=0 rd.multipath=0 rd.debug  rootfstype=ext4 rootflags=rw,relatime,data=ordered"
 
 #GRUB_CMDLINE_LINUX_DEFAULT="dolvm crypt_root=UUID=d040626a-174d-46e2-9469-b7ad49c6f642 root=/dev/mapper/lvm-root"
 
@@ -67,18 +65,19 @@ GRUB_GFXPAYLOAD_LINUX=text
 # the top-level menu.
 # Besides the visual affect of no sub menu
 # menu easier for a user who can't see the screen.
-#GRUB_DISABLE_SUBMENU=y
+GRUB_DISABLE_SUBMENU=y
 
 # Uncomment to play a tone when the main menu is displayed.
 # This is useful, for example, to allow users who can't see the screen
 # to know when they can make a choice on the menu.
 GRUB_INIT_TUNE="60 800 1"
+
 # add this
-GRUB_CMDLINE_LINUX_DEFAULT="i915.modeset=1 udev dolvm rd.luks.uuid=luks-971042e4-fb0e-44eb-9be8-d6bcab485d96 rd.lvm.lv=lvm/root rd.lvm.lv=lvm/swap rd.lvm.lv=lvm/usr resume=/dev/mapper/lvm-swap  root=/dev/mapper/lvm-root rootfstype=ext4 rootflags=rw,relatime,data=ordered" # rd.auto rd.shell rd.debug"
 
+#dracut
+#GRUB_CMDLINE_LINUX_DEFAULT="net.ifnames=0 rootfstype=f2fs docrypt i915.modeset=1 udev dolvm rd.luks.UUID=FC772BD4-C163-456A-9184-8E9BD0CA5B2E rd.lvm.lv=lvm/root rd.lvm.lv=lvm/swap rd.lvm.lv=lvm/usr resume=/dev/mapper/lvm-swap root=UUID=ECD292AF-DA0D-4CBF-8E3E-C81858D3D688  rootflags=rw,relatime,data=ordered root_trim=yes rd.auto rd.shell rd.debug"
 
-#GRUB_CMDLINE_LINUX_DEFAULT="i915.modeset=1 udev rd.luks.uuid=luks-971042e4-fb0e-44eb-9be8-d6bcab485d96  dolvm root=/dev/mapper/lvm-root keymap=us rd.shell rd.lvm.lv=lvm/root rd.lvm.lv=lvm/swap rd.lvm.lv=lvm/usr resume=/dev/mapper/lvm-swap rd.luks rd.md=0 rd.multipath=0 rd.debug  rootfstype=ext4 rootflags=rw,relatime,data=ordered"
-
-
+#genkernel
+GRUB_CMDLINE_LINUX_DEFAULT="i915.modeset=1 udev docrypt dolvm net.ifnames=0 rootfstype=f2fs docrypt i915.modeset=1 rootflags=rw,relatime,data=ordered root_trim=yes crypt_root=UUID=FC772BD4-C163-456A-9184-8E9BD0CA5B2E root=UUID=ECD292AF-DA0D-4CBF-8E3E-C81858D3D688 dosshd"
 
 GRUB_PRELOAD_MODULES="lvm crypto ext2 luks"

@@ -1,4 +1,3 @@
-# required by =net-vpn/surfshark-vpn-1.1.0 (argument)
 >=net-vpn/surfshark-vpn-1.1.0 SurfShark
 app-arch/p7zip 				unRAR
 app-arch/unrar 				unRAR
@@ -25,8 +24,5 @@ sys-kernel/linux-firmware linux-fw-redistributable no-source-code
 www-client/google-chrome 		google-chrome
 www-client/opera 			OPERA-2014
 www-plugins/adobe-flash 		AdobeFlash-11.x
-# required by app-misc/tmuxp-1.5.4::gentoo[-test]
-# required by tmuxp (argument)
 >=dev-python/kaptan-0.5.12-r1 kaptan
-# required by =sys-boot/etcher-1.5.73 (argument)
 =sys-boot/etcher-1.5.73 GPL2

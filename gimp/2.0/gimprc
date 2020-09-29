@@ -113,7 +113,7 @@
 # Sets the brush search path.  This is a colon-separated list of folders to
 # search.
 # 
-# (mypaint-brush-path "/usr/share/mypaint-data/1.0/brushes:~/.mypaint/brushes")
+# (mypaint-brush-path "/usr/share/mypaint-data/2.0/brushes:~/.mypaint/brushes")
 
 # This is a colon-separated list of folders to search.
 # 

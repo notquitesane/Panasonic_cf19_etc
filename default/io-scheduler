@@ -1,0 +1,11 @@
+# With BLK-MQ enabled and depending on your kernel configuration you may
+# choose between mq-deadline, bfq, kyber or none.
+# Without BLK-MQ you may choose between cfq, deadline and noop.
+#
+# Leave this commented to leave defaults from 60-io-scheduler.rule. You can
+# also boot with elevator='xxx' to use that scheduler for all your drives.
+# If you want, you can set here the scheduler to be used depending on your
+# drives being rotating ones or not.
+
+#HDD_SCHEDULER="bfq"
+#SSD_SCHEDULER="bfq"

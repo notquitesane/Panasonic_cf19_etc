@@ -14,24 +14,21 @@
 # <fs>						<mountpoint>		<type>		<opts>					<dump/pass>
 
 # NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
-UUID=7faa224c-1c28-4555-9b89-6e8a9dd42b8b	/boot			ext2		noauto,noatime				1 2
-UUID=7f14d8be-7529-4c0e-b8ac-31e8042aef4c	/			ext4		defaults,noatime			0 1
-UUID=341ec3b0-18ae-4e83-b32f-db414f768f2d   	none            	swap            sw,pri=0 				0 0
-/dev/cdrom					/mnt/cdrom		auto		noauto,ro				0 0
-UUID=576d512f-94bf-4539-91b1-6da40bd46395	/usr			ext4		defaults,noatime			0 0
-UUID=24bab037-14b9-46a2-80a9-42941a887fd0	/var			reiserfs	defaults,noatime			0 0
-UUID=ee452e23-9437-4b1f-b279-933fbc18bac8	/home			ext4		defaults,noatime			0 0
-UUID=8e60c319-a192-48c4-90a8-3d7c59942913	/opt			ext4		defaults,noatime			0 0
-UUID=de0ea2d4-dd26-4d33-a4d1-a2e916bd925a	/usr/portage		reiserfs	defaults,noatime			0 0
-UUID=9994036d-ef83-41be-ad17-05f78d8f5995	/media			ext4		defaults,noatime			0 0
+UUID=41c962e9-4f4a-41e2-96d7-4350fb5fe250	/boot			ext2		noauto,noatime			0 2
+UUID=ecd292af-da0d-4cbf-8e3e-c81858d3d688	/			f2fs		defaults,noatime		0 1
+UUID=43a34dd1-2bc6-4a7e-b5bc-b099ea64546d   	none            	swap            sw,pri=0 			0 0
+/dev/cdrom					/mnt/cdrom		auto		noauto,ro			0 0
+UUID=5ca5bea8-8e0b-4b06-9ac9-48f297c0c9d2	/usr			f2fs		defaults,noatime		0 0
+UUID=6857abce-b60a-47d0-9177-36c1554898ce	/var			reiserfs	defaults,noatime		0 0
+UUID=9e6bf08c-b5b5-4699-bb79-61680c6042c2	/home			f2fs		defaults,noatime		0 0
+UUID=8e1d391f-68e1-42bc-aa59-3a95d3e4df89	/opt			f2fs		defaults,noatime		0 0
+UUID=375fe435-c75c-4eae-b914-9c5c5fa7a823	/usr/portage		reiserfs	defaults,noatime		0 0
 
 /dev/shm 					/tmp			tmpfs		defaults,size=2G,nosuid,mode=1777	0 0
 
 /dev/shm   				        /var/tmp/portage        tmpfs           size=6G,mode=1775 			0 0
 none						/dev/shm        	tmpfs           nodev,nosuid,noexec 			0 0 
-https://www.box.com/dav 			/home/nqs/box.com 	davfs 		rw,user,noauto 				0 0
-
 #zram
-/dev/zram0              			swap 			swap            pri=16383 				0 0
-/dev/zram1              			swap 			swap            pri=16383 				0 0
-/dev/zram2              			swap 			swap 		pri=16383 				0 0
+/dev/zram0              			none 			swap            pri=16383 				0 0
+
+/dev/shm 					/home/nqs/.cache 	tmpfs 		noauto,rw,size=1G,nr_inodes=5K,noexec,nodev,nosuid,mode=1700,user

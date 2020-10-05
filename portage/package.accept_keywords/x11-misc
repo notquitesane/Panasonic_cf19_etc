@@ -5,3 +5,4 @@ x11-misc/xstroke ~amd64
 >=app-portage/showem-1.0.3 ~amd64
 # required by sys-boot/etcher (argument)
 >=sys-boot/etcher-1.5.106 ~amd64
+

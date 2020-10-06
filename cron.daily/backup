@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#make sure we have kernel configs
+
+mkdir -p /etc/kernels
+grep -q boot  /proc/mounts
+if test $? -eq 0
+then
+	cp -u /boot/config* /etc/kernels
+else
+	mount /boot
+	cp -u /boot/config* /etc/kernels
+	umount /boot
+fi
+
+#save the world (file)!
+
+cp -u /var/lib/portage/world /etc/portage/worldfile.backup

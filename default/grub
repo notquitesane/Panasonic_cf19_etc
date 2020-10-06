@@ -79,7 +79,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="net.ifnames=0 rootfstype=f2fs docrypt i915.modeset=1
 
 #Uncomment for debugging
 
-GRUB_CMDLINE_LINUX_DEFAULT="rd.shell rd.debug log_buf_len=1M rd.break"
+#GRUB_CMDLINE_LINUX_DEFAULT="rd.shell rd.debug log_buf_len=1M rd.break"
 
 #genkernel
 #GRUB_CMDLINE_LINUX_DEFAULT="i915.modeset=1 udev docrypt dolvm net.ifnames=0 rootfstype=f2fs docrypt i915.modeset=1 rootflags=rw,relatime,data=ordered root_trim=yes crypt_root=UUID=FC772BD4-C163-456A-9184-8E9BD0CA5B2E root=UUID=ECD292AF-DA0D-4CBF-8E3E-C81858D3D688 dosshd"

@@ -3,7 +3,7 @@ exec tail -n +3 $0
 
 menuentry "SYSRESCUECD normal 64 bit" {
 	loopback loop /iso/systemrescuecd.iso
-	linux  (loop)/isolinux/rescue64 nomodeset vga=791 docache isoloop=/iso/systemrescuecd.iso
+	linux  (loop)/isolinux/rescue64 vga=795 docache isoloop=/iso/systemrescuecd.iso
 	initrd (loop)/isolinux/initram.igz
 }
 

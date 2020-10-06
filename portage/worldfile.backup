@@ -307,6 +307,7 @@ sys-fs/quotatool
 sys-fs/reiserfsprogs
 sys-fs/squashfs-tools
 sys-kernel/dracut
+sys-kernel/genkernel
 sys-kernel/gentoo-sources
 sys-kernel/kccmp
 sys-kernel/linux-firmware
@@ -323,6 +324,7 @@ sys-process/at
 sys-process/daemontools-encore
 sys-process/dcron
 sys-process/htop
+sys-process/incron
 sys-process/iotop
 sys-process/lsof
 sys-process/nmon

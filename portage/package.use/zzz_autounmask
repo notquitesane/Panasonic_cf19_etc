@@ -220,7 +220,7 @@ virtual/libudev static-libs
 >=virtual/mpi-2.0-r4 cxx
 www-client/elinks bittorrent ftp debug javascript perl ruby -ipv6
 www-client/w3m X imlib
-x11-base/xorg-server xcsecurity xnest -ipv6
+x11-base/xorg-server xcsecurity xnest -ipv6 suid
 x11-drivers/xf86-video-intel dri tools uxa xvmc
 x11-libs/cairo X svg
 x11-libs/gdk-pixbuf X jpeg tiff

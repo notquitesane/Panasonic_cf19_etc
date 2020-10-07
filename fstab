@@ -22,11 +22,11 @@ UUID=5ca5bea8-8e0b-4b06-9ac9-48f297c0c9d2	/usr			f2fs		defaults,noatime		0 0
 UUID=6857abce-b60a-47d0-9177-36c1554898ce	/var			reiserfs	defaults,noatime		0 0
 UUID=9e6bf08c-b5b5-4699-bb79-61680c6042c2	/home			f2fs		defaults,noatime		0 0
 UUID=8e1d391f-68e1-42bc-aa59-3a95d3e4df89	/opt			f2fs		defaults,noatime		0 0
-UUID=375fe435-c75c-4eae-b914-9c5c5fa7a823	/usr/portage		reiserfs	defaults,noatime		0 0
+#UUID=375fe435-c75c-4eae-b914-9c5c5fa7a823	/usr/portage		reiserfs	defaults,noatime		0 0
 
 /dev/shm 					/tmp			tmpfs		defaults,size=2G,nosuid,mode=1777	0 0
 
-/dev/shm   				        /var/tmp/portage        tmpfs           size=6G,mode=1775 			0 0
+/dev/shm   				        /var/tmp	        tmpfs           size=10G,mode=1775 			0 0
 none						/dev/shm        	tmpfs           nodev,nosuid,noexec 			0 0 
 #zram
 /dev/zram0              			none 			swap            pri=16383 				0 0

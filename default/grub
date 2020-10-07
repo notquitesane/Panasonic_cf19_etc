@@ -75,7 +75,7 @@ GRUB_INIT_TUNE="60 800 1"
 # add this
 
 #dracut
-GRUB_CMDLINE_LINUX_DEFAULT="net.ifnames=0 rootfstype=f2fs docrypt i915.modeset=1 udev dolvm root=UUID=ecd292af-da0d-4cbf-8e3e-c81858d3d688 rd.luks.UUID=fc772bd4-c163-456a-9184-8e9bd0ca5b2e rd.lvm.vg=lvm rd.lvm.lv=lvm/root rd.lvm.lv=lvm/swap rd.lvm.lv=lvm/usr resume=/dev/mapper/lvm-swap rootflags=rw,relatime,data=ordered root_trim=yes rd.auto"
+GRUB_CMDLINE_LINUX_DEFAULT="net.ifnames=0 rootfstype=f2fs docrypt i915.modeset=1 udev dolvm root=UUID=ecd292af-da0d-4cbf-8e3e-c81858d3d688 rd.luks.UUID=fc772bd4-c163-456a-9184-8e9bd0ca5b2e rd.lvm.vg=lvm rd.lvm.lv=lvm/root rd.lvm.lv=lvm/swap rd.lvm.lv=lvm/usr resume=/dev/mapper/lvm-swap rootflags=rw,relatime root_trim=yes rd.auto"
 
 #Uncomment for debugging
 

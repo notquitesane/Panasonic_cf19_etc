@@ -102,3 +102,4 @@ stapsys:x:157:
 stapdev:x:158:
 dhcp:x:957:
 openvpn:x:394:
+ultimaker:x:369:

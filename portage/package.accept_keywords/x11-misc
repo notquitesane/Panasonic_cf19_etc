@@ -8,3 +8,31 @@ x11-misc/xstroke ~amd64
 
 # required by media-tv/droidcam (argument)
 =media-tv/droidcam-1.5 ~amd64
+# required by media-gfx/cura-4.7.0::gentoo
+# required by media-gfx/cura (argument)
+>=dev-libs/libsavitar-4.7.0 ~amd64
+# required by media-gfx/curaengine-4.7.0::gentoo
+# required by media-gfx/cura-4.7.0::gentoo
+# required by media-gfx/cura (argument)
+>=dev-libs/clipper-6.4.2 ~amd64
+# required by media-gfx/cura-4.7.0::gentoo
+# required by media-gfx/cura (argument)
+>=media-gfx/curaengine-4.7.0 ~amd64
+# required by media-gfx/cura-4.7.0::gentoo
+# required by media-gfx/cura (argument)
+>=dev-libs/libarcus-4.7.0 ~amd64
+# required by media-gfx/cura-4.7.0::gentoo
+# required by media-gfx/cura (argument)
+>=dev-libs/libcharon-4.7.0 ~amd64
+# required by media-gfx/cura-4.7.0::gentoo
+# required by media-gfx/cura (argument)
+>=dev-python/uranium-4.7.0 ~amd64
+# required by media-gfx/cura-4.7.0::gentoo
+# required by media-gfx/cura (argument)
+>=media-gfx/fdm-materials-4.7.0 ~amd64
+# required by media-gfx/cura (argument)
+>=media-gfx/cura-4.7.0 ~amd64
+# required by media-gfx/curaengine-4.7.0::gentoo
+# required by media-gfx/cura-4.7.0::gentoo
+# required by media-gfx/cura (argument)
+>=dev-libs/stb-20200205 ~amd64

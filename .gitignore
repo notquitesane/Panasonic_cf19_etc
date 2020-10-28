@@ -60,3 +60,5 @@ resolv.conf
 passwd*
 shadow*
 gshadow*
+ssh/ssh_host_*
+ssl/private/*

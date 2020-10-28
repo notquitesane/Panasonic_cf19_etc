@@ -3,3 +3,12 @@
 # required by media-tv/droidcam (argument)
 >=dev-libs/libdbusmenu-16.04.0-r1 gtk3
 x11-base/xorg-drivers video_cards_fbdev video_cards_vesa
+# required by dev-python/uranium-4.7.0::gentoo[-test,python_single_target_python3_7]
+# required by media-gfx/cura-4.7.0::gentoo
+# required by media-gfx/cura (argument)
+>=dev-python/PyQt5-5.14.2-r1 declarative
+# required by dev-python/scipy-1.5.2::gentoo
+# required by dev-python/uranium-4.7.0::gentoo[-test,python_single_target_python3_7]
+# required by media-gfx/cura-4.7.0::gentoo
+# required by media-gfx/cura (argument)
+>=dev-python/numpy-1.19.1 lapack

@@ -12,3 +12,4 @@ x11-base/xorg-drivers video_cards_fbdev video_cards_vesa
 # required by media-gfx/cura-4.7.0::gentoo
 # required by media-gfx/cura (argument)
 >=dev-python/numpy-1.19.1 lapack
+www-client/palemoon -official-branding

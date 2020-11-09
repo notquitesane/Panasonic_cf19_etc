@@ -338,6 +338,7 @@ sys-process/watchpid
 www-client/elinks
 www-client/google-chrome
 www-client/opera
+www-client/palemoon
 www-client/surfraw
 www-misc/monitorix
 www-misc/profile-sync-daemon

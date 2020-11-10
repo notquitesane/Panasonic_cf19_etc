@@ -36,3 +36,5 @@ x11-misc/xstroke ~amd64
 # required by media-gfx/cura-4.7.0::gentoo
 # required by media-gfx/cura (argument)
 >=dev-libs/stb-20200205 ~amd64
+# required by tmate (argument)
+>=app-misc/tmate-2.4.0 ~amd64

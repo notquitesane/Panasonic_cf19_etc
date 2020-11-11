@@ -13,3 +13,9 @@ x11-base/xorg-drivers video_cards_fbdev video_cards_vesa
 # required by media-gfx/cura (argument)
 >=dev-python/numpy-1.19.1 lapack
 www-client/palemoon -official-branding
+# required by dev-python/setuptools-50.3.0::gentoo
+# required by dev-python/pylibacl-0.5.4_p20191217::gentoo
+# required by app-backup/rdiff-backup-2.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/certifi-10001-r1 python_targets_python3_6
